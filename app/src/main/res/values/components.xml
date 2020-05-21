@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="component">
+        <item>App bars: top</item>
+        <item>App bars: bottom</item>
+        <item>Backdrop</item>
+        <item>Banners</item>
+        <item>Bottom navigation</item>
+        <item>Buttons</item>
+        <item>FAB</item>
+        <item>Cards</item>
+        <item>Chips</item>
+        <item>Data tables</item>
+        <item>Dialogs</item>
+        <item>Dividers</item>
+        <item>Image lists</item>
+        <item>Lists</item>
+        <item>Menus</item>
+        <item>Navigation drawer</item>
+        <item>Navigation rail</item>
+        <item>Pickers</item>
+        <item>Progress indicators</item>
+        <item>Selection controls</item>
+        <item>Sheets: bottom</item>
+        <item>Sheets: side</item>
+        <item>Sliders</item>
+        <item>Snackbars</item>
+        <item>Tabs</item>
+        <item>Text fields</item>
+        <item>Tooltips</item>
+    </string-array>
+</resources>

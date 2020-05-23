@@ -1,13 +1,16 @@
 package com.xeroxparc.materialcomponentsdemo.ui.search;
 
 import android.content.Intent;
-import android.text.Editable;
-import android.text.TextWatcher;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.data.MaterialComponent;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySearchBinding;
 
@@ -28,6 +31,8 @@ class ComponentSearchBinder {
     View getRoot() { return binding.getRoot(); }
 
     void bind(){
+        activity.setSupportActionBar((Toolbar) binding.appBar.getRoot());
+
         final ComponentListAdapter componentListAdapter = new ComponentListAdapter() {
             @Override
             void onClickCallback(MaterialComponent component) {
@@ -39,21 +44,23 @@ class ComponentSearchBinder {
 
         //Update cache in the adapter
         viewModel.getListComponent().observe(activity, componentListAdapter::setComponentList);
+    }
 
-        binding.editText.addTextChangedListener(new TextWatcher() {
+    void bindMenu(Menu menu) {
+        MenuInflater inflater = activity.getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+
+        SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
+            public boolean onQueryTextSubmit(String query) {
+                return false;
             }
 
             @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                viewModel.searchComponent(binding.editText.getText().toString());
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
+            public boolean onQueryTextChange(String newText) {
+                viewModel.searchComponent(newText);
+                return true;
             }
         });
     }

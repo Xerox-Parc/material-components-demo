@@ -27,7 +27,7 @@ class ComponentListItemBinder {
     void bind(MaterialComponent component) {
         binding.textView.setText(component.getName());
         binding.imageView.setImageResource(getResourceId(
-                toCamelCase("banner_" + component.getName()).toLowerCase(),
+                "banner_" + toCamelCase(component.getName()).toLowerCase(),
                 R.drawable.class
         ));
     }

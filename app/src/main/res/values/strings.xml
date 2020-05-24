@@ -2,4 +2,73 @@
     <string name="app_name">Material Components Demo</string>
     <string name="search_component_hint">Search material component</string>
     <string name="action_search_title">Search component</string>
+
+    <!--Text Field strings-->
+
+    <string name="text_field_text_tile"><![CDATA[
+            <p>
+                <h1>Text fields</h1>
+            </p>
+            <p>
+                Text fields let users enter and edit text.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_text_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_text_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+            <p>
+                Text fields come in two types:
+                <ul>
+                    <li>Filled text fields
+                    <li>Outlined text fields
+                </ul>
+                Both types of text fields use a container to provide , making the fields discoverable in layouts.
+                Both types of text fields provide the same functionality: a clear affordance for interaction. The type of text field you use can depend on style alone.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_text_filled"><![CDATA[
+            <p>
+                <h3>Filled text field</h3>
+            </p>
+            <p>
+                Filled text fields have more visual emphasis than outlined text fields, making them stand out when surrounded by other content and components.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_text_outlined"><![CDATA[
+            <p>
+                <h3>Outlined text field</h3>
+            </p>
+            <p>
+                Outlined text fields have less visual emphasis than filled text fields. When they appear in places like forms, where many text fields are placed together, their reduced emphasis helps simplify the layout.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_text_icon"><![CDATA[
+            <p>
+                <h3>Icons</h3>
+            </p>
+            <p>
+                Icons in text fields are optional. Text field icons can describe valid input methods (such as a microphone icon), provide affordances to access additional functionality (such as clearing the content of a field), and can express an error.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_label_filled">Filled text field</string>
+    <string name="text_field_label_outlined">Outlined text field</string>
+    <string name="text_field_label_password">Password</string>
+    <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
+    <string name="text_field_button">Submit</string>
+    <string name="text_field_toast">Password suitable</string>
 </resources>

@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <include
-        android:id="@+id/appBar"
+        android:id="@+id/app_bar"
         layout="@layout/app_bar_main"/>
 
     <ScrollView
@@ -20,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBar">
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,21 +28,21 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewTitle"
+                android:id="@+id/text_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Title"
                 tools:ignore="HardcodedText" />
 
             <TextView
-                android:id="@+id/textViewUsage"
+                android:id="@+id/text_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Usage"
                 tools:ignore="HardcodedText" />
 
             <TextView
-                android:id="@+id/textViewTypes"
+                android:id="@+id/text_view_span_types"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Types"
@@ -53,15 +53,16 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/textViewFilled"
+                    android:id="@+id/text_view_span_filled"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Filled"
+                    android:layout_marginTop="@dimen/margin_medium"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="HardcodedText" />
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/textFieldFilled"
+                    android:id="@+id/text_field_filled"
                     style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -71,9 +72,10 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textViewFilled">
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_filled">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/text_field_filled_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
@@ -86,15 +88,16 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/textViewOutlined"
+                    android:id="@+id/text_view_span_outlined"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Outlined"
+                    android:layout_marginTop="@dimen/margin_medium"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="HardcodedText" />
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/textFieldOutlined"
+                    android:id="@+id/text_field_outlined"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -104,9 +107,10 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textViewOutlined">
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_outlined">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/text_field_outlined_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
@@ -119,15 +123,16 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/textViewIcon"
+                    android:id="@+id/text_view_span_icon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Filled"
+                    android:text="Icon"
+                    android:layout_marginTop="@dimen/margin_medium"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="HardcodedText" />
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/textFieldPassword"
+                    android:id="@+id/text_field_password"
                     style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -139,9 +144,10 @@
                     app:errorEnabled="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textViewIcon">
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_icon">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/text_field_password_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPassword" />
@@ -149,7 +155,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/materialButton"
+                    android:id="@+id/material_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_medium"
@@ -158,7 +164,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textFieldPassword" />
+                    app:layout_constraintTop_toBottomOf="@+id/text_field_password" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>

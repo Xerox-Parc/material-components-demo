@@ -5,7 +5,7 @@
 
     <!--Text Field strings-->
 
-    <string name="text_field_text_tile"><![CDATA[
+    <string name="text_field_span_title"><![CDATA[
             <p>
                 <h1>Text fields</h1>
             </p>
@@ -14,7 +14,7 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_text_usage"><![CDATA[
+    <string name="text_field_span_usage"><![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -23,7 +23,7 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_text_types"><![CDATA[
+    <string name="text_field_span_types"><![CDATA[
             <p>
                 <h3>Types</h3>
             </p>
@@ -38,7 +38,7 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_text_filled"><![CDATA[
+    <string name="text_field_span_filled"><![CDATA[
             <p>
                 <h3>Filled text field</h3>
             </p>
@@ -47,7 +47,7 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_text_outlined"><![CDATA[
+    <string name="text_field_span_outlined"><![CDATA[
             <p>
                 <h3>Outlined text field</h3>
             </p>
@@ -56,7 +56,7 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_text_icon"><![CDATA[
+    <string name="text_field_span_icon"><![CDATA[
             <p>
                 <h3>Icons</h3>
             </p>

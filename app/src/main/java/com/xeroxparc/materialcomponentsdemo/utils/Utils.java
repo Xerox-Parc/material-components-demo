@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.text.Html;
 import android.text.Spanned;
 
+import androidx.annotation.NonNull;
+
 import com.xeroxparc.materialcomponentsdemo.R;
 
 import java.lang.reflect.Field;
@@ -11,11 +13,18 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Objects;
 
+/**
+ * Utility class.
+ * Provides a set of useful method to other classes.
+ * @author Fabio Buracchi
+ *
+ */
 public class Utils {
 
-    public static String toCamelCase(String string){
+    @NonNull
+    public static String toCamelCase(@NonNull String string) {
         StringBuilder result = new StringBuilder();
-        for (String token : string.replaceAll("[^A-Za-z0-9 ]", "").split(" ")){
+        for (String token : string.replaceAll("[^A-Za-z0-9 ]", "").split(" ")) {
             if (token.endsWith("s") && !token.substring(0, token.length() - 1).endsWith("s")) {
                 token = token.substring(0, token.length() - 1);
             }
@@ -26,7 +35,8 @@ public class Utils {
         return result.toString();
     }
 
-    public static String toSnakeCase(String string){
+    @NonNull
+    public static String toSnakeCase(@NonNull String string) {
         StringBuilder result = new StringBuilder();
         for (char c : string.replaceAll("[^A-Za-z0-9 ]", "").toCharArray()) {
             result.append(c < 'a' ? "_" + (char) (c - 'A' + 'a') : c);
@@ -34,7 +44,7 @@ public class Utils {
         return result.toString();
     }
 
-    public static int getResourceId(String resourceName, Class<?> resourceClass) {
+    public static int getResourceId(@NonNull String resourceName, @NonNull Class<?> resourceClass) {
         try {
             Field field = resourceClass.getField(resourceName);
             return field.getInt(field);
@@ -44,8 +54,7 @@ public class Utils {
         return -1;
     }
 
-    public static void inflateSpanTextViewContent(Object binding, Activity activity)
-            throws IllegalAccessException, InvocationTargetException {
+    public static void inflateSpanTextViewContent(@NonNull Object binding, @NonNull Activity activity) {
 
         String component;
         Spanned content;
@@ -60,7 +69,12 @@ public class Utils {
         for (Field field : binding.getClass().getFields()) {
             if (field.getName().contains("Span")) {
                 field.setAccessible(true);
-                Object fieldObject = field.get(binding);
+                Object fieldObject = null;
+                try {
+                    fieldObject = field.get(binding);
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
                 Method setFieldText = null;
                 for (Method method : Objects.requireNonNull(fieldObject).getClass().getMethods()) {
                     if (method.getName().equals("setText") &&
@@ -72,14 +86,17 @@ public class Utils {
                 }
                 String resourceName = component + "_span_" +
                         toSnakeCase(field.getName()).substring("text_view_span_".length()
-                );
+                        );
                 content = Html.fromHtml(
                         (String) activity.getText(getResourceId(resourceName, R.string.class)),
                         Html.FROM_HTML_MODE_COMPACT
                 );
-                Objects.requireNonNull(setFieldText).invoke(fieldObject, content);
+                try {
+                    Objects.requireNonNull(setFieldText).invoke(fieldObject, content);
+                } catch (IllegalAccessException | InvocationTargetException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
-
 }

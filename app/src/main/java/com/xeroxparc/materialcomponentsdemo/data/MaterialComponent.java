@@ -1,5 +1,10 @@
 package com.xeroxparc.materialcomponentsdemo.data;
 
+/**
+ * Domain object class.
+ * @author Fabio Buracchi
+ *
+ */
 public class MaterialComponent {
 
     private String name;

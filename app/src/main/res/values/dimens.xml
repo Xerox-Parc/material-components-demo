@@ -5,4 +5,5 @@
     <dimen name="margin_large">64dp</dimen>
 
     <dimen name="banner_height">192dp</dimen>
+    <dimen name="card_height">64dp</dimen>
 </resources>

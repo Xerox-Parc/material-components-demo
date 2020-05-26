@@ -2,11 +2,10 @@ package com.xeroxparc.materialcomponentsdemo.ui.search;
 
 import android.content.Intent;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.widget.SearchView;
-import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
@@ -16,13 +15,20 @@ import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySearchBinding;
 
 import static com.xeroxparc.materialcomponentsdemo.utils.Utils.toCamelCase;
 
+/**
+ * Binder class.
+ * Synchronize the view model and the view.
+ * Setup the recycler view.
+ * @author Fabio Buracchi
+ *
+ */
 class ComponentSearchBinder {
 
-    private ActivitySearchBinding binding;
-    private ComponentSearchActivity activity;
-    private ComponentSearchViewModel viewModel;
+    private final ActivitySearchBinding binding;
+    private final ComponentSearchActivity activity;
+    private final ComponentSearchViewModel viewModel;
 
-    ComponentSearchBinder(ComponentSearchActivity activity) {
+    ComponentSearchBinder(@NonNull ComponentSearchActivity activity) {
         this.activity = activity;
         binding = ActivitySearchBinding.inflate(activity.getLayoutInflater());
         viewModel = new ViewModelProvider(activity).get(ComponentSearchViewModel.class);
@@ -31,7 +37,20 @@ class ComponentSearchBinder {
     View getRoot() { return binding.getRoot(); }
 
     void bind(){
-        activity.setSupportActionBar((Toolbar) binding.appBar.getRoot());
+        Menu menu = binding.appBarContainer.toolbar.getMenu();
+        SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                viewModel.searchComponent(newText);
+                return true;
+            }
+        });
 
         final ComponentListAdapter componentListAdapter = new ComponentListAdapter() {
             @Override
@@ -46,26 +65,7 @@ class ComponentSearchBinder {
         viewModel.getListComponent().observe(activity, componentListAdapter::setComponentList);
     }
 
-    void bindMenu(Menu menu) {
-        MenuInflater inflater = activity.getMenuInflater();
-        inflater.inflate(R.menu.menu_main, menu);
-
-        SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                viewModel.searchComponent(newText);
-                return true;
-            }
-        });
-    }
-
-    private void showDetail(MaterialComponent component) {
+    private void showDetail(@NonNull MaterialComponent component) {
         Intent intent = null;
         try {
             intent = new Intent(activity, Class.forName(String.format(

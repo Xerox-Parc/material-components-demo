@@ -3,8 +3,11 @@
     <string name="search_component_hint">Search material component</string>
     <string name="action_search_title">Search component</string>
 
+    <string name="banner_description">Material Component Banner</string>
+
     <!--Text Field strings-->
 
+    <string name="text_field_title">Text fields</string>
     <string name="text_field_span_title"><![CDATA[
             <p>
                 <h1>Text fields</h1>
@@ -71,4 +74,5 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
+
 </resources>

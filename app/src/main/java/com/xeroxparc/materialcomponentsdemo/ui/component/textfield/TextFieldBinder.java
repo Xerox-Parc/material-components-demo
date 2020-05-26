@@ -5,11 +5,10 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.appcompat.widget.Toolbar;
-
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityTextFieldBinding;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.Objects;
 
 import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
@@ -29,12 +28,17 @@ class TextFieldBinder {
     }
 
     void bind() {
-        activity.setSupportActionBar((Toolbar) binding.appBar.getRoot());
-        inflateSpanTextViewContent(binding, activity);
+        binding.appBarContainer.toolbar.setTitle(R.string.text_field_title);
+        binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_textfield);
+
+        try {
+            inflateSpanTextViewContent(binding, activity);
+        } catch (IllegalAccessException | InvocationTargetException e) {
+            e.printStackTrace();
+        }
 
         this.binding.materialButton.setOnClickListener(l -> {
-            if (Objects.requireNonNull(
-                    this.binding.textFieldPassword.getEditText()).getText().toString().length() < 8) {
+            if (Objects.requireNonNull(this.binding.textFieldPasswordEditText.getText()).toString().length() < 8) {
                 this.binding.textFieldPassword.setError(activity.getString(R.string.text_field_error));
             } else {
                 Toast.makeText(activity, activity.getString(R.string.text_field_toast), Toast.LENGTH_LONG).show();

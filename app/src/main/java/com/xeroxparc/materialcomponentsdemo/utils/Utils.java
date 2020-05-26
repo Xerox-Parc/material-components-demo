@@ -44,41 +44,40 @@ public class Utils {
         return -1;
     }
 
-    public static void inflateSpanTextViewContent(Object binding, Activity activity) {
+    public static void inflateSpanTextViewContent(Object binding, Activity activity)
+            throws IllegalAccessException, InvocationTargetException {
+
         String component;
         Spanned content;
 
         component = activity.getClass().getName();
-        component = component.substring(component.lastIndexOf(".") + 1,
-                component.length() - "Activity".length());
+        component = component.substring(
+                component.lastIndexOf(".") + 1,
+                component.length() - "Activity".length()
+        );
         component = toSnakeCase(component).substring(1);
 
         for (Field field : binding.getClass().getFields()) {
             if (field.getName().contains("Span")) {
                 field.setAccessible(true);
-                try {
-                    Object fieldObject = field.get(binding);
-                    Method[] fieldMethods = Objects.requireNonNull(fieldObject).getClass().getMethods();
-                    Method setFieldText = null;
-                    for (Method method : fieldMethods) {
-                        if (method.getName().equals("setText") &&
-                                method.getParameterTypes().length == 1 &&
-                                method.getParameterTypes()[0].equals(CharSequence.class)) {
-                            setFieldText = method;
-                        }
+                Object fieldObject = field.get(binding);
+                Method setFieldText = null;
+                for (Method method : Objects.requireNonNull(fieldObject).getClass().getMethods()) {
+                    if (method.getName().equals("setText") &&
+                            method.getParameterTypes().length == 1 &&
+                            method.getParameterTypes()[0].equals(CharSequence.class)) {
+                        setFieldText = method;
+                        break;
                     }
-                    content = Html.fromHtml(
-                            (String) activity.getText(getResourceId(
-                                    component + "_span_" +
-                                            toSnakeCase(field.getName()).substring("text_view_span_".length()),
-                                    R.string.class
-                            )),
-                            Html.FROM_HTML_MODE_COMPACT
-                    );
-                    Objects.requireNonNull(setFieldText).invoke(fieldObject, content);
-                } catch (IllegalAccessException | InvocationTargetException e) {
-                    e.printStackTrace();
                 }
+                String resourceName = component + "_span_" +
+                        toSnakeCase(field.getName()).substring("text_view_span_".length()
+                );
+                content = Html.fromHtml(
+                        (String) activity.getText(getResourceId(resourceName, R.string.class)),
+                        Html.FROM_HTML_MODE_COMPACT
+                );
+                Objects.requireNonNull(setFieldText).invoke(fieldObject, content);
             }
         }
     }

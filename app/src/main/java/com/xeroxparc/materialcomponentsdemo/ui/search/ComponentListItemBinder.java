@@ -5,16 +5,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.xeroxparc.materialcomponentsdemo.R;
+import androidx.annotation.NonNull;
+
 import com.xeroxparc.materialcomponentsdemo.data.MaterialComponent;
 import com.xeroxparc.materialcomponentsdemo.databinding.ItemComponentBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.getResourceId;
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.toCamelCase;
-
+/**
+ * Binder class.
+ * Synchronize the view model and the view.
+ * @author Fabio Buracchi
+ *
+ */
 class ComponentListItemBinder {
 
-    private ItemComponentBinding binding;
+    private final ItemComponentBinding binding;
 
     ComponentListItemBinder(Context context, ViewGroup root, Boolean attachToRoot){
         binding = ItemComponentBinding.inflate(LayoutInflater.from(context), root, attachToRoot);
@@ -24,12 +28,8 @@ class ComponentListItemBinder {
         return binding.getRoot();
     }
 
-    void bind(MaterialComponent component) {
-        binding.textView.setText(component.getName());
-        binding.imageView.setImageResource(getResourceId(
-                "banner_" + toCamelCase(component.getName()).toLowerCase(),
-                R.drawable.class
-        ));
+    void bind(@NonNull MaterialComponent component) {
+        binding.textViewName.setText(component.getName());
     }
 
 }

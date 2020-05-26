@@ -13,13 +13,20 @@ import com.xeroxparc.materialcomponentsdemo.data.MaterialComponent;
 
 import java.util.List;
 
+/**
+ * View model class.
+ * Maintains state of the model data.
+ * Implement the business logic.
+ * @author Fabio Buracchi
+ *
+ */
 public class ComponentSearchViewModel extends AndroidViewModel {
 
-    private ComponentRepository repository;
+    private final ComponentRepository repository;
 
-    private MutableLiveData<String> filterComponentName;
+    private final MutableLiveData<String> filterComponentName;
 
-    private LiveData<List<MaterialComponent>> listComponent;
+    private final LiveData<List<MaterialComponent>> listComponent;
 
     public ComponentSearchViewModel(@NonNull Application application) {
         super(application);

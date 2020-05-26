@@ -12,9 +12,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Implementation of the Repository pattern.
+ * Encapsulate the logic required to access data sources.
+ * @author Fabio Buracchi
+ *
+ */
 public class ComponentRepository {
 
-    private List<String> componentNameList;
+    private final List<String> componentNameList;
 
     //Removing the Application dependency increase complexity but allow unit testing.
     //Should we use Dagger for a small project?
@@ -22,6 +28,7 @@ public class ComponentRepository {
         componentNameList = Arrays.asList(application.getResources().getStringArray(R.array.component));
     }
 
+    @NonNull
     public LiveData<List<MaterialComponent>> getAllComponentList() {
         List<MaterialComponent> listComponent = new ArrayList<>();
         MaterialComponent component;
@@ -33,7 +40,8 @@ public class ComponentRepository {
         return new MutableLiveData<>(listComponent);
     }
 
-    public LiveData<List<MaterialComponent>> getComponentListByName(String name) {
+    @NonNull
+    public LiveData<List<MaterialComponent>> getComponentListByName(@NonNull String name) {
         List<MaterialComponent> listComponent = new ArrayList<>();
         MaterialComponent component;
         for (String componentName : componentNameList) {

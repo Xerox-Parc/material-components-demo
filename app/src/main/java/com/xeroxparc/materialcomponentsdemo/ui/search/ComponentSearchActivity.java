@@ -3,23 +3,22 @@ package com.xeroxparc.materialcomponentsdemo.ui.search;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.Menu;
 
+/**
+ * View class.
+ * Handle lifecycle event, receives the user's interaction and it forwards the handling of these
+ * to the view model via the data binding.
+ * @author Fabio Buracchi
+ *
+ */
 public class ComponentSearchActivity extends AppCompatActivity {
-
-    ComponentSearchBinder binder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binder = new ComponentSearchBinder(this);
+        ComponentSearchBinder binder = new ComponentSearchBinder(this);
         setContentView(binder.getRoot());
         binder.bind();
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        binder.bindMenu(menu);
-        return true;
-    }
 }

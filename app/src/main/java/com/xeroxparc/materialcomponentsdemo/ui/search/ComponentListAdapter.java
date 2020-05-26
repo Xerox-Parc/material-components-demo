@@ -9,6 +9,12 @@ import com.xeroxparc.materialcomponentsdemo.data.MaterialComponent;
 
 import java.util.List;
 
+/**
+ * RecyclerView's adapter class.
+ * It initialize list item objects and it maintains coherency with the model.
+ * @author Fabio Buracchi
+ *
+ */
 public abstract class ComponentListAdapter extends RecyclerView.Adapter<ComponentListAdapter.ComponentViewHolder> {
 
     private List<MaterialComponent> componentList;
@@ -40,7 +46,7 @@ public abstract class ComponentListAdapter extends RecyclerView.Adapter<Componen
 
     static class ComponentViewHolder extends RecyclerView.ViewHolder {
 
-        ComponentListItemBinder binder;
+        final ComponentListItemBinder binder;
 
         ComponentViewHolder(@NonNull ComponentListItemBinder binder) {
             super(binder.getRoot());

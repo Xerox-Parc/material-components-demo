@@ -1,4 +1,4 @@
-package com.xeroxparc.materialcomponentsdemo.ui.search;
+package com.xeroxparc.materialcomponentsdemo.ui.component.textfield;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,14 +11,13 @@ import android.os.Bundle;
  * @author Fabio Buracchi
  *
  */
-public class ComponentSearchActivity extends AppCompatActivity {
+public class TextFieldActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ComponentSearchBinder binder = new ComponentSearchBinder(this);
+        TextFieldBinder binder = new TextFieldBinder(this);
         setContentView(binder.getRoot());
         binder.bind();
     }
-
 }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id = "@+id/option_1"
+        android:orderInCategory="1"
+        android:enabled="true"
+        android:title = "@string/menu_headset"
+        android:icon="@drawable/ic_headset_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id = "@+id/option_2"
+        android:orderInCategory="2"
+        android:enabled="true"
+        android:title = "@string/menu_star"
+        android:icon="@drawable/ic_star_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id = "@+id/option_3"
+        android:orderInCategory="3"
+        android:enabled="true"
+        android:title = "@string/menu_music_note"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id = "@+id/option_4"
+        android:orderInCategory="4"
+        android:enabled="true"
+        android:title = "@string/menu_info"
+        android:icon="@drawable/ic_info_black_24dp"
+        app:showAsAction="never" />
+    <!--The fourth item has showAsAction = "never" so that at least one item is always present in the overflow menu-->
+
+</menu>

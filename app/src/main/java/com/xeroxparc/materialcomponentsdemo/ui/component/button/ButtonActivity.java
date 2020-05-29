@@ -16,7 +16,6 @@ public class ButtonActivity extends AppCompatActivity {
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         Holder holder = new Holder(this);
         setContentView(holder.getRoot());
@@ -34,12 +33,9 @@ public class ButtonActivity extends AppCompatActivity {
             binding.containedButton.setOnClickListener(this);
             binding.outlinedButton.setOnClickListener(this);
         }
-
         View getRoot() {
             return binding.getRoot();
         }
-
-
         @Override
         public void onClick(View v) {
             if (v.getId() == R.id.outlinedButton) {
@@ -51,7 +47,6 @@ public class ButtonActivity extends AppCompatActivity {
             if (v.getId() == R.id.containedButton) {
                 Toast.makeText(getApplicationContext(), "Have press contained button", Toast.LENGTH_LONG).show();
             }
-
         }
     }
 }

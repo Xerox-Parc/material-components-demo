@@ -74,5 +74,47 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-
+    <!--App bar bottom strings-->
+    <string name="app_bar_bottom_title">App bar bottom</string>
+    <string name="app_bar_bottom_span_title"><![CDATA[
+    <p>
+        <h1>App bars: bottom</h1>
+    </p>
+    <p>A bottom app bar displays navigation and key actions at the bottom of mobile screens. </p>]]>
+    </string>
+    <string name="app_bar_bottom_span_usage"><![CDATA[
+    <p>
+        <h1>Usage</h1>
+    </p>
+    <p>Bottom app bars provide access to a bottom navigation drawer and up to four actions, including the floating action button.</p>]]>
+    </string>
+    <string name="app_bar_bottom_span_when_to_use"><![CDATA[
+            <p>
+                <h1>When to use</h1>
+            </p>
+            <p>Bottom app bars should be used for:
+        <ul>
+            <li>Mobile devices only
+            <li>Access to a bottom navigation drawer
+            <li>Screens with two to five actions
+        </ul>
+        Bottom app bars shouldn t be used for:
+        <ul>
+            <li>Apps with a bottom navigation bar
+            <li>Screens with one or no actions
+        </ul>
+        .</p>]]>
+    </string>
+    <string name="app_bar_bottom_span_anatomy"><![CDATA[
+    <p>
+        <h1>Anatomy</h1>
+    </p>
+    <p>Bottom app bars can contain actions that apply to the context of the current screen. They include a navigation menu control on the far left and a floating action button (when one is present). If included in a bottom app bar, an overflow menu control is placed at the end of other actions.</p>]]>
+    </string>
+    <string name="app_bar_bottom_span_positioning"><![CDATA[
+    <p>
+        <h1>Positioning</h1>
+    </p>
+    <p>Bottom app bars have three different layouts based on the presence of a FAB and its position in the bar. These layouts dictate the number of actions that can be included in the bar.</p>]]>
+    </string>
 </resources>

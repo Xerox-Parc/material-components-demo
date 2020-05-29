@@ -74,5 +74,57 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
+    <!--Bottom navigation strings-->
+    <string name="bottom_navigation_title">Bottom navigation</string>
+    <string name="bottom_navigation_span_title"><![CDATA[
+    <p>
+        <h1>Bottom navigation</h1>
+    </p>
+    <p>Bottom navigation bars allow movement between primary destinations in an app.</p>]]>
+    </string>
+    <string name="bottom_navigation_span_usage"><![CDATA[
+    <p>
+        <h1>Usage</h1>
+    </p>
+    <p>Bottom navigation bars display three to five destinations at the bottom of a screen. Each destination is represented by an icon and an optional text label. When a bottom navigation icon is tapped, the user is taken to the top-level navigation destination associated with that icon.</p>]]>
+    </string>
+    <string name="bottom_navigation_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>Bottom navigation should be used for:
+        <ul>
+          <li>  Top-level destinations that need to be accessible from anywhere in the app
+          <li>  Three to five destinations
+           <li> Mobile or tablet only
+        </ul>
+        Bottom navigation shouldn’t be used for:
+        <ul>
+          <li>  Single tasks, such as viewing a single email
+          <li>  User preferences or settings
+        </ul>
+        </p>]]>
+    </string>
+    <string name="bottom_navigation_span_behavior"><![CDATA[
+    <p>
+        <h3>Behavior</h3>
+    </p>
+    <p>Bottom navigation behaves differently on Android and iOS. When you select a bottom navigation item (one that’s not currently selected), each platform displays different outcomes:
+<ul>
+ <li>   On Android: the app navigates to a destination’s top-level screen. Any prior user interactions and temporary screen states are reset, such as scroll position, tab selection, and in-line search.
+  <li>  On iOS: the destination reflects the user’s prior interaction. If the user previously visited that section of the app, they return to the last screen viewed (with its prior state preserved, if possible). Otherwise, the app navigates to the top-level screen.
+</ul>
+Default platform navigation can be overridden when needed to improve the user experience. For example, an Android app that requires frequent switching between sections can preserve each section’s state. Or, an iOS app can return users to the top-level screen (or reset their scroll position) if it better suits the use case.</p>]]>
+    </string>
+    <string name="bottom_navigation_span_state"><![CDATA[
+    <p>
+        <h1>States</h1>
+    </p>
+    <p>Bottom navigation destinations may be active, inactive, focused or pressed.
 
+Bottom navigation uses opacity and text to show when a destination is active. States are used to show pressed, focused, and unselected states.
+
+Inactive destination states are represented with reduced opacities; active states have full opacity.
+Side by side view of two examples of bottom navigation, highlighting the difference between inactive and active destinations.</p>]]>
+    </string>
 </resources>

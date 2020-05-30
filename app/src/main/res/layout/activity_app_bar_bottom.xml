@@ -80,14 +80,15 @@
                     app:fabAlignmentMode="center"
                     app:layout_anchor="@+id/bottom_app_bar"
                     app:layout_anchorGravity="top|center"
-                    app:navigationIcon="@drawable/abc_vector_test" />
+                    app:navigationIcon="@drawable/abc_vector_test"
+                    tools:ignore="PrivateResource" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/fab"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="2dp"
-                    android:src="@drawable/ic_search_24dp"
+                    android:src="@drawable/ic_expand_less_black_24dp"
                     app:layout_anchor="@id/bottom_app_bar" />
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -75,4 +75,53 @@
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
 
+
+    <!--Floating Action Button strings-->
+
+    <string name="fab_title">Floating Action Button</string>
+    <string name="fab_span_title"><![CDATA[
+            <p>
+                <h1>Floating Action Button</h1>
+            </p>
+            <p>
+                A floating action button (FAB) represents the primary action of a screen.
+            </p>
+        ]]>
+    </string>
+    <string name="fab_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.
+            </p>
+        ]]>
+    </string>
+    <string name="fab_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                A floating action button (FAB) can trigger an action either on the current screen, or it can perform an action that creates a new screen.<br>
+                A FAB promotes an important, constructive action such as:
+
+                <ul>
+                    <li>Create</li>
+                    <li>Favorite</li>
+                    <li>Share</li>
+                    <li>Start a process</li>
+                </ul>
+
+                <br>
+                Avoid using a FAB for minor or destructive actions, such as:
+
+                 <ul>
+                    <li>Archive or trash</li>
+                    <li>Alerts or errors</li>
+                    <li>Limited tasks like cutting text</li>
+                    <li>Controls better suited to a toolbar (like controls to adjust volume or font color)</li>
+                </ul>
+            </p>
+        ]]>
+    </string>
 </resources>

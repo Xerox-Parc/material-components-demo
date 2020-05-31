@@ -75,4 +75,70 @@
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
 
+
+    <!--Chips strings-->
+
+    <string name="chip_title">Card</string>
+    <string name="chip_span_title"><![CDATA[
+            <p>
+                <h1>Chips</h1>
+            </p>
+            <p>
+                Chips are compact elements that represent an input, attribute, or action.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Chips allow users to enter information, make selections, filter content, or trigger actions. While buttons are expected to appear consistently and with familiar calls to action, chip should appear dynamically as a group of multiple interactive elements.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_input"><![CDATA[
+            <p>
+                <h4>Input Chips</h4>
+            </p>
+            <p>
+                 Input chip represent information used in fields, such as an entity or different attributes.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_filter"><![CDATA[
+            <p>
+                <h4>Filter Chips</h4>
+            </p>
+            <p>
+                Filter chip represent filters for a collection.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_choice"><![CDATA[
+            <p>
+                <h4>Choice Chips</h4>
+            </p>
+            <p>
+                 In sets that contain at least two options, choice chip represent a single selection.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_action"><![CDATA[
+            <p>
+                <h4>Action Chips</h4>
+            </p>
+            <p>
+                Action chip trigger actions related to primary content.
+            </p>
+        ]]>
+    </string>
+
+
 </resources>

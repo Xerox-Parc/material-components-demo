@@ -2,23 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/page_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_search_24dp"
-        android:title="favorites"/>
+        android:icon="@drawable/ic_format_list_preferites"
+        android:title="Favorites" />
     <item
         android:id="@+id/page_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_search_24dp"
-        android:title="music"/>
+        android:icon="@drawable/ic_music_music"
+        android:title="Music" />
     <item
         android:id="@+id/page_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_search_24dp"
-        android:title="places"/>
+        android:icon="@drawable/ic_place_place"
+        android:title="Places" />
     <item
         android:id="@+id/page_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_search_24dp"
-        android:title="news"/>
+        android:icon="@drawable/ic_create_new"
+        android:title="News" />
 </menu>
 

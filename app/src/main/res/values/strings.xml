@@ -75,4 +75,29 @@
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
 
-</resources>
+
+    <!--Dialogs strings-->
+
+    <string name="dialog_title">Dialog</string>
+    <string name="dialog_span_title"><![CDATA[
+            <p>
+                <h1>Dialogs</h1>
+            </p>
+            <p>
+                Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.
+                <br>
+                Dialogs are purposefully interruptive, so they should be used sparingly.
+            </p>
+        ]]>
+    </string>
+
+    </resources>

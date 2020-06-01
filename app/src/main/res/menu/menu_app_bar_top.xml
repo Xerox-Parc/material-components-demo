@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/position"
+        android:contentDescription="content_description_favorite"
+        android:icon="@drawable/ic_add_location"
+        android:iconTint="@color/cardview_dark_background"
+        android:title="position"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/search"
+        android:contentDescription="content_description_search"
+        android:icon="@drawable/ic_search_24dp"
+        android:iconTint="@color/cardview_dark_background"
+        android:title="search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/notblocked"
+        android:checked="false"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Not blocked"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/blocked"
+        android:checkable="false"
+        android:enabled="false"
+        android:title="Blocked" />
+
+</menu>

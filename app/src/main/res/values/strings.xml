@@ -78,7 +78,7 @@
 
     <!--Chips strings-->
 
-    <string name="chip_title">Card</string>
+    <string name="chip_title">Chips</string>
     <string name="chip_span_title"><![CDATA[
             <p>
                 <h1>Chips</h1>

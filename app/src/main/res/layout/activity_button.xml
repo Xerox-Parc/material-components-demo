@@ -63,19 +63,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Text button usage"
-                    tools:ignore="HardcodedText,MissingConstraints" />
-
+                    tools:ignore="HardcodedText" />
                 <Button
                     android:id="@+id/textButton"
                     style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Text button"
+                    android:text="@string/text_button"
                     app:icon="@drawable/ic_search_24dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_text_button_usage"
-                    tools:ignore="MissingConstraints" />
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_text_button_usage" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -93,7 +91,7 @@
                     style="?attr/materialButtonOutlinedStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Outlined button"
+                    android:text="@string/outlined_button"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_view_span_outlined_button_usage"
@@ -114,7 +112,7 @@
                     android:id="@+id/containedButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Contained button"
+                    android:text="@string/contained_button"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_view_span_contained_button_usage"
@@ -130,7 +128,7 @@
                     android:id="@+id/text_view_span_toggle_button_usage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Toggle button usage"
+                    android:text="@string/toggle_button_usage"
                     tools:ignore="MissingConstraints" />
 
                 <com.google.android.material.button.MaterialButtonToggleGroup
@@ -148,7 +146,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-condensed"
-                        android:text="I"
+                        android:text="@string/i"
                         android:textStyle="italic" />
 
                     <Button
@@ -157,7 +155,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
-                        android:text="B"
+                        android:text="@string/b"
                         android:textStyle="bold" />
 
                     <Button
@@ -169,7 +167,7 @@
                         android:outlineAmbientShadowColor="#000000"
                         android:singleLine="false"
                         android:soundEffectsEnabled="false"
-                        android:text="U" />
+                        android:text="@string/u" />
                 </com.google.android.material.button.MaterialButtonToggleGroup>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

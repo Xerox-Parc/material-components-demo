@@ -77,18 +77,14 @@
 
 
     <!--Button strings-->
-    <string name="button_title"><![CDATA[
-            Button
-            ]]>
-         </string>
+
+    <string name="button_title">Buttons</string>
     <string name="button_span_title"><![CDATA[
             <p>
             <h1>Buttons</h1>
             </p>
             <p>Buttons allow users to take actions, and make choices, with a single tap.</p> ]]>
          </string>
-
-
     <string name="button_span_usage"><![CDATA[
             <p>        <h3>Usage</h3>        </p>
             <p>Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
@@ -100,14 +96,10 @@
                 <li>Toolbars
             </ul>        .</p>        ]]>
         </string>
-
-
     <string name="button_span_anatomy"><![CDATA[
             <p>        <h3>Anatomy</h3>        </p>
             <p>Buttons contain one required element and four optional elements.</p>        ]]>
         </string>
-
-
     <string name="button_span_hierarchy"><![CDATA[
             <p>        <h3>Hierarchy</h3>        </p>
             <p><h5>A single, prominent button</h5></p>
@@ -115,14 +107,10 @@
             <p><h5>Other buttons</h5></p>
             <p>An app can show more than one button in a layout at a time, so a high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less important actions. When using multiple buttons, ensure the available state of one button doesn’t look like the disabled state of another.</p>]]>
          </string>
-
-
     <string name="button_span_placement"><![CDATA[
             <p>        <h3>Placement</h3>        </p>
             <p>Multiple button types can be used to express different emphasis levels.</p>    ]]>
         </string>
-
-
     <string name="button_span_text_button_usage"><![CDATA[
             <p>        <h3>Text button usage</h3>        </p>
             <p>Text buttons are typically used for less-pronounced actions, including those located:
@@ -132,20 +120,28 @@
              </ul>
              In cards, text buttons help maintain an emphasis on card content.</p>]]>
         </string>
-
     <string name="button_span_outlined_button_usage"><![CDATA[
             <p>        <h3>Outlined button usage</h3>        </p>
             <p>Outlined buttons are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.</p>    ]]>
         </string>
-
     <string name="button_span_contained_button_usage"><![CDATA[
             <p>        <h3>Contained button usage</h3>        </p>
             <p>Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.</p>    ]]>
         </string>
-
     <string name="button_span_toggle_button_usage"><![CDATA[
             <p>        <h3>Toggle button usage</h3>        </p>
             <p>Toggle buttons can be used to group related options. To emphasize groups of related toggle buttons, a group should share a common container.</p>    ]]>
         </string>
+    <string name="text_button">Text button</string>
+    <string name="outlined_button">Outlined button</string>
+    <string name="contained_button">Contained button</string>
+    <string name="toggle_button_usage">Toggle button usage</string>
+    <string name="i">I</string>
+    <string name="b">B</string>
+    <string name="u">U</string>
+    <string name="have_press_outlined_button"> Have press outlined button</string>
+    <string name="have_press_text_button"> Have press text button</string>
+    <string name="have_press_contained_button"> Have press contained button</string>
+
 
 </resources>

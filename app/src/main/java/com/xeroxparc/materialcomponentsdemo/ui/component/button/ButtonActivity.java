@@ -1,5 +1,6 @@
 package com.xeroxparc.materialcomponentsdemo.ui.component.button;
 
+import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
@@ -28,7 +29,6 @@ public class ButtonActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.button_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_button);
             inflateSpanTextViewContent(binding, activity);
-            //TODO
             binding.textButton.setOnClickListener(this);
             binding.containedButton.setOnClickListener(this);
             binding.outlinedButton.setOnClickListener(this);
@@ -36,16 +36,19 @@ public class ButtonActivity extends AppCompatActivity {
         View getRoot() {
             return binding.getRoot();
         }
+
         @Override
         public void onClick(View v) {
-            if (v.getId() == R.id.outlinedButton) {
-                Toast.makeText(getApplicationContext(), "Have press outlined button", Toast.LENGTH_LONG).show();
-            }
-            if (v.getId() == R.id.textButton) {
-                Toast.makeText(getApplicationContext(), "Have press text buttons", Toast.LENGTH_LONG).show();
-            }
-            if (v.getId() == R.id.containedButton) {
+            switch (v.getId()){
+                case R.id.outlinedButton:
+                    Toast.makeText(getApplicationContext(), "Have press outlined button.", Toast.LENGTH_LONG).show();
+                    break;
+                case R.id.textButton:
+                Toast.makeText(getApplicationContext(), "Have press text button", Toast.LENGTH_LONG).show();
+                    break;
+                case R.id.containedButton:
                 Toast.makeText(getApplicationContext(), "Have press contained button", Toast.LENGTH_LONG).show();
+                    break;
             }
         }
     }

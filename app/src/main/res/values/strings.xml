@@ -94,10 +94,76 @@
             </p>
             <p>
                 A dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.
-                <br>
+                <br><br>
                 Dialogs are purposefully interruptive, so they should be used sparingly.
             </p>
         ]]>
     </string>
+    <string name="dialog_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Dialogs should be used for:<br>
+                <ul>
+                <li>Errors that block an app’s normal operation</li>
+                <li>Critical information that requires a specific user task, decision, or acknowledgement</li>
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types"><![CDATA[
+            <p>
+                <h4>Types</h4>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_alert"><![CDATA[
+            <p>
+                <h3>Alert Dialog</h3>
+            </p>
+            <p>
+                Alert dialogs interrupt users with urgent information, details, or actions.<br>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_simple"><![CDATA[
+            <p>
+                <h3>Simple Dialog</h3>
+            </p>
+            <p>
+               Simple dialogs can display items that are immediately actionable when selected. They don’t have text buttons.
+               <br><br>
+               As simple dialogs are interruptive, they should be used sparingly. Alternatively, dropdown menus provide options in a non-modal, less disruptive way.</p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_confirmation"><![CDATA[
+            <p>
+                <h3>Confirmation Dialog</h3>
+            </p>
+            <p>
+                Confirmation dialogs give users the ability to provide final confirmation of a choice before committing to it, so they have a chance to change their minds if necessary.
+                <br><br>
+                If the user confirms a choice, it’s carried out. Otherwise, the user can dismiss the dialog. For example, users can listen to multiple ringtones but only make a final selection upon tapping “OK.”
+            </p>
+        ]]>
+    </string>
 
+    <string name="dialog_alert_button">ALERT DIALOG</string>
+    <string name="dialog_simple_button">SIMPLE DIALOG</string>
+    <string name="dialog_confirmation_button">CONFIRMATION DIALOG</string>
+
+    <string-array name="simple_dialog_array">
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="confirmation_dialog_array">
+        <item>None</item>
+        <item>Callisto</item>
+        <item>Ganymede</item>
+        <item>Luna</item>
+        <item>Oberon</item>
+        <item>Phobos</item>
+    </string-array>
     </resources>

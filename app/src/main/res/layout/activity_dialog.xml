@@ -37,6 +37,7 @@
                 android:text="Title"
                 tools:ignore="HardcodedText" />
 
+
             <TextView
                 android:id="@+id/text_view_span_usage"
                 android:layout_width="match_parent"
@@ -44,7 +45,93 @@
                 android:text="Usage"
                 tools:ignore="HardcodedText" />
 
+            <TextView
+                android:id="@+id/text_view_span_when_to_use"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When to use"
+                tools:ignore="HardcodedText" />
 
+            <TextView
+                android:id="@+id/text_view_span_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types"
+                tools:ignore="HardcodedText" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_span_types_alert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alert Dialog"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/material_button_alert_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginBottom="24dp"
+                    android:text="@string/dialog_alert_button"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_alert" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_span_types_simple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Simple Dialog"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/material_button_simple_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginBottom="24dp"
+                    android:text="@string/dialog_simple_button"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_simple" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_span_types_confirmation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Confirmation Dialog"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/material_button_confirmation_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginBottom="64dp"
+                    android:text="@string/dialog_confirmation_button"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_confirmation" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 

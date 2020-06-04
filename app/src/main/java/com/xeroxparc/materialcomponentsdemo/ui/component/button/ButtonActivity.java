@@ -1,15 +1,15 @@
 package com.xeroxparc.materialcomponentsdemo.ui.component.button;
 
-import androidx.annotation.StringRes;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityButtonBinding;
+
 import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
 
 public class ButtonActivity extends AppCompatActivity {
@@ -41,14 +41,17 @@ public class ButtonActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
                 case R.id.outlinedButton:
-                    Toast.makeText(getApplicationContext(), "Have press outlined button.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.have_press_outlined_button, Toast.LENGTH_LONG).show();
                     break;
                 case R.id.textButton:
-                Toast.makeText(getApplicationContext(), "Have press text button", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.have_press_text_button, Toast.LENGTH_LONG).show();
                     break;
                 case R.id.containedButton:
-                Toast.makeText(getApplicationContext(), "Have press contained button", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.have_press_contained_button, Toast.LENGTH_LONG).show();
                     break;
+                default:
+                    throw new IllegalStateException("Unexpected value: " + v.getId());
+
             }
         }
     }

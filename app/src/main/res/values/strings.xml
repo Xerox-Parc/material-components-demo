@@ -93,7 +93,7 @@
                 <h3>Usage</h3>
             </p>
             <p>
-                Cards are surfaces that display content and actions on a single topic.<br>
+                Cards are surfaces that display content and actions on a single topic.<br><br>
                 They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
             </p>
         ]]>
@@ -113,7 +113,7 @@
             </p>
             <p>
                 A swipe gesture can be performed on a single card at a time, anywhere on that card.<br>
-                It can be used to:
+                <br>It can be used to:
             </p>
 
              <ul>
@@ -124,11 +124,14 @@
     </string>
     <string name="card_span_gestures_scrolling"><![CDATA[
             <p>
-                <h4>Gestures</h4>
+                <h4>Scrolling</h4>
             </p>
             <p>
                 Card content that is taller than the maximum card height is truncated and does not scroll, but can be displayed by expanding the height of a card. A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.
             </p>
         ]]>
     </string>
+
+    <string name="card_description">Greyhould divisively hello coldly wonderfully marginally far upon excluding</string>
+
 </resources>

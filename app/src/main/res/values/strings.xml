@@ -75,4 +75,82 @@
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
 
+    <!--Picker strings-->
+    <string name="picker_title">Picker</string>
+    <string name="picker_span_title"><![CDATA[
+            <p>
+                <h1>Pickers</h1>
+            </p>
+            <p>
+                Date pickers let users select a date, or a range of dates.
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Date pickers let users select a date or range of dates. They should be suitable for the context in which they appear.
+
+                Date pickers can be embedded into:
+                <ul>
+                    <li>Dialogs on mobile
+                    <li>Text field dropdowns on desktop
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_mobile_calendar_pickers"><![CDATA[
+            <p>
+                <h3>Mobile calendar pickers</h3>
+            </p>
+            <p>
+                Mobile calendar pickers can be used to select dates in the near future or past, when it’s useful to see them in a calendar month format. They are displayed in a dialog.
+
+                Common use cases include:
+                <ul>
+                    <li>Making a restaurant reservation
+                    <li>Scheduling a meeting
+                </ul>
+
+                They aren’t ideal for selecting dates in the distant past or future that require more navigation, such as entering a birth date or expiration date.
+
+                Mobile calendar pickers allow selection of a single date and year.
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_mobile_date_range_pickers"><![CDATA[
+            <p>
+                <h3>Mobile date range pickers</h3>
+            </p>
+            <p>
+                Mobile date range pickers allow selection of a range of dates. They cover the entire screen.
+
+                Common use cases include:
+                <ul>
+                    <li>Booking a flight
+                    <li>Reserving a hotel
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_mobile_date_input_pickers"><![CDATA[
+            <p>
+                <h3>Mobile date input pickers</h3>
+            </p>
+            <p>
+                Mobile date input pickers allow the manual entry of dates using the numbers on a keyboard. Users can input a date or a range of dates in a dialog.
+
+                The mobile date input picker can be accessed from any other mobile date picker, via the edit icon.
+            </p>
+        ]]>
+    </string>
+
+
+    <string name="btn_range_picker">Click to show the date range picker</string>
+    <string name="date_range_picker">Date Range Picker</string>
+    <string name="btn_calendar_picker">Show the calendar picker</string>
+    <string name="calendar_picker">calendar picker</string>
+
 </resources>

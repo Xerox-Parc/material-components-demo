@@ -124,4 +124,6 @@
             </p>
         ]]>
     </string>
+
+    <string name="fab_text">create</string>
 </resources>

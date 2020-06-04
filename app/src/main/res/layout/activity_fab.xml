@@ -62,7 +62,7 @@
         android:layout_margin="16dp"
         android:layout_gravity="bottom|right"
         android:contentDescription="extended_fab_content_desc"
-        android:text="create"
+        android:text="@string/fab_text"
         app:icon="@drawable/ic_add_white_24dp"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

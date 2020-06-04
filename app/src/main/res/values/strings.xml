@@ -140,5 +140,14 @@
         ]]>
     </string>
 
+    <string name="chip_filter1_text">Elevator</string>
+    <string name="chip_filter2_text">Dryer</string>
+    <string name="chip_filter3_text">Dogs ok</string>
 
+    <string name="chip_action1_text">Turn on lights</string>
+    <string name="chip_action2_text">Set alarm</string>
+
+    <string name="chip_choice1_text">Medium</string>
+    <string name="chip_choice2_text">Soft</string>
+    <string name="chip_choice3_text">Extra Soft</string>
 </resources>

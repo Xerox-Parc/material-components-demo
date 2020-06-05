@@ -32,10 +32,7 @@ public class AppBarBottomActivity extends AppCompatActivity {
                 finish();
             });
             binding.fab.setOnClickListener(l->{
-                Toast.makeText(activity, "A floating action button (FAB) performs the primary," +
-                        " or most common, action on a screen. It appears in front of all screen content," +
-                        " typically as a circular shape with an icon in its center. FABs come in three types: " +
-                        "regular, mini, and extended.", Toast.LENGTH_LONG).show();
+                Toast.makeText(activity, R.string.app_bar_bottom_press_floating, Toast.LENGTH_LONG).show();
             });
         }
         View getRoot() {

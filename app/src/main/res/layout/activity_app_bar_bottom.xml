@@ -80,8 +80,7 @@
                     app:fabAlignmentMode="center"
                     app:layout_anchor="@+id/bottom_app_bar"
                     app:layout_anchorGravity="top|center"
-                    app:navigationIcon="@drawable/abc_vector_test"
-                    tools:ignore="PrivateResource" />
+                    app:navigationIcon="@drawable/abc_vector_test"/>
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/fab"

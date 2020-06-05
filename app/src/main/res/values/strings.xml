@@ -102,8 +102,7 @@
         <ul>
             <li>Apps with a bottom navigation bar
             <li>Screens with one or no actions
-        </ul>
-        .</p>]]>
+        </ul></p>]]>
     </string>
     <string name="app_bar_bottom_span_anatomy"><![CDATA[
     <p>
@@ -117,4 +116,5 @@
     </p>
     <p>Bottom app bars have three different layouts based on the presence of a FAB and its position in the bar. These layouts dictate the number of actions that can be included in the bar.</p>]]>
     </string>
+    <string name="app_bar_bottom_press_floating">A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types:"regular, mini, and extended.</string>
 </resources>

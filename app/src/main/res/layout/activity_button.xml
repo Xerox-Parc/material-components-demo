@@ -8,9 +8,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
+
     <include
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo"/>
+
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
@@ -64,7 +66,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Text button usage"
-                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="HardcodedText" />
 
@@ -74,12 +75,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/text_button"
+                    android:text="@string/button_text_button"
                     app:icon="@drawable/ic_search_24dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_view_span_text_button_usage" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -101,11 +103,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/outlined_button"
+                    android:text="@string/button_outlined_button"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_view_span_outlined_button_usage" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -117,7 +120,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Contained button usage"
-                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="HardcodedText"/>
 
@@ -126,11 +128,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/contained_button"
+                    android:text="@string/button_contained_button"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_view_span_contained_button_usage" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -142,8 +145,7 @@
                     android:id="@+id/text_view_span_toggle_button_usage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/toggle_button_usage"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="@string/button_toggle_button_usage"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <com.google.android.material.button.MaterialButtonToggleGroup
@@ -159,34 +161,31 @@
 
                     <Button
                         android:id="@+id/button1"
-                        style="?attr/materialButtonOutlinedStyle"
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif-condensed"
-                        android:text="@string/i"
-                        android:textStyle="italic" />
+                        app:icon="@drawable/ic_format_italic_24dp" />
 
                     <Button
                         android:id="@+id/button2"
-                        style="?attr/materialButtonOutlinedStyle"
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/b"
-                        android:textStyle="bold" />
+                        app:icon="@drawable/ic_format_bold_24dp" />
 
                     <Button
                         android:id="@+id/button3"
-                        style="?attr/materialButtonOutlinedStyle"
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fallbackLineSpacing="false"
-                        android:outlineAmbientShadowColor="#000000"
-                        android:singleLine="false"
-                        android:soundEffectsEnabled="false"
-                        android:text="@string/u" />
+                        app:icon="@drawable/ic_format_underlined_24dp" />
+
                 </com.google.android.material.button.MaterialButtonToggleGroup>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

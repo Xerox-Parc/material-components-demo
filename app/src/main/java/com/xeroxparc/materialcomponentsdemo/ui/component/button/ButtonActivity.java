@@ -41,13 +41,13 @@ public class ButtonActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
                 case R.id.outlinedButton:
-                    Toast.makeText(getApplicationContext(), R.string.have_press_outlined_button, Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.button_have_press_outlined_button, Toast.LENGTH_LONG).show();
                     break;
                 case R.id.textButton:
-                Toast.makeText(getApplicationContext(), R.string.have_press_text_button, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.button_have_press_text_button, Toast.LENGTH_LONG).show();
                     break;
                 case R.id.containedButton:
-                Toast.makeText(getApplicationContext(), R.string.have_press_contained_button, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.button_have_press_contained_button, Toast.LENGTH_LONG).show();
                     break;
                 default:
                     throw new IllegalStateException("Unexpected value: " + v.getId());

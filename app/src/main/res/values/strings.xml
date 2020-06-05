@@ -132,16 +132,13 @@
             <p>        <h3>Toggle button usage</h3>        </p>
             <p>Toggle buttons can be used to group related options. To emphasize groups of related toggle buttons, a group should share a common container.</p>    ]]>
         </string>
-    <string name="text_button">Text button</string>
-    <string name="outlined_button">Outlined button</string>
-    <string name="contained_button">Contained button</string>
-    <string name="toggle_button_usage">Toggle button usage</string>
-    <string name="i">I</string>
-    <string name="b">B</string>
-    <string name="u">U</string>
-    <string name="have_press_outlined_button"> Have press outlined button</string>
-    <string name="have_press_text_button"> Have press text button</string>
-    <string name="have_press_contained_button"> Have press contained button</string>
+    <string name="button_text_button">Text button</string>
+    <string name="button_outlined_button">Outlined button</string>
+    <string name="button_contained_button">Contained button</string>
+    <string name="button_toggle_button_usage">Toggle button usage</string>
+    <string name="button_have_press_outlined_button"> Have press outlined button</string>
+    <string name="button_have_press_text_button"> Have press text button</string>
+    <string name="button_have_press_contained_button"> Have press contained button</string>
 
 
 </resources>

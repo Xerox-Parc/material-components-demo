@@ -28,8 +28,15 @@ public class AppBarBottomActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.app_bar_bottom_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_appbarbottom);
             inflateSpanTextViewContent(binding, activity);
-            binding.bottomAppBar.setNavigationOnClickListener(v -> {
-                finish();
+            binding.bottomAppBar.setNavigationOnClickListener(v -> Toast.makeText(activity, R.string.app_bar_bottom_press_more, Toast.LENGTH_LONG).show());
+            binding.bottomAppBar.setOnMenuItemClickListener(v -> {
+                if(v.getItemId()==R.id.more) {
+                    Toast.makeText(activity, R.string.app_bar_bottom_press_more_information, Toast.LENGTH_LONG).show();
+                }
+                else if(v.getItemId()==R.id.search){
+                    Toast.makeText(activity, R.string.app_bar_bottom_press_search, Toast.LENGTH_LONG).show();
+                }
+                return false;
             });
             binding.fab.setOnClickListener(l->{
                 Toast.makeText(activity, R.string.app_bar_bottom_press_floating, Toast.LENGTH_LONG).show();
@@ -40,3 +47,4 @@ public class AppBarBottomActivity extends AppCompatActivity {
         }
     }
 }
+

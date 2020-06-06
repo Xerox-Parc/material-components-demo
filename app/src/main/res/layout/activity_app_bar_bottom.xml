@@ -13,6 +13,26 @@
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo"/>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/ic_add_24dp"
+        app:layout_anchor="@id/bottom_app_bar" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabAlignmentMode="center"
+        app:menu="@menu/menu_app_bar_bottom"
+        app:navigationIcon="@drawable/ic_format_align_justify_24dp" />
+
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
@@ -62,36 +82,8 @@
                 android:text="Positioning"
                 tools:ignore="HardcodedText" />
 
-            <androidx.coordinatorlayout.widget.CoordinatorLayout
-                android:id="@+id/coordinatorLayout"
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_marginTop="18dp"
-                android:fitsSystemWindows="false">
-
-
-                <com.google.android.material.bottomappbar.BottomAppBar
-                    android:id="@+id/bottom_app_bar"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/card_height"
-                    android:layout_gravity="bottom"
-                    android:layout_marginTop="16dp"
-                    app:backgroundTint="@color/colorPrimary"
-                    app:fabAlignmentMode="center"
-                    app:layout_anchor="@+id/bottom_app_bar"
-                    app:layout_anchorGravity="top|center"
-                    app:navigationIcon="@drawable/abc_vector_test"/>
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/fab"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="2dp"
-                    android:src="@drawable/ic_expand_less_black_24dp"
-                    app:layout_anchor="@id/bottom_app_bar" />
-
-            </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -115,4 +115,5 @@
     </string>
     <string name="snackbar_button">Snackbar</string>
     <string name="snackbar_button_undo">Snackbar + Action</string>
+    <string name="snackbar_text_visible">THIS IS A SNACKBAR</string>
 </resources>

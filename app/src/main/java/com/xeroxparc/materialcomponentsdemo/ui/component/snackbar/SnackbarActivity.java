@@ -36,11 +36,11 @@ public class SnackbarActivity extends AppCompatActivity {
             inflateSpanTextViewContent(binding, activity);
             binding.snackbarButton.setOnClickListener(l ->
                     Snackbar.make(binding.coordinator,
-                            "THIS IS A SNACKBAR",
+                            R.string.snackbar_text_visible,
                             LENGTH_LONG).show());
             binding.snackbarButtonUndo.setOnClickListener(l ->
                     Snackbar.make(binding.coordinator,
-                            "THIS IS A SNACKBAR",
+                            R.string.snackbar_text_visible,
                             LENGTH_LONG).setAction("UNDO", v -> Log.e("UNDO","Done")).show());
         }
         View getRoot() {

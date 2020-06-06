@@ -40,83 +40,76 @@
                 android:text="Usage"
                 tools:ignore="HardcodedText" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+
+            <TextView
+                android:id="@+id/text_view_span_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Switches"
+                tools:ignore="HardcodedText" />
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_one"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_width="match_parent" />
-                <TextView
-                    android:id="@+id/text_view_span_switch"
-                    android:layout_width="match_parent"
+                android:text="@string/switch_text"
+                app:useMaterialThemeColors="true"
+                android:checked="false"/>
+            <TextView
+                android:id="@+id/text_view_span_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Checkbox"
+                tools:ignore="HardcodedText" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/checkbox_text_one"
+                app:useMaterialThemeColors="false" />
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/checkbox_text_two"
+                app:useMaterialThemeColors="false" />
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/checkbox_text_three"
+                app:useMaterialThemeColors="false" />
+
+            <TextView
+                android:id="@+id/text_view_span_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radio Button"
+                tools:ignore="HardcodedText" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup"
+                android:paddingBottom="@dimen/margin_large">
+
+                <RadioButton
+                    android:id="@+id/radio_one"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Switches"
-                    tools:ignore="HardcodedText" />
-                <com.google.android.material.switchmaterial.SwitchMaterial
-                    android:id="@+id/switch_one"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/switch_text"
-                    android:textOn="@string/text_on"
-                    android:textOff="@string/text_off"
-                    app:useMaterialThemeColors="true"
+                    android:text="@string/radio_button_text_one"
+                    android:checked="true"/>
+                <RadioButton
+                    android:id="@+id/radio_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_button_text_two"
                     android:checked="false"/>
-                <TextView
-                    android:id="@+id/text_view_span_checkbox"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Checkbox"
-                    tools:ignore="HardcodedText" />
-
-                <com.google.android.material.checkbox.MaterialCheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/text_one"
-                    app:useMaterialThemeColors="false" />
-                <com.google.android.material.checkbox.MaterialCheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/text_two"
-                    app:useMaterialThemeColors="false" />
-                <com.google.android.material.checkbox.MaterialCheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="@string/text_three"
-                    app:useMaterialThemeColors="false" />
-
-                <TextView
-                    android:id="@+id/text_view_span_radio_button"
+                <RadioButton
+                    android:id="@+id/radio_three"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Radio Button"
-                    tools:ignore="HardcodedText" />
+                    android:text="@string/radio_button_text_three"
+                    android:checked="false"/>
 
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/radioGroup">
-                    <RadioButton
-                        android:id="@+id/radio_one"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/text_one"
-                        android:checked="true"/>
-                    <RadioButton
-                        android:id="@+id/radio_two"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/text_two"
-                        android:checked="false"/>
-                    <RadioButton
-                        android:id="@+id/radio_three"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/text_three"
-                        android:checked="false"/>
-                    <RadioButton
-                        android:id="@+id/radio_four"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/text_four"
-                        android:checked="false"/>
-                </RadioGroup>
+            </RadioGroup>
 
         </LinearLayout>
 

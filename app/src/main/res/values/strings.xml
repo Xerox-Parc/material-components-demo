@@ -9,60 +9,106 @@
 
     <string name="button_title">Buttons</string>
     <string name="button_span_title"><![CDATA[
-                <p>
-                    <h1>Buttons</h1>
-                </p>
-                <p>
-                    Buttons allow users to take actions, and make choices, with a single tap.
-                </p>
-             ]]>
-         </string>
+            <p>
+                <h1>Buttons</h1>
+            </p>
+            <p>
+                Buttons allow users to take actions, and make choices, with a single tap.
+            </p>
+        ]]>
+    </string>
     <string name="button_span_usage"><![CDATA[
-            <p>        <h3>Usage</h3>        </p>
-            <p>Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
-            <ul>
-                <li>Dialogs
-                <li>Modal windows
-                <li>Forms
-                <li>Cards
-                <li>Toolbars
-            </ul>        .</p>        ]]>
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
+                <ul>
+                    <li>Dialogs
+                    <li>Modal windows
+                    <li>Forms
+                    <li>Cards
+                    <li>Toolbars
+                </ul>
+            </p>
+        ]]>
     </string>
     <string name="button_span_anatomy"><![CDATA[
-            <p>        <h3>Anatomy</h3>        </p>
-            <p>Buttons contain one required element and four optional elements.</p>        ]]>
+            <p>
+                <h3>Anatomy</h3>
+            </p>
+            <p>
+                Buttons contain one required element and four optional elements.
+            </p>
+        ]]>
     </string>
     <string name="button_span_hierarchy"><![CDATA[
-            <p>        <h3>Hierarchy</h3>        </p>
-            <p><h5>A single, prominent button</h5></p>
-            <p>A layout should contain a single prominent button that makes it clear that other buttons have less importance in the hierarchy. This high-emphasis button commands the most attention.</p>
-            <p><h5>Other buttons</h5></p>
-            <p>An app can show more than one button in a layout at a time, so a high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less important actions. When using multiple buttons, ensure the available state of one button doesn’t look like the disabled state of another.</p>]]>
+            <p>
+                <h3>Hierarchy</h3>
+            </p>
+            <p>
+                <h5>A single, prominent button</h5>
+            </p>
+            <p>
+                A layout should contain a single prominent button that makes it clear that other buttons have less importance in the hierarchy. This high-emphasis button commands the most attention.
+            </p>
+            <p>
+                <h5>Other buttons</h5>
+            </p>
+            <p>
+                An app can show more than one button in a layout at a time, so a high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less important actions. When using multiple buttons, ensure the available state of one button doesn’t look like the disabled state of another.
+            </p>
+        ]]>
 	</string>
     <string name="button_span_placement"><![CDATA[
-            <p>        <h3>Placement</h3>        </p>
-            <p>Multiple button types can be used to express different emphasis levels.</p>    ]]>
+            <p>
+                <h3>Placement</h3>
+            </p>
+            <p>
+                Multiple button types can be used to express different emphasis levels.
+            </p>
+        ]]>
         </string>
 	<string name="button_span_text_button_usage"><![CDATA[
-            <p>        <h3>Text button usage</h3>        </p>
-            <p>Text buttons are typically used for less-pronounced actions, including those located:
-            <ul>
-               <li> In dialogs
-               <li> In cards
-             </ul>
-             In cards, text buttons help maintain an emphasis on card content.</p>]]>
+	        <p>
+	            <h3>Text button usage</h3>
+	        </p>
+            <p>
+                Text buttons are typically used for less-pronounced actions, including those located:
+                <ul>
+                   <li> In dialogs
+                   <li> In cards
+                 </ul>
+                 In cards, text buttons help maintain an emphasis on card content.
+            </p>
+        ]]>
 	</string>
     <string name="button_span_outlined_button_usage"><![CDATA[
-            <p>        <h3>Outlined button usage</h3>        </p>
-            <p>Outlined buttons are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.</p>    ]]>
+            <p>
+                <h3>Outlined button usage</h3>
+            </p>
+            <p>
+                Outlined buttons are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.
+            </p>
+        ]]>
 	</string>
     <string name="button_span_contained_button_usage"><![CDATA[
-            <p>        <h3>Contained button usage</h3>        </p>
-            <p>Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.</p>    ]]>
+            <p>
+                <h3>Contained button usage</h3>
+            </p>
+            <p>
+                Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+            </p>
+        ]]>
 	</string>
     <string name="button_span_toggle_button_usage"><![CDATA[
-            <p>        <h3>Toggle button usage</h3>        </p>
-            <p>Toggle buttons can be used to group related options. To emphasize groups of related toggle buttons, a group should share a common container.</p>    ]]>
+            <p>
+                <h3>Toggle button usage</h3>
+            </p>
+            <p>
+                Toggle buttons can be used to group related options. To emphasize groups of related toggle buttons, a group should share a common container.
+            </p>
+        ]]>
 	</string>
     <string name="button_text_button">Text button</string>
     <string name="button_outlined_button">Outlined button</string>
@@ -90,7 +136,6 @@
             </p>
             <p>
                 Date pickers let users select a date or range of dates. They should be suitable for the context in which they appear.
-
                 Date pickers can be embedded into:
                 <ul>
                     <li>Dialogs on mobile
@@ -105,15 +150,12 @@
             </p>
             <p>
                 Mobile calendar pickers can be used to select dates in the near future or past, when it’s useful to see them in a calendar month format. They are displayed in a dialog.
-
                 Common use cases include:
                 <ul>
                     <li>Making a restaurant reservation
                     <li>Scheduling a meeting
                 </ul>
-
                 They aren’t ideal for selecting dates in the distant past or future that require more navigation, such as entering a birth date or expiration date.
-
                 Mobile calendar pickers allow selection of a single date and year.
             </p>
         ]]>
@@ -124,7 +166,6 @@
             </p>
             <p>
                 Mobile date range pickers allow selection of a range of dates. They cover the entire screen.
-
                 Common use cases include:
                 <ul>
                     <li>Booking a flight
@@ -139,7 +180,6 @@
             </p>
             <p>
                 Mobile date input pickers allow the manual entry of dates using the numbers on a keyboard. Users can input a date or a range of dates in a dialog.
-
                 The mobile date input picker can be accessed from any other mobile date picker, via the edit icon.
             </p>
         ]]>
@@ -155,46 +195,46 @@
     <string name="selection_control_title">Selection Control</string>
     <string name="selection_control_span_title"><![CDATA[
             <p>
-                 <h1>Selection Control</h1>
+                <h1>Selection Control</h1>
             </p>
             <p>
-            Selection controls allow the user to select options.
+                Selection controls allow the user to select options.
             </p>
         ]]>
     </string>
     <string name="selection_control_span_usage"><![CDATA[
             <p>
-                 <h3>Usage</h3>
+                <h3>Usage</h3>
             </p>
             <p>
-            Selection controls allow users to complete tasks that involve making choices such as selecting options, or switching settings on or off. Selection controls are found on screens that ask users to make decisions or declare preferences such as settings or dialogs.
+                Selection controls allow users to complete tasks that involve making choices such as selecting options, or switching settings on or off. Selection controls are found on screens that ask users to make decisions or declare preferences such as settings or dialogs.
             </p>
         ]]>
     </string>
     <string name="selection_control_span_checkbox"><![CDATA[
             <p>
-                 <h3>Checkboxes</h3>
+                <h3>Checkboxes</h3>
             </p>
             <p>
-            Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
+                Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
             </p>
         ]]>
     </string>
     <string name="selection_control_span_radio_button"><![CDATA[
             <p>
-                 <h3>Radio Bottons</h3>
+                <h3>Radio Bottons</h3>
             </p>
             <p>
-          Radio buttons allow the user to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu because it uses less space.
+                Radio buttons allow the user to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu because it uses less space.
             </p>
         ]]>
     </string>
     <string name="selection_control_span_switch"><![CDATA[
             <p>
-                 <h3>Switches</h3>
+                <h3>Switches</h3>
             </p>
             <p>
-            Switches toggle the state of a single item on or off. They are the preferred way to adjust settings on mobile.
+                Switches toggle the state of a single item on or off. They are the preferred way to adjust settings on mobile.
             </p>
         ]]>
     </string>

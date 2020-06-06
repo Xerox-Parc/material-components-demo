@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.component.button.ButtonActivity"></activity>
+        <activity android:name=".ui.component.sheetbottom.SheetBottomActivity"></activity>
+        <activity android:name=".ui.component.button.ButtonActivity" />
         <activity android:name=".ui.component.textfield.TextFieldActivity" />
         <activity android:name=".ui.search.ComponentSearchActivity">
             <intent-filter>

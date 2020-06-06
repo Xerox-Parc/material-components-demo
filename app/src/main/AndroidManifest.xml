@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.component.button.ButtonActivity"></activity>
+        <activity android:name=".ui.component.picker.PickerActivity" />
         <activity android:name=".ui.component.selectioncontrol.SelectionControlActivity"></activity>
         <activity android:name=".ui.component.textfield.TextFieldActivity" />
         <activity android:name=".ui.search.ComponentSearchActivity">

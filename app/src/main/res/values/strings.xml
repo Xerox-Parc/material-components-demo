@@ -4,7 +4,7 @@
     <string name="action_search_title">Search component</string>
 
     <string name="banner_description">Material Component Banner</string>
-  
+
     <!--Button strings-->
 
     <string name="button_title">Buttons</string>
@@ -73,7 +73,7 @@
     <string name="button_have_press_contained_button"> Have press contained button</string>
 
     <!--Selection Controls strings-->
-  
+
     <string name="selection_control_title">Selection Control</string>
     <string name="selection_control_span_title"><![CDATA[
             <p>
@@ -128,7 +128,7 @@
     <string name="selection_radio_button_text_two">Two</string>
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
-  
+
     <!--Text Field strings-->
 
     <string name="text_field_title">Text fields</string>
@@ -198,6 +198,19 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-  
+
+    <!--Text Field strings-->
+
+    <string name="tooltip_title">Tooltips</string>
+    <string name="tooltip_span_title"><![CDATA[
+            <p>
+                <h1>Tooltips</h1>
+            </p>
+            <p>
+                Tooltips display informative text when users hover over, focus on, or tap an element.
+            </p>
+        ]]>
+    </string>
+
 </resources>
 

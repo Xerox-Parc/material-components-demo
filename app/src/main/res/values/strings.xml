@@ -113,6 +113,6 @@
             </p>
         ]]>
     </string>
-    <string name="button_snackbar">Snackbar</string>
-    <string name="button_snackbar_undo">Snackbar + Action</string>
+    <string name="snackbar_button">Snackbar</string>
+    <string name="snackbar_button_undo">Snackbar + Action</string>
 </resources>

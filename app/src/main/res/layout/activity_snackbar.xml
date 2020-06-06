@@ -57,7 +57,7 @@
                 android:layout_marginTop="@dimen/margin_medium"
                 android:layout_marginBottom="@dimen/margin_medium"
                 android:layout_gravity="center_horizontal"
-                android:text="@string/button_snackbar_undo" />
+                android:text="@string/snackbar_button_undo" />
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/snackbar_button"
                 android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
                 android:layout_marginTop="@dimen/margin_medium"
                 android:layout_marginBottom="@dimen/margin_medium"
                 android:layout_gravity="center_horizontal"
-                android:text="@string/button_snackbar" />
+                android:text="@string/snackbar_button" />
 
 
         </LinearLayout>

@@ -51,7 +51,7 @@
                 android:id="@+id/switch_one"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/switch_text"
+                android:text="@string/selection_switch_text"
                 app:useMaterialThemeColors="true"
                 android:checked="false"/>
             <TextView
@@ -64,17 +64,17 @@
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/checkbox_text_one"
+                android:text="@string/selection_checkbox_text_one"
                 app:useMaterialThemeColors="false" />
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/checkbox_text_two"
+                android:text="@string/selection_checkbox_text_two"
                 app:useMaterialThemeColors="false" />
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/checkbox_text_three"
+                android:text="@string/selection_checkbox_text_three"
                 app:useMaterialThemeColors="false" />
 
             <TextView
@@ -94,19 +94,19 @@
                     android:id="@+id/radio_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/radio_button_text_one"
+                    android:text="@string/selection_radio_button_text_one"
                     android:checked="true"/>
                 <RadioButton
                     android:id="@+id/radio_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/radio_button_text_two"
+                    android:text="@string/selection_radio_button_text_two"
                     android:checked="false"/>
                 <RadioButton
                     android:id="@+id/radio_three"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/radio_button_text_three"
+                    android:text="@string/selection_radio_button_text_three"
                     android:checked="false"/>
 
             </RadioGroup>

@@ -118,13 +118,13 @@
             </p>
         ]]>
      </string>
-    <string name="switch_text">Setting One</string>
-    <string name="checkbox_text_one">One</string>
-    <string name="checkbox_text_two">Two</string>
-    <string name="checkbox_text_three">Three</string>
-    <string name="radio_button_text_one">One</string>
-    <string name="radio_button_text_two">Two</string>
-    <string name="radio_button_text_three">Three</string>
-    <string name="radio_button_text_four">Three</string>
+    <string name="selection_switch_text">Setting One</string>
+    <string name="selection_checkbox_text_one">One</string>
+    <string name="selection_checkbox_text_two">Two</string>
+    <string name="selection_checkbox_text_three">Three</string>
+    <string name="selection_radio_button_text_one">One</string>
+    <string name="selection_radio_button_text_two">Two</string>
+    <string name="selection_radio_button_text_three">Three</string>
+    <string name="selection_radio_button_text_four">Three</string>
 </resources>
 

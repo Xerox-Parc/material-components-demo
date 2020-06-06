@@ -74,5 +74,56 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-
+    <!--Selection Controls strings-->
+    <string name="selection_control_title">Selection Control</string>
+    <string name="selection_control_span_title"><![CDATA[
+            <p>
+                 <h1>Selection Control</h1>
+            </p>
+            <p>
+            Selection controls allow the user to select options.
+            </p>
+        ]]>
+     </string>
+    <string name="selection_control_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Selection controls allow users to complete tasks that involve making choices such as selecting options, or switching settings on or off. Selection controls are found on screens that ask users to make decisions or declare preferences such as settings or dialogs.
+            </p>
+        ]]>
+     </string><string name="selection_control_span_checkbox"><![CDATA[
+            <p>
+                 <h3>Checkboxes</h3>
+            </p>
+            <p>
+            Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
+            </p>
+        ]]>
+     </string><string name="selection_control_span_radio_button"><![CDATA[
+            <p>
+                 <h3>Radio Bottons</h3>
+            </p>
+            <p>
+          Radio buttons allow the user to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu because it uses less space.
+            </p>
+        ]]>
+        </string><string name="selection_control_span_switch"><![CDATA[
+            <p>
+                 <h3>Switches</h3>
+            </p>
+            <p>
+            Switches toggle the state of a single item on or off. They are the preferred way to adjust settings on mobile.
+            </p>
+        ]]>
+     </string>
+    <string name="switch_text">Setting One</string>
+    <string name="text_one">One</string>
+    <string name="text_two">Two</string>
+    <string name="text_three">Three</string>
+    <string name="text_four">Three</string>
+    <string name="text_on">ON</string>
+    <string name="text_off">OFF</string>
 </resources>
+

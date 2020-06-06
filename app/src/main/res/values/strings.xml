@@ -148,9 +148,10 @@
     </string>
 
 
-    <string name="btn_range_picker">Click to show the date range picker</string>
-    <string name="date_range_picker">Date Range Picker</string>
-    <string name="btn_calendar_picker">Show the calendar picker</string>
-    <string name="calendar_picker">calendar picker</string>
+    <string name="picker_button_range_picker">Click to show the date range picker</string>
+    <string name="picker_date_range_picker">Date Range Picker</string>
+    <string name="picker_button_calendar_picker">Show the calendar picker</string>
+    <string name="picker_calendar_picker">calendar picker</string>
+    <string name="picker_launch_failure">The launch of the selected picker has failed</string>
 
 </resources>

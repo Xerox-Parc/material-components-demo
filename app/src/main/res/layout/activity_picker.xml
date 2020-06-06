@@ -54,10 +54,11 @@
                     tools:ignore="HardcodedText" />
 
                 <Button
-                    android:id="@+id/btn_mobile_calendar_picker"
+                    android:id="@+id/button_mobile_calendar_picker"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text = "@string/btn_calendar_picker"
+                    android:text="@string/picker_button_calendar_picker"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_view_span_mobile_calendar_pickers" />
 
@@ -77,10 +78,11 @@
                     tools:ignore="HardcodedText" />
 
                 <Button
-                    android:id="@+id/btn_mobile_date_range_picker_button"
+                    android:id="@+id/button_mobile_date_range_picker_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text = "@string/btn_range_picker"
+                    android:text="@string/picker_button_range_picker"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_view_span_mobile_date_range_pickers" />
 

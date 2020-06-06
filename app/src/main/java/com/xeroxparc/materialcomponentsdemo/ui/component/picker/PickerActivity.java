@@ -35,8 +35,8 @@ public class PickerActivity extends AppCompatActivity{
 
             inflateSpanTextViewContent(binding, activity);
 
-            binding.btnMobileDateRangePickerButton.setOnClickListener(this);
-            binding.btnMobileCalendarPicker.setOnClickListener(this);
+            binding.buttonMobileDateRangePickerButton.setOnClickListener(this);
+            binding.buttonMobileCalendarPicker.setOnClickListener(this);
         }
 
         View getRoot() {
@@ -45,26 +45,25 @@ public class PickerActivity extends AppCompatActivity{
 
         @Override
         public void onClick(View v) {
-            if (v.getId() == R.id.btn_mobile_date_range_picker_button) {
-                MaterialDatePicker.Builder builder = MaterialDatePicker.Builder.dateRangePicker();
-                builder.setTitleText(R.string.date_range_picker);
+            if (v.getId() == R.id.button_mobile_date_range_picker_button) {
+                MaterialDatePicker.Builder<androidx.core.util.Pair<Long, Long>> builder = MaterialDatePicker.Builder.dateRangePicker();
+                builder.setTitleText(R.string.picker_date_range_picker);
                 try {
-                    final MaterialDatePicker materialDatePicker = builder.build();
+                    final MaterialDatePicker<androidx.core.util.Pair<Long, Long>> materialDatePicker = builder.build();
                     materialDatePicker.show(getSupportFragmentManager(), "DATE_PICKER");
                 } catch (IllegalArgumentException e){
-                    Toast.makeText(getApplicationContext(), "The launch of the selected picker has failed", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.picker_launch_failure, Toast.LENGTH_LONG).show();
                 }
             }
-            if (v.getId() == R.id.btn_mobile_calendar_picker){
-                MaterialDatePicker.Builder builder = MaterialDatePicker.Builder.datePicker();
-                builder.setTitleText(R.string.calendar_picker);
+            if (v.getId() == R.id.button_mobile_calendar_picker){
+                MaterialDatePicker.Builder<Long> builder = MaterialDatePicker.Builder.datePicker();
+                builder.setTitleText(R.string.picker_calendar_picker);
                 builder.setSelection(MaterialDatePicker.todayInUtcMilliseconds());
                 try {
-                    final MaterialDatePicker materialDatePicker = builder.build();
+                    final MaterialDatePicker<Long> materialDatePicker = builder.build();
                     materialDatePicker.show(getSupportFragmentManager(), "DATE_PICKER");
                 } catch (IllegalArgumentException e){
-                    Toast.makeText(getApplicationContext(), "This is my Toast message!",
-                            Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.picker_launch_failure, Toast.LENGTH_LONG).show();
                 }
             }
         }

@@ -1,6 +1,7 @@
 package com.xeroxparc.materialcomponentsdemo.ui.component.picker;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.util.Pair;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -46,7 +47,7 @@ public class PickerActivity extends AppCompatActivity{
         @Override
         public void onClick(View v) {
             if (v.getId() == R.id.button_mobile_date_range_picker_button) {
-                MaterialDatePicker.Builder<androidx.core.util.Pair<Long, Long>> builder = MaterialDatePicker.Builder.dateRangePicker();
+                MaterialDatePicker.Builder<Pair<Long, Long>> builder = MaterialDatePicker.Builder.dateRangePicker();
                 builder.setTitleText(R.string.picker_date_range_picker);
                 try {
                     final MaterialDatePicker<androidx.core.util.Pair<Long, Long>> materialDatePicker = builder.build();

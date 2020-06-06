@@ -17,14 +17,14 @@
         android:id="@+id/menu_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:orientation="vertical">
 
             <TextView
@@ -32,7 +32,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Title"
-                android:layout_margin="@dimen/margin_medium"
                 tools:ignore="HardcodedText" />
 
             <TextView
@@ -40,7 +39,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Usage"
-                android:layout_margin="@dimen/margin_medium"
                 tools:ignore="HardcodedText" />
 
             <TextView
@@ -48,7 +46,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Types"
-                android:layout_margin="@dimen/margin_medium"
                 tools:ignore="HardcodedText" />
 
             <TextView
@@ -56,7 +53,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Placement"
-                android:layout_margin="@dimen/margin_medium"
                 tools:ignore="HardcodedText" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -67,9 +63,8 @@
                     android:id="@+id/text_view_span_dropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_medium"
                     android:text="Dropdown"
-                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="HardcodedText" />
 
@@ -77,7 +72,9 @@
                     android:id="@+id/btn_dropdown_menu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Dropdown Menu"
+                    android:hint="@string/dropdown_menu"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginEnd="@dimen/margin_medium"
                     android:onClick="showPopupMenu"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -95,7 +92,7 @@
                     android:id="@+id/text_view_span_exposed_dropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_medium"
                     android:text="Exposed Dropdown"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -108,6 +105,7 @@
                     android:hint="Exposed dropdown"
                     android:layout_marginStart="@dimen/margin_medium"
                     android:layout_marginEnd="@dimen/margin_medium"
+                    android:layout_marginBottom="@dimen/margin_large"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -118,8 +116,8 @@
                         android:id="@+id/filled_exposed_dropdown"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
-                        app:layout_constraintVertical_bias="0.421"
+                        android:focusable="false"
+                        android:inputType="none"
                         tools:ignore="LabelFor" />
 
                 </com.google.android.material.textfield.TextInputLayout>

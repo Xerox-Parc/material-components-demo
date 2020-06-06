@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.PopupMenu;
 
 import com.xeroxparc.materialcomponentsdemo.R;
@@ -22,7 +21,6 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Holder holder = new Holder(this);
         setContentView(holder.getRoot());
-        new Adapter();
     }
 
     @Override
@@ -39,20 +37,6 @@ public class MenuActivity extends AppCompatActivity {
         popup.show();
     }
 
-    // exposed menu adapter
-    public class Adapter {
-
-        Adapter(){
-            String[] exposedDropdownMenuOptions = new String[] {getString(R.string.menu_headset), getString(R.string.menu_star), getString(R.string.menu_music_note), getString(R.string.menu_info)};
-            ArrayAdapter<String> adapter;
-            AutoCompleteTextView editExposedDropdownMenu;
-
-            adapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.menu_exposed_menu_item, exposedDropdownMenuOptions);
-            editExposedDropdownMenu = findViewById(R.id.filled_exposed_dropdown);
-            editExposedDropdownMenu.setAdapter(adapter);
-        }
-    }
-
     class Holder {
 
         private ActivityMenuBinding binding;
@@ -64,9 +48,33 @@ public class MenuActivity extends AppCompatActivity {
             inflateSpanTextViewContent(binding, activity);
 
             binding.appBarContainer.toolbar.inflateMenu(R.menu.menu_overflow_menu);
+            new Adapter();
         }
+
         View getRoot() {
             return binding.getRoot();
         }
+
+        // exposed menu adapter
+        class Adapter {
+
+            Adapter(){
+                String[] exposedDropdownMenuOptions = new String[] {
+                        getString(R.string.menu_headset),
+                        getString(R.string.menu_star),
+                        getString(R.string.menu_music_note),
+                        getString(R.string.menu_info)
+                };
+
+                ArrayAdapter<String> adapter = new ArrayAdapter<>(
+                        getApplicationContext(),
+                        R.layout.menu_exposed_menu_item,
+                        exposedDropdownMenuOptions
+                );
+
+                binding.filledExposedDropdown.setAdapter(adapter);
+            }
+        }
+
     }
 }

@@ -139,4 +139,5 @@
     <string name="menu_star">Star</string>
     <string name="menu_music_note">Music note</string>
     <string name="menu_info">Info</string>
+    <string name="dropdown_menu">Dropdown Menu</string>
 </resources>

@@ -74,5 +74,43 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-
+    <!--Progress Indicator strings-->
+    <string name="progress_indicator_title">Progress Indicator</string>
+    <string name="progress_indicator_span_title"><![CDATA[
+            <p>
+                 <h1>Progress Indicator</h1>
+            </p>
+            <p>
+            Progress indicators express an unspecified wait time or display the length of a process.
+            </p>
+        ]]>
+     </string>
+    <string name="progress_indicator_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
+            </p>
+        ]]>
+     </string><string name="progress_indicator_span_circular"><![CDATA[
+            <p>
+                 <h3>Circular Progress Indicator</h3>
+            </p>
+            <p>
+            Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
+            </p>
+        ]]>
+     </string><string name="progress_indicator_span_linear"><![CDATA[
+            <p>
+                 <h3>Linear Progress Indicator</h3>
+            </p>
+            <p>
+             Linear progress indicators display progress by animating an indicator along the length of a fixed, visible track. The behavior of the indicator is dependent on whether the progress of a process is known.
+            </p>
+        ]]>
+     </string>
+    <string name="button_submit">submit</string>
 </resources>
+
+

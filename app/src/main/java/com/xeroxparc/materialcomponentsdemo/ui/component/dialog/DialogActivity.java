@@ -3,7 +3,6 @@ package com.xeroxparc.materialcomponentsdemo.ui.component.dialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
@@ -39,22 +38,15 @@ public class DialogActivity extends AppCompatActivity {
 
             inflateSpanTextViewContent(binding, activity);
 
-            binding.materialButtonAlertDialog.setOnClickListener(l -> {
-                new MaterialAlertDialogBuilder(DialogActivity.this)
+            binding.materialButtonAlertDialog.setOnClickListener(l -> new MaterialAlertDialogBuilder(DialogActivity.this)
                         .setMessage("Discard Draft?")
-                        .setPositiveButton("DISCARD", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) { }
-                        })
-                        .setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) { }
-                        })
-                        .show();
-            });
+                        .setPositiveButton("DISCARD", (dialog, which) -> {})
+                        .setNegativeButton("CANCEL", (dialog, which) -> {})
+                        .show()
+            );
 
             binding.materialButtonSimpleDialog.setOnClickListener(l -> {
-                String[] singleChoiceItems = getResources().getStringArray(R.array.simple_dialog_array);
+                String[] singleChoiceItems = getResources().getStringArray(R.array.dialog_array_simple);
                 int itemSelected = 0;
                 new MaterialAlertDialogBuilder(DialogActivity.this)
                         .setTitle("View options")
@@ -69,7 +61,7 @@ public class DialogActivity extends AppCompatActivity {
             });
 
             binding.materialButtonConfirmationDialog.setOnClickListener(l -> {
-                String[] singleChoiceItems = getResources().getStringArray(R.array.confirmation_dialog_array);
+                String[] singleChoiceItems = getResources().getStringArray(R.array.dialog_array_confirmation);
                 int itemSelected = 0;
                 new MaterialAlertDialogBuilder(DialogActivity.this)
                         .setTitle("Phone Ringtone")

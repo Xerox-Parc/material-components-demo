@@ -132,21 +132,17 @@
         ]]>
     </string>
     
-    <string name="card_span_sample_description"><![CDATA[
-            <p>
-                Greyhould divisively hello coldly wonderfully marginally far upon excluding
-            </p>
-        ]]>
-    </string>
-    <string name="card_span_sample_title"><![CDATA[
+    <string name="card_span_sample"><![CDATA[
             <p>
                 <h3>Title</h3>
             </p>
-        ]]>
-    </string>
-    <string name="card_span_sample_text"><![CDATA[
+            <br>
             <p>
                 Secondary text
+            </p>
+            <br>
+            <p>
+                Greyhould divisively hello coldly wonderfully marginally far upon excluding
             </p>
         ]]>
     </string>

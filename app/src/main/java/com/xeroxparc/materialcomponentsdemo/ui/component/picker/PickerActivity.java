@@ -53,7 +53,11 @@ public class PickerActivity extends AppCompatActivity{
                     final MaterialDatePicker<androidx.core.util.Pair<Long, Long>> materialDatePicker = builder.build();
                     materialDatePicker.show(getSupportFragmentManager(), "DATE_PICKER");
                 } catch (IllegalArgumentException e){
-                    Toast.makeText(getApplicationContext(), R.string.picker_launch_failure, Toast.LENGTH_LONG).show();
+                    Toast.makeText(
+                            getApplicationContext(),
+                            R.string.picker_launch_failure,
+                            Toast.LENGTH_LONG
+                    ).show();
                 }
             }
             if (v.getId() == R.id.button_mobile_calendar_picker){
@@ -64,7 +68,11 @@ public class PickerActivity extends AppCompatActivity{
                     final MaterialDatePicker<Long> materialDatePicker = builder.build();
                     materialDatePicker.show(getSupportFragmentManager(), "DATE_PICKER");
                 } catch (IllegalArgumentException e){
-                    Toast.makeText(getApplicationContext(), R.string.picker_launch_failure, Toast.LENGTH_LONG).show();
+                    Toast.makeText(
+                            getApplicationContext(),
+                            R.string.picker_launch_failure,
+                            Toast.LENGTH_LONG
+                    ).show();
                 }
             }
         }

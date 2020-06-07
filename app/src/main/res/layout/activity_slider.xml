@@ -56,35 +56,26 @@
                 android:text="Continuous"
                 tools:ignore="HardcodedText" />
 
+            <Button
+                android:id="@+id/slider_open_button"
+                android:text="@string/slider_show_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="36dp"
+                android:gravity="center_horizontal" />
+
             <SeekBar
                 android:id="@+id/slider"
                 style="@style/Widget.MaterialComponents.Slider"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="@dimen/margin_large"
-                android:layout_marginRight="@dimen/margin_large"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_marginRight="@dimen/margin_medium"
                 android:progressTint="@color/colorPrimary"
-                android:thumbTint="@color/colorPrimary" />
-
-            <TextView
-                android:id="@+id/text_view_span_discrete"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Discrete"
-                android:layout_marginTop="@dimen/margin_medium"
-                tools:ignore="HardcodedText" />
-
-            <SeekBar
-                style="@style/Widget.AppCompat.SeekBar.Discrete"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="@dimen/margin_large"
-                android:layout_marginRight="@dimen/margin_large"
-                android:layout_marginBottom="@dimen/margin_medium"
-                android:progressTint="@color/colorPrimary"
-                android:thumbTint="@color/colorPrimary" />
+                android:thumbTint="@color/colorPrimary"
+                android:visibility="gone"/>
 
         </LinearLayout>
 

@@ -37,8 +37,16 @@ public class CardActivity extends AppCompatActivity {
 
             inflateSpanTextViewContent(binding, activity);
 
-            this.binding.cardSampleButton1.setOnClickListener(l -> { Toast.makeText(CardActivity.this, getString(R.string.card_sample_clicked_button1), Toast.LENGTH_LONG).show(); });
-            this.binding.cardSampleButton2.setOnClickListener(l -> { Toast.makeText(CardActivity.this, getString(R.string.card_sample_clicked_button2), Toast.LENGTH_LONG).show(); });
+            this.binding.cardSampleButton1.setOnClickListener(l -> Toast.makeText(
+                    CardActivity.this,
+                    getString(R.string.card_sample_clicked_button1),
+                    Toast.LENGTH_LONG
+            ).show());
+            this.binding.cardSampleButton2.setOnClickListener(l -> Toast.makeText(
+                    CardActivity.this,
+                    getString(R.string.card_sample_clicked_button2),
+                    Toast.LENGTH_LONG
+            ).show());
         }
 
 

@@ -33,25 +33,37 @@ public class ButtonActivity extends AppCompatActivity {
             binding.containedButton.setOnClickListener(this);
             binding.outlinedButton.setOnClickListener(this);
         }
+
         View getRoot() {
             return binding.getRoot();
         }
 
         @Override
         public void onClick(View v) {
-            switch (v.getId()){
+            switch (v.getId()) {
                 case R.id.outlinedButton:
-                    Toast.makeText(getApplicationContext(), R.string.button_have_press_outlined_button, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(
+                            getApplicationContext(),
+                            R.string.button_have_press_outlined_button,
+                            Toast.LENGTH_SHORT
+                    ).show();
                     break;
                 case R.id.textButton:
-                Toast.makeText(getApplicationContext(), R.string.button_have_press_text_button, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(
+                            getApplicationContext(),
+                            R.string.button_have_press_text_button,
+                            Toast.LENGTH_SHORT
+                    ).show();
                     break;
                 case R.id.containedButton:
-                Toast.makeText(getApplicationContext(), R.string.button_have_press_contained_button, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(
+                            getApplicationContext(),
+                            R.string.button_have_press_contained_button,
+                            Toast.LENGTH_SHORT
+                    ).show();
                     break;
                 default:
                     throw new IllegalStateException("Unexpected value: " + v.getId());
-
             }
         }
     }

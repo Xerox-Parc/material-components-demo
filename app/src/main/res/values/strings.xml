@@ -5,7 +5,7 @@
 
     <string name="banner_description">Material Component Banner</string>
 
-    <!--Button strings-->
+    <!--Buttons strings-->
 
     <string name="button_title">Buttons</string>
     <string name="button_span_title"><![CDATA[
@@ -118,9 +118,180 @@
     <string name="button_have_press_text_button"> Have press text button</string>
     <string name="button_have_press_contained_button"> Have press contained button</string>
 
-    <!--Picker strings-->
+    <!--Cards strings-->
 
-    <string name="picker_title">Picker</string>
+    <string name="card_title">Cards</string>
+    <string name="card_span_title"><![CDATA[
+            <p>
+                <h1>Cards</h1>
+            </p>
+            <p>
+                Cards contain content and actions about a single subject.
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Cards are surfaces that display content and actions on a single topic.<br><br>
+                They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_gestures"><![CDATA[
+            <p>
+                <h3>Gestures</h3>
+            </p>
+            <p>
+                Gestures should be implemented consistently within a card collection. Frequently used gestures on cards include swipe, pick up and move, and scrolling.
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_gestures_swipe"><![CDATA[
+            <p>
+                <h4>Swipe</h4>
+            </p>
+            <p>
+                A swipe gesture can be performed on a single card at a time, anywhere on that card.<br>
+                <br>It can be used to:
+            </p>
+
+            <ul>
+                <li>Dismiss a card</li>
+                <li>Change the state of a card (such as flagging or archiving it)</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="card_span_gestures_scrolling"><![CDATA[
+            <p>
+                <h4>Scrolling</h4>
+            </p>
+            <p>
+                Card content that is taller than the maximum card height is truncated and does not scroll, but can be displayed by expanding the height of a card. A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.
+            </p>
+        ]]>
+    </string>    
+    <string name="card_span_sample"><![CDATA[
+            <p>
+                <h3>Title</h3>
+            </p>
+            <br>
+            <p>
+                Secondary text
+            </p>
+            <br>
+            <p>
+                Greyhould divisively hello coldly wonderfully marginally far upon excluding
+            </p>
+        ]]>
+    </string>
+    <string name="card_sample_action1">action 1</string>
+    <string name="card_sample_action2">action 2</string>
+    <string name="card_sample_image_description">content_description_media</string>
+    <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
+    <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
+
+	<!--Dialogs strings-->
+
+    <string name="dialog_title">Dialogs</string>
+    <string name="dialog_span_title"><![CDATA[
+            <p>
+                <h1>Dialogs</h1>
+            </p>
+            <p>
+                Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.
+                <br><br>
+                Dialogs are purposefully interruptive, so they should be used sparingly.
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Dialogs should be used for:<br>
+                <ul>
+                <li>Errors that block an app’s normal operation</li>
+                <li>Critical information that requires a specific user task, decision, or acknowledgement</li>
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types"><![CDATA[
+            <p>
+                <h4>Types</h4>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_alert"><![CDATA[
+            <p>
+                <h3>Alert Dialog</h3>
+            </p>
+            <p>
+                Alert dialogs interrupt users with urgent information, details, or actions.<br>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_simple"><![CDATA[
+            <p>
+                <h3>Simple Dialog</h3>
+            </p>
+            <p>
+               Simple dialogs can display items that are immediately actionable when selected. They don’t have text buttons.
+               <br><br>
+               As simple dialogs are interruptive, they should be used sparingly. Alternatively, dropdown menus provide options in a non-modal, less disruptive way.</p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_confirmation"><![CDATA[
+            <p>
+                <h3>Confirmation Dialog</h3>
+            </p>
+            <p>
+                Confirmation dialogs give users the ability to provide final confirmation of a choice before committing to it, so they have a chance to change their minds if necessary.
+                <br><br>
+                If the user confirms a choice, it’s carried out. Otherwise, the user can dismiss the dialog. For example, users can listen to multiple ringtones but only make a final selection upon tapping “OK.”
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_alert_button">Alert dialog</string>
+    <string name="dialog_simple_button">Simple dialog</string>
+    <string name="dialog_confirmation_button">Confirmation dialog</string>
+    <string name="dialog_alert_discard">Discard</string>
+    <string name="dialog_text_cancel">Cancel</string>
+    <string name="dialog_alert_draft">Discard Draft?</string>
+    <string name="dialog_simple_option">View options</string>
+    <string name="dialog_simple_accept">Accept</string>
+    <string name="dialog_confirmation_ringtone">Phone Ringtone</string>
+    <string name="dialog_confirmation_ok">OK</string>
+    <string-array name="dialog_array_simple">
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="dialog_array_confirmation">
+        <item>None</item>
+        <item>Callisto</item>
+        <item>Ganymede</item>
+        <item>Luna</item>
+        <item>Oberon</item>
+        <item>Phobos</item>
+    </string-array>
+	
+    <!--Pickers strings-->
+
+    <string name="picker_title">Pickers</string>
     <string name="picker_span_title"><![CDATA[
             <p>
                 <h1>Pickers</h1>
@@ -190,6 +361,45 @@
     <string name="picker_calendar_picker">calendar picker</string>
     <string name="picker_launch_failure">The launch of the selected picker has failed</string>
 
+	<!--Progress Indicator strings-->
+	
+    <string name="progress_indicator_title">Progress Indicator</string>
+    <string name="progress_indicator_span_title"><![CDATA[
+            <p>
+                 <h1>Progress Indicator</h1>
+            </p>
+            <p>
+            Progress indicators express an unspecified wait time or display the length of a process.
+            </p>
+        ]]>
+     </string>
+    <string name="progress_indicator_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
+            </p>
+        ]]>
+    </string><string name="progress_indicator_span_circular"><![CDATA[
+            <p>
+                 <h3>Circular Progress Indicator</h3>
+            </p>
+            <p>
+            Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
+            </p>
+        ]]>
+    </string><string name="progress_indicator_span_linear"><![CDATA[
+            <p>
+                 <h3>Linear Progress Indicator</h3>
+            </p>
+            <p>
+             Linear progress indicators display progress by animating an indicator along the length of a fixed, visible track. The behavior of the indicator is dependent on whether the progress of a process is known.
+            </p>
+        ]]>
+    </string>
+    <string name="progress_button_submit">submit</string>
+
     <!--Selection Controls strings-->
 
     <string name="selection_control_title">Selection Control</string>
@@ -247,7 +457,52 @@
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
 
-    <!--Text Field strings-->
+    <!--Snackbars strings-->
+  
+    <string name="snackbar_title">Snackbar</string>
+    <string name="snackbar_span_title"><![CDATA[
+            <p>
+                 <h1>Snackbar</h1>
+            </p>
+            <p>
+            Selection controls allow the user to select options.
+            </p>
+        ]]>
+    </string>
+    <string name="snackbar_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+             Snackbars inform users of a process that an app has performed or will perform. They appear temporarily, towards the bottom of the screen. They shouldn’t interrupt the user experience, and they don’t require user input to disappear
+            </p>
+        ]]>
+    </string>
+    <string name="snackbar_span_anatomy"><![CDATA[
+            <p>
+                 <h3>Anatomy</h3>
+            </p>
+            <p>
+            There are 3 types of Snackbars: Text Label that directly relates to the process being performed. On mobile, the text label can contain up to two lines of text; Container (rectangular) with a grey background. Containers should be
+            completely opaque, so that text labels remain legible; Action, Snackbars can display a single text button that lets users take action on a process performed by the app. Snackbars shouldn’t be the only way
+            </p>
+        ]]>
+    </string>
+    <string name="snackbar_span_placement"><![CDATA[
+            <p>
+                 <h3>Placement</h3>
+            </p>
+            <p>
+            Snackbars should be placed at the bottom of a UI, in front of app content. Avoid placing a snackbar in front of frequently used touch targets or navigation.
+            </p>
+        ]]>
+    </string>
+    <string name="snackbar_button">Snackbar</string>
+    <string name="snackbar_button_undo">Snackbar + Action</string>
+    <string name="snackbar_text_visible">THIS IS A SNACKBAR</string>
+    <string name="snackbar_undo">UNDO</string>
+
+    <!--Text Fields strings-->
 
     <string name="text_field_title">Text fields</string>
     <string name="text_field_span_title"><![CDATA[
@@ -316,5 +571,38 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
+
+    <!--Tooltips strings-->
+
+    <string name="tooltip_title">Tooltips</string>
+    <string name="tooltip_span_title"><![CDATA[
+            <p>
+                <h1>Tooltips</h1>
+            </p>
+            <p>
+                Tooltips display informative text when users hover over, focus on, or tap an element.
+            </p>
+        ]]>
+    </string>
+    <string name="tooltip_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                When activated, tooltips display a text label identifying an element, such as a description of its function.
+            </p>
+        ]]>
+    </string>
+    <string name="tooltip_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                A tooltip is displayed upon tapping and holding a screen element or component (on mobile) or hovering over it (desktop). Continuously display the tooltip as long as the user long-presses or hovers over the element.
+            </p>
+        ]]>
+    </string>
+    <string name="tooltip_image_description_placement">Placement</string>
+    <string name="tooltip_image_description_desktop">Desktop</string>
 
 </resources>

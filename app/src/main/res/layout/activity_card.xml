@@ -139,7 +139,7 @@
                 android:id="@+id/text_view_span_gestures"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="@dimen/margin_medium"
                 android:text="Gesture"
                 tools:ignore="HardcodedText" />
 
@@ -154,7 +154,7 @@
                 android:id="@+id/text_view_span_gestures_scrolling"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="64dp"
+                android:layout_marginBottom="@dimen/margin_large"
                 android:text="Gesture Scrolling"
                 tools:ignore="HardcodedText" />
 

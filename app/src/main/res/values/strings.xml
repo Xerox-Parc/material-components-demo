@@ -211,6 +211,26 @@
             </p>
         ]]>
     </string>
+    <string name="tooltip_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                When activated, tooltips display a text label identifying an element, such as a description of its function.
+            </p>
+        ]]>
+    </string>
+    <string name="tooltip_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                A tooltip is displayed upon tapping and holding a screen element or component (on mobile) or hovering over it (desktop). Continuously display the tooltip as long as the user long-presses or hovers over the element.
+            </p>
+        ]]>
+    </string>
+    <string name="tooltip_image_description_placement">Placement</string>
+    <string name="tooltip_image_description_desktop">Desktop</string>
 
 </resources>
 

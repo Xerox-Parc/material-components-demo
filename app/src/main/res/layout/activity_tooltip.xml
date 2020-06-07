@@ -33,6 +33,39 @@
                 android:text="Title"
                 tools:ignore="HardcodedText" />
 
+            <TextView
+                android:id="@+id/text_view_span_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_placement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_tooltip_placement"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/tooltip_image_description_placement" />
+
+            <TextView
+                android:id="@+id/text_view_span_behavior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_desktop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_tooltip_desktop"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/tooltip_image_description_desktop"
+                android:layout_marginBottom="@dimen/margin_large"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

@@ -41,7 +41,7 @@ public class SnackbarActivity extends AppCompatActivity {
             binding.snackbarButtonUndo.setOnClickListener(l ->
                     Snackbar.make(binding.coordinator,
                             R.string.snackbar_text_visible,
-                            LENGTH_LONG).setAction("UNDO", v -> Log.e("UNDO","Done")).show());
+                            LENGTH_LONG).setAction(R.string.snackbar_undo, v -> Log.e("UNDO","Done")).show());
         }
         View getRoot() {
             return binding.getRoot();

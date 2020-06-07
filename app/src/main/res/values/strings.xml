@@ -132,6 +132,15 @@
         ]]>
     </string>
 
-    <string name="card_description">Greyhould divisively hello coldly wonderfully marginally far upon excluding</string>
+    <string name="card_sample_description">Greyhould divisively hello coldly wonderfully marginally far upon excluding</string>
+    <string name="card_sample_title">Title</string>
+    <string name="card_sample_secondtext">Secondary text</string>
+    <string name="card_sample_action1">action 1</string>
+    <string name="card_sample_action2">action 2</string>
+    <string name="card_sample_image_description">content_description_media</string>
+
+    <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
+    <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
+
 
 </resources>

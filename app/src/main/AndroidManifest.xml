@@ -17,6 +17,7 @@
         <activity android:name=".ui.component.selectioncontrol.SelectionControlActivity" />
         <activity android:name=".ui.component.snackbar.SnackbarActivity" />
         <activity android:name=".ui.component.textfield.TextFieldActivity" />
+        <activity android:name=".ui.component.tooltip.TooltipActivity" />
         <activity android:name=".ui.search.ComponentSearchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

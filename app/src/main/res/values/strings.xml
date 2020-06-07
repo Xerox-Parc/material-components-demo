@@ -131,10 +131,26 @@
             </p>
         ]]>
     </string>
+    
+    <string name="card_span_sample_description"><![CDATA[
+            <p>
+                Greyhould divisively hello coldly wonderfully marginally far upon excluding
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_sample_title"><![CDATA[
+            <p>
+                <h3>Title</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_sample_text"><![CDATA[
+            <p>
+                Secondary text
+            </p>
+        ]]>
+    </string>
 
-    <string name="card_sample_description">Greyhould divisively hello coldly wonderfully marginally far upon excluding</string>
-    <string name="card_sample_title">Title</string>
-    <string name="card_sample_secondtext">Secondary text</string>
     <string name="card_sample_action1">action 1</string>
     <string name="card_sample_action2">action 2</string>
     <string name="card_sample_image_description">content_description_media</string>

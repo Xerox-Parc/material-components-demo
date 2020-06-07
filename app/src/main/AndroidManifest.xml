@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.component.button.ButtonActivity" />
+        <activity android:name=".ui.component.dialog.DialogActivity" />
         <activity android:name=".ui.component.picker.PickerActivity" />
         <activity android:name=".ui.component.progressindicator.ProgressIndicatorActivity" />
         <activity android:name=".ui.component.selectioncontrol.SelectionControlActivity" />

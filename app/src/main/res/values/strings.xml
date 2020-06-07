@@ -118,6 +118,107 @@
     <string name="button_have_press_text_button"> Have press text button</string>
     <string name="button_have_press_contained_button"> Have press contained button</string>
 
+	<!--Dialogs strings-->
+
+    <string name="dialog_title">Dialog</string>
+    <string name="dialog_span_title"><![CDATA[
+            <p>
+                <h1>Dialogs</h1>
+            </p>
+            <p>
+                Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.
+                <br><br>
+                Dialogs are purposefully interruptive, so they should be used sparingly.
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Dialogs should be used for:<br>
+                <ul>
+                <li>Errors that block an app’s normal operation</li>
+                <li>Critical information that requires a specific user task, decision, or acknowledgement</li>
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types"><![CDATA[
+            <p>
+                <h4>Types</h4>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_alert"><![CDATA[
+            <p>
+                <h3>Alert Dialog</h3>
+            </p>
+            <p>
+                Alert dialogs interrupt users with urgent information, details, or actions.<br>
+            </p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_simple"><![CDATA[
+            <p>
+                <h3>Simple Dialog</h3>
+            </p>
+            <p>
+               Simple dialogs can display items that are immediately actionable when selected. They don’t have text buttons.
+               <br><br>
+               As simple dialogs are interruptive, they should be used sparingly. Alternatively, dropdown menus provide options in a non-modal, less disruptive way.</p>
+        ]]>
+    </string>
+    <string name="dialog_span_types_confirmation"><![CDATA[
+            <p>
+                <h3>Confirmation Dialog</h3>
+            </p>
+            <p>
+                Confirmation dialogs give users the ability to provide final confirmation of a choice before committing to it, so they have a chance to change their minds if necessary.
+                <br><br>
+                If the user confirms a choice, it’s carried out. Otherwise, the user can dismiss the dialog. For example, users can listen to multiple ringtones but only make a final selection upon tapping “OK.”
+            </p>
+        ]]>
+    </string>
+
+    <string name="dialog_alert_button">ALERT DIALOG</string>
+    <string name="dialog_simple_button">SIMPLE DIALOG</string>
+    <string name="dialog_confirmation_button">CONFIRMATION DIALOG</string>
+
+    <string name="dialog_alert_discard">DISCARD</string>
+    <string name="dialog_text_cancel">CANCEL</string>
+    <string name="dialog_alert_draft">Discard Draft?</string>
+
+    <string name="dialog_simple_option">View options</string>
+    <string name="dialog_simple_accept">ACCEPT</string>
+
+    <string name="dialog_confirmation_ringtone">Phone Ringtone</string>
+    <string name="dialog_confirmation_ok">OK</string>
+
+    <string-array name="dialog_array_simple">
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="dialog_array_confirmation">
+        <item>None</item>
+        <item>Callisto</item>
+        <item>Ganymede</item>
+        <item>Luna</item>
+        <item>Oberon</item>
+        <item>Phobos</item>
+    </string-array>
+	
     <!--Picker strings-->
 
     <string name="picker_title">Picker</string>
@@ -190,6 +291,45 @@
     <string name="picker_calendar_picker">calendar picker</string>
     <string name="picker_launch_failure">The launch of the selected picker has failed</string>
 
+	<!--Progress Indicator strings-->
+	
+    <string name="progress_indicator_title">Progress Indicator</string>
+    <string name="progress_indicator_span_title"><![CDATA[
+            <p>
+                 <h1>Progress Indicator</h1>
+            </p>
+            <p>
+            Progress indicators express an unspecified wait time or display the length of a process.
+            </p>
+        ]]>
+     </string>
+    <string name="progress_indicator_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
+            </p>
+        ]]>
+     </string><string name="progress_indicator_span_circular"><![CDATA[
+            <p>
+                 <h3>Circular Progress Indicator</h3>
+            </p>
+            <p>
+            Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
+            </p>
+        ]]>
+     </string><string name="progress_indicator_span_linear"><![CDATA[
+            <p>
+                 <h3>Linear Progress Indicator</h3>
+            </p>
+            <p>
+             Linear progress indicators display progress by animating an indicator along the length of a fixed, visible track. The behavior of the indicator is dependent on whether the progress of a process is known.
+            </p>
+        ]]>
+     </string>
+    <string name="progress_button_submit">submit</string>
+
     <!--Selection Controls strings-->
 
     <string name="selection_control_title">Selection Control</string>
@@ -246,7 +386,7 @@
     <string name="selection_radio_button_text_two">Two</string>
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
-
+	
     <!--Text Field strings-->
 
     <string name="text_field_title">Text fields</string>
@@ -316,43 +456,5 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-    <!--Progress Indicator strings-->
-    <string name="progress_indicator_title">Progress Indicator</string>
-    <string name="progress_indicator_span_title"><![CDATA[
-            <p>
-                 <h1>Progress Indicator</h1>
-            </p>
-            <p>
-            Progress indicators express an unspecified wait time or display the length of a process.
-            </p>
-        ]]>
-     </string>
-    <string name="progress_indicator_span_usage"><![CDATA[
-            <p>
-                 <h3>Usage</h3>
-            </p>
-            <p>
-            Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
-            </p>
-        ]]>
-     </string><string name="progress_indicator_span_circular"><![CDATA[
-            <p>
-                 <h3>Circular Progress Indicator</h3>
-            </p>
-            <p>
-            Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
-            </p>
-        ]]>
-     </string><string name="progress_indicator_span_linear"><![CDATA[
-            <p>
-                 <h3>Linear Progress Indicator</h3>
-            </p>
-            <p>
-             Linear progress indicators display progress by animating an indicator along the length of a fixed, visible track. The behavior of the indicator is dependent on whether the progress of a process is known.
-            </p>
-        ]]>
-     </string>
-    <string name="progress_button_submit">submit</string>
+	
 </resources>
-
-

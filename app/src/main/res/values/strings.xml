@@ -110,7 +110,7 @@
             </p>
         ]]>
      </string>
-    <string name="button_submit">submit</string>
+    <string name="progress_button_submit">submit</string>
 </resources>
 
 

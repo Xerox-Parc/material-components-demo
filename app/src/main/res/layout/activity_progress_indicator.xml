@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
-                android:text="@string/button_submit" />
+                android:text="@string/progress_button_submit" />
 
             <TextView
                 android:id="@+id/text_view_span_linear"
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
-                android:text="@string/button_submit" />
+                android:text="@string/progress_button_submit" />
 
 
         </LinearLayout>

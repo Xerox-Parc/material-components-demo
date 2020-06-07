@@ -5,78 +5,120 @@
 
     <string name="banner_description">Material Component Banner</string>
 
-    <!--Text Field strings-->
+    <!--Button strings-->
 
-    <string name="text_field_title">Text fields</string>
-    <string name="text_field_span_title"><![CDATA[
+    <string name="button_title">Buttons</string>
+    <string name="button_span_title"><![CDATA[
             <p>
-                <h1>Text fields</h1>
+                <h1>Buttons</h1>
             </p>
             <p>
-                Text fields let users enter and edit text.
+                Buttons allow users to take actions, and make choices, with a single tap.
             </p>
         ]]>
     </string>
-    <string name="text_field_span_usage"><![CDATA[
+    <string name="button_span_usage"><![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
             <p>
-                Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.
-            </p>
-        ]]>
-    </string>
-    <string name="text_field_span_types"><![CDATA[
-            <p>
-                <h3>Types</h3>
-            </p>
-            <p>
-                Text fields come in two types:
+                Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
                 <ul>
-                    <li>Filled text fields
-                    <li>Outlined text fields
+                    <li>Dialogs
+                    <li>Modal windows
+                    <li>Forms
+                    <li>Cards
+                    <li>Toolbars
                 </ul>
-                Both types of text fields use a container to provide , making the fields discoverable in layouts.
-                Both types of text fields provide the same functionality: a clear affordance for interaction. The type of text field you use can depend on style alone.
             </p>
         ]]>
     </string>
-    <string name="text_field_span_filled"><![CDATA[
+    <string name="button_span_anatomy"><![CDATA[
             <p>
-                <h3>Filled text field</h3>
+                <h3>Anatomy</h3>
             </p>
             <p>
-                Filled text fields have more visual emphasis than outlined text fields, making them stand out when surrounded by other content and components.
-            </p>
-        ]]>
-    </string>
-    <string name="text_field_span_outlined"><![CDATA[
-            <p>
-                <h3>Outlined text field</h3>
-            </p>
-            <p>
-                Outlined text fields have less visual emphasis than filled text fields. When they appear in places like forms, where many text fields are placed together, their reduced emphasis helps simplify the layout.
+                Buttons contain one required element and four optional elements.
             </p>
         ]]>
     </string>
-    <string name="text_field_span_icon"><![CDATA[
+    <string name="button_span_hierarchy"><![CDATA[
             <p>
-                <h3>Icons</h3>
+                <h3>Hierarchy</h3>
             </p>
             <p>
-                Icons in text fields are optional. Text field icons can describe valid input methods (such as a microphone icon), provide affordances to access additional functionality (such as clearing the content of a field), and can express an error.
+                <h5>A single, prominent button</h5>
+            </p>
+            <p>
+                A layout should contain a single prominent button that makes it clear that other buttons have less importance in the hierarchy. This high-emphasis button commands the most attention.
+            </p>
+            <p>
+                <h5>Other buttons</h5>
+            </p>
+            <p>
+                An app can show more than one button in a layout at a time, so a high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less important actions. When using multiple buttons, ensure the available state of one button doesn’t look like the disabled state of another.
             </p>
         ]]>
-    </string>
-    <string name="text_field_label_filled">Filled text field</string>
-    <string name="text_field_label_outlined">Outlined text field</string>
-    <string name="text_field_label_password">Password</string>
-    <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
-    <string name="text_field_button">Submit</string>
-    <string name="text_field_toast">Password suitable</string>
+	</string>
+    <string name="button_span_placement"><![CDATA[
+            <p>
+                <h3>Placement</h3>
+            </p>
+            <p>
+                Multiple button types can be used to express different emphasis levels.
+            </p>
+        ]]>
+        </string>
+	<string name="button_span_text_button_usage"><![CDATA[
+	        <p>
+	            <h3>Text button usage</h3>
+	        </p>
+            <p>
+                Text buttons are typically used for less-pronounced actions, including those located:
+                <ul>
+                   <li> In dialogs
+                   <li> In cards
+                 </ul>
+                 In cards, text buttons help maintain an emphasis on card content.
+            </p>
+        ]]>
+	</string>
+    <string name="button_span_outlined_button_usage"><![CDATA[
+            <p>
+                <h3>Outlined button usage</h3>
+            </p>
+            <p>
+                Outlined buttons are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.
+            </p>
+        ]]>
+	</string>
+    <string name="button_span_contained_button_usage"><![CDATA[
+            <p>
+                <h3>Contained button usage</h3>
+            </p>
+            <p>
+                Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
+            </p>
+        ]]>
+	</string>
+    <string name="button_span_toggle_button_usage"><![CDATA[
+            <p>
+                <h3>Toggle button usage</h3>
+            </p>
+            <p>
+                Toggle buttons can be used to group related options. To emphasize groups of related toggle buttons, a group should share a common container.
+            </p>
+        ]]>
+	</string>
+    <string name="button_text_button">Text button</string>
+    <string name="button_outlined_button">Outlined button</string>
+    <string name="button_contained_button">Contained button</string>
+    <string name="button_toggle_button_usage">Toggle button usage</string>
+    <string name="button_have_press_outlined_button"> Have press outlined button</string>
+    <string name="button_have_press_text_button"> Have press text button</string>
+    <string name="button_have_press_contained_button"> Have press contained button</string>
 
-
-    <!--Dialogs strings-->
+	<!--Dialogs strings-->
 
     <string name="dialog_title">Dialog</string>
     <string name="dialog_span_title"><![CDATA[
@@ -176,4 +218,243 @@
         <item>Oberon</item>
         <item>Phobos</item>
     </string-array>
+	
+    <!--Picker strings-->
+
+    <string name="picker_title">Picker</string>
+    <string name="picker_span_title"><![CDATA[
+            <p>
+                <h1>Pickers</h1>
+            </p>
+            <p>
+                Date pickers let users select a date, or a range of dates.
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Date pickers let users select a date or range of dates. They should be suitable for the context in which they appear.
+                Date pickers can be embedded into:
+                <ul>
+                    <li>Dialogs on mobile
+                    <li>Text field dropdowns on desktop
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_mobile_calendar_pickers"><![CDATA[
+            <p>
+                <h3>Mobile calendar pickers</h3>
+            </p>
+            <p>
+                Mobile calendar pickers can be used to select dates in the near future or past, when it’s useful to see them in a calendar month format. They are displayed in a dialog.
+                Common use cases include:
+                <ul>
+                    <li>Making a restaurant reservation
+                    <li>Scheduling a meeting
+                </ul>
+                They aren’t ideal for selecting dates in the distant past or future that require more navigation, such as entering a birth date or expiration date.
+                Mobile calendar pickers allow selection of a single date and year.
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_mobile_date_range_pickers"><![CDATA[
+            <p>
+                <h3>Mobile date range pickers</h3>
+            </p>
+            <p>
+                Mobile date range pickers allow selection of a range of dates. They cover the entire screen.
+                Common use cases include:
+                <ul>
+                    <li>Booking a flight
+                    <li>Reserving a hotel
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="picker_span_mobile_date_input_pickers"><![CDATA[
+            <p>
+                <h3>Mobile date input pickers</h3>
+            </p>
+            <p>
+                Mobile date input pickers allow the manual entry of dates using the numbers on a keyboard. Users can input a date or a range of dates in a dialog.
+                The mobile date input picker can be accessed from any other mobile date picker, via the edit icon.
+            </p>
+        ]]>
+    </string>
+    <string name="picker_button_range_picker">Click to show the date range picker</string>
+    <string name="picker_date_range_picker">Date Range Picker</string>
+    <string name="picker_button_calendar_picker">Show the calendar picker</string>
+    <string name="picker_calendar_picker">calendar picker</string>
+    <string name="picker_launch_failure">The launch of the selected picker has failed</string>
+
+	<!--Progress Indicator strings-->
+	
+    <string name="progress_indicator_title">Progress Indicator</string>
+    <string name="progress_indicator_span_title"><![CDATA[
+            <p>
+                 <h1>Progress Indicator</h1>
+            </p>
+            <p>
+            Progress indicators express an unspecified wait time or display the length of a process.
+            </p>
+        ]]>
+     </string>
+    <string name="progress_indicator_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
+            </p>
+        ]]>
+     </string><string name="progress_indicator_span_circular"><![CDATA[
+            <p>
+                 <h3>Circular Progress Indicator</h3>
+            </p>
+            <p>
+            Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
+            </p>
+        ]]>
+     </string><string name="progress_indicator_span_linear"><![CDATA[
+            <p>
+                 <h3>Linear Progress Indicator</h3>
+            </p>
+            <p>
+             Linear progress indicators display progress by animating an indicator along the length of a fixed, visible track. The behavior of the indicator is dependent on whether the progress of a process is known.
+            </p>
+        ]]>
+     </string>
+    <string name="progress_button_submit">submit</string>
+
+    <!--Selection Controls strings-->
+
+    <string name="selection_control_title">Selection Control</string>
+    <string name="selection_control_span_title"><![CDATA[
+            <p>
+                <h1>Selection Control</h1>
+            </p>
+            <p>
+                Selection controls allow the user to select options.
+            </p>
+        ]]>
+    </string>
+    <string name="selection_control_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Selection controls allow users to complete tasks that involve making choices such as selecting options, or switching settings on or off. Selection controls are found on screens that ask users to make decisions or declare preferences such as settings or dialogs.
+            </p>
+        ]]>
+    </string>
+    <string name="selection_control_span_checkbox"><![CDATA[
+            <p>
+                <h3>Checkboxes</h3>
+            </p>
+            <p>
+                Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
+            </p>
+        ]]>
+    </string>
+    <string name="selection_control_span_radio_button"><![CDATA[
+            <p>
+                <h3>Radio Bottons</h3>
+            </p>
+            <p>
+                Radio buttons allow the user to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu because it uses less space.
+            </p>
+        ]]>
+    </string>
+    <string name="selection_control_span_switch"><![CDATA[
+            <p>
+                <h3>Switches</h3>
+            </p>
+            <p>
+                Switches toggle the state of a single item on or off. They are the preferred way to adjust settings on mobile.
+            </p>
+        ]]>
+    </string>
+    <string name="selection_switch_text">Setting One</string>
+    <string name="selection_checkbox_text_one">One</string>
+    <string name="selection_checkbox_text_two">Two</string>
+    <string name="selection_checkbox_text_three">Three</string>
+    <string name="selection_radio_button_text_one">One</string>
+    <string name="selection_radio_button_text_two">Two</string>
+    <string name="selection_radio_button_text_three">Three</string>
+    <string name="selection_radio_button_text_four">Three</string>
+	
+    <!--Text Field strings-->
+
+    <string name="text_field_title">Text fields</string>
+    <string name="text_field_span_title"><![CDATA[
+            <p>
+                <h1>Text fields</h1>
+            </p>
+            <p>
+                Text fields let users enter and edit text.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+            <p>
+                Text fields come in two types:
+                <ul>
+                    <li>Filled text fields
+                    <li>Outlined text fields
+                </ul>
+                Both types of text fields use a container to provide , making the fields discoverable in layouts.
+                Both types of text fields provide the same functionality: a clear affordance for interaction. The type of text field you use can depend on style alone.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_span_filled"><![CDATA[
+            <p>
+                <h3>Filled text field</h3>
+            </p>
+            <p>
+                Filled text fields have more visual emphasis than outlined text fields, making them stand out when surrounded by other content and components.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_span_outlined"><![CDATA[
+            <p>
+                <h3>Outlined text field</h3>
+            </p>
+            <p>
+                Outlined text fields have less visual emphasis than filled text fields. When they appear in places like forms, where many text fields are placed together, their reduced emphasis helps simplify the layout.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_span_icon"><![CDATA[
+            <p>
+                <h3>Icons</h3>
+            </p>
+            <p>
+                Icons in text fields are optional. Text field icons can describe valid input methods (such as a microphone icon), provide affordances to access additional functionality (such as clearing the content of a field), and can express an error.
+            </p>
+        ]]>
+    </string>
+    <string name="text_field_label_filled">Filled text field</string>
+    <string name="text_field_label_outlined">Outlined text field</string>
+    <string name="text_field_label_password">Password</string>
+    <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
+    <string name="text_field_button">Submit</string>
+    <string name="text_field_toast">Password suitable</string>
+	
 </resources>

@@ -118,9 +118,11 @@
     </string>
     <string name="app_bar_bottom_press_floating">A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types:"regular, mini, and extended.</string>
     <string name="app_bar_bottom_press_more">Have press more</string>
-    <string name="app_bar_bottom_press_more_information">Have press more information</string>
     <string name="app_bar_bottom_press_search">Have press search</string>
     <string name="app_bar_bottom_search">Search</string>
+    <string name="app_bar_bottom_press_more_information">Have press more information</string>
+    <string name="app_bar_bottom_press_star">Have press star</string>
+    <string name="app_bar_bottom_star">Star</string>
     <string name="app_bar_bottom_more_info">Information</string>
     <string name="app_bar_bottom_content_description_more">content descriptor more</string>
     <string name="app_bar_bottom_content_description_search">content descriptor search</string>

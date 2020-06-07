@@ -30,8 +30,7 @@
         android:backgroundTint="@color/colorPrimary"
         app:backgroundTint="@color/colorPrimary"
         app:fabAlignmentMode="center"
-        app:menu="@menu/menu_app_bar_bottom"
-        app:navigationIcon="@drawable/ic_format_align_justify_24dp" />
+        app:menu="@menu/menu_app_bar_bottom"/>
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"

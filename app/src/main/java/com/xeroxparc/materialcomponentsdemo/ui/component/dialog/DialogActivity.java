@@ -32,16 +32,16 @@ public class DialogActivity extends AppCompatActivity {
 
         Holder(Activity activity) {
             binding = ActivityDialogBinding.inflate(getLayoutInflater());
-            binding.appBarContainer.toolbar.setTitle(R.string.dialog_title);
+            binding.appBarContainer.toolbar.setTitle(getString(R.string.dialog_title));
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_dialog);
 
 
             inflateSpanTextViewContent(binding, activity);
 
             binding.materialButtonAlertDialog.setOnClickListener(l -> new MaterialAlertDialogBuilder(DialogActivity.this)
-                        .setMessage("Discard Draft?")
-                        .setPositiveButton("DISCARD", (dialog, which) -> {})
-                        .setNegativeButton("CANCEL", (dialog, which) -> {})
+                        .setMessage(getString(R.string.dialog_alert_draft))
+                        .setPositiveButton(getString(R.string.dialog_alert_discard), (dialog, which) -> {})
+                        .setNegativeButton(getString(R.string.dialog_text_cancel), (dialog, which) -> {})
                         .show()
             );
 
@@ -49,14 +49,14 @@ public class DialogActivity extends AppCompatActivity {
                 String[] singleChoiceItems = getResources().getStringArray(R.array.dialog_array_simple);
                 int itemSelected = 0;
                 new MaterialAlertDialogBuilder(DialogActivity.this)
-                        .setTitle("View options")
+                        .setTitle(getString(R.string.dialog_simple_option))
                         .setSingleChoiceItems(singleChoiceItems, itemSelected, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int selectedIndex) {
 
                             }
                         })
-                        .setPositiveButton("ACCEPT", null)
+                        .setPositiveButton(getString(R.string.dialog_simple_accept), null)
                         .show();
             });
 
@@ -64,15 +64,15 @@ public class DialogActivity extends AppCompatActivity {
                 String[] singleChoiceItems = getResources().getStringArray(R.array.dialog_array_confirmation);
                 int itemSelected = 0;
                 new MaterialAlertDialogBuilder(DialogActivity.this)
-                        .setTitle("Phone Ringtone")
+                        .setTitle(getString(R.string.dialog_confirmation_ringtone))
                         .setSingleChoiceItems(singleChoiceItems, itemSelected, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int selectedIndex) {
 
                             }
                         })
-                        .setPositiveButton("OK", null)
-                        .setNegativeButton("CANCEL", null)
+                        .setPositiveButton(getString(R.string.dialog_confirmation_ok), null)
+                        .setNegativeButton(getString(R.string.dialog_text_cancel), null)
                         .show();
             });
 

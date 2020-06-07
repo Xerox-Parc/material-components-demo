@@ -153,6 +153,16 @@
     <string name="dialog_simple_button">SIMPLE DIALOG</string>
     <string name="dialog_confirmation_button">CONFIRMATION DIALOG</string>
 
+    <string name="dialog_alert_discard">DISCARD</string>
+    <string name="dialog_text_cancel">CANCEL</string>
+    <string name="dialog_alert_draft">Discard Draft?</string>
+
+    <string name="dialog_simple_option">View options</string>
+    <string name="dialog_simple_accept">ACCEPT</string>
+
+    <string name="dialog_confirmation_ringtone">Phone Ringtone</string>
+    <string name="dialog_confirmation_ok">OK</string>
+
     <string-array name="dialog_array_simple">
         <item>Photos</item>
         <item>Movies</item>

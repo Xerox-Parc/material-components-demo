@@ -118,6 +118,81 @@
     <string name="button_have_press_text_button"> Have press text button</string>
     <string name="button_have_press_contained_button"> Have press contained button</string>
 
+  <!--Card strings-->
+
+    <string name="card_title">Card</string>
+    <string name="card_span_title"><![CDATA[
+            <p>
+                <h1>Card</h1>
+            </p>
+            <p>
+                Cards contain content and actions about a single subject.
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Cards are surfaces that display content and actions on a single topic.<br><br>
+                They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_gestures"><![CDATA[
+            <p>
+                <h3>Gestures</h3>
+            </p>
+            <p>
+                Gestures should be implemented consistently within a card collection. Frequently used gestures on cards include swipe, pick up and move, and scrolling.
+            </p>
+        ]]>
+    </string>
+    <string name="card_span_gestures_swipe"><![CDATA[
+            <p>
+                <h4>Swipe</h4>
+            </p>
+            <p>
+                A swipe gesture can be performed on a single card at a time, anywhere on that card.<br>
+                <br>It can be used to:
+            </p>
+
+            <ul>
+                <li>Dismiss a card</li>
+                <li>Change the state of a card (such as flagging or archiving it)</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="card_span_gestures_scrolling"><![CDATA[
+            <p>
+                <h4>Scrolling</h4>
+            </p>
+            <p>
+                Card content that is taller than the maximum card height is truncated and does not scroll, but can be displayed by expanding the height of a card. A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.
+            </p>
+        ]]>
+    </string>    
+    <string name="card_span_sample"><![CDATA[
+            <p>
+                <h3>Title</h3>
+            </p>
+            <br>
+            <p>
+                Secondary text
+            </p>
+            <br>
+            <p>
+                Greyhould divisively hello coldly wonderfully marginally far upon excluding
+            </p>
+        ]]>
+    </string>
+    <string name="card_sample_action1">action 1</string>
+    <string name="card_sample_action2">action 2</string>
+    <string name="card_sample_image_description">content_description_media</string>
+    <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
+    <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
+
 	<!--Dialogs strings-->
 
     <string name="dialog_title">Dialog</string>
@@ -456,5 +531,5 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-	
+
 </resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/app_bar_container"
+        layout="@layout/app_bar_demo"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_span_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List Title"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usage"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_single_line_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Single-line list"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_view_single_line_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/text_view_span_two_line_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Two-line list"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_view_two_line_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/text_view_span_three_line_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Three-line list"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_view_three_line_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/text_view_span_list_controls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List Controls"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_checkbox_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Checkbox"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_view_checkbox_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/text_view_span_switch_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Switch"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_view_switch_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/text_view_span_reorder_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reorder"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_view_reorder_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_large">
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

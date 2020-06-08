@@ -69,7 +69,7 @@
             </p>
         ]]>
         </string>
-	<string name="button_span_text_button_usage"><![CDATA[
+    <string name="button_span_text_button_usage"><![CDATA[
 	        <p>
 	            <h3>Text button usage</h3>
 	        </p>
@@ -316,5 +316,118 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
+
+    <!--List strings-->
+
+    <string name="list_title">Buttons</string>
+    <string name="list_span_title"><![CDATA[
+            <p>
+                <h1>Lists</h1>
+            </p>
+            <p>
+                Lists are continuous, vertical indexes of text or images.
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Lists are a continuous group of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+            <p>
+            <ul>
+                <li>Single-line list<br />
+                    Single-line list items contain a maximum of one line of text.</li>
+                <li>Two-line list<br />
+                    Two-line list items contain a maximum of two lines of text.</li>
+                <li>Three-line list<br />
+                    Three-line list items contains a maximum of three lines of text.</li>
+            </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_single_line_list"><![CDATA[
+            <p>
+                <h3>Single-line list</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_two_line_list"><![CDATA[
+            <p>
+                <h3>Two-line list</h3>
+            </p>
+            <p>
+                In a two-line list, each row contains two lines of text maximum.
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_three_line_list"><![CDATA[
+            <p>
+                <h3>Three-line list</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_list_controls"><![CDATA[
+            <p>
+                <h3>List Controls</h3>
+            </p>
+            <p>
+                List controls display information and actions for list items.
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_checkbox_list"><![CDATA[
+            <p>
+                <h3>Checkbox</h3>
+            </p>
+            <p>
+                A checkbox can either be a primary or secondary action.
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_expand_and_collapse_list"><![CDATA[
+            <p>
+                <h3>Expand and Collapse</h3>
+            </p>
+            <p>
+                Show and hide details of existing list items by expanding and collapsing list content vertically.
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_switch_list"><![CDATA[
+            <p>
+                <h3>Switch</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="list_span_reorder_list"><![CDATA[
+            <p>
+                <h3>Reorder</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="list_first_line_option_1">first line option 1</string>
+    <string name="list_first_line_option_2">first line option 2</string>
+    <string name="list_first_line_option_3">first line option 3</string>
+    <string name="list_first_line_option_4">first line option 4</string>
+    <string name="list_second_line_option_1">second line option 1</string>
+    <string name="list_second_line_option_2">second line option 2</string>
+    <string name="list_second_line_option_3">second line option 3</string>
+    <string name="list_second_line_option_4">second line option 4</string>
+    <string name="list_third_line_option_1">third line option 1</string>
+    <string name="list_third_line_option_2">third line option 2</string>
+    <string name="list_third_line_option_3">third line option 3</string>
+    <string name="list_third_line_option_4">third line option 4</string>
+    <string name="parent_text">Parent Text</string>
+    <string name="child_text">Child Text</string>
+
 
 </resources>

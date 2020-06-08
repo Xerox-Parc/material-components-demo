@@ -69,7 +69,7 @@
             </p>
         ]]>
         </string>
-	<string name="button_span_text_button_usage"><![CDATA[
+    <string name="button_span_text_button_usage"><![CDATA[
 	        <p>
 	            <h3>Text button usage</h3>
 	        </p>
@@ -172,7 +172,7 @@
                 Card content that is taller than the maximum card height is truncated and does not scroll, but can be displayed by expanding the height of a card. A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.
             </p>
         ]]>
-    </string>    
+    </string>
     <string name="card_span_sample"><![CDATA[
             <p>
                 <h3>Title</h3>
@@ -193,7 +193,7 @@
     <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
     <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
 
-	<!--Dialogs strings-->
+    <!--Dialogs strings-->
 
     <string name="dialog_title">Dialogs</string>
     <string name="dialog_span_title"><![CDATA[
@@ -288,7 +288,7 @@
         <item>Oberon</item>
         <item>Phobos</item>
     </string-array>
-	
+
     <!--Pickers strings-->
 
     <string name="picker_title">Pickers</string>
@@ -361,8 +361,8 @@
     <string name="picker_calendar_picker">calendar picker</string>
     <string name="picker_launch_failure">The launch of the selected picker has failed</string>
 
-	<!--Progress Indicator strings-->
-	
+    <!--Progress Indicator strings-->
+
     <string name="progress_indicator_title">Progress Indicator</string>
     <string name="progress_indicator_span_title"><![CDATA[
             <p>
@@ -381,7 +381,8 @@
             Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
             </p>
         ]]>
-    </string><string name="progress_indicator_span_circular"><![CDATA[
+    </string>
+    <string name="progress_indicator_span_circular"><![CDATA[
             <p>
                  <h3>Circular Progress Indicator</h3>
             </p>
@@ -389,7 +390,8 @@
             Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
             </p>
         ]]>
-    </string><string name="progress_indicator_span_linear"><![CDATA[
+    </string>
+    <string name="progress_indicator_span_linear"><![CDATA[
             <p>
                  <h3>Linear Progress Indicator</h3>
             </p>
@@ -458,7 +460,7 @@
     <string name="selection_radio_button_text_four">Three</string>
 
     <!--Snackbars strings-->
-  
+
     <string name="snackbar_title">Snackbar</string>
     <string name="snackbar_span_title"><![CDATA[
             <p>
@@ -604,5 +606,48 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
+
+    <!--Banner strings-->
+
+    <string name="banner_title">Banner</string>
+    <string name="banner_span_title"><![CDATA[
+        <p>        <h1>Banners</h1>        </p>
+        <p>A banner displays a prominent message and related optional actions.</p>       ]]>
+    </string>
+    <string name="banner_span_usage"><![CDATA[
+        <p>        <h3>Usage</h3>        </p>
+        <p>A banner displays an important, succinct message, and provides actions for users to address (or dismiss the banner). It requires a user action to be dismissed.Banners should be displayed at the top of the screen, below a top app bar. They’re persistent and nonmodal, allowing the user to either ignore them or interact with them at any time. Only one banner should be shown at a time..</p>       ]]>
+    </string>
+    <string name="banner_span_banner_container"><![CDATA[
+        <p>        <h3>Banner container</h3>        </p>
+        <p>A banner container is rectangular, extending the full width of a layout. The container should be placed in a consistent and prominent location throughout an app, sharing the same elevation as screen content.</p>       ]]>
+    </string>
+    <string name="banner_span_banner_message"><![CDATA[
+        <p>        <h3>Banner message</h3>        </p>
+        <p>The banner message communicates a change or error within an app.
+    Banners should be considered as part of your overall in-app messaging strategy.</p>       ]]>
+    </string>
+    <string name="banner_span_banner_buttons"><![CDATA[
+        <p>        <h3>Banner buttons</h3>        </p>
+        <p>Buttons in banners should directly relate to a banner’s message and clearly represent the banner’s action. Buttons must be labelled with text, not icons, for clarity. Banners can contain up to two text buttons, with the dismissive action placed on the left and the confirming action on the right.
+
+Place buttons under the banner message, or on the same line if there is enough room to fit both.</p>       ]]>
+    </string>
+    <string name="banner_span_placement"><![CDATA[
+        <p>        <h3>Placement</h3>        </p>
+        <p>Banners should be placed at the top of a layout or screen. When scrolling, banners typically move with content and scroll off the screen.</p>
+        <p>        <h5>Banners and top bars</h5>        </p>
+        <p>        Banners are placed at the top of the screen below the top app bar. They can be fixed, or scroll with content, depending on the environment:
+        <lu>
+           <li> On mobile, they scroll off-screen with content, at the same elevation as app content.
+           <li> On desktop, they remain fixed at the top of the screen, at the same elevation as the top app bar.
+        </lu>      ]]>
+    </string>
+    <string name="banner_span_behavior"><![CDATA[
+        <p>        <h3>Behavior</h3>        </p>
+        <p>Banners typically appear when a screen loads content.
+        Banners that appear after a screen loads should animate on screen from the top of a layout. If the banner is at the same elevation as content, it pushes content downwards.</p>       ]]>
+    </string>
+
 
 </resources>

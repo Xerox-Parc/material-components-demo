@@ -69,7 +69,7 @@
             </p>
         ]]>
         </string>
-	<string name="button_span_text_button_usage"><![CDATA[
+    <string name="button_span_text_button_usage"><![CDATA[
 	        <p>
 	            <h3>Text button usage</h3>
 	        </p>
@@ -172,7 +172,7 @@
                 Card content that is taller than the maximum card height is truncated and does not scroll, but can be displayed by expanding the height of a card. A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.
             </p>
         ]]>
-    </string>    
+    </string>
     <string name="card_span_sample"><![CDATA[
             <p>
                 <h3>Title</h3>
@@ -193,7 +193,7 @@
     <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
     <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
 
-	<!--Dialogs strings-->
+    <!--Dialogs strings-->
 
     <string name="dialog_title">Dialogs</string>
     <string name="dialog_span_title"><![CDATA[
@@ -288,7 +288,7 @@
         <item>Oberon</item>
         <item>Phobos</item>
     </string-array>
-	
+
     <!--Pickers strings-->
 
     <string name="picker_title">Pickers</string>
@@ -361,8 +361,8 @@
     <string name="picker_calendar_picker">calendar picker</string>
     <string name="picker_launch_failure">The launch of the selected picker has failed</string>
 
-	<!--Progress Indicator strings-->
-	
+    <!--Progress Indicator strings-->
+
     <string name="progress_indicator_title">Progress Indicator</string>
     <string name="progress_indicator_span_title"><![CDATA[
             <p>
@@ -381,7 +381,8 @@
             Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
             </p>
         ]]>
-    </string><string name="progress_indicator_span_circular"><![CDATA[
+    </string>
+    <string name="progress_indicator_span_circular"><![CDATA[
             <p>
                  <h3>Circular Progress Indicator</h3>
             </p>
@@ -389,7 +390,8 @@
             Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
             </p>
         ]]>
-    </string><string name="progress_indicator_span_linear"><![CDATA[
+    </string>
+    <string name="progress_indicator_span_linear"><![CDATA[
             <p>
                  <h3>Linear Progress Indicator</h3>
             </p>
@@ -458,7 +460,7 @@
     <string name="selection_radio_button_text_four">Three</string>
 
     <!--Snackbars strings-->
-  
+
     <string name="snackbar_title">Snackbar</string>
     <string name="snackbar_span_title"><![CDATA[
             <p>
@@ -604,5 +606,63 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
+
+    <!--Tooltips strings-->
+    <string name="navigation_rail_title">Navigation Rail</string>
+    <string name="navigation_rail_span_title"><![CDATA[
+            <p>
+                <h1>Navigation rail</h1>
+            </p>
+            <p>
+                Navigation rails provide ergonomic movement between primary destinations in apps.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                The rail is a side navigation component that displays three to seven app destinations and, optionally, a Floating Action Button. Each destination is represented by an icon and a text label. <br>
+
+                The rail can function on its own at larger screen sizes, such as desktop and tablet. When users transition between screen sizes and devices, the rail can also complement other navigation components, such as bottom navigation.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Navigation rails should be used for:
+                <ul>
+                    <li>Top-level destinations that need to be accessible anywhere in an app
+                    <li>Three to seven main destinations in a product
+                    <li>Tablet or desktop layouts
+                </ul>
+                Navigation rails shouldn\'t be used for:
+                <ul>
+                    <li>Small screen sizes
+                    <li>Single tasks, such as viewing a single email
+                    <li>Secondary navigation destinations
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                Scrolling<br>
+
+                Destinations in the navigation rail should remain visible when scrolling vertically. <br>
+                If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
+            </p>
+        ]]>
+    </string>
+    <string name="sample_navigation_rail_placement">Placement</string>
+    <string name="navigation_rail_image_description_placement_two">Second Placement</string>
+
 
 </resources>

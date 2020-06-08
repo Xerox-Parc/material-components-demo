@@ -36,6 +36,10 @@ public class FabActivity extends AppCompatActivity {
 
             inflateSpanTextViewContent(binding, activity);
 
+            if(this.binding.extendedFab.isExtended()) {
+                this.binding.extendedFab.shrink();
+            }
+
             this.binding.extendedFab.setOnClickListener(l -> {
                 if(this.binding.extendedFab.isExtended())
                 {

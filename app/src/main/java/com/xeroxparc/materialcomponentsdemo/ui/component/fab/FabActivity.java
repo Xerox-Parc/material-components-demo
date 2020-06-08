@@ -36,17 +36,17 @@ public class FabActivity extends AppCompatActivity {
 
             inflateSpanTextViewContent(binding, activity);
 
-            if(this.binding.extendedFab.isExtended()) {
-                this.binding.extendedFab.shrink();
+            if(binding.extendedFab.isExtended()) {
+                binding.extendedFab.shrink();
             }
 
-            this.binding.extendedFab.setOnClickListener(l -> {
-                if(this.binding.extendedFab.isExtended())
+            binding.extendedFab.setOnClickListener(l -> {
+                if(binding.extendedFab.isExtended())
                 {
-                    this.binding.extendedFab.shrink();
+                    binding.extendedFab.shrink();
                 }
                 else{
-                    this.binding.extendedFab.extend();
+                    binding.extendedFab.extend();
                 }
             });
         }

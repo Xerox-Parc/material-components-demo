@@ -29,8 +29,6 @@ public class NavigationRailActivity extends AppCompatActivity {
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_navigationrail);
 
             inflateSpanTextViewContent(binding, activity);
-
-            //TODO
         }
 
         View getRoot() {

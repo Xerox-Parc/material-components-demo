@@ -661,7 +661,7 @@
             </p>
         ]]>
     </string>
-    <string name="sample_navigation_rail_placement">Placement</string>
+    <string name="navigation_rail_placement">Placement</string>
     <string name="navigation_rail_image_description_placement_two">Second Placement</string>
 
 

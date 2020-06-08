@@ -47,7 +47,7 @@
                 android:layout_gravity="center"
                 android:src="@drawable/sample_navigation_rail_placement"
                 android:adjustViewBounds="true"
-                android:contentDescription="@string/sample_navigation_rail_placement" />
+                android:contentDescription="@string/navigation_rail_placement" />
 
             <TextView
                 android:id="@+id/text_view_span_when_to_use"

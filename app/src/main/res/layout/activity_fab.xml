@@ -63,6 +63,9 @@
         android:layout_gravity="bottom|end"
         android:contentDescription="@string/fab_description"
         android:text="@string/fab_text"
-        app:icon="@drawable/ic_add_black_24dp"/>
+        android:textColor="@color/cardview_light_background"
+        app:icon="@drawable/ic_add_black_24dp"
+        app:iconTint="@color/cardview_light_background"
+        app:backgroundTint="@color/colorPrimary"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

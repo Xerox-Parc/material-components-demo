@@ -140,14 +140,31 @@
         ]]>
     </string>
 
+    <string name="chip_input1_text">Portland</string>
+    <string name="chip_input2_text">Biking</string>
+
+    <string name="chip_input1_toast">Input chip 1 clicked!</string>
+    <string name="chip_input2_toast">Input chip 2 clicked!</string>
+
     <string name="chip_filter1_text">Elevator</string>
     <string name="chip_filter2_text">Dryer</string>
     <string name="chip_filter3_text">Dogs ok</string>
 
+    <string name="chip_filter1_toast">Filter chip 1 clicked!</string>
+    <string name="chip_filter2_toast">Filter chip 2 clicked!</string>
+    <string name="chip_filter3_toast">Filter chip 3 clicked!</string>
+
     <string name="chip_action1_text">Turn on lights</string>
     <string name="chip_action2_text">Set alarm</string>
+
+    <string name="chip_action1_toast">Action chip 1 clicked!</string>
+    <string name="chip_action2_toast">Action chip 2 clicked!</string>
 
     <string name="chip_choice1_text">Medium</string>
     <string name="chip_choice2_text">Soft</string>
     <string name="chip_choice3_text">Extra Soft</string>
+
+    <string name="chip_choice1_toast">Choice chip 1 clicked!</string>
+    <string name="chip_choice2_toast">Choice chip 2 clicked!</string>
+    <string name="chip_choice3_toast">Choice chip 3 clicked!</string>
 </resources>

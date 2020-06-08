@@ -193,6 +193,98 @@
     <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
     <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
 
+    <!--Chips strings-->
+
+    <string name="chip_title">Chips</string>
+    <string name="chip_span_title"><![CDATA[
+            <p>
+                <h1>Chips</h1>
+            </p>
+            <p>
+                Chips are compact elements that represent an input, attribute, or action.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Chips allow users to enter information, make selections, filter content, or trigger actions. While buttons are expected to appear consistently and with familiar calls to action, chip should appear dynamically as a group of multiple interactive elements.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_input"><![CDATA[
+            <p>
+                <h4>Input Chips</h4>
+            </p>
+            <p>
+                 Input chip represent information used in fields, such as an entity or different attributes.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_filter"><![CDATA[
+            <p>
+                <h4>Filter Chips</h4>
+            </p>
+            <p>
+                Filter chip represent filters for a collection.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_choice"><![CDATA[
+            <p>
+                <h4>Choice Chips</h4>
+            </p>
+            <p>
+                 In sets that contain at least two options, choice chip represent a single selection.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_action"><![CDATA[
+            <p>
+                <h4>Action Chips</h4>
+            </p>
+            <p>
+                Action chip trigger actions related to primary content.
+            </p>
+        ]]>
+    </string>
+
+    <string name="chip_input1_text">Portland</string>
+    <string name="chip_input2_text">Biking</string>
+
+    <string name="chip_input1_toast">Input chip 1 clicked!</string>
+    <string name="chip_input2_toast">Input chip 2 clicked!</string>
+
+    <string name="chip_filter1_text">Elevator</string>
+    <string name="chip_filter2_text">Dryer</string>
+    <string name="chip_filter3_text">Dogs ok</string>
+
+    <string name="chip_filter1_toast">Filter chip 1 clicked!</string>
+    <string name="chip_filter2_toast">Filter chip 2 clicked!</string>
+    <string name="chip_filter3_toast">Filter chip 3 clicked!</string>
+
+    <string name="chip_action1_text">Turn on lights</string>
+    <string name="chip_action2_text">Set alarm</string>
+
+    <string name="chip_action1_toast">Action chip 1 clicked!</string>
+    <string name="chip_action2_toast">Action chip 2 clicked!</string>
+
+    <string name="chip_choice1_text">Medium</string>
+    <string name="chip_choice2_text">Soft</string>
+    <string name="chip_choice3_text">Extra Soft</string>
+
+    <string name="chip_choice1_toast">Choice chip 1 clicked!</string>
+    <string name="chip_choice2_toast">Choice chip 2 clicked!</string>
+    <string name="chip_choice3_toast">Choice chip 3 clicked!</string>
+  
 	<!--Dialogs strings-->
 
     <string name="dialog_title">Dialogs</string>

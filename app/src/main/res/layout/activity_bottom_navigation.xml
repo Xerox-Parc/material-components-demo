@@ -8,9 +8,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
+
+
     <include
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:menu="@menu/menu_bottom_navigation" />
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
@@ -57,29 +68,9 @@
                 android:text="State"
                 tools:ignore="HardcodedText" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="157dp">
-
-                <com.google.android.material.bottomnavigation.BottomNavigationView
-                    android:id="@+id/bottom_navigation"
-                    style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="84dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:menu="@menu/menu_bottom_navigation"
-                    tools:ignore="MissingConstraints" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -31,16 +31,16 @@ public class BottomNavigationActivity extends AppCompatActivity {
             binding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
                 switch (item.getItemId()) {
                     case R.id.page_1:
-                        Toast.makeText(BottomNavigationActivity.this, "Page favorite", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_favorite, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.page_2:
-                        Toast.makeText(BottomNavigationActivity.this, "Page music", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_music, Toast.LENGTH_SHORT).show();
                         break ;
                     case R.id.page_3:
-                        Toast.makeText(BottomNavigationActivity.this, "Page places", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_places, Toast.LENGTH_SHORT).show();
                         break ;
                     case R.id.page_4:
-                        Toast.makeText(BottomNavigationActivity.this, "Page news", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_news, Toast.LENGTH_SHORT).show();
                         break ;
                 }
                 return true;

@@ -78,7 +78,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/chip_input1_text"
-                        app:chipIcon="@drawable/ic_place_black_24dp"
+                        app:chipIcon="@drawable/ic_place_24dp"
                         app:chipIconTint="@color/colorPrimaryDark"/>
 
                     <com.google.android.material.chip.Chip
@@ -87,7 +87,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/chip_input2_text"
-                        app:chipIcon="@drawable/ic_bike_black_24dp"
+                        app:chipIcon="@drawable/ic_bike_24dp"
                         app:chipIconTint="@color/colorPrimaryDark"/>
 
                 </com.google.android.material.chip.ChipGroup>
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/chip_action1_text"
-                        app:chipIcon="@drawable/ic_lightbulb_black_24dp"
+                        app:chipIcon="@drawable/ic_lightbulb_24dp"
                         app:chipIconTint="@color/colorPrimaryDark"/>
 
                     <com.google.android.material.chip.Chip
@@ -176,7 +176,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/chip_action2_text"
-                        app:chipIcon="@drawable/ic_alarm_black_24dp"
+                        app:chipIcon="@drawable/ic_alarm_24dp"
                         app:chipIconTint="@color/colorPrimaryDark"/>
 
                 </com.google.android.material.chip.ChipGroup>

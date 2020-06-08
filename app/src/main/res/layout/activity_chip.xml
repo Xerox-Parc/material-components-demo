@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <include
+        android:id="@+id/app_bar_container"
+        layout="@layout/app_bar_demo"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_span_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usage"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types"
+                tools:ignore="HardcodedText" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_span_types_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Types: Input Chips"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chip_input_Group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_medium"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_input">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_input1"
+                        style="@style/Widget.MaterialComponents.Chip.Entry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_input1_text"
+                        app:chipIcon="@drawable/ic_place_24dp"
+                        app:chipIconTint="@color/colorPrimaryDark"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_input2"
+                        style="@style/Widget.MaterialComponents.Chip.Entry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_input2_text"
+                        app:chipIcon="@drawable/ic_bike_24dp"
+                        app:chipIconTint="@color/colorPrimaryDark"/>
+
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_span_types_filter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Types: Filter Chips"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chip_filter_Group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_medium"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_filter">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_filter1"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_filter1_text" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_filter2"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_filter2_text" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_filter3"
+                        style="@style/Widget.MaterialComponents.Chip.Filter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_filter3_text" />
+
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_span_types_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Types: Action Chips"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chip_action_Group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_medium"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_action">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_action1"
+                        style="@style/Widget.MaterialComponents.Chip.Action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_action1_text"
+                        app:chipIcon="@drawable/ic_lightbulb_24dp"
+                        app:chipIconTint="@color/colorPrimaryDark"/>
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_action2"
+                        style="@style/Widget.MaterialComponents.Chip.Action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_action2_text"
+                        app:chipIcon="@drawable/ic_alarm_24dp"
+                        app:chipIconTint="@color/colorPrimaryDark"/>
+
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_large">
+
+                <TextView
+                    android:id="@+id/text_view_span_types_choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Types: Choice Chips"
+                    tools:ignore="HardcodedText" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chip_choice_Group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/margin_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_choice">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_choice1"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_choice1_text"
+                        app:layout_constraintEnd_toStartOf="@+id/chip_choice2" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_choice2"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_choice2_text" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_choice3"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chip_choice3_text" />
+
+                </com.google.android.material.chip.ChipGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

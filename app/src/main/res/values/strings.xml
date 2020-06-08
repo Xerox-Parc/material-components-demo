@@ -5,7 +5,7 @@
 
     <string name="banner_description">Material Component Banner</string>
 
-  <!--Banners strings-->
+    <!--Banners strings-->
 
     <string name="banner_title">Banners</string>
     <string name="banner_span_title">
@@ -90,7 +90,7 @@
     <string name="banner_image_description_placement">Placement</string>
     <string name="banner_image_description_buttons">Buttons</string>
     <string name="banner_image_description_contained">Contained</string>
-  
+
     <!--Buttons strings-->
 
     <string name="button_title">Buttons</string>
@@ -371,7 +371,7 @@
     <string name="chip_choice2_toast">Choice chip 2 clicked!</string>
     <string name="chip_choice3_toast">Choice chip 3 clicked!</string>
 
-  <!--Dialogs strings-->
+    <!--Dialogs strings-->
 
     <string name="dialog_title">Dialogs</string>
     <string name="dialog_span_title"><![CDATA[
@@ -784,5 +784,51 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
+
+    <!--Backdrop strings-->
+
+    <string name="backdrop_title">Backdrop</string>
+    <string name="backdrop_span_title"><![CDATA[
+        <p>
+        <h1>Backdrop</h1>
+        </p>
+        <p>A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.</p>]]>
+    </string>
+    <string name="backdrop_span_usage"><![CDATA[
+        <p>
+        <h3>Usage</h3>
+        </p>
+        <p>A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer\'s content.</p>]]>
+    </string>
+    <string name="backdrop_span_anatomy"><![CDATA[
+        <p>
+        <h3>Anatomy</h3>
+        </p>
+        <p>A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.</p>
+        <p>
+        <h5>Active front layer</h5>
+        </p>
+        <p>The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.</p>
+        <p>
+        <h5>Active back layer</h5>
+        </p>
+        <p>The back layer appears at the lowest elevation (0dp) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.</p>]]>
+    </string>
+    <string name="backdrop_span_behavior"><![CDATA[
+        <p>
+             <h3>Behavior</h3>
+        </p>
+        <p>To reveal the back layer, interact with any actions that appear on it.</p>
+        <p>
+              <h5>Concealing the back layer</h5>
+        </p>
+        <p>The back layer can be concealed by either interacting with the front layer or tapping a conceal affordance on either layer.</p>
+        <p>
+              <h5>Content scrolling</h5>
+        </p>
+        <p>Content on the front layer has different scrolling behaviors (and restrictions) than content on the back layer.</p>]]>
+    </string>
+    <string name="backdrop_image_descriptor_anatomy">Anatomy</string>
+    <string name="backdrop_image_descriptor_behavior">Behavior</string>
 
 </resources>

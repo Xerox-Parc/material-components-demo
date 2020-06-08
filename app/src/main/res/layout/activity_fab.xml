@@ -60,9 +60,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:layout_gravity="bottom|right"
-        android:contentDescription="extended_fab_content_desc"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="@string/fab_description"
         android:text="@string/fab_text"
-        app:icon="@drawable/ic_add_white_24dp"/>
+        app:icon="@drawable/ic_add_black_24dp"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

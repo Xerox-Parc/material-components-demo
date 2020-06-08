@@ -104,7 +104,7 @@
             <p>
                 A floating action button (FAB) can trigger an action either on the current screen, or it can perform an action that creates a new screen.<br>
                 <br>A FAB promotes an important, constructive action such as:
-
+                <br><br>
                 <ul>
                     <li>Create</li>
                     <li>Favorite</li>
@@ -114,7 +114,7 @@
 
                 <br>
                 Avoid using a FAB for minor or destructive actions, such as:
-
+                <br><br>
                  <ul>
                     <li>Archive or trash</li>
                     <li>Alerts or errors</li>
@@ -126,4 +126,5 @@
     </string>
 
     <string name="fab_text">create</string>
+    <string name="fab_description">Extended FAB content description</string>
 </resources>

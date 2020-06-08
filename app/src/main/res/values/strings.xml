@@ -607,9 +607,9 @@
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
 
-    <!--Banner strings-->
+    <!--Banners strings-->
 
-    <string name="banner_title">Banner</string>
+    <string name="banner_title">Banners</string>
     <string name="banner_span_title"><![CDATA[
         <p>        <h1>Banners</h1>        </p>
         <p>A banner displays a prominent message and related optional actions.</p>       ]]>
@@ -648,6 +648,9 @@ Place buttons under the banner message, or on the same line if there is enough r
         <p>Banners typically appear when a screen loads content.
         Banners that appear after a screen loads should animate on screen from the top of a layout. If the banner is at the same elevation as content, it pushes content downwards.</p>       ]]>
     </string>
+    <string name="banner_image_description_placement">Placement</string>
+    <string name="banner_image_description_buttons">Buttons</string>
+    <string name="banner_image_description_contained">Contained</string>
 
 
 </resources>

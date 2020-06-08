@@ -46,6 +46,16 @@
                 android:layout_height="wrap_content"
                 android:text="Banner container"
                 tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                app:srcCompat="@drawable/sample_banner_container"
+                android:contentDescription="@string/banner_image_description_contained"/>
+
             <TextView
                 android:id="@+id/text_view_span_banner_message"
                 android:layout_width="match_parent"
@@ -57,28 +67,40 @@
                 android:id="@+id/text_view_span_banner_buttons"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Banner message"
+                android:text="Banner bottom"
                 tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/sample_banner_buttons"
+                android:contentDescription="@string/banner_image_description_buttons"/>
+
             <TextView
                 android:id="@+id/text_view_span_placement"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Placement"
                 tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/sample_banner_placement"
+                android:contentDescription="@string/banner_image_description_placement" />
+
             <TextView
                 android:id="@+id/text_view_span_behavior"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Behavior"
+                tools:ignore="HardcodedText"
+                android:layout_marginBottom="@dimen/margin_large"/>
 
-                tools:ignore="HardcodedText" />
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="@dimen/margin_medium">
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 

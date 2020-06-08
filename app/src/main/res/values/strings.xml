@@ -5,6 +5,52 @@
 
     <string name="banner_description">Material Component Banner</string>
 
+	<!--Backdrop strings-->
+
+    <string name="backdrop_title">Backdrop</string>
+    <string name="backdrop_span_title"><![CDATA[
+        <p>
+        <h1>Backdrop</h1>
+        </p>
+        <p>A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.</p>]]>
+    </string>
+    <string name="backdrop_span_usage"><![CDATA[
+        <p>
+        <h3>Usage</h3>
+        </p>
+        <p>A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer\'s content.</p>]]>
+    </string>
+    <string name="backdrop_span_anatomy"><![CDATA[
+        <p>
+        <h3>Anatomy</h3>
+        </p>
+        <p>A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.</p>
+        <p>
+        <h5>Active front layer</h5>
+        </p>
+        <p>The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.</p>
+        <p>
+        <h5>Active back layer</h5>
+        </p>
+        <p>The back layer appears at the lowest elevation (0dp) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.</p>]]>
+    </string>
+    <string name="backdrop_span_behavior"><![CDATA[
+        <p>
+             <h3>Behavior</h3>
+        </p>
+        <p>To reveal the back layer, interact with any actions that appear on it.</p>
+        <p>
+              <h5>Concealing the back layer</h5>
+        </p>
+        <p>The back layer can be concealed by either interacting with the front layer or tapping a conceal affordance on either layer.</p>
+        <p>
+              <h5>Content scrolling</h5>
+        </p>
+        <p>Content on the front layer has different scrolling behaviors (and restrictions) than content on the back layer.</p>]]>
+    </string>
+    <string name="backdrop_image_descriptor_anatomy">Anatomy</string>
+    <string name="backdrop_image_descriptor_behavior">Behavior</string>
+	
     <!--Banners strings-->
 
     <string name="banner_title">Banners</string>
@@ -467,6 +513,64 @@
         <item>Phobos</item>
     </string-array>
 
+	<!--Navigation Rail strings-->
+	
+    <string name="navigation_rail_title">Navigation Rail</string>
+    <string name="navigation_rail_span_title"><![CDATA[
+            <p>
+                <h1>Navigation rail</h1>
+            </p>
+            <p>
+                Navigation rails provide ergonomic movement between primary destinations in apps.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                The rail is a side navigation component that displays three to seven app destinations and, optionally, a Floating Action Button. Each destination is represented by an icon and a text label. <br>
+
+                The rail can function on its own at larger screen sizes, such as desktop and tablet. When users transition between screen sizes and devices, the rail can also complement other navigation components, such as bottom navigation.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Navigation rails should be used for:
+                <ul>
+                    <li>Top-level destinations that need to be accessible anywhere in an app
+                    <li>Three to seven main destinations in a product
+                    <li>Tablet or desktop layouts
+                </ul>
+                Navigation rails shouldn\'t be used for:
+                <ul>
+                    <li>Small screen sizes
+                    <li>Single tasks, such as viewing a single email
+                    <li>Secondary navigation destinations
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                Scrolling<br>
+
+                Destinations in the navigation rail should remain visible when scrolling vertically. <br>
+                If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_placement">Placement</string>
+    <string name="navigation_rail_image_description_placement_two">Second Placement</string>
+	
     <!--Pickers strings-->
 
     <string name="picker_title">Pickers</string>
@@ -784,51 +888,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-
-    <!--Backdrop strings-->
-
-    <string name="backdrop_title">Backdrop</string>
-    <string name="backdrop_span_title"><![CDATA[
-        <p>
-        <h1>Backdrop</h1>
-        </p>
-        <p>A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.</p>]]>
-    </string>
-    <string name="backdrop_span_usage"><![CDATA[
-        <p>
-        <h3>Usage</h3>
-        </p>
-        <p>A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer\'s content.</p>]]>
-    </string>
-    <string name="backdrop_span_anatomy"><![CDATA[
-        <p>
-        <h3>Anatomy</h3>
-        </p>
-        <p>A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.</p>
-        <p>
-        <h5>Active front layer</h5>
-        </p>
-        <p>The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.</p>
-        <p>
-        <h5>Active back layer</h5>
-        </p>
-        <p>The back layer appears at the lowest elevation (0dp) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.</p>]]>
-    </string>
-    <string name="backdrop_span_behavior"><![CDATA[
-        <p>
-             <h3>Behavior</h3>
-        </p>
-        <p>To reveal the back layer, interact with any actions that appear on it.</p>
-        <p>
-              <h5>Concealing the back layer</h5>
-        </p>
-        <p>The back layer can be concealed by either interacting with the front layer or tapping a conceal affordance on either layer.</p>
-        <p>
-              <h5>Content scrolling</h5>
-        </p>
-        <p>Content on the front layer has different scrolling behaviors (and restrictions) than content on the back layer.</p>]]>
-    </string>
-    <string name="backdrop_image_descriptor_anatomy">Anatomy</string>
-    <string name="backdrop_image_descriptor_behavior">Behavior</string>
 
 </resources>

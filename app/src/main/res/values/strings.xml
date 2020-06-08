@@ -5,6 +5,138 @@
 
     <string name="banner_description">Material Component Banner</string>
 
+	<!--Backdrop strings-->
+
+    <string name="backdrop_title">Backdrop</string>
+    <string name="backdrop_span_title"><![CDATA[
+        <p>
+        <h1>Backdrop</h1>
+        </p>
+        <p>A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.</p>]]>
+    </string>
+    <string name="backdrop_span_usage"><![CDATA[
+        <p>
+        <h3>Usage</h3>
+        </p>
+        <p>A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer\'s content.</p>]]>
+    </string>
+    <string name="backdrop_span_anatomy"><![CDATA[
+        <p>
+        <h3>Anatomy</h3>
+        </p>
+        <p>A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.</p>
+        <p>
+        <h5>Active front layer</h5>
+        </p>
+        <p>The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.</p>
+        <p>
+        <h5>Active back layer</h5>
+        </p>
+        <p>The back layer appears at the lowest elevation (0dp) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.</p>]]>
+    </string>
+    <string name="backdrop_span_behavior"><![CDATA[
+        <p>
+             <h3>Behavior</h3>
+        </p>
+        <p>To reveal the back layer, interact with any actions that appear on it.</p>
+        <p>
+              <h5>Concealing the back layer</h5>
+        </p>
+        <p>The back layer can be concealed by either interacting with the front layer or tapping a conceal affordance on either layer.</p>
+        <p>
+              <h5>Content scrolling</h5>
+        </p>
+        <p>Content on the front layer has different scrolling behaviors (and restrictions) than content on the back layer.</p>]]>
+    </string>
+    <string name="backdrop_image_descriptor_anatomy">Anatomy</string>
+    <string name="backdrop_image_descriptor_behavior">Behavior</string>
+	
+    <!--Banners strings-->
+
+    <string name="banner_title">Banners</string>
+    <string name="banner_span_title">
+		<![CDATA[
+        	<p>
+				<h1>Banners</h1>
+			</p>
+        	<p>
+				A banner displays a prominent message and related optional actions.
+			</p>
+		]]>
+    </string>
+    <string name="banner_span_usage">
+		<![CDATA[
+			<p>
+				<h3>Usage</h3>
+			</p>
+			<p>
+				A banner displays an important, succinct message, and provides actions for users to address (or dismiss the banner). It requires a user action to be dismissed.Banners should be displayed at the top of the screen, below a top app bar. They’re persistent and nonmodal, allowing the user to either ignore them or interact with them at any time. Only one banner should be shown at a time.
+			</p>
+		]]>
+    </string>
+    <string name="banner_span_banner_container">
+		<![CDATA[
+			<p>
+				<h3>Banner container</h3>
+			</p>
+			<p>
+				A banner container is rectangular, extending the full width of a layout. The container should be placed in a consistent and prominent location throughout an app, sharing the same elevation as screen content.
+			</p>
+		]]>
+    </string>
+    <string name="banner_span_banner_message">
+		<![CDATA[
+        	<p>
+				<h3>Banner message</h3>
+			</p>
+        	<p>
+				The banner message communicates a change or error within an app.Banners should be considered as part of your overall in-app messaging strategy.
+			</p>
+		]]>
+    </string>
+    <string name="banner_span_banner_buttons">
+		<![CDATA[
+        	<p>
+				<h3>Banner buttons</h3>
+			</p>
+        	<p>
+				Buttons in banners should directly relate to a banner’s message and clearly represent the banner’s action. Buttons must be labelled with text, not icons, for clarity. Banners can contain up to two text buttons, with the dismissive action placed on the left and the confirming action on the right. Place buttons under the banner message, or on the same line if there is enough room to fit both.
+			</p>
+		]]>
+    </string>
+    <string name="banner_span_placement">
+		<![CDATA[
+			<p>
+				<h3>Placement</h3>
+			</p>
+			<p>
+				Banners should be placed at the top of a layout or screen. When scrolling, banners typically move with content and scroll off the screen.</p>
+			<p>
+				<h5>Banners and top bars</h5>
+			</p>
+			<p>
+					Banners are placed at the top of the screen below the top app bar. They can be fixed, or scroll with content, depending on the environment:
+				<lu>
+				   <li> On mobile, they scroll off-screen with content, at the same elevation as app content.
+				   <li> On desktop, they remain fixed at the top of the screen, at the same elevation as the top app bar.
+				</lu>
+			</p>
+		]]>
+    </string>
+    <string name="banner_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>Behavior</h3>
+			</p>
+			<p>
+				Banners typically appear when a screen loads content. Banners that appear after a screen loads should animate on screen from the top of a layout. If the banner is at the same elevation as content, it pushes content downwards.
+			</p>
+		]]>
+    </string>
+    <string name="banner_image_description_placement">Placement</string>
+    <string name="banner_image_description_buttons">Buttons</string>
+    <string name="banner_image_description_contained">Contained</string>
+
     <!--Buttons strings-->
 
     <string name="button_title">Buttons</string>
@@ -193,6 +325,98 @@
     <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
     <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
 
+    <!--Chips strings-->
+
+    <string name="chip_title">Chips</string>
+    <string name="chip_span_title"><![CDATA[
+            <p>
+                <h1>Chips</h1>
+            </p>
+            <p>
+                Chips are compact elements that represent an input, attribute, or action.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Chips allow users to enter information, make selections, filter content, or trigger actions. While buttons are expected to appear consistently and with familiar calls to action, chip should appear dynamically as a group of multiple interactive elements.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_input"><![CDATA[
+            <p>
+                <h4>Input Chips</h4>
+            </p>
+            <p>
+                 Input chip represent information used in fields, such as an entity or different attributes.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_filter"><![CDATA[
+            <p>
+                <h4>Filter Chips</h4>
+            </p>
+            <p>
+                Filter chip represent filters for a collection.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_choice"><![CDATA[
+            <p>
+                <h4>Choice Chips</h4>
+            </p>
+            <p>
+                 In sets that contain at least two options, choice chip represent a single selection.
+            </p>
+        ]]>
+    </string>
+    <string name="chip_span_types_action"><![CDATA[
+            <p>
+                <h4>Action Chips</h4>
+            </p>
+            <p>
+                Action chip trigger actions related to primary content.
+            </p>
+        ]]>
+    </string>
+
+    <string name="chip_input1_text">Portland</string>
+    <string name="chip_input2_text">Biking</string>
+
+    <string name="chip_input1_toast">Input chip 1 clicked!</string>
+    <string name="chip_input2_toast">Input chip 2 clicked!</string>
+
+    <string name="chip_filter1_text">Elevator</string>
+    <string name="chip_filter2_text">Dryer</string>
+    <string name="chip_filter3_text">Dogs ok</string>
+
+    <string name="chip_filter1_toast">Filter chip 1 clicked!</string>
+    <string name="chip_filter2_toast">Filter chip 2 clicked!</string>
+    <string name="chip_filter3_toast">Filter chip 3 clicked!</string>
+
+    <string name="chip_action1_text">Turn on lights</string>
+    <string name="chip_action2_text">Set alarm</string>
+
+    <string name="chip_action1_toast">Action chip 1 clicked!</string>
+    <string name="chip_action2_toast">Action chip 2 clicked!</string>
+
+    <string name="chip_choice1_text">Medium</string>
+    <string name="chip_choice2_text">Soft</string>
+    <string name="chip_choice3_text">Extra Soft</string>
+
+    <string name="chip_choice1_toast">Choice chip 1 clicked!</string>
+    <string name="chip_choice2_toast">Choice chip 2 clicked!</string>
+    <string name="chip_choice3_toast">Choice chip 3 clicked!</string>
+
     <!--Dialogs strings-->
 
     <string name="dialog_title">Dialogs</string>
@@ -289,6 +513,64 @@
         <item>Phobos</item>
     </string-array>
 
+	<!--Navigation Rail strings-->
+	
+    <string name="navigation_rail_title">Navigation Rail</string>
+    <string name="navigation_rail_span_title"><![CDATA[
+            <p>
+                <h1>Navigation rail</h1>
+            </p>
+            <p>
+                Navigation rails provide ergonomic movement between primary destinations in apps.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                The rail is a side navigation component that displays three to seven app destinations and, optionally, a Floating Action Button. Each destination is represented by an icon and a text label. <br>
+
+                The rail can function on its own at larger screen sizes, such as desktop and tablet. When users transition between screen sizes and devices, the rail can also complement other navigation components, such as bottom navigation.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Navigation rails should be used for:
+                <ul>
+                    <li>Top-level destinations that need to be accessible anywhere in an app
+                    <li>Three to seven main destinations in a product
+                    <li>Tablet or desktop layouts
+                </ul>
+                Navigation rails shouldn\'t be used for:
+                <ul>
+                    <li>Small screen sizes
+                    <li>Single tasks, such as viewing a single email
+                    <li>Secondary navigation destinations
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                Scrolling<br>
+
+                Destinations in the navigation rail should remain visible when scrolling vertically. <br>
+                If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_rail_placement">Placement</string>
+    <string name="navigation_rail_image_description_placement_two">Second Placement</string>
+	
     <!--Pickers strings-->
 
     <string name="picker_title">Pickers</string>
@@ -606,63 +888,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-
-    <!--Tooltips strings-->
-    <string name="navigation_rail_title">Navigation Rail</string>
-    <string name="navigation_rail_span_title"><![CDATA[
-            <p>
-                <h1>Navigation rail</h1>
-            </p>
-            <p>
-                Navigation rails provide ergonomic movement between primary destinations in apps.
-            </p>
-        ]]>
-    </string>
-    <string name="navigation_rail_span_usage"><![CDATA[
-            <p>
-                <h3>Usage</h3>
-            </p>
-            <p>
-                The rail is a side navigation component that displays three to seven app destinations and, optionally, a Floating Action Button. Each destination is represented by an icon and a text label. <br>
-
-                The rail can function on its own at larger screen sizes, such as desktop and tablet. When users transition between screen sizes and devices, the rail can also complement other navigation components, such as bottom navigation.
-            </p>
-        ]]>
-    </string>
-    <string name="navigation_rail_span_when_to_use"><![CDATA[
-            <p>
-                <h3>When to use</h3>
-            </p>
-            <p>
-                Navigation rails should be used for:
-                <ul>
-                    <li>Top-level destinations that need to be accessible anywhere in an app
-                    <li>Three to seven main destinations in a product
-                    <li>Tablet or desktop layouts
-                </ul>
-                Navigation rails shouldn\'t be used for:
-                <ul>
-                    <li>Small screen sizes
-                    <li>Single tasks, such as viewing a single email
-                    <li>Secondary navigation destinations
-                </ul>
-            </p>
-        ]]>
-    </string>
-    <string name="navigation_rail_span_behavior"><![CDATA[
-            <p>
-                <h3>Behavior</h3>
-            </p>
-            <p>
-                Scrolling<br>
-
-                Destinations in the navigation rail should remain visible when scrolling vertically. <br>
-                If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
-            </p>
-        ]]>
-    </string>
-    <string name="navigation_rail_placement">Placement</string>
-    <string name="navigation_rail_image_description_placement_two">Second Placement</string>
-
 
 </resources>

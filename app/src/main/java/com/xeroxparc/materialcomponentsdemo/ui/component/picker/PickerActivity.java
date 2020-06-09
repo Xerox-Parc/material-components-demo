@@ -56,7 +56,7 @@ public class PickerActivity extends AppCompatActivity{
                     Toast.makeText(
                             getApplicationContext(),
                             R.string.picker_launch_failure,
-                            Toast.LENGTH_LONG
+                            Toast.LENGTH_SHORT
                     ).show();
                 }
             }
@@ -71,7 +71,7 @@ public class PickerActivity extends AppCompatActivity{
                     Toast.makeText(
                             getApplicationContext(),
                             R.string.picker_launch_failure,
-                            Toast.LENGTH_LONG
+                            Toast.LENGTH_SHORT
                     ).show();
                 }
             }

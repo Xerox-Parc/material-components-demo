@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/page_1"
+        android:id="@+id/page_favorite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_format_list_preferites"
-        android:title="@string/bottom_navigation_span_favorite" />
+        android:icon="@drawable/ic_baseline_home_24dp"
+        android:title="@string/bottom_navigation_span_home" />
     <item
-        android:id="@+id/page_2"
+        android:id="@+id/page_music"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="true"
         android:icon="@drawable/ic_music_music"
         android:title="@string/bottom_navigation_span_music" />
     <item
-        android:id="@+id/page_3"
+        android:id="@+id/page_places"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="true"
         android:icon="@drawable/ic_place_place"
         android:title="@string/bottom_navigation_span_places" />
     <item
-        android:id="@+id/page_4"
+        android:id="@+id/page_news"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="true"

@@ -128,12 +128,18 @@ Inactive destination states are represented with reduced opacities; active state
 Side by side view of two examples of bottom navigation, highlighting the difference between inactive and active destinations.</p>]]>
     </string>
     <string name="bottom_navigation_span_page_favorite">Page favorite</string>
-    <string name="bottom_navigation_span_favorite">Favorite</string>
+    <string name="bottom_navigation_span_home">Home</string>
     <string name="bottom_navigation_span_page_music">Page music</string>
     <string name="bottom_navigation_span_music">Music</string>
     <string name="bottom_navigation_span_page_places">Page places</string>
     <string name="bottom_navigation_span_places">Places</string>
     <string name="bottom_navigation_span_page_news">Page news</string>
+    <string name="bottom_navigation_span_page_home">Page home</string>
     <string name="bottom_navigation_span_news">News</string>
+    <string name="bottom_navigation_span_fragment_music">PAGE MUSIC</string>
+    <string name="bottom_navigation_span_fragment_places">PAGE PLACES</string>
+    <string name="bottom_navigation_span_fragment_news">PAGE NEWS</string>
+
+
 
 </resources>

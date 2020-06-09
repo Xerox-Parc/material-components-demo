@@ -8,49 +8,73 @@
 	<!--Backdrop strings-->
 
     <string name="backdrop_title">Backdrop</string>
-    <string name="backdrop_span_title"><![CDATA[
-        <p>
-        <h1>Backdrop</h1>
-        </p>
-        <p>A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.</p>]]>
+    <string name="backdrop_span_title">
+		<![CDATA[
+            <p>
+                <h1>Backdrop</h1>
+            </p>
+            <p>
+                A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.
+            </p>
+        ]]>
     </string>
-    <string name="backdrop_span_usage"><![CDATA[
-        <p>
-        <h3>Usage</h3>
-        </p>
-        <p>A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer\'s content.</p>]]>
+    <string name="backdrop_span_usage">
+		<![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer\'s content.
+            </p>
+        ]]>
     </string>
-    <string name="backdrop_span_anatomy"><![CDATA[
-        <p>
-        <h3>Anatomy</h3>
-        </p>
-        <p>A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.</p>
-        <p>
-        <h5>Active front layer</h5>
-        </p>
-        <p>The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.</p>
-        <p>
-        <h5>Active back layer</h5>
-        </p>
-        <p>The back layer appears at the lowest elevation (0dp) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.</p>]]>
+    <string name="backdrop_span_anatomy">
+		<![CDATA[
+            <p>
+                <h3>Anatomy</h3>
+            </p>
+            <p>
+                A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.
+            </p>
+            <p>
+                <h5>Active front layer</h5>
+            </p>
+            <p>
+                The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.
+            </p>
+            <p>
+                <h5>Active back layer</h5>
+            </p>
+            <p>
+                The back layer appears at the lowest elevation (0dp) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.
+            </p>
+        ]]>
     </string>
-    <string name="backdrop_span_behavior"><![CDATA[
-        <p>
-             <h3>Behavior</h3>
-        </p>
-        <p>To reveal the back layer, interact with any actions that appear on it.</p>
-        <p>
-              <h5>Concealing the back layer</h5>
-        </p>
-        <p>The back layer can be concealed by either interacting with the front layer or tapping a conceal affordance on either layer.</p>
-        <p>
-              <h5>Content scrolling</h5>
-        </p>
-        <p>Content on the front layer has different scrolling behaviors (and restrictions) than content on the back layer.</p>]]>
+    <string name="backdrop_span_behavior">
+		<![CDATA[
+            <p>
+                 <h3>Behavior</h3>
+            </p>
+            <p>
+                To reveal the back layer, interact with any actions that appear on it.
+            </p>
+            <p>
+                  <h5>Concealing the back layer</h5>
+            </p>
+            <p>
+                The back layer can be concealed by either interacting with the front layer or tapping a conceal affordance on either layer.
+            </p>
+            <p>
+                  <h5>Content scrolling</h5>
+            </p>
+            <p>
+                Content on the front layer has different scrolling behaviors (and restrictions) than content on the back layer.
+            </p>
+        ]]>
     </string>
     <string name="backdrop_image_descriptor_anatomy">Anatomy</string>
     <string name="backdrop_image_descriptor_behavior">Behavior</string>
-	
+
     <!--Banners strings-->
 
     <string name="banner_title">Banners</string>
@@ -140,7 +164,8 @@
     <!--Buttons strings-->
 
     <string name="button_title">Buttons</string>
-    <string name="button_span_title"><![CDATA[
+    <string name="button_span_title">
+		<![CDATA[
             <p>
                 <h1>Buttons</h1>
             </p>
@@ -149,7 +174,8 @@
             </p>
         ]]>
     </string>
-    <string name="button_span_usage"><![CDATA[
+    <string name="button_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -165,7 +191,8 @@
             </p>
         ]]>
     </string>
-    <string name="button_span_anatomy"><![CDATA[
+    <string name="button_span_anatomy">
+		<![CDATA[
             <p>
                 <h3>Anatomy</h3>
             </p>
@@ -174,7 +201,8 @@
             </p>
         ]]>
     </string>
-    <string name="button_span_hierarchy"><![CDATA[
+    <string name="button_span_hierarchy">
+		<![CDATA[
             <p>
                 <h3>Hierarchy</h3>
             </p>
@@ -192,7 +220,8 @@
             </p>
         ]]>
 	</string>
-    <string name="button_span_placement"><![CDATA[
+    <string name="button_span_placement">
+		<![CDATA[
             <p>
                 <h3>Placement</h3>
             </p>
@@ -201,7 +230,8 @@
             </p>
         ]]>
         </string>
-    <string name="button_span_text_button_usage"><![CDATA[
+    <string name="button_span_text_button_usage">
+		<![CDATA[
 	        <p>
 	            <h3>Text button usage</h3>
 	        </p>
@@ -215,7 +245,8 @@
             </p>
         ]]>
 	</string>
-    <string name="button_span_outlined_button_usage"><![CDATA[
+    <string name="button_span_outlined_button_usage">
+		<![CDATA[
             <p>
                 <h3>Outlined button usage</h3>
             </p>
@@ -224,7 +255,8 @@
             </p>
         ]]>
 	</string>
-    <string name="button_span_contained_button_usage"><![CDATA[
+    <string name="button_span_contained_button_usage">
+		<![CDATA[
             <p>
                 <h3>Contained button usage</h3>
             </p>
@@ -233,7 +265,8 @@
             </p>
         ]]>
 	</string>
-    <string name="button_span_toggle_button_usage"><![CDATA[
+    <string name="button_span_toggle_button_usage">
+		<![CDATA[
             <p>
                 <h3>Toggle button usage</h3>
             </p>
@@ -253,7 +286,8 @@
     <!--Cards strings-->
 
     <string name="card_title">Cards</string>
-    <string name="card_span_title"><![CDATA[
+    <string name="card_span_title">
+		<![CDATA[
             <p>
                 <h1>Cards</h1>
             </p>
@@ -262,7 +296,8 @@
             </p>
         ]]>
     </string>
-    <string name="card_span_usage"><![CDATA[
+    <string name="card_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -272,7 +307,8 @@
             </p>
         ]]>
     </string>
-    <string name="card_span_gestures"><![CDATA[
+    <string name="card_span_gestures">
+		<![CDATA[
             <p>
                 <h3>Gestures</h3>
             </p>
@@ -281,7 +317,8 @@
             </p>
         ]]>
     </string>
-    <string name="card_span_gestures_swipe"><![CDATA[
+    <string name="card_span_gestures_swipe">
+		<![CDATA[
             <p>
                 <h4>Swipe</h4>
             </p>
@@ -296,7 +333,8 @@
             </ul>
         ]]>
     </string>
-    <string name="card_span_gestures_scrolling"><![CDATA[
+    <string name="card_span_gestures_scrolling">
+		<![CDATA[
             <p>
                 <h4>Scrolling</h4>
             </p>
@@ -305,7 +343,8 @@
             </p>
         ]]>
     </string>
-    <string name="card_span_sample"><![CDATA[
+    <string name="card_span_sample">
+		<![CDATA[
             <p>
                 <h3>Title</h3>
             </p>
@@ -324,11 +363,12 @@
     <string name="card_sample_image_description">content_description_media</string>
     <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
     <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
-	
+
     <!--Chips strings-->
 
     <string name="chip_title">Chips</string>
-    <string name="chip_span_title"><![CDATA[
+    <string name="chip_span_title">
+		<![CDATA[
             <p>
                 <h1>Chips</h1>
             </p>
@@ -337,7 +377,8 @@
             </p>
         ]]>
     </string>
-    <string name="chip_span_usage"><![CDATA[
+    <string name="chip_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -346,13 +387,15 @@
             </p>
         ]]>
     </string>
-    <string name="chip_span_types"><![CDATA[
+    <string name="chip_span_types">
+		<![CDATA[
             <p>
                 <h3>Types</h3>
             </p>
         ]]>
     </string>
-    <string name="chip_span_types_input"><![CDATA[
+    <string name="chip_span_types_input">
+		<![CDATA[
             <p>
                 <h4>Input Chips</h4>
             </p>
@@ -361,7 +404,8 @@
             </p>
         ]]>
     </string>
-    <string name="chip_span_types_filter"><![CDATA[
+    <string name="chip_span_types_filter">
+		<![CDATA[
             <p>
                 <h4>Filter Chips</h4>
             </p>
@@ -370,7 +414,8 @@
             </p>
         ]]>
     </string>
-    <string name="chip_span_types_choice"><![CDATA[
+    <string name="chip_span_types_choice">
+		<![CDATA[
             <p>
                 <h4>Choice Chips</h4>
             </p>
@@ -379,7 +424,8 @@
             </p>
         ]]>
     </string>
-    <string name="chip_span_types_action"><![CDATA[
+    <string name="chip_span_types_action">
+		<![CDATA[
             <p>
                 <h4>Action Chips</h4>
             </p>
@@ -397,7 +443,7 @@
 
     <string name="chip_filter1_text">Elevator</string>
     <string name="chip_filter2_text">Dryer</string>
-    <string name="chip_filter3_text">Dogs ok</string>
+    <string name="chip_filter3_text">Dogs OK</string>
 
     <string name="chip_filter1_toast">Filter chip 1 clicked!</string>
     <string name="chip_filter2_toast">Filter chip 2 clicked!</string>
@@ -420,7 +466,8 @@
     <!--Dialogs strings-->
 
     <string name="dialog_title">Dialogs</string>
-    <string name="dialog_span_title"><![CDATA[
+    <string name="dialog_span_title">
+		<![CDATA[
             <p>
                 <h1>Dialogs</h1>
             </p>
@@ -429,7 +476,8 @@
             </p>
         ]]>
     </string>
-    <string name="dialog_span_usage"><![CDATA[
+    <string name="dialog_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -440,7 +488,8 @@
             </p>
         ]]>
     </string>
-    <string name="dialog_span_when_to_use"><![CDATA[
+    <string name="dialog_span_when_to_use">
+		<![CDATA[
             <p>
                 <h3>When to use</h3>
             </p>
@@ -453,13 +502,15 @@
             </p>
         ]]>
     </string>
-    <string name="dialog_span_types"><![CDATA[
+    <string name="dialog_span_types">
+		<![CDATA[
             <p>
                 <h4>Types</h4>
             </p>
         ]]>
     </string>
-    <string name="dialog_span_types_alert"><![CDATA[
+    <string name="dialog_span_types_alert">
+		<![CDATA[
             <p>
                 <h3>Alert Dialog</h3>
             </p>
@@ -468,7 +519,8 @@
             </p>
         ]]>
     </string>
-    <string name="dialog_span_types_simple"><![CDATA[
+    <string name="dialog_span_types_simple">
+		<![CDATA[
             <p>
                 <h3>Simple Dialog</h3>
             </p>
@@ -478,7 +530,8 @@
                As simple dialogs are interruptive, they should be used sparingly. Alternatively, dropdown menus provide options in a non-modal, less disruptive way.</p>
         ]]>
     </string>
-    <string name="dialog_span_types_confirmation"><![CDATA[
+    <string name="dialog_span_types_confirmation">
+		<![CDATA[
             <p>
                 <h3>Confirmation Dialog</h3>
             </p>
@@ -514,9 +567,10 @@
     </string-array>
 
 	<!--Lists strings-->
-	
+
     <string name="list_title">Lists</string>
-    <string name="list_span_title"><![CDATA[
+    <string name="list_span_title">
+		<![CDATA[
             <p>
                 <h1>Lists</h1>
             </p>
@@ -525,7 +579,8 @@
             </p>
         ]]>
     </string>
-    <string name="list_span_usage"><![CDATA[
+    <string name="list_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -534,7 +589,8 @@
             </p>
         ]]>
     </string>
-    <string name="list_span_types"><![CDATA[
+    <string name="list_span_types">
+		<![CDATA[
             <p>
                 <h3>Types</h3>
             </p>
@@ -550,7 +606,8 @@
             </p>
         ]]>
     </string>
-    <string name="list_span_list_controls"><![CDATA[
+    <string name="list_span_list_controls">
+		<![CDATA[
             <p>
                 <h3>List controls</h3>
             </p>
@@ -559,7 +616,8 @@
             </p>
         ]]>
     </string>
-    <string name="list_span_checkbox"><![CDATA[
+    <string name="list_span_checkbox">
+		<![CDATA[
             <p>
                 <h3>Checkbox</h3>
             </p>
@@ -568,7 +626,8 @@
             </p>
         ]]>
     </string>
-    <string name="list_span_expand_and_collapse"><![CDATA[
+    <string name="list_span_expand_and_collapse">
+		<![CDATA[
             <p>
                 <h3>Expand and collapse</h3>
             </p>
@@ -582,9 +641,10 @@
     <string name="list_image_description_expand_and_collapse">Expand and Collapse</string>
 
 	<!--Navigation Rail strings-->
-	
+
     <string name="navigation_rail_title">Navigation Rail</string>
-    <string name="navigation_rail_span_title"><![CDATA[
+    <string name="navigation_rail_span_title">
+		<![CDATA[
             <p>
                 <h1>Navigation rail</h1>
             </p>
@@ -593,7 +653,8 @@
             </p>
         ]]>
     </string>
-    <string name="navigation_rail_span_usage"><![CDATA[
+    <string name="navigation_rail_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -604,7 +665,8 @@
             </p>
         ]]>
     </string>
-    <string name="navigation_rail_span_when_to_use"><![CDATA[
+    <string name="navigation_rail_span_when_to_use">
+		<![CDATA[
             <p>
                 <h3>When to use</h3>
             </p>
@@ -624,7 +686,8 @@
             </p>
         ]]>
     </string>
-    <string name="navigation_rail_span_behavior"><![CDATA[
+    <string name="navigation_rail_span_behavior">
+		<![CDATA[
             <p>
                 <h3>Behavior</h3>
             </p>
@@ -638,11 +701,12 @@
     </string>
     <string name="navigation_rail_placement">Placement</string>
     <string name="navigation_rail_image_description_placement_two">Second Placement</string>
-	
+
     <!--Pickers strings-->
 
     <string name="picker_title">Pickers</string>
-    <string name="picker_span_title"><![CDATA[
+    <string name="picker_span_title">
+		<![CDATA[
             <p>
                 <h1>Pickers</h1>
             </p>
@@ -651,7 +715,8 @@
             </p>
         ]]>
     </string>
-    <string name="picker_span_usage"><![CDATA[
+    <string name="picker_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -665,7 +730,8 @@
             </p>
         ]]>
     </string>
-    <string name="picker_span_mobile_calendar_pickers"><![CDATA[
+    <string name="picker_span_mobile_calendar_pickers">
+		<![CDATA[
             <p>
                 <h3>Mobile calendar pickers</h3>
             </p>
@@ -681,7 +747,8 @@
             </p>
         ]]>
     </string>
-    <string name="picker_span_mobile_date_range_pickers"><![CDATA[
+    <string name="picker_span_mobile_date_range_pickers">
+		<![CDATA[
             <p>
                 <h3>Mobile date range pickers</h3>
             </p>
@@ -695,7 +762,8 @@
             </p>
         ]]>
     </string>
-    <string name="picker_span_mobile_date_input_pickers"><![CDATA[
+    <string name="picker_span_mobile_date_input_pickers">
+		<![CDATA[
             <p>
                 <h3>Mobile date input pickers</h3>
             </p>
@@ -714,7 +782,8 @@
     <!--Progress Indicator strings-->
 
     <string name="progress_indicator_title">Progress Indicator</string>
-    <string name="progress_indicator_span_title"><![CDATA[
+    <string name="progress_indicator_span_title">
+		<![CDATA[
             <p>
                  <h1>Progress Indicator</h1>
             </p>
@@ -723,7 +792,8 @@
             </p>
         ]]>
      </string>
-    <string name="progress_indicator_span_usage"><![CDATA[
+    <string name="progress_indicator_span_usage">
+		<![CDATA[
             <p>
                  <h3>Usage</h3>
             </p>
@@ -732,7 +802,8 @@
             </p>
         ]]>
     </string>
-    <string name="progress_indicator_span_circular"><![CDATA[
+    <string name="progress_indicator_span_circular">
+		<![CDATA[
             <p>
                  <h3>Circular Progress Indicator</h3>
             </p>
@@ -741,7 +812,8 @@
             </p>
         ]]>
     </string>
-    <string name="progress_indicator_span_linear"><![CDATA[
+    <string name="progress_indicator_span_linear">
+		<![CDATA[
             <p>
                  <h3>Linear Progress Indicator</h3>
             </p>
@@ -755,7 +827,8 @@
     <!--Selection Controls strings-->
 
     <string name="selection_control_title">Selection Control</string>
-    <string name="selection_control_span_title"><![CDATA[
+    <string name="selection_control_span_title">
+		<![CDATA[
             <p>
                 <h1>Selection Control</h1>
             </p>
@@ -764,7 +837,8 @@
             </p>
         ]]>
     </string>
-    <string name="selection_control_span_usage"><![CDATA[
+    <string name="selection_control_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -773,7 +847,8 @@
             </p>
         ]]>
     </string>
-    <string name="selection_control_span_checkbox"><![CDATA[
+    <string name="selection_control_span_checkbox">
+		<![CDATA[
             <p>
                 <h3>Checkboxes</h3>
             </p>
@@ -782,7 +857,8 @@
             </p>
         ]]>
     </string>
-    <string name="selection_control_span_radio_button"><![CDATA[
+    <string name="selection_control_span_radio_button">
+		<![CDATA[
             <p>
                 <h3>Radio Bottons</h3>
             </p>
@@ -791,7 +867,8 @@
             </p>
         ]]>
     </string>
-    <string name="selection_control_span_switch"><![CDATA[
+    <string name="selection_control_span_switch">
+		<![CDATA[
             <p>
                 <h3>Switches</h3>
             </p>
@@ -812,7 +889,8 @@
     <!--Snackbars strings-->
 
     <string name="snackbar_title">Snackbar</string>
-    <string name="snackbar_span_title"><![CDATA[
+    <string name="snackbar_span_title">
+		<![CDATA[
             <p>
                  <h1>Snackbar</h1>
             </p>
@@ -821,7 +899,8 @@
             </p>
         ]]>
     </string>
-    <string name="snackbar_span_usage"><![CDATA[
+    <string name="snackbar_span_usage">
+		<![CDATA[
             <p>
                  <h3>Usage</h3>
             </p>
@@ -830,7 +909,8 @@
             </p>
         ]]>
     </string>
-    <string name="snackbar_span_anatomy"><![CDATA[
+    <string name="snackbar_span_anatomy">
+		<![CDATA[
             <p>
                  <h3>Anatomy</h3>
             </p>
@@ -840,7 +920,8 @@
             </p>
         ]]>
     </string>
-    <string name="snackbar_span_placement"><![CDATA[
+    <string name="snackbar_span_placement">
+		<![CDATA[
             <p>
                  <h3>Placement</h3>
             </p>
@@ -857,7 +938,8 @@
     <!--Text Fields strings-->
 
     <string name="text_field_title">Text fields</string>
-    <string name="text_field_span_title"><![CDATA[
+    <string name="text_field_span_title">
+		<![CDATA[
             <p>
                 <h1>Text fields</h1>
             </p>
@@ -866,7 +948,8 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_span_usage"><![CDATA[
+    <string name="text_field_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -875,7 +958,8 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_span_types"><![CDATA[
+    <string name="text_field_span_types">
+		<![CDATA[
             <p>
                 <h3>Types</h3>
             </p>
@@ -890,7 +974,8 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_span_filled"><![CDATA[
+    <string name="text_field_span_filled">
+		<![CDATA[
             <p>
                 <h3>Filled text field</h3>
             </p>
@@ -899,7 +984,8 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_span_outlined"><![CDATA[
+    <string name="text_field_span_outlined">
+		<![CDATA[
             <p>
                 <h3>Outlined text field</h3>
             </p>
@@ -908,7 +994,8 @@
             </p>
         ]]>
     </string>
-    <string name="text_field_span_icon"><![CDATA[
+    <string name="text_field_span_icon">
+		<![CDATA[
             <p>
                 <h3>Icons</h3>
             </p>
@@ -927,7 +1014,8 @@
     <!--Tooltips strings-->
 
     <string name="tooltip_title">Tooltips</string>
-    <string name="tooltip_span_title"><![CDATA[
+    <string name="tooltip_span_title">
+		<![CDATA[
             <p>
                 <h1>Tooltips</h1>
             </p>
@@ -936,7 +1024,8 @@
             </p>
         ]]>
     </string>
-    <string name="tooltip_span_usage"><![CDATA[
+    <string name="tooltip_span_usage">
+		<![CDATA[
             <p>
                 <h3>Usage</h3>
             </p>
@@ -945,7 +1034,8 @@
             </p>
         ]]>
     </string>
-    <string name="tooltip_span_behavior"><![CDATA[
+    <string name="tooltip_span_behavior">
+		<![CDATA[
             <p>
                 <h3>Behavior</h3>
             </p>

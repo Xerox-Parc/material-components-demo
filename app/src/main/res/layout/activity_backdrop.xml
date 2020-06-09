@@ -49,7 +49,7 @@
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/image_view_anatomy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -64,7 +64,7 @@
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/image_view_behavior"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"

@@ -15,19 +15,15 @@ import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextVi
 public class CardActivity extends AppCompatActivity {
 
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Holder holder = new Holder(this);
         setContentView(holder.getRoot());
     }
 
-
     class Holder {
 
-
         private ActivityCardBinding binding;
-
 
         Holder(Activity activity) {
             binding = ActivityCardBinding.inflate(getLayoutInflater());
@@ -40,12 +36,12 @@ public class CardActivity extends AppCompatActivity {
             this.binding.cardSampleButton1.setOnClickListener(l -> Toast.makeText(
                     CardActivity.this,
                     getString(R.string.card_sample_clicked_button1),
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
             ).show());
             this.binding.cardSampleButton2.setOnClickListener(l -> Toast.makeText(
                     CardActivity.this,
                     getString(R.string.card_sample_clicked_button2),
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
             ).show());
         }
 

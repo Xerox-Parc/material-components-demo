@@ -64,7 +64,7 @@
         android:contentDescription="@string/fab_description"
         android:text="@string/fab_text"
         android:textColor="@color/cardview_light_background"
-        app:icon="@drawable/ic_add_black_24dp"
+        app:icon="@drawable/ic_add_24dp"
         app:iconTint="@color/cardview_light_background"
         app:backgroundTint="@color/colorPrimary"/>
 

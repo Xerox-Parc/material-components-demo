@@ -59,13 +59,13 @@
         android:id="@+id/extended_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/margin_medium"
         android:layout_gravity="bottom|end"
         android:contentDescription="@string/fab_description"
         android:text="@string/fab_text"
-        android:textColor="@color/cardview_light_background"
+        android:textColor="@color/fab_internal_color"
         app:icon="@drawable/ic_add_24dp"
-        app:iconTint="@color/cardview_light_background"
+        app:iconTint="@color/fab_internal_color"
         app:backgroundTint="@color/colorPrimary"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

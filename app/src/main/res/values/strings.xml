@@ -5,6 +5,60 @@
 
     <string name="banner_description">Material Component Banner</string>
 
+	<!--App bar bottom strings-->
+	
+    <string name="app_bar_bottom_title">App bar bottom</string>
+    <string name="app_bar_bottom_span_title"><![CDATA[
+    <p>
+        <h1>App bars: bottom</h1>
+    </p>
+    <p>A bottom app bar displays navigation and key actions at the bottom of mobile screens. </p>]]>
+    </string>
+    <string name="app_bar_bottom_span_usage"><![CDATA[
+    <p>
+        <h3>Usage</h3>
+    </p>
+    <p>Bottom app bars provide access to a bottom navigation drawer and up to four actions, including the floating action button.</p>]]>
+    </string>
+    <string name="app_bar_bottom_span_when_to_use"><![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>Bottom app bars should be used for:
+        <ul>
+            <li>Mobile devices only
+            <li>Access to a bottom navigation drawer
+            <li>Screens with two to five actions
+        </ul>
+        Bottom app bars shouldn t be used for:
+        <ul>
+            <li>Apps with a bottom navigation bar
+            <li>Screens with one or no actions
+        </ul></p>]]>
+    </string>
+    <string name="app_bar_bottom_span_anatomy"><![CDATA[
+    <p>
+        <h3>Anatomy</h3>
+    </p>
+    <p>Bottom app bars can contain actions that apply to the context of the current screen. They include a navigation menu control on the far left and a floating action button (when one is present). If included in a bottom app bar, an overflow menu control is placed at the end of other actions.</p>]]>
+    </string>
+    <string name="app_bar_bottom_span_positioning"><![CDATA[
+    <p>
+        <h3>Positioning</h3>
+    </p>
+    <p>Bottom app bars have three different layouts based on the presence of a FAB and its position in the bar. These layouts dictate the number of actions that can be included in the bar.</p>]]>
+    </string>
+    <string name="app_bar_bottom_press_floating">A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types:"regular, mini, and extended.</string>
+    <string name="app_bar_bottom_press_more">Have press more</string>
+    <string name="app_bar_bottom_press_search">Have press search</string>
+    <string name="app_bar_bottom_search">Search</string>
+    <string name="app_bar_bottom_press_more_information">Have press more information</string>
+    <string name="app_bar_bottom_press_star">Have press star</string>
+    <string name="app_bar_bottom_star">Star</string>
+    <string name="app_bar_bottom_more_info">Information</string>
+    <string name="app_bar_bottom_content_description_more">content descriptor more</string>
+    <string name="app_bar_bottom_content_description_search">content descriptor search</string>
+	
     <!--Backdrop strings-->
 
     <string name="backdrop_title">Backdrop</string>
@@ -767,7 +821,74 @@
     <string name="list_image_description_types">Types</string>
     <string name="list_image_description_checkbox">Checkbox</string>
     <string name="list_image_description_expand_and_collapse">Expand and Collapse</string>
-
+	
+    <!-- Menu strings-->
+	
+    <string name="menu_title">Menu</string>
+    <string name="menu_span_title"><![CDATA[
+            <p>
+                <h1>Menu</h1>
+            </p>
+            <p>
+                Menus display a list of choices on temporary surfaces.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A menu displays a list of choices on a temporary surface. They appear when users interact with a button, action, or other control.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+            <p>
+                Menus allow users to make a selection from multiple options. They are less prominent and take up less space than selection controls, such as a set of radio buttons.
+                <ul>
+                <li> Dropdown menus display a list of options, triggered by an icon, button, or action. Their placement varies based on the element that opens them.
+                <li> Exposed dropdown menus display the currently selected menu item above the list of options. Some variations can accept user-entered input.
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_placement"><![CDATA[
+            <p>
+                <h3>Placement</h3>
+            </p>
+            <p>
+                Menus appear in front of all other permanent UI elements.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_dropdown"><![CDATA[
+            <p>
+                <h3>Dropdown menu</h3>
+            </p>
+            <p>
+                A dropdown menu is a compact way of displaying multiple choices. It appears upon interaction with an element (such as an icon or button) or when users perform a specific action.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_exposed_dropdown"><![CDATA[
+            <p>
+                <h3>Exposed Dropdown menu</h3>
+            </p>
+            <p>
+                Exposed dropdown menus display the currently selected menu item above the menu. They can be used only when a single menu item can be chosen at a time.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_headset">Headset</string>
+    <string name="menu_star">Star</string>
+    <string name="menu_music_note">Music note</string>
+    <string name="menu_info">Info</string>
+    <string name="dropdown_menu">Dropdown Menu</string>
+	
     <!--Navigation Rail strings-->
 
     <string name="navigation_rail_title">Navigation Rail</string>
@@ -1138,8 +1259,8 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-    
-    <!--Tooltips strings-->
+	
+	<!--Tooltips strings-->
 
     <string name="tooltip_title">Tooltips</string>
     <string name="tooltip_span_title">
@@ -1174,70 +1295,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-
-    <!-- Menu strings-->
-    <string name="menu_title">Menu</string>
-    <string name="menu_span_title"><![CDATA[
-            <p>
-                <h1>Menu</h1>
-            </p>
-            <p>
-                Menus display a list of choices on temporary surfaces.
-            </p>
-        ]]>
-    </string>
-    <string name="menu_span_usage"><![CDATA[
-            <p>
-                <h3>Usage</h3>
-            </p>
-            <p>
-                A menu displays a list of choices on a temporary surface. They appear when users interact with a button, action, or other control.
-            </p>
-        ]]>
-    </string>
-    <string name="menu_span_types"><![CDATA[
-            <p>
-                <h3>Types</h3>
-            </p>
-            <p>
-                Menus allow users to make a selection from multiple options. They are less prominent and take up less space than selection controls, such as a set of radio buttons.
-                <ul>
-                <li> Dropdown menus display a list of options, triggered by an icon, button, or action. Their placement varies based on the element that opens them.
-                <li> Exposed dropdown menus display the currently selected menu item above the list of options. Some variations can accept user-entered input.
-                </ul>
-            </p>
-        ]]>
-    </string>
-    <string name="menu_span_placement"><![CDATA[
-            <p>
-                <h3>Placement</h3>
-            </p>
-            <p>
-                Menus appear in front of all other permanent UI elements.
-            </p>
-        ]]>
-    </string>
-    <string name="menu_span_dropdown"><![CDATA[
-            <p>
-                <h3>Dropdown menu</h3>
-            </p>
-            <p>
-                A dropdown menu is a compact way of displaying multiple choices. It appears upon interaction with an element (such as an icon or button) or when users perform a specific action.
-            </p>
-        ]]>
-    </string>
-    <string name="menu_span_exposed_dropdown"><![CDATA[
-            <p>
-                <h3>Exposed Dropdown menu</h3>
-            </p>
-            <p>
-                Exposed dropdown menus display the currently selected menu item above the menu. They can be used only when a single menu item can be chosen at a time.
-            </p>
-        ]]>
-    </string>
-    <string name="menu_headset">Headset</string>
-    <string name="menu_star">Star</string>
-    <string name="menu_music_note">Music note</string>
-    <string name="menu_info">Info</string>
-    <string name="dropdown_menu">Dropdown Menu</string>
+	
 </resources>

@@ -29,24 +29,22 @@ public class BottomNavigationActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.bottom_navigation_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_bottomnavigation);
             inflateSpanTextViewContent(binding, activity);
+            getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new BottomNavigationHomeFragment()).commit();
             binding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
                 Fragment selectedFragment = null;
+
                 switch (item.getItemId()) {
                     case R.id.page_favorite:
-                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_home, Toast.LENGTH_SHORT).show();
-                        selectedFragment = new Fragment();
+                        selectedFragment = new BottomNavigationHomeFragment();
                         break;
                     case R.id.page_music:
-                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_music, Toast.LENGTH_SHORT).show();
-                        selectedFragment = new BottomNavigationFragmentMusic();
+                        selectedFragment = new BottomNavigationMusicFragment();
                         break ;
                     case R.id.page_places:
-                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_places, Toast.LENGTH_SHORT).show();
-                        selectedFragment = new BottomNavigationFragmentPlaces();
+                        selectedFragment = new BottomNavigationPlacesFragment();
                         break ;
                     case R.id.page_news:
-                        Toast.makeText(BottomNavigationActivity.this, R.string.bottom_navigation_span_page_news, Toast.LENGTH_SHORT).show();
-                        selectedFragment = new BottomNavigationFragmentNews();
+                        selectedFragment = new BottomNavigationNewsFragment();
                         break ;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, selectedFragment).commit();

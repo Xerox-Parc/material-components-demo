@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.component.bottomnavigation.BottomNavigationHomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_span_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_view_span_usage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_view_span_when_to_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When to use"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_view_span_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Behavior"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_view_span_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:text="State"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</FrameLayout>

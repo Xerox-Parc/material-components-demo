@@ -566,6 +566,134 @@
         <item>Phobos</item>
     </string-array>
 
+  <!--Floating Action Button strings-->
+
+    <string name="fab_title">Floating Action Button</string>
+    <string name="fab_span_title"><![CDATA[
+            <p>
+                <h1>Floating Action Button</h1>
+            </p>
+            <p>
+                A floating action button (FAB) represents the primary action of a screen.
+            </p>
+        ]]>
+    </string>
+    <string name="fab_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.
+            </p>
+        ]]>
+    </string>
+    <string name="fab_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                A floating action button (FAB) can trigger an action either on the current screen, or it can perform an action that creates a new screen.<br>
+                <br>A FAB promotes an important, constructive action such as:
+                <br><br>
+                <ul>
+                    <li>Create</li>
+                    <li>Favorite</li>
+                    <li>Share</li>
+                    <li>Start a process</li>
+                </ul>
+
+                <br>
+                Avoid using a FAB for minor or destructive actions, such as:
+                <br><br>
+                 <ul>
+                    <li>Archive or trash</li>
+                    <li>Alerts or errors</li>
+                    <li>Limited tasks like cutting text</li>
+                    <li>Controls better suited to a toolbar (like controls to adjust volume or font color)</li>
+                </ul>
+            </p>
+        ]]>
+    </string>
+
+    <string name="fab_text">create</string>
+    <string name="fab_description">Extended FAB content description</string>
+    
+    <!--Image List strings-->
+  
+    <string name="image_list_title">Image List</string>
+    <string name="image_list_image_description_standard_image_list">Standard Image List</string>
+    <string name="image_list_image_description_quilted_image_list">Quilted Image List</string>
+    <string name="image_list_image_description_woven_image_list">Woven Image List</string>
+    <string name="image_list_image_description_masonry_image_list">Masonry Image List</string>
+
+    <string name="image_list_span_title">
+		<![CDATA[
+            <p>
+                <h1>Image lists</h1>
+            </p>
+            <p>
+                Image lists display a collection of images in an organized grid.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_usage">
+		<![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Image lists represent a collection of items in a repeated pattern. They help improve the visual comprehension of the content they hold.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_types">
+		<![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_standard_image_list">
+		<![CDATA[
+            <p>
+                <h3>Standard image list</h3>
+            </p>
+            <p>
+                Standard image lists are best for items of equal importance. They have a uniform container size, ratio, and padding. Standard image lists can be displayed with or without text labels.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_quilted_image_list">
+		<![CDATA[
+            <p>
+                <h3>Quilted image list</h3>
+            </p>
+            <p>
+                Quilted image lists emphasize certain items over others in a collection. They use varied container sizes and ratios to create hierarchy across images.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_woven_image_list">
+		<![CDATA[
+            <p>
+                <h3>Woven image list</h3>
+            </p>
+            <p>
+                Woven image lists use alternating container ratios to create a rhythmic layout. A woven image list is best for browsing peer content.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_masonry_image_list">
+		<![CDATA[
+            <p>
+                <h3>Masonry image list</h3>
+            </p>
+            <p>
+                Masonry image lists use dynamically sized container heights that reflect the aspect ratio of each image. This image list is best used for browsing uncropped peer content.
+            </p>
+        ]]>
+    </string>
+    
     <!--Lists strings-->
 
     <string name="list_title">Lists</string>
@@ -1010,7 +1138,7 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-
+    
     <!--Tooltips strings-->
 
     <string name="tooltip_title">Tooltips</string>
@@ -1046,82 +1174,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-
-
-    <!--Image List strings-->
-    <string name="image_list_title">Image List</string>
-    <string name="image_list_image_description_standard_image_list">Standard Image List</string>
-    <string name="image_list_image_description_quilted_image_list">Quilted Image List</string>
-    <string name="image_list_image_description_woven_image_list">Woven Image List</string>
-    <string name="image_list_image_description_masonry_image_list">Masonry Image List</string>
-
-    <string name="image_list_span_title">
-		<![CDATA[
-            <p>
-                <h1>Image lists</h1>
-            </p>
-            <p>
-                Image lists display a collection of images in an organized grid.
-            </p>
-        ]]>
-    </string>
-    <string name="image_list_span_usage">
-		<![CDATA[
-            <p>
-                <h3>Usage</h3>
-            </p>
-            <p>
-                Image lists represent a collection of items in a repeated pattern. They help improve the visual comprehension of the content they hold.
-            </p>
-        ]]>
-    </string>
-    <string name="image_list_span_types">
-		<![CDATA[
-            <p>
-                <h3>Types</h3>
-            </p>
-        ]]>
-    </string>
-    <string name="image_list_span_standard_image_list">
-		<![CDATA[
-            <p>
-                <h3>Standard image list</h3>
-            </p>
-            <p>
-                Standard image lists are best for items of equal importance. They have a uniform container size, ratio, and padding. Standard image lists can be displayed with or without text labels.
-            </p>
-        ]]>
-    </string>
-    <string name="image_list_span_quilted_image_list">
-		<![CDATA[
-            <p>
-                <h3>Quilted image list</h3>
-            </p>
-            <p>
-                Quilted image lists emphasize certain items over others in a collection. They use varied container sizes and ratios to create hierarchy across images.
-            </p>
-        ]]>
-    </string>
-    <string name="image_list_span_woven_image_list">
-		<![CDATA[
-            <p>
-                <h3>Woven image list</h3>
-            </p>
-            <p>
-                Woven image lists use alternating container ratios to create a rhythmic layout. A woven image list is best for browsing peer content.
-            </p>
-        ]]>
-    </string>
-    <string name="image_list_span_masonry_image_list">
-		<![CDATA[
-            <p>
-                <h3>Masonry image list</h3>
-            </p>
-            <p>
-                Masonry image lists use dynamically sized container heights that reflect the aspect ratio of each image. This image list is best used for browsing uncropped peer content.
-            </p>
-        ]]>
-    </string>
-
 
 </resources>

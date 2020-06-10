@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.component.appbarbottom.AppBarBottomActivity" />
         <activity android:name=".ui.component.backdrop.BackdropActivity" />
         <activity android:name=".ui.component.banner.BannerActivity" />
         <activity android:name=".ui.component.bottomnavigation.BottomNavigationActivity" />
@@ -17,6 +18,10 @@
         <activity android:name=".ui.component.chip.ChipActivity" />
         <activity android:name=".ui.component.dialog.DialogActivity" />
 		    <activity android:name=".ui.component.list.ListActivity" />
+        <activity android:name=".ui.component.fab.FabActivity" />
+        <activity android:name=".ui.component.imagelist.ImageListActivity" />
+		    <activity android:name=".ui.component.list.ListActivity" />
+        <activity android:name=".ui.component.menu.MenuActivity" />
 		    <activity android:name=".ui.component.navigationrail.NavigationRailActivity" />
         <activity android:name=".ui.component.picker.PickerActivity" />
         <activity android:name=".ui.component.progressindicator.ProgressIndicatorActivity" />

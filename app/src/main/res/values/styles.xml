@@ -14,6 +14,7 @@
         <item name="android:textColor">@android:color/transparent</item>
         <item name="android:textSize">0sp</item>
 
+
     </style>
 
     <style name="TextAppearance.App.CollapsingToolbar.Collapsed" parent="TextAppearance.MaterialComponents.Headline6">

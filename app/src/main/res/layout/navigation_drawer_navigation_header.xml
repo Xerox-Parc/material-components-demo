@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/margin_medium"
     android:paddingEnd="@dimen/margin_medium"
     android:paddingBottom="@dimen/margin_medium"
-    android:theme="@style/ThemeOverlay.AppCompat.Light">
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
         android:id="@+id/image_view_drawer_icon"

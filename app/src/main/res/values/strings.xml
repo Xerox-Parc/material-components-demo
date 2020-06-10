@@ -1087,13 +1087,6 @@
             </p>
         ]]>
     </string>
-    <string name="navigation_drawer_span_types">
-		<![CDATA[
-            <p>
-                <h1>Types</h1>
-            </p>
-        ]]>
-    </string>
     <string name="navigation_drawer_span_standard_drawer">
 		<![CDATA[
             <p>
@@ -1132,5 +1125,9 @@
             </p>
         ]]>
     </string>
+
+    <string name="navigation_drawer_navigation_home">Home</string>
+    <string name="navigation_drawer_navigation_standard_drawer">Standard Drawer</string>
+    <string name="navigation_drawer_navigation_bottom_drawer">Bottom Drawer</string>
 
 </resources>

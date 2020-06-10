@@ -7,11 +7,11 @@
         android:id="@+id/group_header_items_top"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/navigation_home"
             android:icon="@drawable/ic_alarm_24dp"
             android:title="@string/navigation_drawer_option_1" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/navigation_standard_drawer"
             android:icon="@drawable/ic_lightbulb_24dp"
             android:title="@string/navigation_drawer_option_2" />
     </group>
@@ -20,7 +20,7 @@
         android:id="@+id/group_header_items_bottom"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/navigation_bottom_drawer"
             android:icon="@drawable/ic_place_24dp"
             android:title="@string/navigation_drawer_option_3" />
     </group>

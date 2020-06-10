@@ -27,6 +27,29 @@
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:iconTint="@color/cardview_dark_background">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/topAppBar"
+                    style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:iconTint="@color/cardview_dark_background"
+                    app:menu="@menu/menu_app_bar_top"
+                    app:title="Page title" />
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:iconTint="@color/cardview_dark_background"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                    <!-- Scrollable content -->
+                </androidx.core.widget.NestedScrollView>
+            </com.google.android.material.appbar.AppBarLayout>
+
             <TextView
                 android:id="@+id/text_view_span_title"
                 android:layout_width="match_parent"
@@ -51,37 +74,6 @@
                 android:layout_height="wrap_content"
                 android:text="Behavior"
                 tools:ignore="HardcodedText" />
-            <androidx.coordinatorlayout.widget.CoordinatorLayout
-
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:iconTint="@color/cardview_dark_background">
-
-                <com.google.android.material.appbar.AppBarLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:iconTint="@color/cardview_dark_background">
-
-                    <com.google.android.material.appbar.MaterialToolbar
-                        android:id="@+id/topAppBar"
-                        style="@style/Widget.MaterialComponents.Toolbar.Primary"
-                        android:layout_width="match_parent"
-                        android:layout_height="?attr/actionBarSize"
-                        android:iconTint="@color/cardview_dark_background"
-                        app:menu="@menu/menu_app_bar_top"
-                        app:navigationIcon="@android:drawable/ic_dialog_dialer"
-                        app:title="Page title" />
-                    <androidx.core.widget.NestedScrollView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:iconTint="@color/cardview_dark_background"
-                        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-                        <!-- Scrollable content -->
-                    </androidx.core.widget.NestedScrollView>
-                </com.google.android.material.appbar.AppBarLayout>
-                <!-- Note: A RecyclerView can also be used -->
-
-            </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

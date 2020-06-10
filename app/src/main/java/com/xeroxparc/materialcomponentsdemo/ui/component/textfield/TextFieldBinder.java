@@ -50,24 +50,6 @@ class TextFieldBinder {
         this.binding.textFieldPasswordEditText.setOnClickListener(
                 l -> this.binding.textFieldPassword.setError(null)
         );
-        this.binding.textFieldPasswordEditText.addTextChangedListener(
-                new TextWatcher() {
-                    @Override
-                    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-                    }
-
-                    @Override
-                    public void onTextChanged(CharSequence s, int start, int before, int count) {
-                        TextFieldBinder.this.binding.textFieldPassword.setError(null);
-                    }
-
-                    @Override
-                    public void afterTextChanged(Editable s) {
-
-                    }
-                }
-        );
     }
 
 }

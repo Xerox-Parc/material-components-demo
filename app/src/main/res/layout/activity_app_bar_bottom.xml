@@ -13,24 +13,7 @@
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo"/>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="2dp"
-        android:src="@drawable/ic_add_24dp"
-        app:layout_anchor="@id/bottom_app_bar" />
 
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottom_app_bar"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/card_height"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="@color/colorPrimary"
-        app:backgroundTint="@color/colorPrimary"
-        app:fabAlignmentMode="center"
-        app:menu="@menu/menu_app_bar_bottom"/>
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
@@ -83,6 +66,25 @@
 
         </LinearLayout>
 
+
     </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/ic_add_24dp"
+        app:layout_anchor="@id/bottom_app_bar" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabAlignmentMode="center"
+        app:menu="@menu/menu_app_bar_bottom"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

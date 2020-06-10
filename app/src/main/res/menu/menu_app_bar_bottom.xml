@@ -6,8 +6,7 @@
         android:icon="@drawable/ic_star_24dp"
         android:title="@string/app_bar_bottom_star"
         android:contentDescription="@string/app_bar_bottom_content_description_search"
-        app:showAsAction="ifRoom"
-        app:actionViewClass="androidx.appcompat.widget.ViewStubCompat"/>
+        app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/more"

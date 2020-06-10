@@ -12,24 +12,12 @@
 
     <include
         android:id="@+id/app_bar_container"
-        layout="@layout/app_bar_demo" />
-
-
-
-
-        <androidx.core.widget.NestedScrollView
-            android:id="@+id/scroll_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_medium"
-            android:layout_marginEnd="@dimen/margin_medium"
-            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
-            <FrameLayout
-                android:id="@+id/frame_layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
-
-        </androidx.core.widget.NestedScrollView>
+        layout="@layout/app_bar_demo"/>
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation"/>
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -40,6 +28,57 @@
         android:layout_gravity="bottom"
         android:layout_marginTop="@dimen/margin_medium"
         app:menu="@menu/menu_bottom_navigation" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/margin_large">
+
+            <TextView
+                android:id="@+id/text_view_span_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/text_view_span_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usage"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/text_view_span_when_to_use"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When to use"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/text_view_span_behavior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Behavior"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/text_view_span_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                tools:ignore="HardcodedText"
+                android:layout_marginBottom="@dimen/margin_large"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

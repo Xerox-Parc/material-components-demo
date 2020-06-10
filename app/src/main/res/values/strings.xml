@@ -5,7 +5,7 @@
 
     <string name="banner_description">Material Component Banner</string>
 
-	<!--Backdrop strings-->
+    <!--Backdrop strings-->
 
     <string name="backdrop_title">Backdrop</string>
     <string name="backdrop_span_title">
@@ -566,8 +566,7 @@
         <item>Phobos</item>
     </string-array>
 
-    
-    <!--Floating Action Button strings-->
+  <!--Floating Action Button strings-->
 
     <string name="fab_title">Floating Action Button</string>
     <string name="fab_span_title"><![CDATA[
@@ -619,7 +618,83 @@
     <string name="fab_text">create</string>
     <string name="fab_description">Extended FAB content description</string>
     
-	<!--Lists strings-->
+    <!--Image List strings-->
+  
+    <string name="image_list_title">Image List</string>
+    <string name="image_list_image_description_standard_image_list">Standard Image List</string>
+    <string name="image_list_image_description_quilted_image_list">Quilted Image List</string>
+    <string name="image_list_image_description_woven_image_list">Woven Image List</string>
+    <string name="image_list_image_description_masonry_image_list">Masonry Image List</string>
+
+    <string name="image_list_span_title">
+		<![CDATA[
+            <p>
+                <h1>Image lists</h1>
+            </p>
+            <p>
+                Image lists display a collection of images in an organized grid.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_usage">
+		<![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Image lists represent a collection of items in a repeated pattern. They help improve the visual comprehension of the content they hold.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_types">
+		<![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_standard_image_list">
+		<![CDATA[
+            <p>
+                <h3>Standard image list</h3>
+            </p>
+            <p>
+                Standard image lists are best for items of equal importance. They have a uniform container size, ratio, and padding. Standard image lists can be displayed with or without text labels.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_quilted_image_list">
+		<![CDATA[
+            <p>
+                <h3>Quilted image list</h3>
+            </p>
+            <p>
+                Quilted image lists emphasize certain items over others in a collection. They use varied container sizes and ratios to create hierarchy across images.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_woven_image_list">
+		<![CDATA[
+            <p>
+                <h3>Woven image list</h3>
+            </p>
+            <p>
+                Woven image lists use alternating container ratios to create a rhythmic layout. A woven image list is best for browsing peer content.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_masonry_image_list">
+		<![CDATA[
+            <p>
+                <h3>Masonry image list</h3>
+            </p>
+            <p>
+                Masonry image lists use dynamically sized container heights that reflect the aspect ratio of each image. This image list is best used for browsing uncropped peer content.
+            </p>
+        ]]>
+    </string>
+    
+    <!--Lists strings-->
 
     <string name="list_title">Lists</string>
     <string name="list_span_title">
@@ -693,7 +768,7 @@
     <string name="list_image_description_checkbox">Checkbox</string>
     <string name="list_image_description_expand_and_collapse">Expand and Collapse</string>
 
-	<!--Navigation Rail strings-->
+    <!--Navigation Rail strings-->
 
     <string name="navigation_rail_title">Navigation Rail</string>
     <string name="navigation_rail_span_title">

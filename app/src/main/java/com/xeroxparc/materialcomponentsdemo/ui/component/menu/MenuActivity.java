@@ -47,15 +47,8 @@ public class MenuActivity extends AppCompatActivity {
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_menu);
             inflateSpanTextViewContent(binding, activity);
 
+            binding.appBarContainer.toolbar.inflateMenu(R.menu.menu_overflow_menu);
             new Adapter();
-            binding.appBarContainer.appBar.addOnOffsetChangedListener((appBarLayout, verticalOffset) -> {
-                if (verticalOffset == 0) {
-                    binding.appBarContainer.toolbar.getMenu().clear();
-                }
-                else if (!binding.appBarContainer.toolbar.getMenu().hasVisibleItems()) {
-                    binding.appBarContainer.toolbar.inflateMenu(R.menu.menu_overflow_menu);
-                }
-            });
         }
 
         View getRoot() {
@@ -64,6 +57,7 @@ public class MenuActivity extends AppCompatActivity {
 
         // exposed menu adapter
         class Adapter {
+
             Adapter(){
                 String[] exposedDropdownMenuOptions = new String[] {
                         getString(R.string.menu_headset),
@@ -71,11 +65,13 @@ public class MenuActivity extends AppCompatActivity {
                         getString(R.string.menu_music_note),
                         getString(R.string.menu_info)
                 };
+
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(
                         getApplicationContext(),
                         R.layout.menu_exposed_menu_item,
                         exposedDropdownMenuOptions
                 );
+
                 binding.filledExposedDropdown.setAdapter(adapter);
             }
         }

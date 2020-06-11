@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/popup_heart"
+        android:title="@string/menu_info" />
+    <item android:id="@+id/popup_star"
+        android:title="@string/menu_headset"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/popup_note"
+        android:title="@string/menu_music_note" />
+</menu>

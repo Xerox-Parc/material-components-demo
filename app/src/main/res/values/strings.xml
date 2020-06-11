@@ -1497,4 +1497,79 @@
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
 
+
+    <!--Floating Action Button strings-->
+
+    <string name="divider_title">Divider</string>
+    <string name="divider_span_title"><![CDATA[
+            <p>
+                <h1>Divider</h1>
+            </p>
+            <p>
+                A divider is a thin line that groups content in lists and layouts.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+               Dividers separate content into clear groups.
+            </p>
+            <br>
+            <ul>
+                <li>Dividers should be noticeable in a layout, but not jarring.</li>
+                <li>Dividers should only be used if elements cannot be separated using white space.</li>
+                <li>Use dividers sparingly, to create groupings rather than separate items.</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="divider_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_fullbleed"><![CDATA[
+            <p>
+                <h4>Full-bleed dividers</h4>
+            </p>
+            <p>
+                Full-bleed dividers separate content into sections and span the entire length of a layout.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_inset"><![CDATA[
+            <p>
+                <h4>Inset dividers</h4>
+            </p>
+            <p>
+                Inset dividers separate related content, such as emails in an email thread. They should be used with anchoring elements such as icons or avatars, and left-aligned with the app bar title.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_middle"><![CDATA[
+            <p>
+                <h4>Middle dividers</h4>
+            </p>
+            <p>
+                Dividers can also be placed in the middle of a layout. They are best for separating related content, such prices on a receipt.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_subheaders"><![CDATA[
+            <p>
+                <h4>Dividers with subheaders</h4>
+            </p>
+            <p>
+                Dividers can be paired with subheaders to identify grouped content. Place dividers above subheaders to reinforce the subheader’s connection to content.
+            </p>
+        ]]>
+    </string>
+
+    <string name="divider_fullbleed_sample_description">Full-bleed dividers sample</string>
+    <string name="divider_inset_sample_description">Inset divider sample</string>
+    <string name="divider_middle_sample_description">Middle divider sample</string>
+    <string name="divider_subheaders_sample_description">Dividers with subheaders sample</string>
 </resources>

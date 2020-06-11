@@ -186,7 +186,6 @@
             </p>
         ]]>
      </string>
-    <string name="slider_show_button">show slider</string>
     <string name="slider_continuous_image">Continuous Slider Image</string>
     <string name="slider_discrete_image">Discrete Slider Image</string>
 </resources>

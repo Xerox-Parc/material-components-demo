@@ -31,15 +31,13 @@ public class BottomNavigationHomeFragment extends Fragment {
     private FragmentBottomNavigationHomeBinding binding;
 
 
-
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = FragmentBottomNavigationHomeBinding.inflate(inflater, container, false);
         inflateSpanTextViewContent(binding, Objects.requireNonNull(getActivity()));
         return binding.getRoot();
     }
-
 
 
     @Override

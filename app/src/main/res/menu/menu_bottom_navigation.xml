@@ -12,21 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_music_music"
+        android:icon="@drawable/ic_music_note_24dp"
         android:title="@string/bottom_navigation_span_music" />
     <item
         android:id="@+id/page_places"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_place_place"
+        android:icon="@drawable/ic_place_24dp"
         android:title="@string/bottom_navigation_span_places" />
     <item
         android:id="@+id/page_news"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="true"
-        android:icon="@drawable/ic_create_new"
+        android:icon="@drawable/ic_create_new_24dp"
         android:title="@string/bottom_navigation_span_news" />
 </menu>
 

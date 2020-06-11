@@ -21,6 +21,7 @@ public class ButtonActivity extends AppCompatActivity {
         Holder holder = new Holder(this);
         setContentView(holder.getRoot());
     }
+
     class Holder implements View.OnClickListener {
         private ActivityButtonBinding binding;
 

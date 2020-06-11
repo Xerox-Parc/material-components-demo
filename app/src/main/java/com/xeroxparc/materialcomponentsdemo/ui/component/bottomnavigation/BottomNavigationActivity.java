@@ -3,7 +3,6 @@ package com.xeroxparc.materialcomponentsdemo.ui.component.bottomnavigation;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -22,8 +21,10 @@ public class BottomNavigationActivity extends AppCompatActivity {
         Holder holder = new Holder(this);
         setContentView(holder.getRoot());
     }
+
     class Holder {
         ActivityBottomNavigationBinding binding;
+
         Holder(Activity activity) {
             binding = ActivityBottomNavigationBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.bottom_navigation_title);
@@ -39,20 +40,23 @@ public class BottomNavigationActivity extends AppCompatActivity {
                         break;
                     case R.id.page_music:
                         selectedFragment = new BottomNavigationMusicFragment();
-                        break ;
+                        break;
                     case R.id.page_places:
                         selectedFragment = new BottomNavigationPlacesFragment();
-                        break ;
+                        break;
                     case R.id.page_news:
                         selectedFragment = new BottomNavigationNewsFragment();
-                        break ;
+                        break;
+                    default:
+                        throw new IllegalStateException("Unexpected value: " + item.getItemId());
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, selectedFragment).commit();
                 return true;
             });
         }
-        View getRoot () {
-                return binding.getRoot();
-            }
+
+        View getRoot() {
+            return binding.getRoot();
         }
+    }
 }

@@ -14,7 +14,7 @@ import com.xeroxparc.materialcomponentsdemo.R;
 public class BottomNavigationFragmentMusic extends Fragment {
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
-        return inflater.inflate(R.layout.fragments_bottom_navigation_music,container,false);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_bottom_navigation_music, container, false);
     }
 }

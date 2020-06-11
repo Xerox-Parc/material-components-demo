@@ -5,8 +5,8 @@
 
     <string name="banner_description">Material Component Banner</string>
 
-	<!--App bar bottom strings-->
-	
+    <!--App bar bottom strings-->
+
     <string name="app_bar_bottom_title">App bar bottom</string>
     <string name="app_bar_bottom_span_title">
         <![CDATA[
@@ -78,7 +78,7 @@
     <string name="app_bar_bottom_image_description_music">content descriptor music</string>
     <string name="app_bar_bottom_image_description_news">content descriptor news</string>
     <string name="app_bar_bottom_image_description_place">content descriptor place</string>
-	
+
     <!--Backdrop strings-->
 
     <string name="backdrop_title">Backdrop</string>
@@ -236,7 +236,7 @@
     <string name="banner_image_description_contained">Contained</string>
 
     <!--Bottom navigation strings-->
-    
+
     <string name="bottom_navigation_title">Bottom navigation</string>
     <string name="bottom_navigation_span_title">
         <![CDATA[
@@ -318,7 +318,7 @@
     <string name="bottom_navigation_span_picture_places">Picture places</string>
     <string name="bottom_navigation_span_picture_news">Picture news</string>
     <string name="bottom_navigation_span_picture_guitar">Picture guitar</string>
-    
+
     <!--Buttons strings-->
 
     <string name="button_title">Buttons</string>
@@ -776,9 +776,9 @@
 
     <string name="fab_text">create</string>
     <string name="fab_description">Extended FAB content description</string>
-    
+
     <!--Image List strings-->
-  
+
     <string name="image_list_title">Image List</string>
     <string name="image_list_image_description_standard_image_list">Standard Image List</string>
     <string name="image_list_image_description_quilted_image_list">Quilted Image List</string>
@@ -852,7 +852,7 @@
             </p>
         ]]>
     </string>
-    
+
     <!--Lists strings-->
 
     <string name="list_title">Lists</string>
@@ -926,9 +926,9 @@
     <string name="list_image_description_types">Types</string>
     <string name="list_image_description_checkbox">Checkbox</string>
     <string name="list_image_description_expand_and_collapse">Expand and Collapse</string>
-	
+
     <!-- Menu strings-->
-	
+
     <string name="menu_title">Menu</string>
     <string name="menu_span_title"><![CDATA[
             <p>
@@ -993,7 +993,7 @@
     <string name="menu_music_note">Music note</string>
     <string name="menu_info">Info</string>
     <string name="menu_dropdown">Dropdown Menu</string>
-	
+
     <!--Navigation Rail strings-->
 
     <string name="navigation_rail_title">Navigation Rail</string>
@@ -1240,7 +1240,7 @@
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
 
-	<!--Slider strings-->
+    <!--Slider strings-->
 
     <string name="slider_title">Slider</string>
     <string name="slider_span_title"><![CDATA[
@@ -1290,7 +1290,7 @@
      </string>
     <string name="slider_continuous_image">Continuous Slider Image</string>
     <string name="slider_discrete_image">Discrete Slider Image</string>
-	
+
     <!--Snackbars strings-->
 
     <string name="snackbar_title">Snackbar</string>
@@ -1339,6 +1339,51 @@
     <string name="snackbar_button_undo">Snackbar + Action</string>
     <string name="snackbar_text_visible">THIS IS A SNACKBAR</string>
     <string name="snackbar_undo">UNDO</string>
+
+    <!--Tab strings-->
+
+    <string name="tab_title">Tabs</string>
+    <string name="tab_span_title">
+        <![CDATA[
+            <p>
+                <h1>Tabs</h1>
+            </p>
+            <p>
+                Tabs organize content across different screens, data sets, and other interactions.
+            </p>
+        ]]>
+    </string>
+    <string name="tab_span_usage">
+        <![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Tabs organize and allow navigation between groups of content that are related and at the same level of hierarchy.
+            </p>
+        ]]>
+    </string>
+    <string name="tab_span_fixed_tabs">
+        <![CDATA[
+            <p>
+                <h3>Fixed tabs</h3>
+            </p>
+            <p>
+                Fixed tabs display all tabs on one screen, with each tab at a fixed width. The width of each tab is determined by dividing the number of tabs by the screen width. They don’t scroll to reveal more tabs; the visible tab set represents the only tabs available.
+            </p>
+        ]]>
+    </string>
+    <string name="tab_span_scrollable_tabs">
+        <![CDATA[
+            <p>
+                <h3>Scrollable tabs</h3>
+            </p>
+            <p>
+                Scrollable tabs are displayed without fixed widths. They are scrollable, such that some tabs will remain off-screen until scrolled.
+            </p>
+        ]]>
+    </string>
+    <string name="tab_span_button">Show example</string>
 
     <!--Text Fields strings-->
 
@@ -1415,8 +1460,8 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-	
-	<!--Tooltips strings-->
+
+    <!--Tooltips strings-->
 
     <string name="tooltip_title">Tooltips</string>
     <string name="tooltip_span_title">
@@ -1451,5 +1496,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-	
+
 </resources>

@@ -29,7 +29,6 @@ public class SliderActivity extends AppCompatActivity {
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_slider);
 
             inflateSpanTextViewContent(binding, activity);
-            binding.sliderOpenButton.setOnClickListener(l -> binding.slider.setVisibility(View.VISIBLE));
 
         }
 

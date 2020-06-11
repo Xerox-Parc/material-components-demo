@@ -56,27 +56,31 @@
                 android:text="Continuous"
                 tools:ignore="HardcodedText" />
 
-            <Button
-                android:id="@+id/slider_open_button"
-                android:text="@string/slider_show_button"
+            <ImageView
+                android:id="@+id/image_view_slider_continuous"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="36dp"
-                android:gravity="center_horizontal" />
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/slider_continuous_image"
+                android:contentDescription="@string/slider_continuous_image" />
 
-            <SeekBar
-                android:id="@+id/slider"
-                style="@style/Widget.MaterialComponents.Slider"
+
+            <TextView
+                android:id="@+id/text_view_span_discrete"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="@dimen/margin_medium"
-                android:layout_marginRight="@dimen/margin_medium"
-                android:progressTint="@color/colorPrimary"
-                android:thumbTint="@color/colorPrimary"
-                android:visibility="gone"/>
+                android:text="Discrete"
+                tools:ignore="HardcodedText" />
 
+            <ImageView
+                android:id="@+id/image_view_slider_discrete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/slider_discrete_image"
+                android:contentDescription="@string/slider_discrete_image"/>
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

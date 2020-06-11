@@ -1240,6 +1240,57 @@
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
 
+	<!--Slider strings-->
+
+    <string name="slider_title">Slider</string>
+    <string name="slider_span_title"><![CDATA[
+            <p>
+                 <h1>Slider</h1>
+            </p>
+            <p>
+            Sliders allow users to make selections from a range of values.
+            </p>
+        ]]>
+        </string>
+    <string name="slider_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Sliders reflect a range of values along a bar, from which users may select a single value. They are ideal for adjusting settings such as volume, brightness, or applying image filters.
+            </p>
+        ]]>
+        </string>
+    <string name="slider_span_anatomy"><![CDATA[
+            <p>
+                 <h3>Anatomy</h3>
+            </p>
+            <p>
+            A slider can contain the following elements:Track shows the range available for user selection. For left-to-right (LTR) languages, the smallest value appears on the far left, and the largest value on the far right. For right-to-left (RTL) languages this orientation is reversed, with the smallest value on the far right and the largest value on the far left;Thumb slides along the track, displaying the selected value through its position;Value label (optional) displays the currently selected, specific numerical value.Tick mark (optional)represent predetermined values to which the user can move the slider.
+            </p>
+        ]]>
+        </string>
+    <string name="slider_span_continuous"><![CDATA[
+            <p>
+                 <h3>Continuous slider</h3>
+            </p>
+            <p>
+            Use continuous sliders allow users to make meaningful selections that don’t require a specific value.
+            </p>
+        ]]>
+        </string>
+    <string name="slider_span_discrete"><![CDATA[
+            <p>
+                 <h3>Discrete slider</h3>
+            </p>
+            <p>
+            Discrete sliders display a numeric value label upon pressing the thumb, which allows a user to input an exact value.
+            </p>
+        ]]>
+     </string>
+    <string name="slider_continuous_image">Continuous Slider Image</string>
+    <string name="slider_discrete_image">Discrete Slider Image</string>
+	
     <!--Snackbars strings-->
 
     <string name="snackbar_title">Snackbar</string>

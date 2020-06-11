@@ -25,6 +25,7 @@
         <activity android:name=".ui.component.picker.PickerActivity" />
         <activity android:name=".ui.component.progressindicator.ProgressIndicatorActivity" />
         <activity android:name=".ui.component.selectioncontrol.SelectionControlActivity" />
+      	<activity android:name=".ui.component.slider.SliderActivity" />
         <activity android:name=".ui.component.snackbar.SnackbarActivity" />
         <activity android:name=".ui.component.textfield.TextFieldActivity" />
         <activity android:name=".ui.component.tooltip.TooltipActivity" />

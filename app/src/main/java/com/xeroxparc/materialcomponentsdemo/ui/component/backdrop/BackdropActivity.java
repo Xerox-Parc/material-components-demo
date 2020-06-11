@@ -20,6 +20,7 @@ public class BackdropActivity extends AppCompatActivity {
         Holder holder = new Holder(this);
         setContentView(holder.getRoot());
     }
+
     class Holder {
         private ActivityBackdropBinding binding;
 
@@ -28,13 +29,11 @@ public class BackdropActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.backdrop_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_backdrop);
             inflateSpanTextViewContent(binding, activity);
-            //TODO
         }
+
         View getRoot() {
             return binding.getRoot();
         }
-
-
 
     }
 }

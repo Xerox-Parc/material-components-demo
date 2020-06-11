@@ -1,10 +1,7 @@
 package com.xeroxparc.materialcomponentsdemo.ui.component.textfield;
 
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 
 import com.xeroxparc.materialcomponentsdemo.R;

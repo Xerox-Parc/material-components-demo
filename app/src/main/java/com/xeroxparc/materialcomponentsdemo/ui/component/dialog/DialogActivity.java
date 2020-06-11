@@ -3,7 +3,6 @@ package com.xeroxparc.materialcomponentsdemo.ui.component.dialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 

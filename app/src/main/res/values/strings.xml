@@ -5,7 +5,81 @@
 
     <string name="banner_description">Material Component Banner</string>
 
-	<!--Backdrop strings-->
+	<!--App bar bottom strings-->
+	
+    <string name="app_bar_bottom_title">App bar bottom</string>
+    <string name="app_bar_bottom_span_title">
+        <![CDATA[
+            <p>
+                <h1>App bars: bottom</h1>
+            </p>
+            <p>
+                A bottom app bar displays navigation and key actions at the bottom of mobile screens.
+            </p>
+        ]]>
+    </string>
+    <string name="app_bar_bottom_span_usage">
+        <![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Bottom app bars provide access to a bottom navigation drawer and up to four actions, including the floating action button.
+            </p>
+        ]]>
+    </string>
+    <string name="app_bar_bottom_span_when_to_use">
+        <![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Bottom app bars should be used for:
+                <ul>
+                    <li>Mobile devices only
+                    <li>Access to a bottom navigation drawer
+                    <li>Screens with two to five actions
+                </ul>
+                Bottom app bars shouldn\'t be used for:
+                <ul>
+                    <li>Apps with a bottom navigation bar
+                    <li>Screens with one or no actions
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="app_bar_bottom_span_anatomy">
+        <![CDATA[
+            <p>
+                <h3>Anatomy</h3>
+            </p>
+            <p>
+                Bottom app bars can contain actions that apply to the context of the current screen. They include a navigation menu control on the far left and a floating action button (when one is present). If included in a bottom app bar, an overflow menu control is placed at the end of other actions.
+            </p>
+        ]]>
+    </string>
+    <string name="app_bar_bottom_span_positioning">
+        <![CDATA[
+            <p>
+                <h3>Positioning</h3>
+            </p>
+            <p>
+                Bottom app bars have three different layouts based on the presence of a FAB and its position in the bar. These layouts dictate the number of actions that can be included in the bar.
+            </p>
+        ]]>
+    </string>
+    <string name="app_bar_bottom_press_floating">A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types:"regular, mini, and extended.</string>
+    <string name="app_bar_bottom_press_more_information">Have press more information</string>
+    <string name="app_bar_bottom_press_star">Have press star</string>
+    <string name="app_bar_bottom_star">Star</string>
+    <string name="app_bar_bottom_more_info">Information</string>
+    <string name="app_bar_bottom_content_description_more">content descriptor more</string>
+    <string name="app_bar_bottom_content_description_star">content descriptor star</string>
+    <string name="app_bar_bottom_image_description_music">content descriptor music</string>
+    <string name="app_bar_bottom_image_description_news">content descriptor news</string>
+    <string name="app_bar_bottom_image_description_place">content descriptor place</string>
+	
+    <!--Backdrop strings-->
 
     <string name="backdrop_title">Backdrop</string>
     <string name="backdrop_span_title">
@@ -161,6 +235,90 @@
     <string name="banner_image_description_buttons">Buttons</string>
     <string name="banner_image_description_contained">Contained</string>
 
+    <!--Bottom navigation strings-->
+    
+    <string name="bottom_navigation_title">Bottom navigation</string>
+    <string name="bottom_navigation_span_title">
+        <![CDATA[
+            <p>
+                <h1>Bottom navigation</h1>
+            </p>
+            <p>
+                Bottom navigation bars allow movement between primary destinations in an app.
+            </p>
+        ]]>
+    </string>
+    <string name="bottom_navigation_span_usage">
+        <![CDATA[
+            <p>
+                <h1>Usage</h1>
+            </p>
+            <p>
+                Bottom navigation bars display three to five destinations at the bottom of a screen. Each destination is represented by an icon and an optional text label. When a bottom navigation icon is tapped, the user is taken to the top-level navigation destination associated with that icon.
+            </p>
+        ]]>
+    </string>
+    <string name="bottom_navigation_span_when_to_use">
+        <![CDATA[
+            <p>
+                <h3>When to use</h3>
+            </p>
+            <p>
+                Bottom navigation should be used for:
+                <ul>
+                    <li>Top-level destinations that need to be accessible from anywhere in the app
+                    <li>Three to five destinations
+                    <li>Mobile or tablet only
+                </ul>
+                Bottom navigation shouldn\'t be used for:
+                <ul>
+                    <li>  Single tasks, such as viewing a single email
+                    <li>  User preferences or settings
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="bottom_navigation_span_behavior">
+        <![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                Bottom navigation behaves differently on Android and iOS. When you select a bottom navigation item (one that’s not currently selected), each platform displays different outcomes:
+                <ul>
+                    <li>On Android: the app navigates to a destination’s top-level screen. Any prior user interactions and temporary screen states are reset, such as scroll position, tab selection, and in-line search.
+                    <li>On iOS: the destination reflects the user’s prior interaction. If the user previously visited that section of the app, they return to the last screen viewed (with its prior state preserved, if possible). Otherwise, the app navigates to the top-level screen.
+                </ul>
+                Default platform navigation can be overridden when needed to improve the user experience. For example, an Android app that requires frequent switching between sections can preserve each section’s state. Or, an iOS app can return users to the top-level screen (or reset their scroll position) if it better suits the use case.
+            </p>
+        ]]>
+    </string>
+    <string name="bottom_navigation_span_state">
+        <![CDATA[
+            <p>
+                <h1>States</h1>
+            </p>
+            <p>
+                Bottom navigation destinations may be active, inactive, focused or pressed.
+                Bottom navigation uses opacity and text to show when a destination is active. States are used to show pressed, focused, and unselected states.
+                Inactive destination states are represented with reduced opacities; active states have full opacity.
+                Side by side view of two examples of bottom navigation, highlighting the difference between inactive and active destinations.
+            </p>
+        ]]>
+    </string>
+    <string name="bottom_navigation_span_page_favorite">Page favorite</string>
+    <string name="bottom_navigation_span_home">Home</string>
+    <string name="bottom_navigation_span_page_music">Page music</string>
+    <string name="bottom_navigation_span_music">Music</string>
+    <string name="bottom_navigation_span_page_places">Page places</string>
+    <string name="bottom_navigation_span_places">Places</string>
+    <string name="bottom_navigation_span_page_news">Page news</string>
+    <string name="bottom_navigation_span_page_home">Page home</string>
+    <string name="bottom_navigation_span_news">News</string>
+    <string name="bottom_navigation_span_picture_places">Picture places</string>
+    <string name="bottom_navigation_span_picture_news">Picture news</string>
+    <string name="bottom_navigation_span_picture_guitar">Picture guitar</string>
+    
     <!--Buttons strings-->
 
     <string name="button_title">Buttons</string>
@@ -363,6 +521,7 @@
     <string name="card_sample_image_description">content_description_media</string>
     <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
     <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
+    <string name="card_image_description">Image</string>
 
     <!--Chips strings-->
 
@@ -566,7 +725,135 @@
         <item>Phobos</item>
     </string-array>
 
-	<!--Lists strings-->
+    <!--Floating Action Button strings-->
+
+    <string name="fab_title">Floating Action Button</string>
+    <string name="fab_span_title"><![CDATA[
+            <p>
+                <h1>Floating Action Button</h1>
+            </p>
+            <p>
+                A floating action button (FAB) represents the primary action of a screen.
+            </p>
+        ]]>
+    </string>
+    <string name="fab_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.
+            </p>
+        ]]>
+    </string>
+    <string name="fab_span_behavior"><![CDATA[
+            <p>
+                <h3>Behavior</h3>
+            </p>
+            <p>
+                A floating action button (FAB) can trigger an action either on the current screen, or it can perform an action that creates a new screen.<br>
+                <br>A FAB promotes an important, constructive action such as:
+                <br><br>
+                <ul>
+                    <li>Create</li>
+                    <li>Favorite</li>
+                    <li>Share</li>
+                    <li>Start a process</li>
+                </ul>
+
+                <br>
+                Avoid using a FAB for minor or destructive actions, such as:
+                <br><br>
+                 <ul>
+                    <li>Archive or trash</li>
+                    <li>Alerts or errors</li>
+                    <li>Limited tasks like cutting text</li>
+                    <li>Controls better suited to a toolbar (like controls to adjust volume or font color)</li>
+                </ul>
+            </p>
+        ]]>
+    </string>
+
+    <string name="fab_text">create</string>
+    <string name="fab_description">Extended FAB content description</string>
+    
+    <!--Image List strings-->
+  
+    <string name="image_list_title">Image List</string>
+    <string name="image_list_image_description_standard_image_list">Standard Image List</string>
+    <string name="image_list_image_description_quilted_image_list">Quilted Image List</string>
+    <string name="image_list_image_description_woven_image_list">Woven Image List</string>
+    <string name="image_list_image_description_masonry_image_list">Masonry Image List</string>
+
+    <string name="image_list_span_title">
+		<![CDATA[
+            <p>
+                <h1>Image lists</h1>
+            </p>
+            <p>
+                Image lists display a collection of images in an organized grid.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_usage">
+		<![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Image lists represent a collection of items in a repeated pattern. They help improve the visual comprehension of the content they hold.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_types">
+		<![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_standard_image_list">
+		<![CDATA[
+            <p>
+                <h3>Standard image list</h3>
+            </p>
+            <p>
+                Standard image lists are best for items of equal importance. They have a uniform container size, ratio, and padding. Standard image lists can be displayed with or without text labels.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_quilted_image_list">
+		<![CDATA[
+            <p>
+                <h3>Quilted image list</h3>
+            </p>
+            <p>
+                Quilted image lists emphasize certain items over others in a collection. They use varied container sizes and ratios to create hierarchy across images.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_woven_image_list">
+		<![CDATA[
+            <p>
+                <h3>Woven image list</h3>
+            </p>
+            <p>
+                Woven image lists use alternating container ratios to create a rhythmic layout. A woven image list is best for browsing peer content.
+            </p>
+        ]]>
+    </string>
+    <string name="image_list_span_masonry_image_list">
+		<![CDATA[
+            <p>
+                <h3>Masonry image list</h3>
+            </p>
+            <p>
+                Masonry image lists use dynamically sized container heights that reflect the aspect ratio of each image. This image list is best used for browsing uncropped peer content.
+            </p>
+        ]]>
+    </string>
+    
+    <!--Lists strings-->
 
     <string name="list_title">Lists</string>
     <string name="list_span_title">
@@ -639,8 +926,75 @@
     <string name="list_image_description_types">Types</string>
     <string name="list_image_description_checkbox">Checkbox</string>
     <string name="list_image_description_expand_and_collapse">Expand and Collapse</string>
-
-	<!--Navigation Rail strings-->
+	
+    <!-- Menu strings-->
+	
+    <string name="menu_title">Menu</string>
+    <string name="menu_span_title"><![CDATA[
+            <p>
+                <h1>Menu</h1>
+            </p>
+            <p>
+                Menus display a list of choices on temporary surfaces.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                A menu displays a list of choices on a temporary surface. They appear when users interact with a button, action, or other control.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+            <p>
+                Menus allow users to make a selection from multiple options. They are less prominent and take up less space than selection controls, such as a set of radio buttons.
+                <ul>
+                <li> Dropdown menus display a list of options, triggered by an icon, button, or action. Their placement varies based on the element that opens them.
+                <li> Exposed dropdown menus display the currently selected menu item above the list of options. Some variations can accept user-entered input.
+                </ul>
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_placement"><![CDATA[
+            <p>
+                <h3>Placement</h3>
+            </p>
+            <p>
+                Menus appear in front of all other permanent UI elements.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_dropdown"><![CDATA[
+            <p>
+                <h3>Dropdown menu</h3>
+            </p>
+            <p>
+                A dropdown menu is a compact way of displaying multiple choices. It appears upon interaction with an element (such as an icon or button) or when users perform a specific action.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_span_exposed_dropdown"><![CDATA[
+            <p>
+                <h3>Exposed Dropdown menu</h3>
+            </p>
+            <p>
+                Exposed dropdown menus display the currently selected menu item above the menu. They can be used only when a single menu item can be chosen at a time.
+            </p>
+        ]]>
+    </string>
+    <string name="menu_headset">Headset</string>
+    <string name="menu_star">Star</string>
+    <string name="menu_music_note">Music note</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_dropdown">Dropdown Menu</string>
+	
+    <!--Navigation Rail strings-->
 
     <string name="navigation_rail_title">Navigation Rail</string>
     <string name="navigation_rail_span_title">
@@ -1010,8 +1364,8 @@
     <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
     <string name="text_field_button">Submit</string>
     <string name="text_field_toast">Password suitable</string>
-
-    <!--Tooltips strings-->
+	
+	<!--Tooltips strings-->
 
     <string name="tooltip_title">Tooltips</string>
     <string name="tooltip_span_title">

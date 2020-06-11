@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.component.divider.DividerActivity"></activity>
         <activity android:name=".ui.component.appbarbottom.AppBarBottomActivity" />
         <activity android:name=".ui.component.backdrop.BackdropActivity" />
         <activity android:name=".ui.component.banner.BannerActivity" />
@@ -17,7 +16,9 @@
         <activity android:name=".ui.component.button.ButtonActivity" />
         <activity android:name=".ui.component.card.CardActivity" />
         <activity android:name=".ui.component.chip.ChipActivity" />
+		<activity android:name=".ui.component.datatable.DataTableActivity" />
         <activity android:name=".ui.component.dialog.DialogActivity" />
+		<activity android:name=".ui.component.divider.DividerActivity" />
         <activity android:name=".ui.component.fab.FabActivity" />
         <activity android:name=".ui.component.imagelist.ImageListActivity" />
         <activity android:name=".ui.component.list.ListActivity" />

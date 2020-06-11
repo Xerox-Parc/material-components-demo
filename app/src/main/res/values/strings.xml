@@ -484,7 +484,6 @@
                 A swipe gesture can be performed on a single card at a time, anywhere on that card.<br>
                 <br>It can be used to:
             </p>
-
             <ul>
                 <li>Dismiss a card</li>
                 <li>Change the state of a card (such as flagging or archiving it)</li>
@@ -622,6 +621,176 @@
     <string name="chip_choice2_toast">Choice chip 2 clicked!</string>
     <string name="chip_choice3_toast">Choice chip 3 clicked!</string>
 
+	
+	<!--Data Table strings-->
+
+    <string name="data_table_title">Data table</string>
+    <string name="data_table_span_title">
+		<![CDATA[
+            <p>
+                <h1>Data tables</h1>
+            </p>
+            <p>
+                Data tables display sets of data across rows and columns.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_usage">
+		<![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+                Data tables display information in a grid-like format of rows and columns. They organize information in a way that’s easy to scan, so that users can look for patterns and insights.
+                <br><br>
+                Data tables can contain:
+            </p>
+            <ul>
+                <li>Interactive components (such as chips, buttons, or menus)</li>
+                <li>Non-interactive elements (such as badges)</li>
+                <li>Tools to query and manipulate data</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="data_table_span_elements">
+		<![CDATA[
+            <p>
+                <h3>Data table elements</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_elements_baseline">
+		<![CDATA[
+            <p>
+                <h4>Baseline elements</h4>
+            </p>
+            <p>
+                Column header names describe the type of content displayed in each column. Each row contains data related to a single entity.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_elements_interactive">
+		<![CDATA[
+            <p>
+                <h4>Interactive elements</h4>
+            </p>
+            <p>
+                Data tables can include interactive elements, such as:
+            </p><br>
+            <ul>
+                <li>Checkboxes</li>
+                <li>Sorting (on columns)</li>
+                <li>Icons that communicate alerts</li>
+            </ul><br>
+            <p>
+                Controls that manipulate how table data is displayed (such as pagination or filter chips  should be placed directly above or below a table.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_columns">
+		<![CDATA[
+            <p>
+                <h3>Columns</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_columns_heightpadding">
+		<![CDATA[
+            <p>
+                <h4>Height and padding</h4>
+            </p>
+            <p>
+                The baseline row height is 52dp, and the column header row height is 56dp (4dp taller than regular rows).
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_columns_padding">
+		<![CDATA[
+            <p>
+                <h4>Padding</h4>
+            </p>
+            <p>
+                There is 32dp or more of padding between columns.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_columns_text">
+		<![CDATA[
+            <p>
+                <h4>Text</h4>
+            </p>
+            <p>
+                Column header text uses a medium weight font (to differentiate it from row text).
+                <br><br>
+                Text that is longer than the column width is truncated with an ellipsis. On hover, a tooltip shows the full name.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_sorting">
+		<![CDATA[
+            <p>
+                <h3>Sorting</h3>
+            </p>
+            <p>
+                To help users sort information, a column can display column sorting by default.
+                <br><br>
+                To indicate which column is sorted by default, place a downward or upward arrow icon next to the column header’s name.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_sorting_reverse">
+		<![CDATA[
+            <p>
+                <h3>Reversing sort order</h3>
+            </p>
+            <p>
+                To reverse the sort order of a column, the user taps the header name or arrow icon. Upon sorting, the arrow icon rotates 180 degrees.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_rowcheck">
+		<![CDATA[
+            <p>
+                <h3>Row checkbox</h3>
+            </p>
+            <p>
+                When a row checkbox is selected, the row should display a background color.
+                <br><br>
+                For users who use screen magnification, the background color fill provides a way to indicate that a row has been selected, as the selected checkbox may appear outside of the magnified screen area.
+                <br><br>
+                For more information on selection states, visit States.
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_focus">
+		<![CDATA[
+            <p>
+                <h3>Focus</h3>
+            </p>
+            <p>
+               When using keyboard focus, an indicator appears as users tab through interactive items (such as checkboxes).
+            </p>
+        ]]>
+    </string>
+    <string name="data_table_span_menu">
+		<![CDATA[
+            <p>
+                <h3>Inline menus</h3>
+            </p>
+            <p>
+               Inline menus allow selection from a predefined set of menu items. They are embedded directly in a table cell.
+            </p>
+        ]]>
+    </string>
+
+    <string name="datatable_sample_elements_interactive_description">Interactive elements sample</string>
+    <string name="datatable_sample_columns_heightpadding_description">Height and padding sample</string>
+    <string name="datatable_sample_columns_padding_description">Padding sample</string>
+    <string name="datatable_sample_sorting_description">Sorting sample</string>
+    <string name="datatable_sample_rowcheck_description">Row checkbox sample</string>
+    <string name="datatable_sample_focus_description">Focus sample</string>
+    <string name="datatable_sample_menu_description">Inline menus sample</string>
+	
     <!--Dialogs strings-->
 
     <string name="dialog_title">Dialogs</string>
@@ -725,6 +894,81 @@
         <item>Phobos</item>
     </string-array>
 
+	<!--Divider strings-->
+
+    <string name="divider_title">Divider</string>
+    <string name="divider_span_title"><![CDATA[
+            <p>
+                <h1>Divider</h1>
+            </p>
+            <p>
+                A divider is a thin line that groups content in lists and layouts.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_usage"><![CDATA[
+            <p>
+                <h3>Usage</h3>
+            </p>
+            <p>
+               Dividers separate content into clear groups.
+            </p>
+            <br>
+            <ul>
+                <li>Dividers should be noticeable in a layout, but not jarring.</li>
+                <li>Dividers should only be used if elements cannot be separated using white space.</li>
+                <li>Use dividers sparingly, to create groupings rather than separate items.</li>
+            </ul>
+        ]]>
+    </string>
+    <string name="divider_span_types"><![CDATA[
+            <p>
+                <h3>Types</h3>
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_fullbleed"><![CDATA[
+            <p>
+                <h4>Full-bleed dividers</h4>
+            </p>
+            <p>
+                Full-bleed dividers separate content into sections and span the entire length of a layout.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_inset"><![CDATA[
+            <p>
+                <h4>Inset dividers</h4>
+            </p>
+            <p>
+                Inset dividers separate related content, such as emails in an email thread. They should be used with anchoring elements such as icons or avatars, and left-aligned with the app bar title.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_middle"><![CDATA[
+            <p>
+                <h4>Middle dividers</h4>
+            </p>
+            <p>
+                Dividers can also be placed in the middle of a layout. They are best for separating related content, such prices on a receipt.
+            </p>
+        ]]>
+    </string>
+    <string name="divider_span_types_subheaders"><![CDATA[
+            <p>
+                <h4>Dividers with subheaders</h4>
+            </p>
+            <p>
+                Dividers can be paired with subheaders to identify grouped content. Place dividers above subheaders to reinforce the subheader’s connection to content.
+            </p>
+        ]]>
+    </string>
+
+    <string name="divider_fullbleed_sample_description">Full-bleed dividers sample</string>
+    <string name="divider_inset_sample_description">Inset divider sample</string>
+    <string name="divider_middle_sample_description">Middle divider sample</string>
+    <string name="divider_subheaders_sample_description">Dividers with subheaders sample</string>
+	
     <!--Floating Action Button strings-->
 
     <string name="fab_title">Floating Action Button</string>
@@ -760,7 +1004,6 @@
                     <li>Share</li>
                     <li>Start a process</li>
                 </ul>
-
                 <br>
                 Avoid using a FAB for minor or destructive actions, such as:
                 <br><br>
@@ -1014,7 +1257,6 @@
             </p>
             <p>
                 The rail is a side navigation component that displays three to seven app destinations and, optionally, a Floating Action Button. Each destination is represented by an icon and a text label. <br>
-
                 The rail can function on its own at larger screen sizes, such as desktop and tablet. When users transition between screen sizes and devices, the rail can also complement other navigation components, such as bottom navigation.
             </p>
         ]]>
@@ -1047,7 +1289,6 @@
             </p>
             <p>
                 Scrolling<br>
-
                 Destinations in the navigation rail should remain visible when scrolling vertically. <br>
                 If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
             </p>
@@ -1496,80 +1737,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-
-
-    <!--Floating Action Button strings-->
-
-    <string name="divider_title">Divider</string>
-    <string name="divider_span_title"><![CDATA[
-            <p>
-                <h1>Divider</h1>
-            </p>
-            <p>
-                A divider is a thin line that groups content in lists and layouts.
-            </p>
-        ]]>
-    </string>
-    <string name="divider_span_usage"><![CDATA[
-            <p>
-                <h3>Usage</h3>
-            </p>
-            <p>
-               Dividers separate content into clear groups.
-            </p>
-            <br>
-            <ul>
-                <li>Dividers should be noticeable in a layout, but not jarring.</li>
-                <li>Dividers should only be used if elements cannot be separated using white space.</li>
-                <li>Use dividers sparingly, to create groupings rather than separate items.</li>
-            </ul>
-        ]]>
-    </string>
-    <string name="divider_span_types"><![CDATA[
-            <p>
-                <h3>Types</h3>
-            </p>
-        ]]>
-    </string>
-    <string name="divider_span_types_fullbleed"><![CDATA[
-            <p>
-                <h4>Full-bleed dividers</h4>
-            </p>
-            <p>
-                Full-bleed dividers separate content into sections and span the entire length of a layout.
-            </p>
-        ]]>
-    </string>
-    <string name="divider_span_types_inset"><![CDATA[
-            <p>
-                <h4>Inset dividers</h4>
-            </p>
-            <p>
-                Inset dividers separate related content, such as emails in an email thread. They should be used with anchoring elements such as icons or avatars, and left-aligned with the app bar title.
-            </p>
-        ]]>
-    </string>
-    <string name="divider_span_types_middle"><![CDATA[
-            <p>
-                <h4>Middle dividers</h4>
-            </p>
-            <p>
-                Dividers can also be placed in the middle of a layout. They are best for separating related content, such prices on a receipt.
-            </p>
-        ]]>
-    </string>
-    <string name="divider_span_types_subheaders"><![CDATA[
-            <p>
-                <h4>Dividers with subheaders</h4>
-            </p>
-            <p>
-                Dividers can be paired with subheaders to identify grouped content. Place dividers above subheaders to reinforce the subheader’s connection to content.
-            </p>
-        ]]>
-    </string>
-
-    <string name="divider_fullbleed_sample_description">Full-bleed dividers sample</string>
-    <string name="divider_inset_sample_description">Inset divider sample</string>
-    <string name="divider_middle_sample_description">Middle divider sample</string>
-    <string name="divider_subheaders_sample_description">Dividers with subheaders sample</string>
+	
 </resources>

@@ -8,11 +8,9 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-
     <include
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo"/>
-
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
@@ -21,7 +19,6 @@
         android:layout_marginStart="@dimen/margin_medium"
         android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -91,6 +88,7 @@
                         app:chipIconTint="@color/colorPrimaryDark"/>
 
                 </com.google.android.material.chip.ChipGroup>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -137,6 +135,7 @@
                         android:text="@string/chip_filter3_text" />
 
                 </com.google.android.material.chip.ChipGroup>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -180,6 +179,7 @@
                         app:chipIconTint="@color/colorPrimaryDark"/>
 
                 </com.google.android.material.chip.ChipGroup>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -227,9 +227,11 @@
                         android:text="@string/chip_choice3_text" />
 
                 </com.google.android.material.chip.ChipGroup>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
 
-
     </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

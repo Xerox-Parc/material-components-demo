@@ -8,11 +8,11 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.Snackbar;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySnackbarBinding;
 
-import static com.google.android.material.snackbar.BaseTransientBottomBar.LENGTH_LONG;
 import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
 
 public class SnackbarActivity extends AppCompatActivity {
@@ -34,17 +34,25 @@ public class SnackbarActivity extends AppCompatActivity {
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_snackbar);
 
             inflateSpanTextViewContent(binding, activity);
+
             binding.snackbarButton.setOnClickListener(l ->
                     Snackbar.make(binding.coordinator,
                             R.string.snackbar_text_visible,
-                            LENGTH_LONG).show());
+                            BaseTransientBottomBar.LENGTH_LONG).show()
+            );
+
             binding.snackbarButtonUndo.setOnClickListener(l ->
                     Snackbar.make(binding.coordinator,
                             R.string.snackbar_text_visible,
-                            LENGTH_LONG).setAction(R.string.snackbar_undo, v -> Log.e("UNDO","Done")).show());
+                            BaseTransientBottomBar.LENGTH_LONG).setAction(
+                                    R.string.snackbar_undo,
+                                    v -> Log.e("UNDO","Done")
+                            ).show()
+            );
         }
         View getRoot() {
             return binding.getRoot();
         }
     }
+
 }

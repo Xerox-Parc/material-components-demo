@@ -1,7 +1,6 @@
 package com.xeroxparc.materialcomponentsdemo.ui.component.tooltip;
 
 import android.view.View;
-import android.webkit.WebView;
 
 import androidx.annotation.NonNull;
 

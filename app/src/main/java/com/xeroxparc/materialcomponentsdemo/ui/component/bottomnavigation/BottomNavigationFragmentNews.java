@@ -13,7 +13,7 @@ import com.xeroxparc.materialcomponentsdemo.R;
 public class BottomNavigationFragmentNews extends Fragment {
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
-        return inflater.inflate(R.layout.fragments_bottom_navigation_news,container,false);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_bottom_navigation_news, container, false);
     }
 }

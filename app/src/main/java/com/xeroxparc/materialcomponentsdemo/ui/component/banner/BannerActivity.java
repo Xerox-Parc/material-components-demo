@@ -22,14 +22,17 @@ public class BannerActivity extends AppCompatActivity {
 
     class Holder {
         private ActivityBannerBinding binding;
+
         Holder(Activity activity) {
             binding = ActivityBannerBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.banner_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_banner);
             inflateSpanTextViewContent(binding, activity);
         }
+
         View getRoot() {
             return binding.getRoot();
         }
     }
+
 }

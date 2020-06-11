@@ -39,7 +39,6 @@
                 android:text="Usage"
                 tools:ignore="HardcodedText" />
 
-
             <TextView
                 android:id="@+id/text_view_span_switch"
                 android:layout_width="match_parent"

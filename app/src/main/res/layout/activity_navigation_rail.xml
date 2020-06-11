@@ -74,5 +74,7 @@
                 android:layout_marginBottom="@dimen/margin_large"/>
 
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

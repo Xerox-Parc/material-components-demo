@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment;
 
 import com.xeroxparc.materialcomponentsdemo.R;
 
-public class BottomNavigationFragmentPlaces extends Fragment {
+public class BottomNavigationFragmentPlace extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
-        return inflater.inflate(R.layout.fragments_bottom_navigation_places,container,false);
+        return inflater.inflate(R.layout.fragment_bottom_navigation_place,container,false);
     }
 }

@@ -1236,6 +1236,89 @@
     <string name="menu_music_note">Music note</string>
     <string name="menu_info">Info</string>
     <string name="menu_dropdown">Dropdown Menu</string>
+    
+    <!--Navigation Drawer strings-->
+    
+    <string name="navigation_drawer_title">Navigation Drawer</string>
+    <string name="navigation_drawer_navigation_header">Navigation Header</string>
+    <string name="navigation_drawer_drawer_title">Navigation Drawer Title</string>
+    <string name="navigation_drawer_drawer_subtitle">Navigation Drawer Subtitle</string>
+    <string name="navigation_drawer_option_1">Option 1</string>
+    <string name="navigation_drawer_option_2">Option 2</string>
+    <string name="navigation_drawer_option_3">Option 3</string>
+    <string name="navigation_drawer_standard_drawer">Standard Drawer</string>
+    <string name="navigation_drawer_bottom_drawer">Bottom Drawer</string>
+
+    <string name="navigation_drawer_span_title">
+		<![CDATA[
+            <p>
+                <h1>Navigation drawer</h1>
+            </p>
+            <p>
+                Navigation drawers provide access to destinations in your app.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_drawer_span_usage">
+		<![CDATA[
+            <p>
+                <h1>Usage</h1>
+            </p>
+            <p>
+            Navigation drawers provide access to destinations and app functionality, such as switching accounts. They can either be permanently on-screen or controlled by a navigation menu icon.<br>
+
+            Navigation drawers are recommended for:
+                <ul>
+                    <li>Apps with five or more top-level destinations
+                    <li>Apps with two or more levels of navigation hierarchy
+                    <li>Quick navigation between unrelated destinations
+                </ul>
+
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_drawer_span_standard_drawer">
+		<![CDATA[
+            <p>
+                <h1>Standard drawer</h1>
+            </p>
+            <p>
+                Standard navigation drawers allow users to simultaneously access drawer destinations and app content. They are often co-planar with app content and affect the screen’s layout grid. <br>
+
+                Standard drawers can be permanently visible or opened and closed by tapping a navigation menu icon. They can be used on tablet and desktop only. On mobile, modal drawers are used instead.
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_drawer_span_modal_drawer">
+		<![CDATA[
+            <p>
+                <h1>Modal drawer</h1>
+            </p>
+            <p>
+                Modal navigation drawers use a scrim to block interaction with the rest of an app’s content. They are elevated above most app elements and don’t affect the screen’s layout grid. <br>
+
+                They are primarily for use on mobile, where screen space is limited. They can be replaced by standard drawers on tablet and desktop. <br> <br>
+
+                <em>Swipe right to see an interactive demo of this component<em>
+            </p>
+        ]]>
+    </string>
+    <string name="navigation_drawer_span_bottom_drawer">
+		<![CDATA[
+            <p>
+                <h1>Bottom drawer</h1>
+            </p>
+            <p>
+                Bottom navigation drawers are a specialized type of modal drawer for use with a bottom app bar. <br>
+
+                For increased reachability from the bottom app bar\’s menu icon, they open from the bottom of the screen rather than the side.
+            </p>
+        ]]>
+    </string>
+
+    <string name="navigation_drawer_navigation_home">Home</string>
+    <string name="navigation_drawer_navigation_standard_drawer">Standard Drawer</string>
+    <string name="navigation_drawer_navigation_bottom_drawer">Bottom Drawer</string>
 
     <!--Navigation Rail strings-->
 
@@ -1737,5 +1820,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-	
+
 </resources>

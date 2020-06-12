@@ -23,6 +23,7 @@
         <activity android:name=".ui.component.imagelist.ImageListActivity" />
         <activity android:name=".ui.component.list.ListActivity" />
         <activity android:name=".ui.component.menu.MenuActivity" />
+        <activity android:name=".ui.component.navigationdrawer.NavigationDrawerActivity" />
         <activity android:name=".ui.component.navigationrail.NavigationRailActivity" />
         <activity android:name=".ui.component.picker.PickerActivity" />
         <activity android:name=".ui.component.progressindicator.ProgressIndicatorActivity" />

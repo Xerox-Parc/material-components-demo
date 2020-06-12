@@ -13,7 +13,6 @@
     <style name="TextAppearance.App.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5">
         <item name="android:textColor">@android:color/transparent</item>
         <item name="android:textSize">0sp</item>
-
     </style>
 
     <style name="TextAppearance.App.CollapsingToolbar.Collapsed" parent="TextAppearance.MaterialComponents.Headline6">
@@ -29,5 +28,4 @@
         <item name="android:minWidth">48dp</item>
         <item name="android:minHeight">48dp</item>
     </style>
-
 </resources>

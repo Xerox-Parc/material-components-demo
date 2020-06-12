@@ -21,6 +21,8 @@ import java.util.Objects;
  */
 public class Utils {
 
+    private Utils() {}
+
     @NonNull
     public static String toCamelCase(@NonNull String string) {
         StringBuilder result = new StringBuilder();

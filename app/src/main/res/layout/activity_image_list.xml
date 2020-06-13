@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/app_bar_container"
+        layout="@layout/app_bar_demo"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_span_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usage"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+            android:id="@+id/text_view_span_standard_image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Standard Image List"
+            tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_standard_image_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_image_list_standard_image_list"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_list_image_description_standard_image_list" />
+
+            <TextView
+                android:id="@+id/text_view_span_quilted_image_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quilted Image List"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_quilted_image_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_image_list_quilted_image_list"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_list_image_description_quilted_image_list" />
+
+            <TextView
+                android:id="@+id/text_view_span_woven_image_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Woven Image List"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_woven_image_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_image_list_woven_image_list"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_list_image_description_woven_image_list" />
+
+            <TextView
+                android:id="@+id/text_view_span_masonry_image_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masonry Image List"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_masonry_image_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_image_list_masonry_image_list"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:contentDescription="@string/image_list_image_description_masonry_image_list" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -16,9 +16,9 @@ import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySearchBinding;
 import static com.xeroxparc.materialcomponentsdemo.utils.Utils.toCamelCase;
 
 /**
- * Binder class.
- * Synchronize the view model and the view.
- * Setup the recycler view.
+ * Binder class, it synchronize the view model and the view.
+ * It replace data binding and BindingAdapter classes providing similar results with actual testable
+ * code instead of fill XML with logic and lambda expression.
  * @author Fabio Buracchi
  *
  */

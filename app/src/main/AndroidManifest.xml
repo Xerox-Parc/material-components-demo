@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.component.button.ButtonActivity" />
         <activity android:name=".ui.component.appbarbottom.AppBarBottomActivity" />
         <activity android:name=".ui.component.backdrop.BackdropActivity" />
         <activity android:name=".ui.component.banner.BannerActivity" />
@@ -28,9 +29,10 @@
         <activity android:name=".ui.component.picker.PickerActivity" />
         <activity android:name=".ui.component.progressindicator.ProgressIndicatorActivity" />
         <activity android:name=".ui.component.selectioncontrol.SelectionControlActivity" />
+        <activity android:name=".ui.component.sheetbottom.SheetBottomActivity" />
+        <activity android:name=".ui.component.sheetside.SheetSideActivity"/>
         <activity android:name=".ui.component.slider.SliderActivity" />
         <activity android:name=".ui.component.snackbar.SnackbarActivity" />
-        <activity android:name=".ui.component.sheetside.SheetSideActivity"/>
         <activity android:name=".ui.component.tab.TabActivity" />
         <activity android:name=".ui.component.textfield.TextFieldActivity" />
         <activity android:name=".ui.component.tooltip.TooltipActivity" />

@@ -1564,6 +1564,68 @@
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
 
+    <!--Sheet: Bottom strings-->
+    
+    <string name="sheet_bottom_title">Sheets: Bottom</string>
+    <string name="sheet_bottom_span_title"><![CDATA[
+            <p>
+                 <h1>Sheets: Bottom</h1>
+            </p>
+            <p>
+            Bottom sheets are surfaces containing supplementary content that are anchored to the bottom of the screen.
+            </p>
+        ]]>
+    </string>
+    <string name="sheet_bottom_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Bottom sheets are supplementary surfaces primarily used on mobile. There are three types suitable for different use cases:
+            </p>
+            <p>-Standard bottom sheets;</p>
+            <p>-Modal bottom sheets ;</p>
+            <p>-Expanding bottom sheets;</p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_span_standard"><![CDATA[
+            <p>
+                 <h3>Standard Bottom Sheets</h3>
+            </p>
+            <p>
+            Standard bottom sheets co-exist with the screen’s main UI region and allow for simultaneously viewing and interacting with both regions. They are commonly used to keep a feature or secondary content visible on screen when content in main UI region is frequently scrolled or panned.
+            </p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_span_modal"><![CDATA[
+            <p>
+                 <h3>Modal Bottom Sheets</h3>
+            </p>
+            <p>
+             Modal bottom sheets present a set of choices while blocking interaction with the rest of the screen. They are an alternative to inline menus and simple dialogs on mobile, providing additional room for content, iconography, and actions.
+            </p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_span_expanding"><![CDATA[
+            <p>
+                 <h3>Expanding Bottom Sheets</h3>
+            </p>
+            <p>
+             An expanding bottom sheet is a surface anchored to the bottom of the screen that users can expand to access a feature or task
+            </p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_add_to_favourites">Add To Favourites</string>
+    <string name="sheet_bottom_upload_to_drive">Upload To Drive</string>
+    <string name="sheet_bottom_save_to_device">Save To Device</string>
+    <string name="sheet_bottom_favourites_description">Add To Favourites Icon</string>
+    <string name="sheet_bottom_drive_description">Upload To Drive Icon</string>
+    <string name="sheet_bottom_save_description">Save To Device Icon</string>
+    <string name="sheet_bottom_favourites_toast">Add To Favourites Icon</string>
+    <string name="sheet_bottom_drive_toast">Upload To Drive Icon</string>
+    <string name="sheet_bottom_save_toast">Save To Device Icon</string>
+    <string name="sheet_bottom_show_button">Show Bottom Sheet</string>
+    
     <!--Sheet: Side strings-->
     <string name="sheet_side_title">Sheets: Side</string>
     <string name="sheet_side_span_title"><![CDATA[

@@ -1564,6 +1564,45 @@
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
 
+    <!--Sheet: Side strings-->
+    <string name="sheet_side_title">Sheets: Side</string>
+    <string name="sheet_side_span_title"><![CDATA[
+            <p>
+                 <h1>Sheets: Side</h1>
+            </p>
+            <p>
+            Side sheets are surfaces containing supplementary content that are anchored to the left or right edge of the screen.
+            </p>
+        ]]>
+     </string>
+    <string name="sheet_side_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Side sheets are supplementary surfaces primarily used on tablet and desktop. They come in two types:-Standard side sheets display content that complements the screen’s primary content. They remain visible while users interact with primary content.-Modal side sheets are used on mobile instead of standard side sheets, due to limited screen size. They can display the same types of content as standard side sheets, but must be dismissed in order to interact with the underlying content.
+            </p>
+        ]]>
+     </string><string name="sheet_side_span_standard"><![CDATA[
+            <p>
+                 <h3>Standard Side Sheets</h3>
+            </p>
+            <p>
+            Standard side sheets co-exist with the screen’s primary UI region, which allows viewing and interaction with both surfaces. They are used only on tablet and desktop.
+            </p>
+        ]]>
+     </string><string name="sheet_side_span_modal"><![CDATA[
+            <p>
+                 <h3>Modal Side Sheets</h3>
+            </p>
+            <p>
+           Modal side sheets present content while blocking interaction with the rest of the screen.On mobile, they are used instead of standard side sheets. On larger screens, they can help focus a user’s attention on a key flow, such as making a purchase.
+            </p>
+        ]]>
+     </string>
+    <string name="sheet_side_standard_image">Sheet Side Standard</string>
+    <string name="sheet_side_modal_image">Sheet Side Modal</string>
+    
     <!--Slider strings-->
 
     <string name="slider_title">Slider</string>
@@ -1820,5 +1859,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-
+    
 </resources>

@@ -12,8 +12,7 @@
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
     app:behavior_hideable="true"
     android:background="@android:color/white"
-    tools:showIn="@layout/activity_sheet_bottom"
-    android:visibility="gone">
+    tools:showIn="@layout/activity_sheet_bottom">
 
     <LinearLayout
         android:id="@+id/sheet_bottom_share_layout"

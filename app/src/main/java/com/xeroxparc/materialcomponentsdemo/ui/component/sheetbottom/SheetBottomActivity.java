@@ -1,17 +1,12 @@
 package com.xeroxparc.materialcomponentsdemo.ui.component.sheetbottom;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySheetBottomBinding;
-
 import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
-
 public class SheetBottomActivity extends AppCompatActivity {
 
     @Override
@@ -29,8 +24,8 @@ public class SheetBottomActivity extends AppCompatActivity {
             binding = ActivitySheetBottomBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.sheet_bottom_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_sheetbottom);
-
             inflateSpanTextViewContent(binding, activity);
+            
             binding.sheetBottomVisible.sheetBottomShareLayout.setOnClickListener(l -> Toast.makeText(
                     getBaseContext(),
                     binding.sheetBottomVisible.sheetBottomTextAddToFavourites.getText(),
@@ -45,6 +40,7 @@ public class SheetBottomActivity extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show());
         }
         View getRoot() {
+
             return binding.getRoot();
         }
     }

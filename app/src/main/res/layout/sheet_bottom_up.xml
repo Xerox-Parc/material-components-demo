@@ -10,6 +10,8 @@
     android:paddingBottom="@dimen/margin_small"
     android:id="@+id/sheet_bottom"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    app:behavior_peekHeight="@dimen/margin_medium"
+    app:behavior_skipCollapsed="true"
     app:behavior_hideable="true"
     android:background="@android:color/white"
     tools:showIn="@layout/activity_sheet_bottom">
@@ -26,8 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
+            android:paddingTop="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_medium"
             app:srcCompat="@drawable/sheet_bottom_favourite"
             android:contentDescription="@string/sheet_bottom_favourites_description" />
 
@@ -52,8 +54,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
+            android:paddingTop="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_medium"
             app:srcCompat="@drawable/sheet_bottom_drive"
             android:contentDescription="@string/sheet_bottom_drive_description" />
 
@@ -78,8 +80,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
+            android:paddingTop="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_medium"
             app:srcCompat="@drawable/sheet_bottom_save"
             android:contentDescription="@string/sheet_bottom_save_description" />
 

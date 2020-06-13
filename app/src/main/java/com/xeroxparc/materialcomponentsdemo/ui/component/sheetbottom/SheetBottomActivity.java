@@ -2,8 +2,11 @@ package com.xeroxparc.materialcomponentsdemo.ui.component.sheetbottom;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySheetBottomBinding;
 import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
@@ -25,18 +28,25 @@ public class SheetBottomActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.sheet_bottom_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_sheetbottom);
             inflateSpanTextViewContent(binding, activity);
-            
-            binding.sheetBottomVisible.sheetBottomShareLayout.setOnClickListener(l -> Toast.makeText(
+
+            BottomSheetBehavior<LinearLayout> bottomSheetBehavior = BottomSheetBehavior.from(
+                    binding.sheetBottom.sheetBottom
+            );
+            bottomSheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN);
+            binding.bottomSheetShowButton.setOnClickListener(l ->
+                    bottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED)
+            );
+            binding.sheetBottom.sheetBottomShareLayout.setOnClickListener(l -> Toast.makeText(
                     getBaseContext(),
-                    binding.sheetBottomVisible.sheetBottomTextAddToFavourites.getText(),
+                    binding.sheetBottom.sheetBottomTextAddToFavourites.getText(),
                     Toast.LENGTH_SHORT).show());
-            binding.sheetBottomVisible.sheetBottomSaveLayout.setOnClickListener(l -> Toast.makeText(
+            binding.sheetBottom.sheetBottomSaveLayout.setOnClickListener(l -> Toast.makeText(
                     getBaseContext(),
-                    binding.sheetBottomVisible.sheetBottomTextSave.getText(),
+                    binding.sheetBottom.sheetBottomTextSave.getText(),
                     Toast.LENGTH_SHORT).show());
-            binding.sheetBottomVisible.sheetBottomUploadLayout.setOnClickListener(l -> Toast.makeText(
+            binding.sheetBottom.sheetBottomUploadLayout.setOnClickListener(l -> Toast.makeText(
                     getBaseContext(),
-                    binding.sheetBottomVisible.sheetBottomTextUploadToDrive.getText(),
+                    binding.sheetBottom.sheetBottomTextUploadToDrive.getText(),
                     Toast.LENGTH_SHORT).show());
         }
         View getRoot() {

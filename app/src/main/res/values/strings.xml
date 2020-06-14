@@ -1858,6 +1858,8 @@
         </lu>
        When the top app bar scrolls, its elevation above other elements becomes apparent.</p>]]>
     </string>
+    <string name="app_bar_top_image_descriptor_title">Title</string>
+    <string name="app_bar_top_image_descriptor_behavior">Behavior</string>
 </resources>
 
 

@@ -79,6 +79,48 @@
     <string name="app_bar_bottom_image_description_news">content descriptor news</string>
     <string name="app_bar_bottom_image_description_place">content descriptor place</string>
 
+    <!--AppBar : Top strings-->
+    
+    <string name="app_bar_top_title">App bars: top</string>
+    <string name="app_bar_top_span_title"><![CDATA[
+        <p>
+        <h1>App bars: top</h1>
+        </p>
+        <p>The top app bar displays information and actions relating to the current screen.</p>]]>
+    </string>
+    <string name="app_bar_top_span_usage"><![CDATA[
+        <p>
+        <h3>Usage</h3>
+        </p>
+        <p>The top app bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.</p>]]>
+    </string>
+    <string name="app_bar_top_span_anatomy"><![CDATA[
+        <p>
+        <h3>Anatomy</h3>
+        </p>
+        <p>The recommended placement of elements in a top app bar for left-to-right languages is:
+        <lu>
+           <li> Place navigation on the far left
+           <li> Place any titles to the right of navigation
+           <li> Place contextual actions to the right of navigation
+           <li> Place an overflow menu (if used) to the far right
+        </lu>
+        For right-to-left languages, placement positions should be flipped.</p>]]>
+    </string>
+    <string name="app_bar_top_span_behavior"><![CDATA[
+        <p>
+        <h3>Behavior</h3>
+        </p>
+        <p>Upon scrolling, the top app bar can remain in place, or transform in the following ways:
+        <lu>
+           <li> Scrolling upward hides the top app bar
+           <li> Scrolling downward reveals the top app bar
+        </lu>
+       When the top app bar scrolls, its elevation above other elements becomes apparent.</p>]]>
+    </string>
+    <string name="app_bar_top_image_descriptor_title">Title</string>
+    <string name="app_bar_top_image_descriptor_behavior">Behavior</string>
+    
     <!--Backdrop strings-->
 
     <string name="backdrop_title">Backdrop</string>
@@ -1564,6 +1606,107 @@
     <string name="selection_radio_button_text_three">Three</string>
     <string name="selection_radio_button_text_four">Three</string>
 
+    <!--Sheet: Bottom strings-->
+    
+    <string name="sheet_bottom_title">Sheets: Bottom</string>
+    <string name="sheet_bottom_span_title"><![CDATA[
+            <p>
+                 <h1>Sheets: Bottom</h1>
+            </p>
+            <p>
+            Bottom sheets are surfaces containing supplementary content that are anchored to the bottom of the screen.
+            </p>
+        ]]>
+    </string>
+    <string name="sheet_bottom_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Bottom sheets are supplementary surfaces primarily used on mobile. There are three types suitable for different use cases:
+            </p>
+            <p>-Standard bottom sheets;</p>
+            <p>-Modal bottom sheets ;</p>
+            <p>-Expanding bottom sheets;</p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_span_standard"><![CDATA[
+            <p>
+                 <h3>Standard Bottom Sheets</h3>
+            </p>
+            <p>
+            Standard bottom sheets co-exist with the screen’s main UI region and allow for simultaneously viewing and interacting with both regions. They are commonly used to keep a feature or secondary content visible on screen when content in main UI region is frequently scrolled or panned.
+            </p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_span_modal"><![CDATA[
+            <p>
+                 <h3>Modal Bottom Sheets</h3>
+            </p>
+            <p>
+             Modal bottom sheets present a set of choices while blocking interaction with the rest of the screen. They are an alternative to inline menus and simple dialogs on mobile, providing additional room for content, iconography, and actions.
+            </p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_span_expanding"><![CDATA[
+            <p>
+                 <h3>Expanding Bottom Sheets</h3>
+            </p>
+            <p>
+             An expanding bottom sheet is a surface anchored to the bottom of the screen that users can expand to access a feature or task
+            </p>
+        ]]>
+        </string>
+    <string name="sheet_bottom_add_to_favourites">Add To Favourites</string>
+    <string name="sheet_bottom_upload_to_drive">Upload To Drive</string>
+    <string name="sheet_bottom_save_to_device">Save To Device</string>
+    <string name="sheet_bottom_favourites_description">Add To Favourites Icon</string>
+    <string name="sheet_bottom_drive_description">Upload To Drive Icon</string>
+    <string name="sheet_bottom_save_description">Save To Device Icon</string>
+    <string name="sheet_bottom_favourites_toast">Add To Favourites Icon</string>
+    <string name="sheet_bottom_drive_toast">Upload To Drive Icon</string>
+    <string name="sheet_bottom_save_toast">Save To Device Icon</string>
+    <string name="sheet_bottom_show_button">Show Bottom Sheet</string>
+    
+    <!--Sheet: Side strings-->
+    <string name="sheet_side_title">Sheets: Side</string>
+    <string name="sheet_side_span_title"><![CDATA[
+            <p>
+                 <h1>Sheets: Side</h1>
+            </p>
+            <p>
+            Side sheets are surfaces containing supplementary content that are anchored to the left or right edge of the screen.
+            </p>
+        ]]>
+     </string>
+    <string name="sheet_side_span_usage"><![CDATA[
+            <p>
+                 <h3>Usage</h3>
+            </p>
+            <p>
+            Side sheets are supplementary surfaces primarily used on tablet and desktop. They come in two types:-Standard side sheets display content that complements the screen’s primary content. They remain visible while users interact with primary content.-Modal side sheets are used on mobile instead of standard side sheets, due to limited screen size. They can display the same types of content as standard side sheets, but must be dismissed in order to interact with the underlying content.
+            </p>
+        ]]>
+     </string><string name="sheet_side_span_standard"><![CDATA[
+            <p>
+                 <h3>Standard Side Sheets</h3>
+            </p>
+            <p>
+            Standard side sheets co-exist with the screen’s primary UI region, which allows viewing and interaction with both surfaces. They are used only on tablet and desktop.
+            </p>
+        ]]>
+     </string><string name="sheet_side_span_modal"><![CDATA[
+            <p>
+                 <h3>Modal Side Sheets</h3>
+            </p>
+            <p>
+           Modal side sheets present content while blocking interaction with the rest of the screen.On mobile, they are used instead of standard side sheets. On larger screens, they can help focus a user’s attention on a key flow, such as making a purchase.
+            </p>
+        ]]>
+     </string>
+    <string name="sheet_side_standard_image">Sheet Side Standard</string>
+    <string name="sheet_side_modal_image">Sheet Side Modal</string>
+    
     <!--Slider strings-->
 
     <string name="slider_title">Slider</string>
@@ -1820,46 +1963,5 @@
     </string>
     <string name="tooltip_image_description_placement">Placement</string>
     <string name="tooltip_image_description_desktop">Desktop</string>
-    <!--AppBar:Top strings-->
-    <string name="app_bar_top_title">AppBar:top</string>
-    <string name="app_bar_top_span_title"><![CDATA[
-        <p>
-        <h1>App bars: top</h1>
-        </p>
-        <p>The top app bar displays information and actions relating to the current screen.</p>]]>
-    </string>
-    <string name="app_bar_top_span_usage"><![CDATA[
-        <p>
-        <h3>Usage</h3>
-        </p>
-        <p>The top app bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.</p>]]>
-    </string>
-    <string name="app_bar_top_span_anatomy"><![CDATA[
-        <p>
-        <h3>Anatomy</h3>
-        </p>
-        <p>The recommended placement of elements in a top app bar for left-to-right languages is:
-        <lu>
-           <li> Place navigation on the far left
-           <li> Place any titles to the right of navigation
-           <li> Place contextual actions to the right of navigation
-           <li> Place an overflow menu (if used) to the far right
-        </lu>
-        For right-to-left languages, placement positions should be flipped.</p>]]>
-    </string>
-    <string name="app_bar_top_span_behavior"><![CDATA[
-        <p>
-        <h3>Behavior</h3>
-        </p>
-        <p>Upon scrolling, the top app bar can remain in place, or transform in the following ways:
-        <lu>
-           <li> Scrolling upward hides the top app bar
-           <li> Scrolling downward reveals the top app bar
-        </lu>
-       When the top app bar scrolls, its elevation above other elements becomes apparent.</p>]]>
-    </string>
-    <string name="app_bar_top_image_descriptor_title">Title</string>
-    <string name="app_bar_top_image_descriptor_behavior">Behavior</string>
+    
 </resources>
-
-

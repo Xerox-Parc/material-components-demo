@@ -9,11 +9,9 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-
     <include
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo"/>
-
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
@@ -119,11 +117,8 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/divider_subheaders_sample_description"/>
 
-
         </LinearLayout>
 
-
     </androidx.core.widget.NestedScrollView>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

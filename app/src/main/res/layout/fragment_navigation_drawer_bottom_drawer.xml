@@ -40,7 +40,9 @@
                     android:contentDescription="@string/navigation_drawer_bottom_drawer" />
 
             </LinearLayout>
+
         </androidx.core.widget.NestedScrollView>
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </FrameLayout>

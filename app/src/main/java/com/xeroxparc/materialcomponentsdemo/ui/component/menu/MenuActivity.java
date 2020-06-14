@@ -73,7 +73,7 @@ public class MenuActivity extends AppCompatActivity {
                 };
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(
                         getApplicationContext(),
-                        R.layout.menu_exposed_menu_item,
+                        R.layout.item_menu_exposed,
                         exposedDropdownMenuOptions
                 );
                 binding.filledExposedDropdown.setAdapter(adapter);

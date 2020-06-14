@@ -29,4 +29,3 @@
         android:icon="@drawable/ic_create_new_24dp"
         android:title="@string/bottom_navigation_span_news" />
 </menu>
-

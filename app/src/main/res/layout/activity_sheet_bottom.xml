@@ -71,6 +71,9 @@
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
-    <include layout="@layout/sheet_bottom_up"
-        android:id="@+id/sheet_bottom"/>
+
+    <include
+        android:id="@+id/sheet_bottom"
+        layout="@layout/sheet_bottom_up" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

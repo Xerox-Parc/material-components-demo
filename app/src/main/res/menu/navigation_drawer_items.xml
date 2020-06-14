@@ -24,4 +24,5 @@
             android:icon="@drawable/ic_place_24dp"
             android:title="@string/navigation_drawer_option_3" />
     </group>
+
 </menu>

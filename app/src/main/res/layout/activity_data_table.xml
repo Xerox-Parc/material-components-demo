@@ -200,11 +200,8 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/datatable_sample_menu_description"/>
 
-
         </LinearLayout>
 
-
     </androidx.core.widget.NestedScrollView>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

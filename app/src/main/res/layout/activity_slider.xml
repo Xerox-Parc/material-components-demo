@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/slider_continuous_image"
+                app:srcCompat="@drawable/sample_slider_continuous"
                 android:contentDescription="@string/slider_continuous_image" />
 
 
@@ -79,7 +79,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/slider_discrete_image"
+                app:srcCompat="@drawable/sample_slider_discrete"
                 android:contentDescription="@string/slider_discrete_image"/>
         </LinearLayout>
 

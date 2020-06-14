@@ -11,7 +11,7 @@
 
     <include
         android:id="@+id/app_bar_container"
-        layout="@layout/app_bar_demo"></include>
+        layout="@layout/app_bar_demo" />
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
@@ -73,6 +73,7 @@
                 android:layout_marginBottom="@dimen/margin_large"/>
 
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

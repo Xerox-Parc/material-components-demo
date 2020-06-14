@@ -663,6 +663,7 @@
     <string name="chip_choice2_toast">Choice chip 2 clicked!</string>
     <string name="chip_choice3_toast">Choice chip 3 clicked!</string>
 
+    <string name="chip_image_description">Chip image</string>
 
     <!--Data Table strings-->
 

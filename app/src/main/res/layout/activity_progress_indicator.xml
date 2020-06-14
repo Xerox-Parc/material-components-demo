@@ -91,7 +91,6 @@
                 android:gravity="center_horizontal"
                 android:text="@string/progress_button_submit" />
 
-
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

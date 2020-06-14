@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <include
+        android:id="@+id/app_bar_container"
+        layout="@layout/app_bar_demo"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_span_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usage"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_elements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elements"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_elements_baseline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baseline elements"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_elements_interactive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interactive elements"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_datatable_element"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_large"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_datatable_element"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/datatable_sample_elements_interactive_description"/>
+
+            <TextView
+                android:id="@+id/text_view_span_columns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Columns"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_columns_heightpadding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Height and padding"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_datatable_columns_heightpadding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_medium"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_datatable_columns_heightpadding"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/datatable_sample_columns_heightpadding_description"/>
+
+            <TextView
+                android:id="@+id/text_view_span_columns_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Padding"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_datatable_columns_padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_medium"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_datatable_columns_padding"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/datatable_sample_columns_padding_description"/>
+
+            <TextView
+                android:id="@+id/text_view_span_columns_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_large"
+                android:text="Text"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_sorting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sorting"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_datatable_sorting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_medium"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_datatable_sorting"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/datatable_sample_sorting_description"/>
+
+            <TextView
+                android:id="@+id/text_view_span_sorting_reverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_large"
+                android:text="Reversing sort order"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_view_span_rowcheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Row checkbox"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_datatable_rowcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_large"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_datatable_rowcheck"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/datatable_sample_rowcheck_description"/>
+
+            <TextView
+                android:id="@+id/text_view_span_focus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Focus"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_datatable_focus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_large"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_datatable_focus"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/datatable_sample_focus_description"/>
+
+            <TextView
+                android:id="@+id/text_view_span_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inline menus"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/image_view_datatable_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_large"
+                android:layout_gravity="center"
+                android:src="@drawable/sample_datatable_menu"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/datatable_sample_menu_description"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

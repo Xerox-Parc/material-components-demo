@@ -63,7 +63,7 @@ public class Utils {
 
         component = activity.getClass().getName();
         component = component.substring(
-                component.lastIndexOf(".") + 1,
+                component.lastIndexOf('.') + 1,
                 component.length() - "Activity".length()
         );
         component = toSnakeCase(component).substring(1);

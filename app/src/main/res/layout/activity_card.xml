@@ -67,7 +67,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/banner_height"
-                            android:contentDescription="Image"
+                            android:contentDescription="@string/chip_image_description"
                             android:scaleType="centerCrop"
                             app:srcCompat="@drawable/sample_card" />
 

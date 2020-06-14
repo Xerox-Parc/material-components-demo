@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_header_items_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_alarm_24dp"
+            android:title="@string/navigation_drawer_option_1" />
+        <item
+            android:id="@+id/navigation_standard_drawer"
+            android:icon="@drawable/ic_lightbulb_24dp"
+            android:title="@string/navigation_drawer_option_2" />
+    </group>
+
+    <group
+        android:id="@+id/group_header_items_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_bottom_drawer"
+            android:icon="@drawable/ic_place_24dp"
+            android:title="@string/navigation_drawer_option_3" />
+    </group>
+
+</menu>

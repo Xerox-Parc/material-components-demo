@@ -1,6 +1,7 @@
 package com.xeroxparc.materialcomponentsdemo.ui.search;
 
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 
@@ -74,7 +75,7 @@ class ComponentSearchBinder {
                     toCamelCase(component.getName())
             )));
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            Log.e("SearchActivity", "Selected component class not found");
         }
         activity.startActivity(intent);
     }

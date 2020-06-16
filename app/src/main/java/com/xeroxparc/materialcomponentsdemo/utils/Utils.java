@@ -3,6 +3,7 @@ package com.xeroxparc.materialcomponentsdemo.utils;
 import android.app.Activity;
 import android.text.Html;
 import android.text.Spanned;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 
@@ -51,7 +52,7 @@ public class Utils {
             Field field = resourceClass.getField(resourceName);
             return field.getInt(field);
         } catch (NoSuchFieldException | IllegalAccessException e) {
-            e.printStackTrace();
+            Log.e("Utils get Resource by name", "Resource not found");
         }
         return -1;
     }
@@ -75,7 +76,7 @@ public class Utils {
                 try {
                     fieldObject = field.get(binding);
                 } catch (IllegalAccessException e) {
-                    e.printStackTrace();
+                    Log.e("Utils inflate HTML TextView", "Can't access to field data");
                 }
                 Method setFieldText = null;
                 for (Method method : Objects.requireNonNull(fieldObject).getClass().getMethods()) {
@@ -96,7 +97,7 @@ public class Utils {
                 try {
                     Objects.requireNonNull(setFieldText).invoke(fieldObject, content);
                 } catch (IllegalAccessException | InvocationTargetException e) {
-                    e.printStackTrace();
+                    Log.e("Utils inflate HTML TextView", "Can't invoke TextView method");
                 }
             }
         }

@@ -10,6 +10,13 @@ import androidx.annotation.NonNull;
 
 import com.xeroxparc.materialcomponentsdemo.databinding.ItemTabViewPagerBinding;
 
+/**
+ * Binder class, it synchronize the view model and the view.
+ * It replace data binding and BindingAdapter classes providing similar results with actual testable
+ * code instead of fill XML with logic and lambda expression.
+ * @author Fabio Buracchi
+ *
+ */
 public class TabViewPagerBinder {
 
     private final ItemTabViewPagerBinding binding;

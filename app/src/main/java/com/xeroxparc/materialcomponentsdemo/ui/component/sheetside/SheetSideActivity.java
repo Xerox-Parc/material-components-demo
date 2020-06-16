@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySheetSideBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class SheetSideActivity extends AppCompatActivity {
 
@@ -29,7 +29,7 @@ public class SheetSideActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.sheet_side_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_sheetside);
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
 
         }

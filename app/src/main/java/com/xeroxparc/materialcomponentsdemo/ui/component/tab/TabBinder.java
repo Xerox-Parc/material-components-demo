@@ -10,7 +10,7 @@ import com.xeroxparc.materialcomponentsdemo.databinding.ActivityTabBinding;
 
 import java.util.Arrays;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 /**
  * Binder class, it synchronize the view model and the view.
@@ -37,7 +37,7 @@ class TabBinder {
         binding.appBarContainer.toolbar.setTitle(R.string.tab_title);
         binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_tab);
 
-        inflateSpanTextViewContent(binding, activity);
+        inflateSpanWebViewContent(binding, activity);
 
         binding.viewPagerFixed.setAdapter(new TabViewPagerAdapter(Arrays.asList(
                 activity.getDrawable(R.drawable.picture_cat),

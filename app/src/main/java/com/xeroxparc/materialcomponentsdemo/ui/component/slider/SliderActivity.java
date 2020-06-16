@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySliderBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class SliderActivity extends AppCompatActivity {
 
@@ -28,7 +28,7 @@ public class SliderActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.slider_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_slider);
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
         }
 

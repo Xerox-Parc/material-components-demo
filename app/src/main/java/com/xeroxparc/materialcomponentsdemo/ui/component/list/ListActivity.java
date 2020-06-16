@@ -9,7 +9,7 @@ import android.view.View;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityListBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class ListActivity extends AppCompatActivity {
 
@@ -28,7 +28,7 @@ public class ListActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.list_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_list);
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
         }
 
         View getRoot() {

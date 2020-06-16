@@ -13,7 +13,7 @@ import com.xeroxparc.materialcomponentsdemo.databinding.ActivityNavigationDrawer
 
 import java.util.Objects;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class NavigationDrawerActivity extends AppCompatActivity {
 
@@ -34,7 +34,7 @@ public class NavigationDrawerActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.navigation_drawer_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_navigationdrawer);
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
             binding.navigationView.setNavigationItemSelectedListener(item -> {
                 ((NavHostFragment) (Objects.requireNonNull(getSupportFragmentManager()

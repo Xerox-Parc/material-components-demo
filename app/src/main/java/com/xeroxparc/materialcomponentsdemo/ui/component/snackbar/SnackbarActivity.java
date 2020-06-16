@@ -13,7 +13,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySnackbarBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class SnackbarActivity extends AppCompatActivity {
 
@@ -33,7 +33,7 @@ public class SnackbarActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.snackbar_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_snackbar);
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
             binding.snackbarButton.setOnClickListener(l ->
                     Snackbar.make(binding.coordinator,

@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityTooltipBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 /**
  * Binder class, it synchronize the view model and the view.
@@ -34,7 +34,7 @@ class TooltipBinder {
         binding.appBarContainer.toolbar.setTitle(R.string.tooltip_title);
         binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_tooltip);
 
-        inflateSpanTextViewContent(binding, activity);
+        inflateSpanWebViewContent(binding, activity);
     }
 
 }

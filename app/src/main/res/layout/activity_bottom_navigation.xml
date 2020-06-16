@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-
     <include
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo" />

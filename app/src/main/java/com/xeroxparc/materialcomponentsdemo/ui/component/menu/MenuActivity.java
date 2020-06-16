@@ -12,7 +12,7 @@ import android.widget.PopupMenu;
 
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityMenuBinding;
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -45,7 +45,7 @@ public class MenuActivity extends AppCompatActivity {
             binding = ActivityMenuBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.menu_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_menu);
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
             new Adapter();
             binding.appBarContainer.appBar.addOnOffsetChangedListener((appBarLayout, verticalOffset) -> {

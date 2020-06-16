@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">
+	<string name="app_name" translatable="false">
 		Material Components Demo
 	</string>
 	<string name="splash_screen_picture">
@@ -14,6 +14,27 @@
 
 	<string name="banner_description">
 		Material Component Banner
+	</string>
+
+	<!-- CSS -->
+
+	<string name="span_css" translatable="false">
+		<![CDATA[
+			<head>
+				<style type=\"text/css\">
+					@font-face {
+						font-family: roboto;
+						src: url(\"file:///android_asset/fonts/roboto.ttf\")
+					}
+					body {
+						font-family: roboto;
+						font-size: 100%;
+						text-align: justify;
+						color: #808080;
+					}
+				</style>
+			</head>
+		]]>
 	</string>
 
 	<!--App bar bottom strings-->

@@ -33,6 +33,7 @@
                 android:layout_height="wrap_content"
                 android:text="Title"
                 tools:ignore="HardcodedText" />
+
             <TextView
                 android:id="@+id/text_view_span_usage"
                 android:layout_width="match_parent"
@@ -40,56 +41,39 @@
                 android:text="Usage"
                 tools:ignore="HardcodedText" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_height="match_parent"
-                android:layout_width="match_parent" />
             <TextView
-                android:id="@+id/text_view_span_circular"
+                android:id="@+id/text_view_span_linear_and_circular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Placement"
+                android:text="Linear and Circular"
                 tools:ignore="HardcodedText" />
 
-            <ProgressBar
-                android:id="@+id/progress_indicator_circular"
-                style="?android:attr/progressBarStyle"
+            <ImageView
+                android:id="@+id/image_view_linear_and_circular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:indeterminate="true"
-                android:visibility="gone"/>
-
-            <Button
-                android:id="@+id/button_circular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
-                android:text="@string/progress_button_submit" />
+                android:layout_gravity="center"
+                android:src="@drawable/sample_progress_indicator_linear_and_circular"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/progress_indicator_image_description_linear_and_circular" />
 
             <TextView
-                android:id="@+id/text_view_span_linear"
+                android:id="@+id/text_view_span_determinate_and_indeterminate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Placement"
+                android:text="Determinate and Indeterminate"
                 tools:ignore="HardcodedText" />
 
-            <ProgressBar
-                android:id="@+id/progress_indicator_linear"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:indeterminate="true"
-                android:visibility="gone" />
-
-            <Button
-                android:id="@+id/button_linear"
+            <ImageView
+                android:id="@+id/image_view_determinate_and_indeterminate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center_horizontal"
-                android:text="@string/progress_button_submit" />
+                android:layout_gravity="center"
+                android:src="@drawable/sample_progress_indicator_determinate_and_indeterminate"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/progress_indicator_image_description_determinate_and_indeterminate"
+                android:layout_marginBottom="@dimen/margin_large" />
+
 
         </LinearLayout>
 

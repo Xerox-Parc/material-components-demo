@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,10 +7,9 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-
-    <include
-        android:id="@+id/app_bar_container"
-        layout="@layout/app_bar_demo" />
+        <include
+            android:id="@+id/app_bar_container"
+            layout="@layout/app_bar_demo"/>
 
         <androidx.core.widget.NestedScrollView
             android:id="@+id/scroll_view"
@@ -21,10 +19,13 @@
             android:layout_marginEnd="@dimen/margin_medium"
             app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-            <FrameLayout
-                android:id="@+id/frame_layout"
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/navigation_host_fragment"
+                android:name="androidx.navigation.fragment.NavHostFragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="wrap_content"
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/bottom_navigation_navigation" />
 
         </androidx.core.widget.NestedScrollView>
 
@@ -36,5 +37,6 @@
         android:layout_gravity="bottom"
         android:layout_marginTop="@dimen/margin_medium"
         app:menu="@menu/menu_bottom_navigation" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

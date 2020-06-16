@@ -536,6 +536,18 @@
 	<string name="bottom_navigation_span_picture_guitar">
 		Picture guitar
 	</string>
+	<string name="bottom_navigation_navigation_home">
+		Home
+	</string>
+	<string name="bottom_navigation_navigation_music">
+		Music
+	</string>
+	<string name="bottom_navigation_navigation_places">
+		Places
+	</string>
+	<string name="bottom_navigation_navigation_news">
+		News
+	</string>
 
 	<!--Buttons strings-->
 
@@ -2826,5 +2838,6 @@
 	<string name="tooltip_image_description_desktop">
 		Desktop
 	</string>
+
 
 </resources>

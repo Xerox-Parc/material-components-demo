@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.component.bottomnavigation.BottomNavigationNewsFragment">
+    tools:context=".ui.component.bottomnavigation.BottomNavigationPlacesFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -14,11 +14,11 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="@string/app_bar_bottom_image_description_news"
+            android:contentDescription="@string/app_bar_bottom_image_description_place"
             android:scaleType="fitCenter"
-            android:src="@drawable/picture_news"
-            android:title="@string/bottom_navigation_span_picture_news"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/picture_places"
+            android:title="@string/bottom_navigation_span_picture_places"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

@@ -60,9 +60,9 @@
         android:layout_gravity="bottom|end"
         android:contentDescription="@string/fab_description"
         android:text="@string/fab_text"
-        android:textColor="@color/fab_internal_color"
+        android:textColor="@color/colorOnPrimary"
         app:icon="@drawable/ic_add_24dp"
-        app:iconTint="@color/fab_internal_color"
+        app:iconTint="@color/colorOnPrimary"
         app:backgroundTint="@color/colorPrimary"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

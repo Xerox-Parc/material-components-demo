@@ -8,6 +8,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/**
+ * ViewPager2's adapter class.
+ * It initialize list item objects and it maintains coherency with the model.
+ * @author Fabio Buracchi
+ *
+ */
 public class TabViewPagerAdapter extends RecyclerView.Adapter<TabViewPagerAdapter.ViewPagerViewHolder> {
 
     private List<Drawable> imageList;

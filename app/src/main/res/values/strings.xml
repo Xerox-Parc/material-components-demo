@@ -2190,33 +2190,37 @@
             </p>
         ]]>
     </string>
-    <string name="progress_indicator_span_circular">
+    <string name="progress_indicator_span_linear_and_circular">
 		<![CDATA[
             <p>
                  <h3>
-					Circular Progress Indicator
+					Linear and circular
 				</h3>
             </p>
             <p>
-            Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
+            Material Design offers two visually distinct types of progress indicators: linear and circular progress indicators. Only one type should represent each kind of activity in an app. For example, if a refresh action displays a circular indicator on one screen, that same action shouldn\’t use a linear indicator elsewhere in the app.
             </p>
         ]]>
     </string>
-    <string name="progress_indicator_span_linear">
+    <string name="progress_indicator_span_determinate_and_indeterminate">
 		<![CDATA[
             <p>
                  <h3>
-					Linear Progress Indicator
+					Determinate and indeterminate
 				</h3>
             </p>
             <p>
-             Linear progress indicators display progress by animating an indicator along the length of a fixed, visible track. The behavior of the indicator is dependent on whether the progress of a process is known.
+             <b>Determinate indicators</b> display how long a process will take. They should be used when the process completion rate can be detected. <br>
+             <b>Indeterminate indicators</b> express an unspecified amount of wait time. They should be used when progress isn’t detectable, or if it’s not necessary to indicate how long an activity will take.
             </p>
         ]]>
     </string>
-    <string name="progress_button_submit">
-        Submit
-	</string>
+    <string name="progress_indicator_image_description_linear_and_circular">
+        Linear and Circular
+    </string>
+    <string name="progress_indicator_image_description_determinate_and_indeterminate">
+        Determinate and Indeterminate
+    </string>
 
     <!--Selection Controls strings-->
 
@@ -2819,5 +2823,5 @@
     <string name="tooltip_image_description_desktop">
         Desktop
     </string>
-    
+
 </resources>

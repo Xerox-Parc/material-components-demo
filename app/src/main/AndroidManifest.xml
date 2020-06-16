@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xeroxparc.materialcomponentsdemo">
 
     <application
@@ -10,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.search.ComponentSearchActivity" />
         <activity android:name=".ui.component.appbarbottom.AppBarBottomActivity" />
         <activity android:name=".ui.component.appbartop.AppBarTopActivity" />
         <activity android:name=".ui.component.backdrop.BackdropActivity" />
@@ -31,13 +31,13 @@
         <activity android:name=".ui.component.progressindicator.ProgressIndicatorActivity" />
         <activity android:name=".ui.component.selectioncontrol.SelectionControlActivity" />
         <activity android:name=".ui.component.sheetbottom.SheetBottomActivity" />
-        <activity android:name=".ui.component.sheetside.SheetSideActivity"/>
+        <activity android:name=".ui.component.sheetside.SheetSideActivity" />
         <activity android:name=".ui.component.slider.SliderActivity" />
         <activity android:name=".ui.component.snackbar.SnackbarActivity" />
         <activity android:name=".ui.component.tab.TabActivity" />
         <activity android:name=".ui.component.textfield.TextFieldActivity" />
         <activity android:name=".ui.component.tooltip.TooltipActivity" />
-        <activity android:name=".ui.search.ComponentSearchActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

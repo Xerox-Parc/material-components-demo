@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityBottomNavigationBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 
 public class BottomNavigationActivity extends AppCompatActivity {
@@ -29,7 +29,7 @@ public class BottomNavigationActivity extends AppCompatActivity {
             binding = ActivityBottomNavigationBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.bottom_navigation_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_bottomnavigation);
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
             getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new BottomNavigationHomeFragment()).commit();
             binding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
                 Fragment selectedFragment = null;

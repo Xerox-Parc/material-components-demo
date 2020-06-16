@@ -23,7 +23,7 @@ import java.util.Objects;
 
 
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 
 
@@ -35,7 +35,7 @@ public class BottomNavigationHomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = FragmentBottomNavigationHomeBinding.inflate(inflater, container, false);
-        inflateSpanTextViewContent(binding, Objects.requireNonNull(getActivity()));
+        inflateSpanWebViewContent(binding, Objects.requireNonNull(getActivity()));
         return binding.getRoot();
     }
 

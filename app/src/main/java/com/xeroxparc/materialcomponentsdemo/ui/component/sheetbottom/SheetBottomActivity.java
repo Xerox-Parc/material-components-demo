@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySheetBottomBinding;
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 public class SheetBottomActivity extends AppCompatActivity {
 
     @Override
@@ -27,7 +27,7 @@ public class SheetBottomActivity extends AppCompatActivity {
             binding = ActivitySheetBottomBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.sheet_bottom_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_sheetbottom);
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
             BottomSheetBehavior<LinearLayout> bottomSheetBehavior = BottomSheetBehavior.from(
                     binding.sheetBottom.sheetBottom

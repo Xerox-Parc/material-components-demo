@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityProgressIndicatorBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class ProgressIndicatorActivity extends AppCompatActivity {
 
@@ -27,7 +27,7 @@ public class ProgressIndicatorActivity extends AppCompatActivity {
                 binding.appBarContainer.toolbar.setTitle(R.string.progress_indicator_title);
                 binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_progressindicator);
 
-                inflateSpanTextViewContent(binding, activity);
+                inflateSpanWebViewContent(binding, activity);
             }
 
             View getRoot() {

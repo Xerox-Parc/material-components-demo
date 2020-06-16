@@ -9,7 +9,7 @@ import android.view.View;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityBackdropBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class BackdropActivity extends AppCompatActivity {
 
@@ -28,7 +28,7 @@ public class BackdropActivity extends AppCompatActivity {
             binding = ActivityBackdropBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.backdrop_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_backdrop);
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
         }
 
         View getRoot() {

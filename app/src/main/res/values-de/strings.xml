@@ -1,7 +1,4 @@
 <resources>
-	<string name="app_name">
-		Material Components Demo
-	</string>
 	<string name="splash_screen_picture">
 		Splash Screen
 	</string>

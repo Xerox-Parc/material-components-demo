@@ -2,7 +2,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,30 +21,27 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_fixed_tabs"
+            <WebView
+                android:id="@+id/web_view_span_fixed_tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fixed"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout_fixed"
@@ -61,12 +57,11 @@
                 android:layout_weight="1"
                 android:layout_marginBottom="@dimen/margin_medium"/>
 
-            <TextView
-                android:id="@+id/text_view_span_scrollable_tabs"
+            <WebView
+                android:id="@+id/web_view_span_scrollable_tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Scrollable"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout_scrollable"

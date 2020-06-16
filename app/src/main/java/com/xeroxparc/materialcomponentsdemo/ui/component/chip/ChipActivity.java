@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityChipBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class ChipActivity extends AppCompatActivity {
 
@@ -32,7 +32,7 @@ public class ChipActivity extends AppCompatActivity {
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_chip);
 
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
             this.binding.chipInput1.setOnClickListener(l ->
                     Toast.makeText(

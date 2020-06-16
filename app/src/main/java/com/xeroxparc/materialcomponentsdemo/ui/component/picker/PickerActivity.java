@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.xeroxparc.materialcomponentsdemo.R;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 import com.google.android.material.datepicker.MaterialDatePicker;
 
@@ -34,7 +34,7 @@ public class PickerActivity extends AppCompatActivity{
             binding.appBarContainer.toolbar.setTitle(R.string.picker_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_picker);
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
             binding.buttonMobileDateRangePickerButton.setOnClickListener(this);
             binding.buttonMobileCalendarPicker.setOnClickListener(this);

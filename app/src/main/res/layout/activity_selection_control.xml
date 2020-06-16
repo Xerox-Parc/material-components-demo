@@ -2,7 +2,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,29 +21,28 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_usage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_switch"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Switches"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
+
+            <WebView
+                android:id="@+id/web_view_span_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"/>
+
             <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switch_one"
                 android:layout_width="match_parent"
@@ -52,35 +50,36 @@
                 android:text="@string/selection_switch_text"
                 app:useMaterialThemeColors="true"
                 android:checked="false"/>
-            <TextView
-                android:id="@+id/text_view_span_checkbox"
+
+            <WebView
+                android:id="@+id/web_view_span_checkbox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Checkbox"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/selection_checkbox_text_one"
                 app:useMaterialThemeColors="false" />
+
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/selection_checkbox_text_two"
                 app:useMaterialThemeColors="false" />
+
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/selection_checkbox_text_three"
                 app:useMaterialThemeColors="false" />
 
-            <TextView
-                android:id="@+id/text_view_span_radio_button"
+            <WebView
+                android:id="@+id/web_view_span_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Radio Button"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -94,12 +93,14 @@
                     android:layout_height="wrap_content"
                     android:text="@string/selection_radio_button_text_one"
                     android:checked="true"/>
+
                 <RadioButton
                     android:id="@+id/radio_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/selection_radio_button_text_two"
                     android:checked="false"/>
+
                 <RadioButton
                     android:id="@+id/radio_three"
                     android:layout_width="wrap_content"

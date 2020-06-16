@@ -2,7 +2,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,42 +21,40 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical"
             android:paddingBottom="@dimen/margin_large">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_usage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_standard"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Anatomy"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_modal"
+                android:scrollbars="none"/>
+
+            <WebView
+                android:id="@+id/web_view_span_standard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modal"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_expanding"
+                android:scrollbars="none"/>
+
+            <WebView
+                android:id="@+id/web_view_span_modal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Expanding"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
+
+            <WebView
+                android:id="@+id/web_view_span_expanding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"/>
 
             <Button
                 android:id="@+id/bottom_sheet_show_button"

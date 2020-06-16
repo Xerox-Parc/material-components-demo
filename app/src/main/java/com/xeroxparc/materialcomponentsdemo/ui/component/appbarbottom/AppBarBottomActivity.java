@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityAppBarBottomBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class AppBarBottomActivity extends AppCompatActivity {
 
@@ -30,7 +30,9 @@ public class AppBarBottomActivity extends AppCompatActivity {
             binding = ActivityAppBarBottomBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.app_bar_bottom_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_appbarbottom);
-            inflateSpanTextViewContent(binding, activity);
+
+            inflateSpanWebViewContent(binding, activity);
+
             binding.bottomAppBar.setOnMenuItemClickListener(v -> {
                 if (v.getItemId() == R.id.more) {
                     Toast.makeText(activity, R.string.app_bar_bottom_press_more_information, Toast.LENGTH_LONG).show();

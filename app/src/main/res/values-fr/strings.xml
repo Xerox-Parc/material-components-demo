@@ -2,6 +2,9 @@
 	<string name="app_name">
 		Material Components Demo
 	</string>
+	<string name="splash_screen_picture">
+        Splash Screen
+    </string>
     <string name="search_component_hint">
 		Rechercher un composant de matériau
 	</string>
@@ -2190,32 +2193,43 @@
 			</p>
 		]]>
 	</string>
-    <string name="progress_indicator_span_circular">
+	<string name="progress_indicator_span_linear_and_circular">
 		<![CDATA[
 			<p>
-				<h3>
-					Indicateur de progrès circulaire
+				 <h3>
+					Linéaire et circulaire
 				</h3>
 			</p>
 			<p>
-			Les indicateurs de progression circulaire affichent la progression en animant un indicateur le long d\'une piste circulaire invisible dans le sens des aiguilles d\'une montre. Ils peuvent être appliqués directement sur une surface, comme un bouton ou une carte.
+				Material Design propose deux types d\'indicateurs de progression visuellement distincts: les indicateurs de progression linéaires et circulaires. Un seul type doit représenter chaque type d\'activité dans une application. Par exemple, si une action d\'actualisation affiche un indicateur circulaire sur un écran, cette même action ne doit pas utiliser d\'indicateur linéaire ailleurs dans l\'application.
 			</p>
 		]]>
 	</string>
-    <string name="progress_indicator_span_linear">
+	<string name="progress_indicator_span_determinate_and_indeterminate">
 		<![CDATA[
 			<p>
-				<h3>
-					Indicateur de progression linéaire
+				 <h3>
+					Déterminé et indéterminé
 				</h3>
 			</p>
 			<p>
-				Les indicateurs de progression linéaire affichent la progression en animant un indicateur sur la longueur d\'une piste fixe et visible. Le comportement de l\'indicateur dépend du fait que la progression d\'un processus est connue ou non.
+				<b>
+					Déterminer les indicateurs
+				</b>
+				afficher la durée d\'un processus. Ils doivent être utilisés lorsque le taux d\'achèvement du processus peut être détecté.
+				<br>
+				<b>
+					Indicateurs indéterminés
+				</b>
+				exprimer un temps d\'attente non spécifié. Ils doivent être utilisés lorsque les progrès ne sont pas détectables ou s’il n’est pas nécessaire d’indiquer la durée d’une activité.
 			</p>
 		]]>
 	</string>
-    <string name="progress_button_submit">
-		Soumettre
+	<string name="progress_indicator_image_description_linear_and_circular">
+		Linéaire et circulaire
+	</string>
+	<string name="progress_indicator_image_description_determinate_and_indeterminate">
+		Déterminé et indéterminé
 	</string>
 
     <!--Selection Controls strings-->

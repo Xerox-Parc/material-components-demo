@@ -2,6 +2,9 @@
 	<string name="app_name">
 		Material Components Demo
 	</string>
+	<string name="splash_screen_picture">
+        Splash Screen
+    </string>
     <string name="search_component_hint">
 		Buscar componente de material
 	</string>
@@ -2190,32 +2193,43 @@
 			</p>
 		]]>
 	</string>
-    <string name="progress_indicator_span_circular">
+	<string name="progress_indicator_span_linear_and_circular">
 		<![CDATA[
 			<p>
-				<h3>
-					Indicador de progreso circular
+				 <h3>
+					Lineal y circular
 				</h3>
 			</p>
 			<p>
-			Los indicadores de progreso circular muestran el progreso animando un indicador a lo largo de una pista circular invisible en el sentido de las agujas del reloj. Se pueden aplicar directamente a una superficie, como un botón o una tarjeta.
+				Material Design ofrece dos tipos de indicadores de progreso visualmente distintos: indicadores de progreso lineales y circulares. Solo un tipo debe representar cada tipo de actividad en una aplicación. Por ejemplo, si una acción de actualización muestra un indicador circular en una pantalla, esa misma acción no debería usar un indicador lineal en otra parte de la aplicación.
 			</p>
 		]]>
 	</string>
-    <string name="progress_indicator_span_linear">
+	<string name="progress_indicator_span_determinate_and_indeterminate">
 		<![CDATA[
 			<p>
-				<h3>
-					Indicador de progreso lineal
+				 <h3>
+					Determinado e indeterminado
 				</h3>
 			</p>
 			<p>
-				Los indicadores de progreso lineal muestran el progreso animando un indicador a lo largo de una pista fija y visible. El comportamiento del indicador depende de si se conoce el progreso de un proceso.
+				<b>
+					Indicadores determinados
+				</b>
+				muestra cuánto tiempo llevará un proceso. Deben usarse cuando se pueda detectar la tasa de finalización del proceso.
+				<br>
+				<b>
+					Indicadores indeterminados
+				</b>
+				expresar una cantidad no especificada de tiempo de espera. Deben usarse cuando el progreso no sea detectable, o si no es necesario indicar cuánto tiempo llevará una actividad.
 			</p>
 		]]>
 	</string>
-    <string name="progress_button_submit">
-		Enviar
+	<string name="progress_indicator_image_description_linear_and_circular">
+		Lineal y circular
+	</string>
+	<string name="progress_indicator_image_description_determinate_and_indeterminate">
+		Determinado e Indeterminado
 	</string>
 
     <!--Selection Controls strings-->

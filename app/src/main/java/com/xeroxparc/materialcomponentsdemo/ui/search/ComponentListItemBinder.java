@@ -11,8 +11,9 @@ import com.xeroxparc.materialcomponentsdemo.data.MaterialComponent;
 import com.xeroxparc.materialcomponentsdemo.databinding.ItemComponentBinding;
 
 /**
- * Binder class.
- * Synchronize the view model and the view.
+ * Binder class, it synchronize the view model and the view.
+ * It replace data binding and BindingAdapter classes providing similar results with actual testable
+ * code instead of fill XML with logic and lambda expression.
  * @author Fabio Buracchi
  *
  */

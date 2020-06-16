@@ -1,17 +1,29 @@
 <resources>
-    <string name="app_name">Material Components Demo</string>
-    <string name="search_component_hint">Search material component</string>
-    <string name="action_search_title">Search component</string>
+    <string name="app_name">
+        Material Components Demo
+    </string>
+    <string name="search_component_hint">
+        Search material component
+    </string>
+    <string name="action_search_title">
+        Search component
+    </string>
 
-    <string name="banner_description">Material Component Banner</string>
+    <string name="banner_description">
+        Material Component Banner
+    </string>
 
     <!--App bar bottom strings-->
 
-    <string name="app_bar_bottom_title">App bar bottom</string>
+    <string name="app_bar_bottom_title">
+        App bar bottom
+    </string>
     <string name="app_bar_bottom_span_title">
         <![CDATA[
             <p>
-                <h1>App bars: bottom</h1>
+                <h1>
+                    App bars: bottom
+                </h1>
             </p>
             <p>
                 A bottom app bar displays navigation and key actions at the bottom of mobile screens.
@@ -21,7 +33,9 @@
     <string name="app_bar_bottom_span_usage">
         <![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+                </h3>
             </p>
             <p>
                 Bottom app bars provide access to a bottom navigation drawer and up to four actions, including the floating action button.
@@ -31,19 +45,26 @@
     <string name="app_bar_bottom_span_when_to_use">
         <![CDATA[
             <p>
-                <h3>When to use</h3>
+                <h3>
+                    When to use
+                </h3>
             </p>
             <p>
                 Bottom app bars should be used for:
                 <ul>
-                    <li>Mobile devices only
-                    <li>Access to a bottom navigation drawer
-                    <li>Screens with two to five actions
+                    <li>
+                        Mobile devices only
+                    <li>
+                        Access to a bottom navigation drawer
+                    <li>
+                        Screens with two to five actions
                 </ul>
                 Bottom app bars shouldn\'t be used for:
                 <ul>
-                    <li>Apps with a bottom navigation bar
-                    <li>Screens with one or no actions
+                    <li>
+                        Apps with a bottom navigation bar
+                    <li>
+                        Screens with one or no actions
                 </ul>
             </p>
         ]]>
@@ -51,7 +72,9 @@
     <string name="app_bar_bottom_span_anatomy">
         <![CDATA[
             <p>
-                <h3>Anatomy</h3>
+                <h3>
+                    Anatomy
+                </h3>
             </p>
             <p>
                 Bottom app bars can contain actions that apply to the context of the current screen. They include a navigation menu control on the far left and a floating action button (when one is present). If included in a bottom app bar, an overflow menu control is placed at the end of other actions.
@@ -61,73 +84,135 @@
     <string name="app_bar_bottom_span_positioning">
         <![CDATA[
             <p>
-                <h3>Positioning</h3>
+                <h3>
+                    Positioning
+                </h3>
             </p>
             <p>
                 Bottom app bars have three different layouts based on the presence of a FAB and its position in the bar. These layouts dictate the number of actions that can be included in the bar.
             </p>
         ]]>
     </string>
-    <string name="app_bar_bottom_press_floating">A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types:"regular, mini, and extended.</string>
-    <string name="app_bar_bottom_press_more_information">Have press more information</string>
-    <string name="app_bar_bottom_press_star">Have press star</string>
-    <string name="app_bar_bottom_star">Star</string>
-    <string name="app_bar_bottom_more_info">Information</string>
-    <string name="app_bar_bottom_content_description_more">content descriptor more</string>
-    <string name="app_bar_bottom_content_description_star">content descriptor star</string>
-    <string name="app_bar_bottom_image_description_music">content descriptor music</string>
-    <string name="app_bar_bottom_image_description_news">content descriptor news</string>
-    <string name="app_bar_bottom_image_description_place">content descriptor place</string>
+    <string name="app_bar_bottom_press_floating">
+        A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types:"regular, mini, and extended.
+    </string>
+    <string name="app_bar_bottom_press_more_information">
+        Have press more information
+    </string>
+    <string name="app_bar_bottom_press_star">
+        Have press star
+    </string>
+    <string name="app_bar_bottom_star">
+        Star
+    </string>
+    <string name="app_bar_bottom_more_info">
+        Information
+    </string>
+    <string name="app_bar_bottom_content_description_more">
+        content descriptor more
+    </string>
+    <string name="app_bar_bottom_content_description_star">
+        content descriptor star
+    </string>
+    <string name="app_bar_bottom_image_description_music">
+        content descriptor music
+    </string>
+    <string name="app_bar_bottom_image_description_news">
+        content descriptor news
+    </string>
+    <string name="app_bar_bottom_image_description_place">
+        content descriptor place
+    </string>
 
     <!--AppBar : Top strings-->
-    
-    <string name="app_bar_top_title">App bars: top</string>
-    <string name="app_bar_top_span_title"><![CDATA[
-        <p>
-        <h1>App bars: top</h1>
-        </p>
-        <p>The top app bar displays information and actions relating to the current screen.</p>]]>
+
+    <string name="app_bar_top_title">
+        App bars: top
     </string>
-    <string name="app_bar_top_span_usage"><![CDATA[
-        <p>
-        <h3>Usage</h3>
-        </p>
-        <p>The top app bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.</p>]]>
+    <string name="app_bar_top_span_title">
+        <![CDATA[
+            <p>
+                <h1>
+                    App     bars: top
+                </h1>
+            </p>
+            <p>
+                The top app bar displays information and actions relating to the current screen.
+            </p>
+        ]]>
     </string>
-    <string name="app_bar_top_span_anatomy"><![CDATA[
-        <p>
-        <h3>Anatomy</h3>
-        </p>
-        <p>The recommended placement of elements in a top app bar for left-to-right languages is:
-        <lu>
-           <li> Place navigation on the far left
-           <li> Place any titles to the right of navigation
-           <li> Place contextual actions to the right of navigation
-           <li> Place an overflow menu (if used) to the far right
-        </lu>
-        For right-to-left languages, placement positions should be flipped.</p>]]>
+    <string name="app_bar_top_span_usage">
+        <![CDATA[
+            <p>
+                <h3>
+                    Usage
+                </h3>
+            </p>
+            <p>
+                The top app bar provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.
+            </p>
+        ]]>
     </string>
-    <string name="app_bar_top_span_behavior"><![CDATA[
-        <p>
-        <h3>Behavior</h3>
-        </p>
-        <p>Upon scrolling, the top app bar can remain in place, or transform in the following ways:
-        <lu>
-           <li> Scrolling upward hides the top app bar
-           <li> Scrolling downward reveals the top app bar
-        </lu>
-       When the top app bar scrolls, its elevation above other elements becomes apparent.</p>]]>
+    <string name="app_bar_top_span_anatomy">
+        <![CDATA[
+            <p>
+                <h3>
+                    Anatomy
+                </h3>
+            </p>
+            <p>
+                The recommended placement of elements in a top app bar for left-to-right languages is:
+            <lu>
+                <li>
+                    Place navigation on the far left
+                <li>
+                    Place any titles to the right of navigation
+                <li>
+                    Place contextual actions to the right of navigation
+                <li>
+                    Place an overflow menu (if used) to the far right
+            </lu>
+            For right-to-left languages, placement positions should be flipped.
+            </p>
+        ]]>
     </string>
-    <string name="app_bar_top_image_descriptor_title">Title</string>
-    <string name="app_bar_top_image_descriptor_behavior">Behavior</string>
-    
+    <string name="app_bar_top_span_behavior">
+		<![CDATA[
+            <p>
+                <h3>
+                    Behavior
+                </h3>
+            </p>
+            <p>
+                Upon scrolling, the top app bar can remain in place, or transform in the following ways:
+                <lu>
+                    <li>
+                        Scrolling upward hides the top app bar
+                    <li>
+                        Scrolling downward reveals the top app bar
+                </lu>
+                When the top app bar scrolls, its elevation above other elements becomes apparent.
+            </p>
+        ]]>
+    </string>
+    <string name="app_bar_top_image_descriptor_title">
+        Title
+    </string>
+    <string name="app_bar_top_image_descriptor_behavior">
+        Behavior
+    </string>
+
     <!--Backdrop strings-->
 
-    <string name="backdrop_title">Backdrop</string>
+    <string name="backdrop_title">
+        Backdrop
+    </string>
     <string name="backdrop_span_title">
 		<![CDATA[
             <p>
-                <h1>Backdrop</h1>
+                <h1>
+                    Backdrop
+                </h1>
             </p>
             <p>
                 A backdrop appears behind all other surfaces in an app, displaying contextual and actionable content.
@@ -137,7 +222,9 @@
     <string name="backdrop_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 A backdrop is composed of two surfaces: a back layer and a front layer. The back layer displays actions and context, and these control and inform the front layer\'s content.
@@ -147,19 +234,25 @@
     <string name="backdrop_span_anatomy">
 		<![CDATA[
             <p>
-                <h3>Anatomy</h3>
+                <h3>
+                    Anatomy
+				</h3>
             </p>
             <p>
                 A backdrop consists of a back layer, a front layer, and an optional subheader. Either the back layer or the front layer can be active at a time.
             </p>
             <p>
-                <h5>Active front layer</h5>
+                <h5>
+                    Active front layer
+				</h5>
             </p>
             <p>
                 The front layer always appears in front of the back layer. It is displayed at full width and holds primary content.
             </p>
             <p>
-                <h5>Active back layer</h5>
+                <h5>
+                    Active back layer
+				</h5>
             </p>
             <p>
                 The back layer appears at the lowest elevation (0dp) in an app, filling the entire background. It holds actionable content that is relevant to the front layer.
@@ -169,35 +262,49 @@
     <string name="backdrop_span_behavior">
 		<![CDATA[
             <p>
-                 <h3>Behavior</h3>
+                 <h3>
+                    Behavior
+				</h3>
             </p>
             <p>
                 To reveal the back layer, interact with any actions that appear on it.
             </p>
             <p>
-                  <h5>Concealing the back layer</h5>
+                <h5>
+                    Concealing the back layer
+				</h5>
             </p>
             <p>
                 The back layer can be concealed by either interacting with the front layer or tapping a conceal affordance on either layer.
             </p>
             <p>
-                  <h5>Content scrolling</h5>
+                  <h5>
+                    Content scrolling
+				</h5>
             </p>
             <p>
                 Content on the front layer has different scrolling behaviors (and restrictions) than content on the back layer.
             </p>
         ]]>
     </string>
-    <string name="backdrop_image_descriptor_anatomy">Anatomy</string>
-    <string name="backdrop_image_descriptor_behavior">Behavior</string>
+    <string name="backdrop_image_descriptor_anatomy">
+        Anatomy
+    </string>
+    <string name="backdrop_image_descriptor_behavior">
+        Behavior
+    </string>
 
     <!--Banners strings-->
 
-    <string name="banner_title">Banners</string>
+    <string name="banner_title">
+        Banners
+    </string>
     <string name="banner_span_title">
 		<![CDATA[
         	<p>
-				<h1>Banners</h1>
+				<h1>
+				    Banners
+				</h1>
 			</p>
         	<p>
 				A banner displays a prominent message and related optional actions.
@@ -207,7 +314,9 @@
     <string name="banner_span_usage">
 		<![CDATA[
 			<p>
-				<h3>Usage</h3>
+				<h3>
+				    Usage
+				</h3>
 			</p>
 			<p>
 				A banner displays an important, succinct message, and provides actions for users to address (or dismiss the banner). It requires a user action to be dismissed.Banners should be displayed at the top of the screen, below a top app bar. They’re persistent and nonmodal, allowing the user to either ignore them or interact with them at any time. Only one banner should be shown at a time.
@@ -217,7 +326,9 @@
     <string name="banner_span_banner_container">
 		<![CDATA[
 			<p>
-				<h3>Banner container</h3>
+				<h3>
+				    Banner container
+				</h3>
 			</p>
 			<p>
 				A banner container is rectangular, extending the full width of a layout. The container should be placed in a consistent and prominent location throughout an app, sharing the same elevation as screen content.
@@ -227,7 +338,9 @@
     <string name="banner_span_banner_message">
 		<![CDATA[
         	<p>
-				<h3>Banner message</h3>
+				<h3>
+				    Banner message
+				</h3>
 			</p>
         	<p>
 				The banner message communicates a change or error within an app.Banners should be considered as part of your overall in-app messaging strategy.
@@ -237,7 +350,9 @@
     <string name="banner_span_banner_buttons">
 		<![CDATA[
         	<p>
-				<h3>Banner buttons</h3>
+				<h3>
+				    Banner buttons
+				</h3>
 			</p>
         	<p>
 				Buttons in banners should directly relate to a banner’s message and clearly represent the banner’s action. Buttons must be labelled with text, not icons, for clarity. Banners can contain up to two text buttons, with the dismissive action placed on the left and the confirming action on the right. Place buttons under the banner message, or on the same line if there is enough room to fit both.
@@ -247,18 +362,25 @@
     <string name="banner_span_placement">
 		<![CDATA[
 			<p>
-				<h3>Placement</h3>
+				<h3>
+				    Placement
+				</h3>
 			</p>
 			<p>
-				Banners should be placed at the top of a layout or screen. When scrolling, banners typically move with content and scroll off the screen.</p>
+				Banners should be placed at the top of a layout or screen. When scrolling, banners typically move with content and scroll off the screen.
+			</p>
 			<p>
-				<h5>Banners and top bars</h5>
+				<h5>
+				    Banners and top bars
+				</h5>
 			</p>
 			<p>
 					Banners are placed at the top of the screen below the top app bar. They can be fixed, or scroll with content, depending on the environment:
 				<lu>
-				   <li> On mobile, they scroll off-screen with content, at the same elevation as app content.
-				   <li> On desktop, they remain fixed at the top of the screen, at the same elevation as the top app bar.
+				    <li>
+				        On mobile, they scroll off-screen with content, at the same elevation as app content.
+				    <li>
+				        On desktop, they remain fixed at the top of the screen, at the same elevation as the top app bar.
 				</lu>
 			</p>
 		]]>
@@ -266,24 +388,36 @@
     <string name="banner_span_behavior">
 		<![CDATA[
 			<p>
-				<h3>Behavior</h3>
+				<h3>
+				    Behavior
+				</h3>
 			</p>
 			<p>
 				Banners typically appear when a screen loads content. Banners that appear after a screen loads should animate on screen from the top of a layout. If the banner is at the same elevation as content, it pushes content downwards.
 			</p>
 		]]>
     </string>
-    <string name="banner_image_description_placement">Placement</string>
-    <string name="banner_image_description_buttons">Buttons</string>
-    <string name="banner_image_description_contained">Contained</string>
+    <string name="banner_image_description_placement">
+        Placement
+    </string>
+    <string name="banner_image_description_buttons">
+        Buttons
+    </string>
+    <string name="banner_image_description_contained">
+        Contained
+    </string>
 
     <!--Bottom navigation strings-->
 
-    <string name="bottom_navigation_title">Bottom navigation</string>
+    <string name="bottom_navigation_title">
+        Bottom navigation
+    </string>
     <string name="bottom_navigation_span_title">
         <![CDATA[
             <p>
-                <h1>Bottom navigation</h1>
+                <h1>
+                    Bottom navigation
+				</h1>
             </p>
             <p>
                 Bottom navigation bars allow movement between primary destinations in an app.
@@ -293,7 +427,9 @@
     <string name="bottom_navigation_span_usage">
         <![CDATA[
             <p>
-                <h1>Usage</h1>
+                <h1>
+                    Usage
+				</h1>
             </p>
             <p>
                 Bottom navigation bars display three to five destinations at the bottom of a screen. Each destination is represented by an icon and an optional text label. When a bottom navigation icon is tapped, the user is taken to the top-level navigation destination associated with that icon.
@@ -303,19 +439,26 @@
     <string name="bottom_navigation_span_when_to_use">
         <![CDATA[
             <p>
-                <h3>When to use</h3>
+                <h3>
+                    When to use
+				</h3>
             </p>
             <p>
                 Bottom navigation should be used for:
                 <ul>
-                    <li>Top-level destinations that need to be accessible from anywhere in the app
-                    <li>Three to five destinations
-                    <li>Mobile or tablet only
+                    <li>
+                        Top-level destinations that need to be accessible from anywhere in the app
+                    <li>
+                        Three to five destinations
+                    <li>
+                        Mobile or tablet only
                 </ul>
                 Bottom navigation shouldn\'t be used for:
                 <ul>
-                    <li>  Single tasks, such as viewing a single email
-                    <li>  User preferences or settings
+                    <li>
+                        Single tasks, such as viewing a single email
+                    <li>
+                    User preferences or settings
                 </ul>
             </p>
         ]]>
@@ -323,13 +466,17 @@
     <string name="bottom_navigation_span_behavior">
         <![CDATA[
             <p>
-                <h3>Behavior</h3>
+                <h3>
+                    Behavior
+				</h3>
             </p>
             <p>
                 Bottom navigation behaves differently on Android and iOS. When you select a bottom navigation item (one that’s not currently selected), each platform displays different outcomes:
                 <ul>
-                    <li>On Android: the app navigates to a destination’s top-level screen. Any prior user interactions and temporary screen states are reset, such as scroll position, tab selection, and in-line search.
-                    <li>On iOS: the destination reflects the user’s prior interaction. If the user previously visited that section of the app, they return to the last screen viewed (with its prior state preserved, if possible). Otherwise, the app navigates to the top-level screen.
+                    <li>
+                        On Android: the app navigates to a destination’s top-level screen. Any prior user interactions and temporary screen states are reset, such as scroll position, tab selection, and in-line search.
+                    <li>
+                        On iOS: the destination reflects the user’s prior interaction. If the user previously visited that section of the app, they return to the last screen viewed (with its prior state preserved, if possible). Otherwise, the app navigates to the top-level screen.
                 </ul>
                 Default platform navigation can be overridden when needed to improve the user experience. For example, an Android app that requires frequent switching between sections can preserve each section’s state. Or, an iOS app can return users to the top-level screen (or reset their scroll position) if it better suits the use case.
             </p>
@@ -338,7 +485,9 @@
     <string name="bottom_navigation_span_state">
         <![CDATA[
             <p>
-                <h1>States</h1>
+                <h1>
+                    States
+				</h1>
             </p>
             <p>
                 Bottom navigation destinations may be active, inactive, focused or pressed.
@@ -348,26 +497,54 @@
             </p>
         ]]>
     </string>
-    <string name="bottom_navigation_span_page_favorite">Page favorite</string>
-    <string name="bottom_navigation_span_home">Home</string>
-    <string name="bottom_navigation_span_page_music">Page music</string>
-    <string name="bottom_navigation_span_music">Music</string>
-    <string name="bottom_navigation_span_page_places">Page places</string>
-    <string name="bottom_navigation_span_places">Places</string>
-    <string name="bottom_navigation_span_page_news">Page news</string>
-    <string name="bottom_navigation_span_page_home">Page home</string>
-    <string name="bottom_navigation_span_news">News</string>
-    <string name="bottom_navigation_span_picture_places">Picture places</string>
-    <string name="bottom_navigation_span_picture_news">Picture news</string>
-    <string name="bottom_navigation_span_picture_guitar">Picture guitar</string>
+    <string name="bottom_navigation_span_page_favorite">
+        Page favorite
+    </string>
+    <string name="bottom_navigation_span_home">
+        Home
+    </string>
+    <string name="bottom_navigation_span_page_music">
+        Page music
+    </string>
+    <string name="bottom_navigation_span_music">
+        Music
+    </string>
+    <string name="bottom_navigation_span_page_places">
+        Page places
+    </string>
+    <string name="bottom_navigation_span_places">
+        Places
+    </string>
+    <string name="bottom_navigation_span_page_news">
+        Page news
+    </string>
+    <string name="bottom_navigation_span_page_home">
+        Page home
+    </string>
+    <string name="bottom_navigation_span_news">
+        News
+    </string>
+    <string name="bottom_navigation_span_picture_places">
+        Picture places
+    </string>
+    <string name="bottom_navigation_span_picture_news">
+        Picture news
+    </string>
+    <string name="bottom_navigation_span_picture_guitar">
+        Picture guitar
+    </string>
 
     <!--Buttons strings-->
 
-    <string name="button_title">Buttons</string>
+    <string name="button_title">
+        Buttons
+    </string>
     <string name="button_span_title">
 		<![CDATA[
             <p>
-                <h1>Buttons</h1>
+                <h1>
+                    Buttons
+				</h1>
             </p>
             <p>
                 Buttons allow users to take actions, and make choices, with a single tap.
@@ -377,16 +554,23 @@
     <string name="button_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
                 <ul>
-                    <li>Dialogs
-                    <li>Modal windows
-                    <li>Forms
-                    <li>Cards
-                    <li>Toolbars
+                    <li>
+                        Dialogs
+                    <li>
+                        Modal windows
+                    <li>
+                        Forms
+                    <li>
+                        Cards
+                    <li>
+                        Toolbars
                 </ul>
             </p>
         ]]>
@@ -394,7 +578,9 @@
     <string name="button_span_anatomy">
 		<![CDATA[
             <p>
-                <h3>Anatomy</h3>
+                <h3>
+                    Anatomy
+				</h3>
             </p>
             <p>
                 Buttons contain one required element and four optional elements.
@@ -404,16 +590,22 @@
     <string name="button_span_hierarchy">
 		<![CDATA[
             <p>
-                <h3>Hierarchy</h3>
+                <h3>
+                    Hierarchy
+				</h3>
             </p>
             <p>
-                <h5>A single, prominent button</h5>
+                <h5>
+                    A single, prominent button
+				</h5>
             </p>
             <p>
                 A layout should contain a single prominent button that makes it clear that other buttons have less importance in the hierarchy. This high-emphasis button commands the most attention.
             </p>
             <p>
-                <h5>Other buttons</h5>
+                <h5>
+                    Other buttons
+				</h5>
             </p>
             <p>
                 An app can show more than one button in a layout at a time, so a high-emphasis button can be accompanied by medium- and low-emphasis buttons that perform less important actions. When using multiple buttons, ensure the available state of one button doesn’t look like the disabled state of another.
@@ -423,23 +615,29 @@
     <string name="button_span_placement">
 		<![CDATA[
             <p>
-                <h3>Placement</h3>
+                <h3>
+                    Placement
+				</h3>
             </p>
             <p>
                 Multiple button types can be used to express different emphasis levels.
             </p>
         ]]>
-        </string>
+	</string>
     <string name="button_span_text_button_usage">
 		<![CDATA[
 	        <p>
-	            <h3>Text button usage</h3>
+	            <h3>
+	                Text button usage
+				</h3>
 	        </p>
             <p>
                 Text buttons are typically used for less-pronounced actions, including those located:
                 <ul>
-                   <li> In dialogs
-                   <li> In cards
+                    <li>
+                        In dialogs
+                    <li>
+                        In cards
                  </ul>
                  In cards, text buttons help maintain an emphasis on card content.
             </p>
@@ -448,7 +646,9 @@
     <string name="button_span_outlined_button_usage">
 		<![CDATA[
             <p>
-                <h3>Outlined button usage</h3>
+                <h3>
+                    Outlined button usage
+				</h3>
             </p>
             <p>
                 Outlined buttons are medium-emphasis buttons. They contain actions that are important, but aren’t the primary action in an app.
@@ -458,7 +658,9 @@
     <string name="button_span_contained_button_usage">
 		<![CDATA[
             <p>
-                <h3>Contained button usage</h3>
+                <h3>
+                    Contained button usage
+				</h3>
             </p>
             <p>
                 Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.
@@ -468,28 +670,48 @@
     <string name="button_span_toggle_button_usage">
 		<![CDATA[
             <p>
-                <h3>Toggle button usage</h3>
+                <h3>
+                    Toggle button usage
+				</h3>
             </p>
             <p>
                 Toggle buttons can be used to group related options. To emphasize groups of related toggle buttons, a group should share a common container.
             </p>
         ]]>
 	</string>
-    <string name="button_text_button">Text button</string>
-    <string name="button_outlined_button">Outlined button</string>
-    <string name="button_contained_button">Contained button</string>
-    <string name="button_toggle_button_usage">Toggle button usage</string>
-    <string name="button_have_press_outlined_button"> Have press outlined button</string>
-    <string name="button_have_press_text_button"> Have press text button</string>
-    <string name="button_have_press_contained_button"> Have press contained button</string>
+    <string name="button_text_button">
+        Text button
+    </string>
+    <string name="button_outlined_button">
+        Outlined button
+    </string>
+    <string name="button_contained_button">
+        Contained button
+    </string>
+    <string name="button_toggle_button_usage">
+        Toggle button usage
+    </string>
+    <string name="button_have_press_outlined_button">
+        Have press outlined button
+    </string>
+    <string name="button_have_press_text_button">
+        Have press text button
+    </string>
+    <string name="button_have_press_contained_button">
+        Have press contained button
+    </string>
 
     <!--Cards strings-->
 
-    <string name="card_title">Cards</string>
+    <string name="card_title">
+        Cards
+    </string>
     <string name="card_span_title">
 		<![CDATA[
             <p>
-                <h1>Cards</h1>
+                <h1>
+                    Cards
+				</h1>
             </p>
             <p>
                 Cards contain content and actions about a single subject.
@@ -499,10 +721,14 @@
     <string name="card_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
-                Cards are surfaces that display content and actions on a single topic.<br><br>
+                Cards are surfaces that display content and actions on a single topic.
+                <br>
+                <br>
                 They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
             </p>
         ]]>
@@ -510,7 +736,9 @@
     <string name="card_span_gestures">
 		<![CDATA[
             <p>
-                <h3>Gestures</h3>
+                <h3>
+                    Gestures
+				</h3>
             </p>
             <p>
                 Gestures should be implemented consistently within a card collection. Frequently used gestures on cards include swipe, pick up and move, and scrolling.
@@ -520,22 +748,30 @@
     <string name="card_span_gestures_swipe">
 		<![CDATA[
             <p>
-                <h4>Swipe</h4>
+                <h4>
+                    Swipe
+				</h4>
             </p>
             <p>
-                A swipe gesture can be performed on a single card at a time, anywhere on that card.<br>
-                <br>It can be used to:
+                A swipe gesture can be performed on a single card at a time, anywhere on that card.
+                <br>
+                <br>
+                It can be used to:
             </p>
             <ul>
-                <li>Dismiss a card</li>
-                <li>Change the state of a card (such as flagging or archiving it)</li>
+                <li>
+                    Dismiss a card
+                <li>
+                    Change the state of a card (such as flagging or archiving it)
             </ul>
         ]]>
     </string>
     <string name="card_span_gestures_scrolling">
 		<![CDATA[
             <p>
-                <h4>Scrolling</h4>
+                <h4>
+                    Scrolling
+				</h4>
             </p>
             <p>
                 Card content that is taller than the maximum card height is truncated and does not scroll, but can be displayed by expanding the height of a card. A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.
@@ -545,7 +781,9 @@
     <string name="card_span_sample">
 		<![CDATA[
             <p>
-                <h3>Title</h3>
+                <h3>
+                    Title
+				</h3>
             </p>
             <br>
             <p>
@@ -557,20 +795,36 @@
             </p>
         ]]>
     </string>
-    <string name="card_sample_action1">action 1</string>
-    <string name="card_sample_action2">action 2</string>
-    <string name="card_sample_image_description">content_description_media</string>
-    <string name="card_sample_clicked_button1">Action 1 button clicked!</string>
-    <string name="card_sample_clicked_button2">Action 2 button clicked!</string>
-    <string name="card_image_description">Image</string>
+    <string name="card_sample_action1">
+        action 1
+	</string>
+    <string name="card_sample_action2">
+        action 2
+	</string>
+    <string name="card_sample_image_description">
+        content_description_media
+	</string>
+    <string name="card_sample_clicked_button1">
+        Action 1 button clicked!
+	</string>
+    <string name="card_sample_clicked_button2">
+        Action 2 button clicked!
+	</string>
+    <string name="card_image_description">
+        Image
+	</string>
 
     <!--Chips strings-->
 
-    <string name="chip_title">Chips</string>
+    <string name="chip_title">
+        Chips
+	</string>
     <string name="chip_span_title">
 		<![CDATA[
             <p>
-                <h1>Chips</h1>
+                <h1>
+                    Chips
+				</h1>
             </p>
             <p>
                 Chips are compact elements that represent an input, attribute, or action.
@@ -580,7 +834,9 @@
     <string name="chip_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 Chips allow users to enter information, make selections, filter content, or trigger actions. While buttons are expected to appear consistently and with familiar calls to action, chip should appear dynamically as a group of multiple interactive elements.
@@ -590,14 +846,18 @@
     <string name="chip_span_types">
 		<![CDATA[
             <p>
-                <h3>Types</h3>
+                <h3>
+                    Types
+				</h3>
             </p>
         ]]>
     </string>
     <string name="chip_span_types_input">
 		<![CDATA[
             <p>
-                <h4>Input Chips</h4>
+                <h4>
+                    Input Chips
+				</h4>
             </p>
             <p>
                  Input chip represent information used in fields, such as an entity or different attributes.
@@ -607,7 +867,9 @@
     <string name="chip_span_types_filter">
 		<![CDATA[
             <p>
-                <h4>Filter Chips</h4>
+                <h4>
+                    Filter Chips
+				</h4>
             </p>
             <p>
                 Filter chip represent filters for a collection.
@@ -617,7 +879,9 @@
     <string name="chip_span_types_choice">
 		<![CDATA[
             <p>
-                <h4>Choice Chips</h4>
+                <h4>
+                    Choice Chips
+				</h4>
             </p>
             <p>
                  In sets that contain at least two options, choice chip represent a single selection.
@@ -627,7 +891,9 @@
     <string name="chip_span_types_action">
 		<![CDATA[
             <p>
-                <h4>Action Chips</h4>
+                <h4>
+                    Action Chips
+				</h4>
             </p>
             <p>
                 Action chip trigger actions related to primary content.
@@ -635,43 +901,89 @@
         ]]>
     </string>
 
-    <string name="chip_input1_text">Portland</string>
-    <string name="chip_input2_text">Biking</string>
+    <string name="chip_input1_text">
+        Portland
+	</string>
+    <string name="chip_input2_text">
+        Biking
+	</string>
 
-    <string name="chip_input1_toast">Input chip 1 clicked!</string>
-    <string name="chip_input2_toast">Input chip 2 clicked!</string>
+    <string name="chip_input1_toast">
+        Input chip 1 clicked!
+	</string>
+    <string name="chip_input2_toast">
+        Input chip 2 clicked!
+	</string>
 
-    <string name="chip_filter1_text">Elevator</string>
-    <string name="chip_filter2_text">Dryer</string>
-    <string name="chip_filter3_text">Dogs OK</string>
+    <string name="chip_filter1_text">
+        Elevator
+	</string>
+    <string name="chip_filter2_text">
+        Dryer
+	</string>
+    <string name="chip_filter3_text">
+        Dogs OK
+	</string>
 
-    <string name="chip_filter1_toast">Filter chip 1 clicked!</string>
-    <string name="chip_filter2_toast">Filter chip 2 clicked!</string>
-    <string name="chip_filter3_toast">Filter chip 3 clicked!</string>
+    <string name="chip_filter1_toast">
+        Filter chip 1 clicked!
+	</string>
+    <string name="chip_filter2_toast">
+        Filter chip 2 clicked!
+	</string>
+    <string name="chip_filter3_toast">
+        Filter chip 3 clicked!
+	</string>
 
-    <string name="chip_action1_text">Turn on lights</string>
-    <string name="chip_action2_text">Set alarm</string>
+    <string name="chip_action1_text">
+        Turn on lights
+	</string>
+    <string name="chip_action2_text">
+        Set alarm
+	</string>
 
-    <string name="chip_action1_toast">Action chip 1 clicked!</string>
-    <string name="chip_action2_toast">Action chip 2 clicked!</string>
+    <string name="chip_action1_toast">
+        Action chip 1 clicked!
+	</string>
+    <string name="chip_action2_toast">
+        Action chip 2 clicked!
+	</string>
 
-    <string name="chip_choice1_text">Medium</string>
-    <string name="chip_choice2_text">Soft</string>
-    <string name="chip_choice3_text">Extra Soft</string>
+    <string name="chip_choice1_text">
+        Medium
+	</string>
+    <string name="chip_choice2_text">
+        Soft
+	</string>
+    <string name="chip_choice3_text">
+        Extra Soft
+	</string>
 
-    <string name="chip_choice1_toast">Choice chip 1 clicked!</string>
-    <string name="chip_choice2_toast">Choice chip 2 clicked!</string>
-    <string name="chip_choice3_toast">Choice chip 3 clicked!</string>
+    <string name="chip_choice1_toast">
+        Choice chip 1 clicked!
+	</string>
+    <string name="chip_choice2_toast">
+        Choice chip 2 clicked!
+	</string>
+    <string name="chip_choice3_toast">
+        Choice chip 3 clicked!
+	</string>
 
-    <string name="chip_image_description">Chip image</string>
+    <string name="chip_image_description">
+        Chip image
+	</string>
 
     <!--Data Table strings-->
 
-    <string name="data_table_title">Data table</string>
+    <string name="data_table_title">
+        Data table
+	</string>
     <string name="data_table_span_title">
 		<![CDATA[
             <p>
-                <h1>Data tables</h1>
+                <h1>
+                    Data tables
+				</h1>
             </p>
             <p>
                 Data tables display sets of data across rows and columns.
@@ -681,31 +993,41 @@
     <string name="data_table_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 Data tables display information in a grid-like format of rows and columns. They organize information in a way that’s easy to scan, so that users can look for patterns and insights.
-                <br><br>
+                <br>
+                <br>
                 Data tables can contain:
             </p>
             <ul>
-                <li>Interactive components (such as chips, buttons, or menus)</li>
-                <li>Non-interactive elements (such as badges)</li>
-                <li>Tools to query and manipulate data</li>
+                <li>
+                    Interactive components (such as chips, buttons, or menus)
+                <li>
+                    Non-interactive elements (such as badges)
+                <li>
+                    Tools to query and manipulate data
             </ul>
         ]]>
     </string>
     <string name="data_table_span_elements">
 		<![CDATA[
             <p>
-                <h3>Data table elements</h3>
+                <h3>
+                    Data table elements
+				</h3>
             </p>
         ]]>
     </string>
     <string name="data_table_span_elements_baseline">
 		<![CDATA[
             <p>
-                <h4>Baseline elements</h4>
+                <h4>
+                    Baseline elements
+				</h4>
             </p>
             <p>
                 Column header names describe the type of content displayed in each column. Each row contains data related to a single entity.
@@ -715,16 +1037,23 @@
     <string name="data_table_span_elements_interactive">
 		<![CDATA[
             <p>
-                <h4>Interactive elements</h4>
+                <h4>
+                    Interactive elements
+				</h4>
             </p>
             <p>
                 Data tables can include interactive elements, such as:
-            </p><br>
-            <ul>
-                <li>Checkboxes</li>
-                <li>Sorting (on columns)</li>
-                <li>Icons that communicate alerts</li>
-            </ul><br>
+                <br>
+                <ul>
+                    <li>
+                        Checkboxes
+                    <li>
+                        Sorting (on columns)
+                    <li>
+                        Icons that communicate alerts
+                </ul>
+                <br>
+            </p>
             <p>
                 Controls that manipulate how table data is displayed (such as pagination or filter chips  should be placed directly above or below a table.
             </p>
@@ -733,14 +1062,18 @@
     <string name="data_table_span_columns">
 		<![CDATA[
             <p>
-                <h3>Columns</h3>
+                <h3>
+                    Columns
+				</h3>
             </p>
         ]]>
     </string>
     <string name="data_table_span_columns_heightpadding">
 		<![CDATA[
             <p>
-                <h4>Height and padding</h4>
+                <h4>
+                    Height and padding
+				</h4>
             </p>
             <p>
                 The baseline row height is 52dp, and the column header row height is 56dp (4dp taller than regular rows).
@@ -750,7 +1083,9 @@
     <string name="data_table_span_columns_padding">
 		<![CDATA[
             <p>
-                <h4>Padding</h4>
+                <h4>
+                    Padding
+				</h4>
             </p>
             <p>
                 There is 32dp or more of padding between columns.
@@ -760,11 +1095,14 @@
     <string name="data_table_span_columns_text">
 		<![CDATA[
             <p>
-                <h4>Text</h4>
+                <h4>
+                    Text
+				</h4>
             </p>
             <p>
                 Column header text uses a medium weight font (to differentiate it from row text).
-                <br><br>
+                <br>
+                <br>
                 Text that is longer than the column width is truncated with an ellipsis. On hover, a tooltip shows the full name.
             </p>
         ]]>
@@ -772,11 +1110,14 @@
     <string name="data_table_span_sorting">
 		<![CDATA[
             <p>
-                <h3>Sorting</h3>
+                <h3>
+                    Sorting
+				</h3>
             </p>
             <p>
                 To help users sort information, a column can display column sorting by default.
-                <br><br>
+                <br>
+                <br>
                 To indicate which column is sorted by default, place a downward or upward arrow icon next to the column header’s name.
             </p>
         ]]>
@@ -784,7 +1125,9 @@
     <string name="data_table_span_sorting_reverse">
 		<![CDATA[
             <p>
-                <h3>Reversing sort order</h3>
+                <h3>
+                    Reversing sort order
+				</h3>
             </p>
             <p>
                 To reverse the sort order of a column, the user taps the header name or arrow icon. Upon sorting, the arrow icon rotates 180 degrees.
@@ -794,13 +1137,17 @@
     <string name="data_table_span_rowcheck">
 		<![CDATA[
             <p>
-                <h3>Row checkbox</h3>
+                <h3>
+                    Row checkbox
+				</h3>
             </p>
             <p>
                 When a row checkbox is selected, the row should display a background color.
-                <br><br>
+                <br>
+                <br>
                 For users who use screen magnification, the background color fill provides a way to indicate that a row has been selected, as the selected checkbox may appear outside of the magnified screen area.
-                <br><br>
+                <br>
+                <br>
                 For more information on selection states, visit States.
             </p>
         ]]>
@@ -808,7 +1155,9 @@
     <string name="data_table_span_focus">
 		<![CDATA[
             <p>
-                <h3>Focus</h3>
+                <h3>
+                    Focus
+				</h3>
             </p>
             <p>
                When using keyboard focus, an indicator appears as users tab through interactive items (such as checkboxes).
@@ -818,7 +1167,9 @@
     <string name="data_table_span_menu">
 		<![CDATA[
             <p>
-                <h3>Inline menus</h3>
+                <h3>
+                    Inline menus
+				</h3>
             </p>
             <p>
                Inline menus allow selection from a predefined set of menu items. They are embedded directly in a table cell.
@@ -826,21 +1177,39 @@
         ]]>
     </string>
 
-    <string name="datatable_sample_elements_interactive_description">Interactive elements sample</string>
-    <string name="datatable_sample_columns_heightpadding_description">Height and padding sample</string>
-    <string name="datatable_sample_columns_padding_description">Padding sample</string>
-    <string name="datatable_sample_sorting_description">Sorting sample</string>
-    <string name="datatable_sample_rowcheck_description">Row checkbox sample</string>
-    <string name="datatable_sample_focus_description">Focus sample</string>
-    <string name="datatable_sample_menu_description">Inline menus sample</string>
+    <string name="datatable_sample_elements_interactive_description">
+        Interactive elements sample
+	</string>
+    <string name="datatable_sample_columns_heightpadding_description">
+        Height and padding sample
+	</string>
+    <string name="datatable_sample_columns_padding_description">
+        Padding sample
+	</string>
+    <string name="datatable_sample_sorting_description">
+        Sorting sample
+	</string>
+    <string name="datatable_sample_rowcheck_description">
+        Row checkbox sample
+	</string>
+    <string name="datatable_sample_focus_description">
+        Focus sample
+	</string>
+    <string name="datatable_sample_menu_description">
+        Inline menus sample
+	</string>
 
     <!--Dialogs strings-->
 
-    <string name="dialog_title">Dialogs</string>
+    <string name="dialog_title">
+        Dialogs
+	</string>
     <string name="dialog_span_title">
 		<![CDATA[
             <p>
-                <h1>Dialogs</h1>
+                <h1>
+                    Dialogs
+				</h1>
             </p>
             <p>
                 Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.
@@ -850,11 +1219,14 @@
     <string name="dialog_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 A dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.
-                <br><br>
+                <br>
+                <br>
                 Dialogs are purposefully interruptive, so they should be used sparingly.
             </p>
         ]]>
@@ -862,13 +1234,18 @@
     <string name="dialog_span_when_to_use">
 		<![CDATA[
             <p>
-                <h3>When to use</h3>
+                <h3>
+                    When to use
+				</h3>
             </p>
             <p>
-                Dialogs should be used for:<br>
+                Dialogs should be used for:
+                <br>
                 <ul>
-                <li>Errors that block an app’s normal operation</li>
-                <li>Critical information that requires a specific user task, decision, or acknowledgement</li>
+                <li>
+                    Errors that block an app’s normal operation
+                <li>
+                    Critical information that requires a specific user task, decision, or acknowledgement
                 </ul>
             </p>
         ]]>
@@ -876,130 +1253,206 @@
     <string name="dialog_span_types">
 		<![CDATA[
             <p>
-                <h4>Types</h4>
+                <h4>
+                    Types
+				</h4>
             </p>
         ]]>
     </string>
     <string name="dialog_span_types_alert">
 		<![CDATA[
             <p>
-                <h3>Alert Dialog</h3>
+                <h3>
+                    Alert Dialog
+				</h3>
             </p>
             <p>
-                Alert dialogs interrupt users with urgent information, details, or actions.<br>
+                Alert dialogs interrupt users with urgent information, details, or actions.
+                <br>
             </p>
         ]]>
     </string>
     <string name="dialog_span_types_simple">
 		<![CDATA[
             <p>
-                <h3>Simple Dialog</h3>
+                <h3>
+                    Simple Dialog
+				</h3>
             </p>
             <p>
-               Simple dialogs can display items that are immediately actionable when selected. They don’t have text buttons.
-               <br><br>
-               As simple dialogs are interruptive, they should be used sparingly. Alternatively, dropdown menus provide options in a non-modal, less disruptive way.</p>
+                Simple dialogs can display items that are immediately actionable when selected. They don’t have text buttons.
+                <br>
+                <br>
+                As simple dialogs are interruptive, they should be used sparingly. Alternatively, dropdown menus provide options in a non-modal, less disruptive way.
+            </p>
         ]]>
     </string>
     <string name="dialog_span_types_confirmation">
 		<![CDATA[
             <p>
-                <h3>Confirmation Dialog</h3>
+                <h3>
+                    Confirmation Dialog
+				</h3>
             </p>
             <p>
                 Confirmation dialogs give users the ability to provide final confirmation of a choice before committing to it, so they have a chance to change their minds if necessary.
-                <br><br>
+                <br>
+                <br>
                 If the user confirms a choice, it’s carried out. Otherwise, the user can dismiss the dialog. For example, users can listen to multiple ringtones but only make a final selection upon tapping “OK.”
             </p>
         ]]>
     </string>
-    <string name="dialog_alert_button">Alert dialog</string>
-    <string name="dialog_simple_button">Simple dialog</string>
-    <string name="dialog_confirmation_button">Confirmation dialog</string>
-    <string name="dialog_alert_discard">Discard</string>
-    <string name="dialog_text_cancel">Cancel</string>
-    <string name="dialog_alert_draft">Discard Draft?</string>
-    <string name="dialog_simple_option">View options</string>
-    <string name="dialog_simple_accept">Accept</string>
-    <string name="dialog_confirmation_ringtone">Phone Ringtone</string>
-    <string name="dialog_confirmation_ok">OK</string>
+    <string name="dialog_alert_button">
+        Alert dialog
+	</string>
+    <string name="dialog_simple_button">
+        Simple dialog
+	</string>
+    <string name="dialog_confirmation_button">
+        Confirmation dialog
+	</string>
+    <string name="dialog_alert_discard">
+        Discard
+	</string>
+    <string name="dialog_text_cancel">
+        Cancel
+	</string>
+    <string name="dialog_alert_draft">
+        Discard Draft?
+	</string>
+    <string name="dialog_simple_option">
+        View options
+	</string>
+    <string name="dialog_simple_accept">
+        Accept
+	</string>
+    <string name="dialog_confirmation_ringtone">
+        Phone Ringtone
+	</string>
+    <string name="dialog_confirmation_ok">
+        OK
+	</string>
     <string-array name="dialog_array_simple">
-        <item>Photos</item>
-        <item>Movies</item>
-        <item>All</item>
+        <item>
+            Photos
+        </item>
+        <item>
+            Movies
+        </item>
+        <item>
+            All
+        </item>
     </string-array>
     <string-array name="dialog_array_confirmation">
-        <item>None</item>
-        <item>Callisto</item>
-        <item>Ganymede</item>
-        <item>Luna</item>
-        <item>Oberon</item>
-        <item>Phobos</item>
+        <item>
+            None
+        </item>
+        <item>
+            Callisto
+        </item>
+        <item>
+            Ganymede
+        </item>
+        <item>
+            Luna
+        </item>
+        <item>
+            Oberon
+        </item>
+        <item>
+            Phobos
+        </item>
     </string-array>
 
     <!--Divider strings-->
 
-    <string name="divider_title">Divider</string>
-    <string name="divider_span_title"><![CDATA[
+    <string name="divider_title">
+        Divider
+	</string>
+    <string name="divider_span_title">
+		<![CDATA[
             <p>
-                <h1>Divider</h1>
+                <h1>
+                    Divider
+				</h1>
             </p>
             <p>
                 A divider is a thin line that groups content in lists and layouts.
             </p>
         ]]>
     </string>
-    <string name="divider_span_usage"><![CDATA[
+    <string name="divider_span_usage">
+		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
-               Dividers separate content into clear groups.
+                Dividers separate content into clear groups.
+                <br>
+                <ul>
+                    <li>
+                        Dividers should be noticeable in a layout, but not jarring.
+                    <li>
+                        Dividers should only be used if elements cannot be separated using white space.
+                    <li>
+                        Use dividers sparingly, to create groupings rather than separate items.
+                </ul>
             </p>
-            <br>
-            <ul>
-                <li>Dividers should be noticeable in a layout, but not jarring.</li>
-                <li>Dividers should only be used if elements cannot be separated using white space.</li>
-                <li>Use dividers sparingly, to create groupings rather than separate items.</li>
-            </ul>
         ]]>
     </string>
-    <string name="divider_span_types"><![CDATA[
+    <string name="divider_span_types">
+		<![CDATA[
             <p>
-                <h3>Types</h3>
+                <h3>
+                    Types
+				</h3>
             </p>
         ]]>
     </string>
-    <string name="divider_span_types_fullbleed"><![CDATA[
+    <string name="divider_span_types_fullbleed">
+		<![CDATA[
             <p>
-                <h4>Full-bleed dividers</h4>
+                <h4>
+                    Full-bleed dividers
+				</h4>
             </p>
             <p>
                 Full-bleed dividers separate content into sections and span the entire length of a layout.
             </p>
         ]]>
     </string>
-    <string name="divider_span_types_inset"><![CDATA[
+    <string name="divider_span_types_inset">
+		<![CDATA[
             <p>
-                <h4>Inset dividers</h4>
+                <h4>
+                    Inset dividers
+				</h4>
             </p>
             <p>
                 Inset dividers separate related content, such as emails in an email thread. They should be used with anchoring elements such as icons or avatars, and left-aligned with the app bar title.
             </p>
         ]]>
     </string>
-    <string name="divider_span_types_middle"><![CDATA[
+    <string name="divider_span_types_middle">
+		<![CDATA[
             <p>
-                <h4>Middle dividers</h4>
+                <h4>
+                    Middle dividers
+				</h4>
             </p>
             <p>
                 Dividers can also be placed in the middle of a layout. They are best for separating related content, such prices on a receipt.
             </p>
         ]]>
     </string>
-    <string name="divider_span_types_subheaders"><![CDATA[
+    <string name="divider_span_types_subheaders">
+		<![CDATA[
             <p>
-                <h4>Dividers with subheaders</h4>
+                <h4>
+                    Dividers with subheaders
+				</h4>
             </p>
             <p>
                 Dividers can be paired with subheaders to identify grouped content. Place dividers above subheaders to reinforce the subheader’s connection to content.
@@ -1007,74 +1460,121 @@
         ]]>
     </string>
 
-    <string name="divider_fullbleed_sample_description">Full-bleed dividers sample</string>
-    <string name="divider_inset_sample_description">Inset divider sample</string>
-    <string name="divider_middle_sample_description">Middle divider sample</string>
-    <string name="divider_subheaders_sample_description">Dividers with subheaders sample</string>
+    <string name="divider_fullbleed_sample_description">
+        Full-bleed dividers sample
+	</string>
+    <string name="divider_inset_sample_description">
+        Inset divider sample
+	</string>
+    <string name="divider_middle_sample_description">
+        Middle divider sample
+	</string>
+    <string name="divider_subheaders_sample_description">
+        Dividers with subheaders sample
+	</string>
 
     <!--Floating Action Button strings-->
 
-    <string name="fab_title">Floating Action Button</string>
-    <string name="fab_span_title"><![CDATA[
+    <string name="fab_title">
+        Floating Action Button
+	</string>
+    <string name="fab_span_title">
+		<![CDATA[
             <p>
-                <h1>Floating Action Button</h1>
+                <h1>
+                    Floating Action Button
+				</h1>
             </p>
             <p>
                 A floating action button (FAB) represents the primary action of a screen.
             </p>
         ]]>
     </string>
-    <string name="fab_span_usage"><![CDATA[
+    <string name="fab_span_usage">
+		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. FABs come in three types: regular, mini, and extended.
             </p>
         ]]>
     </string>
-    <string name="fab_span_behavior"><![CDATA[
+    <string name="fab_span_behavior">
+		<![CDATA[
             <p>
-                <h3>Behavior</h3>
+                <h3>
+                    Behavior
+				</h3>
             </p>
             <p>
-                A floating action button (FAB) can trigger an action either on the current screen, or it can perform an action that creates a new screen.<br>
-                <br>A FAB promotes an important, constructive action such as:
-                <br><br>
+                A floating action button (FAB) can trigger an action either on the current screen, or it can perform an action that creates a new screen.
+                <br>
+                <br>
+                A FAB promotes an important, constructive action such as:
+                <br>
+                <br>
                 <ul>
-                    <li>Create</li>
-                    <li>Favorite</li>
-                    <li>Share</li>
-                    <li>Start a process</li>
+                    <li>
+                        Create
+                    <li>
+                        Favorite
+                    <li>
+                        Share
+                    <li>
+                        Start a process
                 </ul>
                 <br>
                 Avoid using a FAB for minor or destructive actions, such as:
-                <br><br>
+                <br>
+                <br>
                  <ul>
-                    <li>Archive or trash</li>
-                    <li>Alerts or errors</li>
-                    <li>Limited tasks like cutting text</li>
-                    <li>Controls better suited to a toolbar (like controls to adjust volume or font color)</li>
+                    <li>
+                        Archive or trash
+                    <li>
+                        Alerts or errors
+                    <li>
+                        Limited tasks like cutting text
+                    <li>
+                        Controls better suited to a toolbar (like controls to adjust volume or font color)
                 </ul>
             </p>
         ]]>
     </string>
 
-    <string name="fab_text">create</string>
-    <string name="fab_description">Extended FAB content description</string>
+    <string name="fab_text">
+        Create
+	</string>
+    <string name="fab_description">
+        Extended FAB content description
+	</string>
 
     <!--Image List strings-->
 
-    <string name="image_list_title">Image List</string>
-    <string name="image_list_image_description_standard_image_list">Standard Image List</string>
-    <string name="image_list_image_description_quilted_image_list">Quilted Image List</string>
-    <string name="image_list_image_description_woven_image_list">Woven Image List</string>
-    <string name="image_list_image_description_masonry_image_list">Masonry Image List</string>
+    <string name="image_list_title">
+        Image List
+	</string>
+    <string name="image_list_image_description_standard_image_list">
+        Standard Image List
+	</string>
+    <string name="image_list_image_description_quilted_image_list">
+        Quilted Image List
+	</string>
+    <string name="image_list_image_description_woven_image_list">
+        Woven Image List
+	</string>
+    <string name="image_list_image_description_masonry_image_list">
+        Masonry Image List
+	</string>
 
     <string name="image_list_span_title">
 		<![CDATA[
             <p>
-                <h1>Image lists</h1>
+                <h1>
+                    Image lists
+				</h1>
             </p>
             <p>
                 Image lists display a collection of images in an organized grid.
@@ -1084,7 +1584,9 @@
     <string name="image_list_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 Image lists represent a collection of items in a repeated pattern. They help improve the visual comprehension of the content they hold.
@@ -1094,14 +1596,18 @@
     <string name="image_list_span_types">
 		<![CDATA[
             <p>
-                <h3>Types</h3>
+                <h3>
+                    Types
+				</h3>
             </p>
         ]]>
     </string>
     <string name="image_list_span_standard_image_list">
 		<![CDATA[
             <p>
-                <h3>Standard image list</h3>
+                <h3>
+                    Standard image list
+				</h3>
             </p>
             <p>
                 Standard image lists are best for items of equal importance. They have a uniform container size, ratio, and padding. Standard image lists can be displayed with or without text labels.
@@ -1111,7 +1617,9 @@
     <string name="image_list_span_quilted_image_list">
 		<![CDATA[
             <p>
-                <h3>Quilted image list</h3>
+                <h3>
+                    Quilted image list
+				</h3>
             </p>
             <p>
                 Quilted image lists emphasize certain items over others in a collection. They use varied container sizes and ratios to create hierarchy across images.
@@ -1121,7 +1629,9 @@
     <string name="image_list_span_woven_image_list">
 		<![CDATA[
             <p>
-                <h3>Woven image list</h3>
+                <h3>
+                    Woven image list
+				</h3>
             </p>
             <p>
                 Woven image lists use alternating container ratios to create a rhythmic layout. A woven image list is best for browsing peer content.
@@ -1131,7 +1641,9 @@
     <string name="image_list_span_masonry_image_list">
 		<![CDATA[
             <p>
-                <h3>Masonry image list</h3>
+                <h3>
+                    Masonry image list
+				</h3>
             </p>
             <p>
                 Masonry image lists use dynamically sized container heights that reflect the aspect ratio of each image. This image list is best used for browsing uncropped peer content.
@@ -1141,11 +1653,15 @@
 
     <!--Lists strings-->
 
-    <string name="list_title">Lists</string>
+    <string name="list_title">
+        Lists
+	</string>
     <string name="list_span_title">
 		<![CDATA[
             <p>
-                <h1>Lists</h1>
+                <h1>
+                    Lists
+				</h1>
             </p>
             <p>
                 Lists are continuous, vertical indexes of text or images.
@@ -1155,7 +1671,9 @@
     <string name="list_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 Lists are a continuous group of text or images. They are composed of items containing primary and supplemental actions, which are represented by icons and text.
@@ -1165,15 +1683,23 @@
     <string name="list_span_types">
 		<![CDATA[
             <p>
-                <h3>Types</h3>
+                <h3>
+                    Types
+				</h3>
             </p>
             <p>
                 <ul>
-                    <li>Single-line list <br>
+                    <li>
+                        Single-line list
+                        <br>
                         Single-line list items contain a maximum of one line of text.
-                    <li>Two-line list <br>
+                    <li>
+                        Two-line list
+                        <br>
                         Two-line list items contain a maximum of two lines of text.
-                    <li>Three-line list <br>
+                    <li>
+                        Three-line list
+                        <br>
                         Three-line list items contains a maximum of three lines of text.
                 </ul>
             </p>
@@ -1182,7 +1708,9 @@
     <string name="list_span_list_controls">
 		<![CDATA[
             <p>
-                <h3>List controls</h3>
+                <h3>
+                    List controls
+				</h3>
             </p>
             <p>
                 List controls display information and actions for list items.
@@ -1192,7 +1720,9 @@
     <string name="list_span_checkbox">
 		<![CDATA[
             <p>
-                <h3>Checkbox</h3>
+                <h3>
+                    Checkbox
+				</h3>
             </p>
             <p>
                 A checkbox can either be a primary or secondary action.
@@ -1202,100 +1732,160 @@
     <string name="list_span_expand_and_collapse">
 		<![CDATA[
             <p>
-                <h3>Expand and collapse</h3>
+                <h3>
+                    Expand and collapse
+				</h3>
             </p>
             <p>
                 Show and hide details of existing list items by expanding and collapsing list content vertically.
             </p>
         ]]>
     </string>
-    <string name="list_image_description_types">Types</string>
-    <string name="list_image_description_checkbox">Checkbox</string>
-    <string name="list_image_description_expand_and_collapse">Expand and Collapse</string>
+    <string name="list_image_description_types">
+        Types
+	</string>
+    <string name="list_image_description_checkbox">
+        Checkbox
+	</string>
+    <string name="list_image_description_expand_and_collapse">
+        Expand and Collapse
+	</string>
 
     <!-- Menu strings-->
 
-    <string name="menu_title">Menu</string>
-    <string name="menu_span_title"><![CDATA[
+    <string name="menu_title">
+        Menu
+	</string>
+    <string name="menu_span_title">
+		<![CDATA[
             <p>
-                <h1>Menu</h1>
+                <h1>
+                    Menu
+				</h1>
             </p>
             <p>
                 Menus display a list of choices on temporary surfaces.
             </p>
         ]]>
     </string>
-    <string name="menu_span_usage"><![CDATA[
+    <string name="menu_span_usage">
+		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+				</h3>
             </p>
             <p>
                 A menu displays a list of choices on a temporary surface. They appear when users interact with a button, action, or other control.
             </p>
         ]]>
     </string>
-    <string name="menu_span_types"><![CDATA[
+    <string name="menu_span_types">
+		<![CDATA[
             <p>
-                <h3>Types</h3>
+                <h3>
+                    Types
+				</h3>
             </p>
             <p>
                 Menus allow users to make a selection from multiple options. They are less prominent and take up less space than selection controls, such as a set of radio buttons.
                 <ul>
-                <li> Dropdown menus display a list of options, triggered by an icon, button, or action. Their placement varies based on the element that opens them.
-                <li> Exposed dropdown menus display the currently selected menu item above the list of options. Some variations can accept user-entered input.
+                <li>
+                    Dropdown menus display a list of options, triggered by an icon, button, or action. Their placement varies based on the element that opens them.
+                <li>
+                    Exposed dropdown menus display the currently selected menu item above the list of options. Some variations can accept user-entered input.
                 </ul>
             </p>
         ]]>
     </string>
-    <string name="menu_span_placement"><![CDATA[
+    <string name="menu_span_placement">
+		<![CDATA[
             <p>
-                <h3>Placement</h3>
+                <h3>
+                    Placement
+				</h3>
             </p>
             <p>
                 Menus appear in front of all other permanent UI elements.
             </p>
         ]]>
     </string>
-    <string name="menu_span_dropdown"><![CDATA[
+    <string name="menu_span_dropdown">
+		<![CDATA[
             <p>
-                <h3>Dropdown menu</h3>
+                <h3>
+                    Dropdown menu
+				</h3>
             </p>
             <p>
                 A dropdown menu is a compact way of displaying multiple choices. It appears upon interaction with an element (such as an icon or button) or when users perform a specific action.
             </p>
         ]]>
     </string>
-    <string name="menu_span_exposed_dropdown"><![CDATA[
+    <string name="menu_span_exposed_dropdown">
+		<![CDATA[
             <p>
-                <h3>Exposed Dropdown menu</h3>
+                <h3>
+					Exposed Dropdown menu
+				</h3>
             </p>
             <p>
                 Exposed dropdown menus display the currently selected menu item above the menu. They can be used only when a single menu item can be chosen at a time.
             </p>
         ]]>
     </string>
-    <string name="menu_headset">Headset</string>
-    <string name="menu_star">Star</string>
-    <string name="menu_music_note">Music note</string>
-    <string name="menu_info">Info</string>
-    <string name="menu_dropdown">Dropdown Menu</string>
+    <string name="menu_headset">
+        Headset
+	</string>
+    <string name="menu_star">
+        Star
+	</string>
+    <string name="menu_music_note">
+        Music note
+	</string>
+    <string name="menu_info">
+        Info
+	</string>
+    <string name="menu_dropdown">
+        Dropdown Menu
+	</string>
 
     <!--Navigation Drawer strings-->
 
-    <string name="navigation_drawer_title">Navigation Drawer</string>
-    <string name="navigation_drawer_navigation_header">Navigation Header</string>
-    <string name="navigation_drawer_drawer_title">Navigation Drawer Title</string>
-    <string name="navigation_drawer_drawer_subtitle">Navigation Drawer Subtitle</string>
-    <string name="navigation_drawer_option_1">Option 1</string>
-    <string name="navigation_drawer_option_2">Option 2</string>
-    <string name="navigation_drawer_option_3">Option 3</string>
-    <string name="navigation_drawer_standard_drawer">Standard Drawer</string>
-    <string name="navigation_drawer_bottom_drawer">Bottom Drawer</string>
+    <string name="navigation_drawer_title">
+        Navigation Drawer
+	</string>
+    <string name="navigation_drawer_navigation_header">
+        Navigation Header
+	</string>
+    <string name="navigation_drawer_drawer_title">
+        Navigation Drawer Title
+	</string>
+    <string name="navigation_drawer_drawer_subtitle">
+        Navigation Drawer Subtitle
+	</string>
+    <string name="navigation_drawer_option_1">
+        Option 1
+	</string>
+    <string name="navigation_drawer_option_2">
+        Option 2
+	</string>
+    <string name="navigation_drawer_option_3">
+        Option 3
+	</string>
+    <string name="navigation_drawer_standard_drawer">
+        Standard Drawer
+	</string>
+    <string name="navigation_drawer_bottom_drawer">
+        Bottom Drawer
+	</string>
 
     <string name="navigation_drawer_span_title">
 		<![CDATA[
             <p>
-                <h1>Navigation drawer</h1>
+                <h1>
+					Navigation drawer
+				</h1>
             </p>
             <p>
                 Navigation drawers provide access to destinations in your app.
@@ -1305,16 +1895,21 @@
     <string name="navigation_drawer_span_usage">
 		<![CDATA[
             <p>
-                <h1>Usage</h1>
+                <h1>
+					Usage
+				</h1>
             </p>
             <p>
-            Navigation drawers provide access to destinations and app functionality, such as switching accounts. They can either be permanently on-screen or controlled by a navigation menu icon.<br>
-
+            Navigation drawers provide access to destinations and app functionality, such as switching accounts. They can either be permanently on-screen or controlled by a navigation menu icon.
+            <br>
             Navigation drawers are recommended for:
                 <ul>
-                    <li>Apps with five or more top-level destinations
-                    <li>Apps with two or more levels of navigation hierarchy
-                    <li>Quick navigation between unrelated destinations
+                    <li>
+                        Apps with five or more top-level destinations
+                    <li>
+                        Apps with two or more levels of navigation hierarchy
+                    <li>
+                        Quick navigation between unrelated destinations
                 </ul>
 
             </p>
@@ -1323,11 +1918,13 @@
     <string name="navigation_drawer_span_standard_drawer">
 		<![CDATA[
             <p>
-                <h1>Standard drawer</h1>
+                <h1>
+					Standard drawer
+				</h1>
             </p>
             <p>
-                Standard navigation drawers allow users to simultaneously access drawer destinations and app content. They are often co-planar with app content and affect the screen’s layout grid. <br>
-
+                Standard navigation drawers allow users to simultaneously access drawer destinations and app content. They are often co-planar with app content and affect the screen’s layout grid.
+                <br>
                 Standard drawers can be permanently visible or opened and closed by tapping a navigation menu icon. They can be used on tablet and desktop only. On mobile, modal drawers are used instead.
             </p>
         ]]>
@@ -1335,41 +1932,58 @@
     <string name="navigation_drawer_span_modal_drawer">
 		<![CDATA[
             <p>
-                <h1>Modal drawer</h1>
+                <h1>
+					Modal drawer
+				</h1>
             </p>
             <p>
-                Modal navigation drawers use a scrim to block interaction with the rest of an app’s content. They are elevated above most app elements and don’t affect the screen’s layout grid. <br>
-
-                They are primarily for use on mobile, where screen space is limited. They can be replaced by standard drawers on tablet and desktop. <br> <br>
-
-                <em>Swipe right to see an interactive demo of this component<em>
+                Modal navigation drawers use a scrim to block interaction with the rest of an app’s content. They are elevated above most app elements and don’t affect the screen’s layout grid.
+                <br>
+                They are primarily for use on mobile, where screen space is limited. They can be replaced by standard drawers on tablet and desktop.
+                <br>
+                <br>
+                <em>
+                    Swipe right to see an interactive demo of this component
+                <em>
             </p>
         ]]>
     </string>
     <string name="navigation_drawer_span_bottom_drawer">
 		<![CDATA[
             <p>
-                <h1>Bottom drawer</h1>
+                <h1>
+					Bottom drawer
+				</h1>
             </p>
             <p>
-                Bottom navigation drawers are a specialized type of modal drawer for use with a bottom app bar. <br>
-
+                Bottom navigation drawers are a specialized type of modal drawer for use with a bottom app bar.
+                <br>
                 For increased reachability from the bottom app bar\’s menu icon, they open from the bottom of the screen rather than the side.
             </p>
         ]]>
     </string>
 
-    <string name="navigation_drawer_navigation_home">Home</string>
-    <string name="navigation_drawer_navigation_standard_drawer">Standard Drawer</string>
-    <string name="navigation_drawer_navigation_bottom_drawer">Bottom Drawer</string>
+    <string name="navigation_drawer_navigation_home">
+        Home
+	</string>
+    <string name="navigation_drawer_navigation_standard_drawer">
+        Standard Drawer
+	</string>
+    <string name="navigation_drawer_navigation_bottom_drawer">
+        Bottom Drawer
+	</string>
 
     <!--Navigation Rail strings-->
 
-    <string name="navigation_rail_title">Navigation Rail</string>
+    <string name="navigation_rail_title">
+        Navigation Rail
+	</string>
     <string name="navigation_rail_span_title">
 		<![CDATA[
             <p>
-                <h1>Navigation rail</h1>
+                <h1>
+					Navigation rail
+				</h1>
             </p>
             <p>
                 Navigation rails provide ergonomic movement between primary destinations in apps.
@@ -1379,10 +1993,13 @@
     <string name="navigation_rail_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+					Usage
+				</h3>
             </p>
             <p>
-                The rail is a side navigation component that displays three to seven app destinations and, optionally, a Floating Action Button. Each destination is represented by an icon and a text label. <br>
+                The rail is a side navigation component that displays three to seven app destinations and, optionally, a Floating Action Button. Each destination is represented by an icon and a text label.
+                <br>
                 The rail can function on its own at larger screen sizes, such as desktop and tablet. When users transition between screen sizes and devices, the rail can also complement other navigation components, such as bottom navigation.
             </p>
         ]]>
@@ -1390,20 +2007,28 @@
     <string name="navigation_rail_span_when_to_use">
 		<![CDATA[
             <p>
-                <h3>When to use</h3>
+                <h3>
+					When to use
+				</h3>
             </p>
             <p>
                 Navigation rails should be used for:
                 <ul>
-                    <li>Top-level destinations that need to be accessible anywhere in an app
-                    <li>Three to seven main destinations in a product
-                    <li>Tablet or desktop layouts
+                    <li>
+                        Top-level destinations that need to be accessible anywhere in an app
+                    <li>
+                        Three to seven main destinations in a product
+                    <li>
+                        Tablet or desktop layouts
                 </ul>
                 Navigation rails shouldn\'t be used for:
                 <ul>
-                    <li>Small screen sizes
-                    <li>Single tasks, such as viewing a single email
-                    <li>Secondary navigation destinations
+                    <li>
+                        Small screen sizes
+                    <li>
+                        Single tasks, such as viewing a single email
+                    <li>
+                        Secondary navigation destinations
                 </ul>
             </p>
         ]]>
@@ -1411,25 +2036,37 @@
     <string name="navigation_rail_span_behavior">
 		<![CDATA[
             <p>
-                <h3>Behavior</h3>
+                <h3>
+					Behavior
+				</h3>
             </p>
             <p>
-                Scrolling<br>
-                Destinations in the navigation rail should remain visible when scrolling vertically. <br>
+                Scrolling
+                <br>
+                Destinations in the navigation rail should remain visible when scrolling vertically.
+                <br>
                 If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
             </p>
         ]]>
     </string>
-    <string name="navigation_rail_placement">Placement</string>
-    <string name="navigation_rail_image_description_placement_two">Second Placement</string>
+    <string name="navigation_rail_placement">
+        Placement
+	</string>
+    <string name="navigation_rail_image_description_placement_two">
+        Second Placement
+	</string>
 
     <!--Pickers strings-->
 
-    <string name="picker_title">Pickers</string>
+    <string name="picker_title">
+        Pickers
+	</string>
     <string name="picker_span_title">
 		<![CDATA[
             <p>
-                <h1>Pickers</h1>
+                <h1>
+					Pickers
+				</h1>
             </p>
             <p>
                 Date pickers let users select a date, or a range of dates.
@@ -1439,14 +2076,18 @@
     <string name="picker_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+					Usage
+				</h3>
             </p>
             <p>
                 Date pickers let users select a date or range of dates. They should be suitable for the context in which they appear.
                 Date pickers can be embedded into:
                 <ul>
-                    <li>Dialogs on mobile
-                    <li>Text field dropdowns on desktop
+                    <li>
+                        Dialogs on mobile
+                    <li>
+                        Text field dropdowns on desktop
                 </ul>
             </p>
         ]]>
@@ -1454,14 +2095,18 @@
     <string name="picker_span_mobile_calendar_pickers">
 		<![CDATA[
             <p>
-                <h3>Mobile calendar pickers</h3>
+                <h3>
+					Mobile calendar pickers
+				</h3>
             </p>
             <p>
                 Mobile calendar pickers can be used to select dates in the near future or past, when it’s useful to see them in a calendar month format. They are displayed in a dialog.
                 Common use cases include:
                 <ul>
-                    <li>Making a restaurant reservation
-                    <li>Scheduling a meeting
+                    <li>
+                        Making a restaurant reservation
+                    <li>
+                        Scheduling a meeting
                 </ul>
                 They aren’t ideal for selecting dates in the distant past or future that require more navigation, such as entering a birth date or expiration date.
                 Mobile calendar pickers allow selection of a single date and year.
@@ -1471,14 +2116,18 @@
     <string name="picker_span_mobile_date_range_pickers">
 		<![CDATA[
             <p>
-                <h3>Mobile date range pickers</h3>
+                <h3>
+					Mobile date range pickers
+				</h3>
             </p>
             <p>
                 Mobile date range pickers allow selection of a range of dates. They cover the entire screen.
                 Common use cases include:
                 <ul>
-                    <li>Booking a flight
-                    <li>Reserving a hotel
+                    <li>
+                        Booking a flight
+                    <li>
+                        Reserving a hotel
                 </ul>
             </p>
         ]]>
@@ -1486,7 +2135,9 @@
     <string name="picker_span_mobile_date_input_pickers">
 		<![CDATA[
             <p>
-                <h3>Mobile date input pickers</h3>
+                <h3>
+					Mobile date input pickers
+				</h3>
             </p>
             <p>
                 Mobile date input pickers allow the manual entry of dates using the numbers on a keyboard. Users can input a date or a range of dates in a dialog.
@@ -1494,29 +2145,45 @@
             </p>
         ]]>
     </string>
-    <string name="picker_button_range_picker">Click to show the date range picker</string>
-    <string name="picker_date_range_picker">Date Range Picker</string>
-    <string name="picker_button_calendar_picker">Show the calendar picker</string>
-    <string name="picker_calendar_picker">calendar picker</string>
-    <string name="picker_launch_failure">The launch of the selected picker has failed</string>
+    <string name="picker_button_range_picker">
+        Click to show the date range picker
+	</string>
+    <string name="picker_date_range_picker">
+        Date Range Picker
+	</string>
+    <string name="picker_button_calendar_picker">
+        Show the calendar picker
+	</string>
+    <string name="picker_calendar_picker">
+        Calendar picker
+	</string>
+    <string name="picker_launch_failure">
+        The launch of the selected picker has failed
+	</string>
 
     <!--Progress Indicator strings-->
 
-    <string name="progress_indicator_title">Progress Indicator</string>
+    <string name="progress_indicator_title">
+        Progress Indicator
+	</string>
     <string name="progress_indicator_span_title">
 		<![CDATA[
             <p>
-                 <h1>Progress Indicator</h1>
+                 <h1>
+					Progress Indicator
+				</h1>
             </p>
             <p>
             Progress indicators express an unspecified wait time or display the length of a process.
             </p>
         ]]>
-     </string>
+	</string>
     <string name="progress_indicator_span_usage">
 		<![CDATA[
             <p>
-                 <h3>Usage</h3>
+                 <h3>
+					Usage
+				</h3>
             </p>
             <p>
             Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
@@ -1526,7 +2193,9 @@
     <string name="progress_indicator_span_circular">
 		<![CDATA[
             <p>
-                 <h3>Circular Progress Indicator</h3>
+                 <h3>
+					Circular Progress Indicator
+				</h3>
             </p>
             <p>
             Circular progress indicators display progress by animating an indicator along an invisible circular track in a clockwise direction. They can be applied directly to a surface, such as a button or card.
@@ -1536,22 +2205,30 @@
     <string name="progress_indicator_span_linear">
 		<![CDATA[
             <p>
-                 <h3>Linear Progress Indicator</h3>
+                 <h3>
+					Linear Progress Indicator
+				</h3>
             </p>
             <p>
              Linear progress indicators display progress by animating an indicator along the length of a fixed, visible track. The behavior of the indicator is dependent on whether the progress of a process is known.
             </p>
         ]]>
     </string>
-    <string name="progress_button_submit">submit</string>
+    <string name="progress_button_submit">
+        Submit
+	</string>
 
     <!--Selection Controls strings-->
 
-    <string name="selection_control_title">Selection Control</string>
+    <string name="selection_control_title">
+        Selection Control
+	</string>
     <string name="selection_control_span_title">
 		<![CDATA[
             <p>
-                <h1>Selection Control</h1>
+                <h1>
+					Selection Control
+				</h1>
             </p>
             <p>
                 Selection controls allow the user to select options.
@@ -1561,7 +2238,9 @@
     <string name="selection_control_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+					Usage
+				</h3>
             </p>
             <p>
                 Selection controls allow users to complete tasks that involve making choices such as selecting options, or switching settings on or off. Selection controls are found on screens that ask users to make decisions or declare preferences such as settings or dialogs.
@@ -1571,7 +2250,9 @@
     <string name="selection_control_span_checkbox">
 		<![CDATA[
             <p>
-                <h3>Checkboxes</h3>
+                <h3>
+					Checkboxes
+				</h3>
             </p>
             <p>
                 Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
@@ -1581,7 +2262,9 @@
     <string name="selection_control_span_radio_button">
 		<![CDATA[
             <p>
-                <h3>Radio Bottons</h3>
+                <h3>
+					Radio Bottons
+				</h3>
             </p>
             <p>
                 Radio buttons allow the user to select one option from a set. Use radio buttons when the user needs to see all available options. If available options can be collapsed, consider using a dropdown menu because it uses less space.
@@ -1591,181 +2274,287 @@
     <string name="selection_control_span_switch">
 		<![CDATA[
             <p>
-                <h3>Switches</h3>
+                <h3>
+					Switches
+				</h3>
             </p>
             <p>
                 Switches toggle the state of a single item on or off. They are the preferred way to adjust settings on mobile.
             </p>
         ]]>
     </string>
-    <string name="selection_switch_text">Setting One</string>
-    <string name="selection_checkbox_text_one">One</string>
-    <string name="selection_checkbox_text_two">Two</string>
-    <string name="selection_checkbox_text_three">Three</string>
-    <string name="selection_radio_button_text_one">One</string>
-    <string name="selection_radio_button_text_two">Two</string>
-    <string name="selection_radio_button_text_three">Three</string>
-    <string name="selection_radio_button_text_four">Three</string>
+    <string name="selection_switch_text">
+        Setting One
+	</string>
+    <string name="selection_checkbox_text_one">
+        One
+	</string>
+    <string name="selection_checkbox_text_two">
+        Two
+	</string>
+    <string name="selection_checkbox_text_three">
+        Three
+	</string>
+    <string name="selection_radio_button_text_one">
+        One
+	</string>
+    <string name="selection_radio_button_text_two">
+        Two
+	</string>
+    <string name="selection_radio_button_text_three">
+        Three
+	</string>
+    <string name="selection_radio_button_text_four">
+        Three
+	</string>
 
     <!--Sheet: Bottom strings-->
-    
-    <string name="sheet_bottom_title">Sheets: Bottom</string>
-    <string name="sheet_bottom_span_title"><![CDATA[
+
+    <string name="sheet_bottom_title">
+        Sheets: Bottom
+	</string>
+    <string name="sheet_bottom_span_title">
+		<![CDATA[
             <p>
-                 <h1>Sheets: Bottom</h1>
+                 <h1>
+					Sheets: Bottom
+				</h1>
             </p>
             <p>
             Bottom sheets are surfaces containing supplementary content that are anchored to the bottom of the screen.
             </p>
         ]]>
     </string>
-    <string name="sheet_bottom_span_usage"><![CDATA[
+    <string name="sheet_bottom_span_usage">
+		<![CDATA[
             <p>
-                 <h3>Usage</h3>
+                 <h3>
+                    Usage
+				</h3>
             </p>
             <p>
             Bottom sheets are supplementary surfaces primarily used on mobile. There are three types suitable for different use cases:
             </p>
-            <p>-Standard bottom sheets;</p>
-            <p>-Modal bottom sheets ;</p>
-            <p>-Expanding bottom sheets;</p>
-        ]]>
-        </string>
-    <string name="sheet_bottom_span_standard"><![CDATA[
             <p>
-                 <h3>Standard Bottom Sheets</h3>
+            -Standard bottom sheets;
+            </p>
+            <p>
+            -Modal bottom sheets ;
+            </p>
+            <p>
+            -Expanding bottom sheets;
+            </p>
+        ]]>
+	</string>
+    <string name="sheet_bottom_span_standard">
+		<![CDATA[
+            <p>
+                 <h3>
+					Standard Bottom Sheets
+				</h3>
             </p>
             <p>
             Standard bottom sheets co-exist with the screen’s main UI region and allow for simultaneously viewing and interacting with both regions. They are commonly used to keep a feature or secondary content visible on screen when content in main UI region is frequently scrolled or panned.
             </p>
         ]]>
-        </string>
-    <string name="sheet_bottom_span_modal"><![CDATA[
+	</string>
+    <string name="sheet_bottom_span_modal">
+		<![CDATA[
             <p>
-                 <h3>Modal Bottom Sheets</h3>
+                 <h3>
+					Modal Bottom Sheets
+				</h3>
             </p>
             <p>
              Modal bottom sheets present a set of choices while blocking interaction with the rest of the screen. They are an alternative to inline menus and simple dialogs on mobile, providing additional room for content, iconography, and actions.
             </p>
         ]]>
-        </string>
-    <string name="sheet_bottom_span_expanding"><![CDATA[
+	</string>
+    <string name="sheet_bottom_span_expanding">
+		<![CDATA[
             <p>
-                 <h3>Expanding Bottom Sheets</h3>
+                 <h3>
+					Expanding Bottom Sheets
+				</h3>
             </p>
             <p>
              An expanding bottom sheet is a surface anchored to the bottom of the screen that users can expand to access a feature or task
             </p>
         ]]>
-        </string>
-    <string name="sheet_bottom_add_to_favourites">Add To Favourites</string>
-    <string name="sheet_bottom_upload_to_drive">Upload To Drive</string>
-    <string name="sheet_bottom_save_to_device">Save To Device</string>
-    <string name="sheet_bottom_favourites_description">Add To Favourites Icon</string>
-    <string name="sheet_bottom_drive_description">Upload To Drive Icon</string>
-    <string name="sheet_bottom_save_description">Save To Device Icon</string>
-    <string name="sheet_bottom_favourites_toast">Add To Favourites Icon</string>
-    <string name="sheet_bottom_drive_toast">Upload To Drive Icon</string>
-    <string name="sheet_bottom_save_toast">Save To Device Icon</string>
-    <string name="sheet_bottom_show_button">Show Bottom Sheet</string>
-    
+	</string>
+    <string name="sheet_bottom_add_to_favourites">
+        Add To Favourites
+	</string>
+    <string name="sheet_bottom_upload_to_drive">
+        Upload To Drive
+	</string>
+    <string name="sheet_bottom_save_to_device">
+        Save To Device
+	</string>
+    <string name="sheet_bottom_favourites_description">
+        Add To Favourites Icon
+	</string>
+    <string name="sheet_bottom_drive_description">
+        Upload To Drive Icon
+	</string>
+    <string name="sheet_bottom_save_description">
+        Save To Device Icon
+	</string>
+    <string name="sheet_bottom_favourites_toast">
+        Add To Favourites Icon
+	</string>
+    <string name="sheet_bottom_drive_toast">
+        Upload To Drive Icon
+	</string>
+    <string name="sheet_bottom_save_toast">
+        Save To Device Icon
+	</string>
+    <string name="sheet_bottom_show_button">
+        Show Bottom Sheet
+	</string>
+
     <!--Sheet: Side strings-->
-    <string name="sheet_side_title">Sheets: Side</string>
-    <string name="sheet_side_span_title"><![CDATA[
+    <string name="sheet_side_title">
+        Sheets: Side
+	</string>
+    <string name="sheet_side_span_title">
+		<![CDATA[
             <p>
-                 <h1>Sheets: Side</h1>
+                 <h1>
+					Sheets: Side
+				</h1>
             </p>
             <p>
             Side sheets are surfaces containing supplementary content that are anchored to the left or right edge of the screen.
             </p>
         ]]>
-     </string>
-    <string name="sheet_side_span_usage"><![CDATA[
+    </string>
+    <string name="sheet_side_span_usage">
+		<![CDATA[
             <p>
-                 <h3>Usage</h3>
+                 <h3>
+					Usage
+				</h3>
             </p>
             <p>
             Side sheets are supplementary surfaces primarily used on tablet and desktop. They come in two types:-Standard side sheets display content that complements the screen’s primary content. They remain visible while users interact with primary content.-Modal side sheets are used on mobile instead of standard side sheets, due to limited screen size. They can display the same types of content as standard side sheets, but must be dismissed in order to interact with the underlying content.
             </p>
         ]]>
-     </string><string name="sheet_side_span_standard"><![CDATA[
+    </string>
+    <string name="sheet_side_span_standard">
+		<![CDATA[
             <p>
-                 <h3>Standard Side Sheets</h3>
+                 <h3>
+					Standard Side Sheets
+				</h3>
             </p>
             <p>
             Standard side sheets co-exist with the screen’s primary UI region, which allows viewing and interaction with both surfaces. They are used only on tablet and desktop.
             </p>
         ]]>
-     </string><string name="sheet_side_span_modal"><![CDATA[
+	</string>
+    <string name="sheet_side_span_modal">
+		<![CDATA[
             <p>
-                 <h3>Modal Side Sheets</h3>
+                 <h3>
+					Modal Side Sheets
+				</h3>
             </p>
             <p>
            Modal side sheets present content while blocking interaction with the rest of the screen.On mobile, they are used instead of standard side sheets. On larger screens, they can help focus a user’s attention on a key flow, such as making a purchase.
             </p>
         ]]>
-     </string>
-    <string name="sheet_side_standard_image">Sheet Side Standard</string>
-    <string name="sheet_side_modal_image">Sheet Side Modal</string>
-    
+	</string>
+    <string name="sheet_side_standard_image">
+        Sheet Side Standard
+	</string>
+    <string name="sheet_side_modal_image">
+        Sheet Side Modal
+	</string>
+
     <!--Slider strings-->
 
-    <string name="slider_title">Slider</string>
-    <string name="slider_span_title"><![CDATA[
+    <string name="slider_title">
+        Slider
+	</string>
+    <string name="slider_span_title">
+		<![CDATA[
             <p>
-                 <h1>Slider</h1>
+                 <h1>
+					Slider
+				</h1>
             </p>
             <p>
             Sliders allow users to make selections from a range of values.
             </p>
         ]]>
-        </string>
-    <string name="slider_span_usage"><![CDATA[
+	</string>
+    <string name="slider_span_usage">
+		<![CDATA[
             <p>
-                 <h3>Usage</h3>
+                 <h3>
+					Usage
+				</h3>
             </p>
             <p>
             Sliders reflect a range of values along a bar, from which users may select a single value. They are ideal for adjusting settings such as volume, brightness, or applying image filters.
             </p>
         ]]>
-        </string>
-    <string name="slider_span_anatomy"><![CDATA[
+	</string>
+    <string name="slider_span_anatomy">
+		<![CDATA[
             <p>
-                 <h3>Anatomy</h3>
+                 <h3>
+					Anatomy
+				</h3>
             </p>
             <p>
             A slider can contain the following elements:Track shows the range available for user selection. For left-to-right (LTR) languages, the smallest value appears on the far left, and the largest value on the far right. For right-to-left (RTL) languages this orientation is reversed, with the smallest value on the far right and the largest value on the far left;Thumb slides along the track, displaying the selected value through its position;Value label (optional) displays the currently selected, specific numerical value.Tick mark (optional)represent predetermined values to which the user can move the slider.
             </p>
         ]]>
-        </string>
-    <string name="slider_span_continuous"><![CDATA[
+	</string>
+    <string name="slider_span_continuous">
+		<![CDATA[
             <p>
-                 <h3>Continuous slider</h3>
+                 <h3>
+					Continuous slider
+				</h3>
             </p>
             <p>
             Use continuous sliders allow users to make meaningful selections that don’t require a specific value.
             </p>
         ]]>
-        </string>
-    <string name="slider_span_discrete"><![CDATA[
+	</string>
+    <string name="slider_span_discrete">
+		<![CDATA[
             <p>
-                 <h3>Discrete slider</h3>
+                 <h3>
+					Discrete slider
+				</h3>
             </p>
             <p>
             Discrete sliders display a numeric value label upon pressing the thumb, which allows a user to input an exact value.
             </p>
         ]]>
-     </string>
-    <string name="slider_continuous_image">Continuous Slider Image</string>
-    <string name="slider_discrete_image">Discrete Slider Image</string>
+	</string>
+    <string name="slider_continuous_image">
+        Continuous Slider Image
+	</string>
+    <string name="slider_discrete_image">
+        Discrete Slider Image
+	</string>
 
     <!--Snackbars strings-->
 
-    <string name="snackbar_title">Snackbar</string>
+    <string name="snackbar_title">
+        Snackbar
+	</string>
     <string name="snackbar_span_title">
 		<![CDATA[
             <p>
-                 <h1>Snackbar</h1>
+                 <h1>
+					Snackbar
+				</h1>
             </p>
             <p>
             Selection controls allow the user to select options.
@@ -1775,7 +2564,9 @@
     <string name="snackbar_span_usage">
 		<![CDATA[
             <p>
-                 <h3>Usage</h3>
+                 <h3>
+					Usage
+				</h3>
             </p>
             <p>
              Snackbars inform users of a process that an app has performed or will perform. They appear temporarily, towards the bottom of the screen. They shouldn’t interrupt the user experience, and they don’t require user input to disappear
@@ -1785,7 +2576,9 @@
     <string name="snackbar_span_anatomy">
 		<![CDATA[
             <p>
-                 <h3>Anatomy</h3>
+                 <h3>
+					Anatomy
+				</h3>
             </p>
             <p>
             There are 3 types of Snackbars: Text Label that directly relates to the process being performed. On mobile, the text label can contain up to two lines of text; Container (rectangular) with a grey background. Containers should be
@@ -1796,25 +2589,39 @@
     <string name="snackbar_span_placement">
 		<![CDATA[
             <p>
-                 <h3>Placement</h3>
+                 <h3>
+					Placement
+				</h3>
             </p>
             <p>
             Snackbars should be placed at the bottom of a UI, in front of app content. Avoid placing a snackbar in front of frequently used touch targets or navigation.
             </p>
         ]]>
     </string>
-    <string name="snackbar_button">Snackbar</string>
-    <string name="snackbar_button_undo">Snackbar + Action</string>
-    <string name="snackbar_text_visible">THIS IS A SNACKBAR</string>
-    <string name="snackbar_undo">UNDO</string>
+    <string name="snackbar_button">
+        Snackbar
+	</string>
+    <string name="snackbar_button_undo">
+        Snackbar + Action
+	</string>
+    <string name="snackbar_text_visible">
+        This is a snackbar
+	</string>
+    <string name="snackbar_undo">
+        UNDO
+	</string>
 
     <!--Tab strings-->
 
-    <string name="tab_title">Tabs</string>
+    <string name="tab_title">
+        Tabs
+	</string>
     <string name="tab_span_title">
         <![CDATA[
             <p>
-                <h1>Tabs</h1>
+                <h1>
+					Tabs
+				</h1>
             </p>
             <p>
                 Tabs organize content across different screens, data sets, and other interactions.
@@ -1824,7 +2631,9 @@
     <string name="tab_span_usage">
         <![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+					Usage
+				</h3>
             </p>
             <p>
                 Tabs organize and allow navigation between groups of content that are related and at the same level of hierarchy.
@@ -1834,7 +2643,9 @@
     <string name="tab_span_fixed_tabs">
         <![CDATA[
             <p>
-                <h3>Fixed tabs</h3>
+                <h3>
+					Fixed tabs
+				</h3>
             </p>
             <p>
                 Fixed tabs display all tabs on one screen, with each tab at a fixed width. The width of each tab is determined by dividing the number of tabs by the screen width. They don’t scroll to reveal more tabs; the visible tab set represents the only tabs available.
@@ -1844,22 +2655,30 @@
     <string name="tab_span_scrollable_tabs">
         <![CDATA[
             <p>
-                <h3>Scrollable tabs</h3>
+                <h3>
+					Scrollable tabs
+				</h3>
             </p>
             <p>
                 Scrollable tabs are displayed without fixed widths. They are scrollable, such that some tabs will remain off-screen until scrolled.
             </p>
         ]]>
     </string>
-    <string name="tab_span_button">Show example</string>
+    <string name="tab_span_button">
+        Show example
+	</string>
 
     <!--Text Fields strings-->
 
-    <string name="text_field_title">Text fields</string>
+    <string name="text_field_title">
+        Text fields
+	</string>
     <string name="text_field_span_title">
 		<![CDATA[
             <p>
-                <h1>Text fields</h1>
+                <h1>
+					Text fields
+				</h1>
             </p>
             <p>
                 Text fields let users enter and edit text.
@@ -1869,7 +2688,9 @@
     <string name="text_field_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+					Usage
+				</h3>
             </p>
             <p>
                 Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.
@@ -1879,13 +2700,17 @@
     <string name="text_field_span_types">
 		<![CDATA[
             <p>
-                <h3>Types</h3>
+                <h3>
+                    Types
+                </h3>
             </p>
             <p>
                 Text fields come in two types:
                 <ul>
-                    <li>Filled text fields
-                    <li>Outlined text fields
+                    <li>
+                        Filled text fields
+                    <li>
+                        Outlined text fields
                 </ul>
                 Both types of text fields use a container to provide , making the fields discoverable in layouts.
                 Both types of text fields provide the same functionality: a clear affordance for interaction. The type of text field you use can depend on style alone.
@@ -1895,7 +2720,9 @@
     <string name="text_field_span_filled">
 		<![CDATA[
             <p>
-                <h3>Filled text field</h3>
+                <h3>
+                    Filled text field
+                </h3>
             </p>
             <p>
                 Filled text fields have more visual emphasis than outlined text fields, making them stand out when surrounded by other content and components.
@@ -1905,7 +2732,9 @@
     <string name="text_field_span_outlined">
 		<![CDATA[
             <p>
-                <h3>Outlined text field</h3>
+                <h3>
+                    Outlined text field
+                </h3>
             </p>
             <p>
                 Outlined text fields have less visual emphasis than filled text fields. When they appear in places like forms, where many text fields are placed together, their reduced emphasis helps simplify the layout.
@@ -1915,27 +2744,45 @@
     <string name="text_field_span_icon">
 		<![CDATA[
             <p>
-                <h3>Icons</h3>
+                <h3>
+                    Icons
+                </h3>
             </p>
             <p>
                 Icons in text fields are optional. Text field icons can describe valid input methods (such as a microphone icon), provide affordances to access additional functionality (such as clearing the content of a field), and can express an error.
             </p>
         ]]>
     </string>
-    <string name="text_field_label_filled">Filled text field</string>
-    <string name="text_field_label_outlined">Outlined text field</string>
-    <string name="text_field_label_password">Password</string>
-    <string name="text_field_error">Password can\'t be shorter than 8 characters</string>
-    <string name="text_field_button">Submit</string>
-    <string name="text_field_toast">Password suitable</string>
+    <string name="text_field_label_filled">
+        Filled text field
+    </string>
+    <string name="text_field_label_outlined">
+        Outlined text field
+    </string>
+    <string name="text_field_label_password">
+        Password
+    </string>
+    <string name="text_field_error">
+        Password can\'t be shorter than 8 characters
+    </string>
+    <string name="text_field_button">
+        Submit
+    </string>
+    <string name="text_field_toast">
+        Password suitable
+    </string>
 
     <!--Tooltips strings-->
 
-    <string name="tooltip_title">Tooltips</string>
+    <string name="tooltip_title">
+        Tooltips
+    </string>
     <string name="tooltip_span_title">
 		<![CDATA[
             <p>
-                <h1>Tooltips</h1>
+                <h1>
+                    Tooltips
+                </h1>
             </p>
             <p>
                 Tooltips display informative text when users hover over, focus on, or tap an element.
@@ -1945,7 +2792,9 @@
     <string name="tooltip_span_usage">
 		<![CDATA[
             <p>
-                <h3>Usage</h3>
+                <h3>
+                    Usage
+                </h3>
             </p>
             <p>
                 When activated, tooltips display a text label identifying an element, such as a description of its function.
@@ -1955,14 +2804,20 @@
     <string name="tooltip_span_behavior">
 		<![CDATA[
             <p>
-                <h3>Behavior</h3>
+                <h3>
+                    Behavior
+                </h3>
             </p>
             <p>
                 A tooltip is displayed upon tapping and holding a screen element or component (on mobile) or hovering over it (desktop). Continuously display the tooltip as long as the user long-presses or hovers over the element.
             </p>
         ]]>
     </string>
-    <string name="tooltip_image_description_placement">Placement</string>
-    <string name="tooltip_image_description_desktop">Desktop</string>
+    <string name="tooltip_image_description_placement">
+        Placement
+    </string>
+    <string name="tooltip_image_description_desktop">
+        Desktop
+    </string>
     
 </resources>

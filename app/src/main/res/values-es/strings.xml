@@ -1,0 +1,2823 @@
+<resources>
+	<string name="app_name">
+		Material Components Demo
+	</string>
+    <string name="search_component_hint">
+		Buscar componente de material
+	</string>
+    <string name="action_search_title">
+		Componente de búsqueda
+	</string>
+
+    <string name="banner_description">
+		Banner de componentes materiales
+	</string>
+
+    <!--App bar bottom strings-->
+
+    <string name="app_bar_bottom_title">
+		Parte inferior de la barra de aplicaciones
+	</string>
+    <string name="app_bar_bottom_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Barras de aplicaciones: abajo
+				</h1>
+			</p>
+			<p>
+				Una barra de aplicaciones inferior muestra la navegación y las acciones clave en la parte inferior de las pantallas móviles.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_bottom_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Las barras de aplicaciones inferiores proporcionan acceso a un cajón de navegación inferior y hasta cuatro acciones, incluido el botón de acción flotante.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_bottom_span_when_to_use">
+		<![CDATA[
+			<p>
+				<h3>
+					Cuándo usar
+				</h3>
+			</p>
+			<p>
+				Las barras de aplicaciones inferiores deben usarse para:
+				<ul>
+					<li>
+						Solo dispositivos móviles
+					<li>
+						Acceso a un cajón de navegación inferior
+					<li>
+						Pantallas con dos a cinco acciones.
+				</ul>
+				Las barras de aplicaciones inferiores no deberían usarse para:
+				<ul>
+					<li>
+						Aplicaciones con una barra de navegación inferior
+					<li>
+						Pantallas con una o sin acciones
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_bottom_span_anatomy">
+		<![CDATA[
+			<p>
+				<h3>
+					Anatomía
+				</h3>
+			</p>
+			<p>
+				Las barras de aplicaciones inferiores pueden contener acciones que se aplican al contexto de la pantalla actual. Incluyen un control de menú de navegación en el extremo izquierdo y un botón de acción flotante (cuando hay uno presente). Si se incluye en una barra de aplicaciones inferior, se coloca un control de menú de desbordamiento al final de otras acciones.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_bottom_span_positioning">
+		<![CDATA[
+			<p>
+				<h3>
+					Posicionamiento
+				</h3>
+			</p>
+			<p>
+				Las barras de aplicaciones inferiores tienen tres diseños diferentes según la presencia de un FAB y su posición en la barra. Estos diseños dictan la cantidad de acciones que se pueden incluir en la barra.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_bottom_press_floating">
+		Un botón de acción flotante (FAB) realiza la acción primaria o más común en una pantalla. Aparece delante de todo el contenido de la pantalla, generalmente como una forma circular con un icono en el centro. Los FAB vienen en tres tipos: "regular, mini y extendido".
+	</string>
+    <string name="app_bar_bottom_press_more_information">
+		Tener prensa más información
+	</string>
+    <string name="app_bar_bottom_press_star">
+		Tener estrella de prensa
+	</string>
+    <string name="app_bar_bottom_star">
+		Estrella
+	</string>
+    <string name="app_bar_bottom_more_info">
+		Información
+	</string>
+    <string name="app_bar_bottom_content_description_more">
+		descriptor de contenido más
+	</string>
+    <string name="app_bar_bottom_content_description_star">
+		estrella descriptor de contenido
+	</string>
+    <string name="app_bar_bottom_image_description_music">
+		descriptor de contenido musical
+	</string>
+    <string name="app_bar_bottom_image_description_news">
+		descriptor de contenido noticias
+	</string>
+    <string name="app_bar_bottom_image_description_place">
+		lugar descriptor de contenido
+	</string>
+
+    <!--AppBar : Top strings-->
+
+    <string name="app_bar_top_title">
+		Barras de aplicaciones: arriba
+	</string>
+    <string name="app_bar_top_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Barras de aplicaciones: arriba
+				</h1>
+			</p>
+			<p>
+				La barra superior de la aplicación muestra información y acciones relacionadas con la pantalla actual.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_top_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				La barra superior de la aplicación proporciona contenido y acciones relacionadas con la pantalla actual. Se utiliza para la marca, los títulos de pantalla, la navegación y las acciones.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_top_span_anatomy">
+		<![CDATA[
+			<p>
+				<h3>
+					Anatomía
+				</h3>
+			</p>
+			<p>
+				La ubicación recomendada de elementos en una barra de aplicaciones superior para idiomas de izquierda a derecha es:
+			<lu>
+				<li>
+					Coloque la navegación en el extremo izquierdo
+				<li>
+					Coloque cualquier título a la derecha de la navegación.
+				<li>
+					Coloque acciones contextuales a la derecha de la navegación.
+				<li>
+					Coloque un menú de desbordamiento (si se usa) en el extremo derecho
+			</lu>
+			Para los idiomas de derecha a izquierda, las posiciones de ubicación deben invertirse.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_top_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>
+					Comportamiento
+				</h3>
+			</p>
+			<p>
+				Al desplazarse, la barra superior de la aplicación puede permanecer en su lugar o transformarse de las siguientes maneras:
+				<lu>
+					<li>
+						Desplazarse hacia arriba oculta la barra de aplicaciones superior
+					<li>
+						Desplazarse hacia abajo revela la barra de aplicaciones superior
+				</lu>
+				Cuando la barra superior de la aplicación se desplaza, su elevación sobre otros elementos se hace evidente.
+			</p>
+		]]>
+	</string>
+    <string name="app_bar_top_image_descriptor_title">
+		Título
+	</string>
+    <string name="app_bar_top_image_descriptor_behavior">
+		Comportamiento
+	</string>
+
+    <!--Backdrop strings-->
+
+    <string name="backdrop_title">
+		Fondo
+	</string>
+    <string name="backdrop_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Fondo
+				</h1>
+			</p>
+			<p>
+				Aparece un fondo detrás de todas las otras superficies en una aplicación, mostrando contenido contextual y procesable.
+			</p>
+		]]>
+	</string>
+    <string name="backdrop_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Un fondo se compone de dos superficies: una capa posterior y una capa frontal. La capa posterior muestra acciones y contexto, y estos controlan e informan el contenido de la capa frontal.
+			</p>
+		]]>
+	</string>
+    <string name="backdrop_span_anatomy">
+		<![CDATA[
+			<p>
+				<h3>
+					Anatomía
+				</h3>
+			</p>
+			<p>
+				Un fondo consiste en una capa posterior, una capa frontal y un subtítulo opcional. La capa posterior o la capa frontal pueden estar activas a la vez.
+			</p>
+			<p>
+				<h5>
+					Capa frontal activa
+				</h5>
+			</p>
+			<p>
+				La capa frontal siempre aparece delante de la capa posterior. Se muestra a todo lo ancho y contiene contenido primario.
+			</p>
+			<p>
+				<h5>
+					Capa posterior activa
+				</h5>
+			</p>
+			<p>
+				La capa posterior aparece en la elevación más baja (0dp) en una aplicación, llenando todo el fondo. Contiene contenido procesable que es relevante para la capa frontal.
+			</p>
+		]]>
+	</string>
+    <string name="backdrop_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>
+					Comportamiento
+				</h3>
+			</p>
+			<p>
+				Para revelar la capa posterior, interactúe con cualquier acción que aparezca en ella.
+			</p>
+			<p>
+				<h5>
+					Ocultar la capa posterior
+				</h5>
+			</p>
+			<p>
+				La capa posterior puede ocultarse interactuando con la capa frontal o tocando un margen de ocultación en cualquiera de las capas.
+			</p>
+			<p>
+				<h5>
+					Desplazamiento de contenido
+				</h5>
+			</p>
+			<p>
+				El contenido en la capa frontal tiene diferentes comportamientos de desplazamiento (y restricciones) que el contenido en la capa posterior.
+			</p>
+		]]>
+	</string>
+    <string name="backdrop_image_descriptor_anatomy">
+		Anatomía
+	</string>
+    <string name="backdrop_image_descriptor_behavior">
+		Comportamiento
+	</string>
+
+    <!--Banners strings-->
+
+    <string name="banner_title">
+		Pancartas
+	</string>
+    <string name="banner_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Pancartas
+				</h1>
+			</p>
+			<p>
+				Un banner muestra un mensaje destacado y acciones opcionales relacionadas.
+			</p>
+		]]>
+	</string>
+    <string name="banner_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Un banner muestra un mensaje importante y conciso, y proporciona acciones para que los usuarios aborden (o descarten el banner). Requiere que se descarte una acción del usuario. Las pancartas deben mostrarse en la parte superior de la pantalla, debajo de una barra de aplicaciones superior. Son persistentes y no modales, lo que permite al usuario ignorarlos o interactuar con ellos en cualquier momento. Solo se debe mostrar un banner a la vez.
+			</p>
+		]]>
+	</string>
+    <string name="banner_span_banner_container">
+		<![CDATA[
+			<p>
+				<h3>
+					Contenedor de banner
+				</h3>
+			</p>
+			<p>
+				Un contenedor de pancartas es rectangular y extiende todo el ancho de un diseño. El contenedor debe colocarse en una ubicación coherente y destacada en toda la aplicación, compartiendo la misma elevación que el contenido de la pantalla.
+			</p>
+		]]>
+	</string>
+    <string name="banner_span_banner_message">
+		<![CDATA[
+			<p>
+				<h3>
+					Mensaje de banner
+				</h3>
+			</p>
+			<p>
+				El mensaje de banner comunica un cambio o error dentro de una aplicación. Las pancartas deben considerarse como parte de su estrategia general de mensajería en la aplicación.
+			</p>
+		]]>
+	</string>
+    <string name="banner_span_banner_buttons">
+		<![CDATA[
+			<p>
+				<h3>
+					Botones de la bandera
+				</h3>
+			</p>
+			<p>
+				Los botones en los banners deben relacionarse directamente con el mensaje de un banner y representar claramente la acción del banner. Los botones deben estar etiquetados con texto, no iconos, para mayor claridad. Los banners pueden contener hasta dos botones de texto, con la acción de rechazo colocada a la izquierda y la acción de confirmación a la derecha. Coloque botones debajo del mensaje de banner o en la misma línea si hay suficiente espacio para ambos.
+			</p>
+		]]>
+	</string>
+    <string name="banner_span_placement">
+		<![CDATA[
+			<p>
+				<h3>
+					Colocación
+				</h3>
+			</p>
+			<p>
+				Las pancartas deben colocarse en la parte superior de un diseño o pantalla. Al desplazarse, los banners normalmente se mueven con contenido y se desplazan fuera de la pantalla.
+			</p>
+			<p>
+				<h5>
+					Banners y barras superiores
+				</h5>
+			</p>
+			<p>
+					Los banners se colocan en la parte superior de la pantalla debajo de la barra de aplicaciones superior. Se pueden arreglar o desplazarse con contenido, según el entorno:
+				<lu>
+					<li>
+						En dispositivos móviles, se desplazan fuera de la pantalla con contenido, a la misma altura que el contenido de la aplicación.
+					<li>
+						En el escritorio, permanecen fijos en la parte superior de la pantalla, a la misma elevación que la barra de aplicaciones superior.
+				</lu>
+			</p>
+		]]>
+	</string>
+    <string name="banner_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>
+					Comportamiento
+				</h3>
+			</p>
+			<p>
+				Los banners generalmente aparecen cuando una pantalla carga contenido. Las pancartas que aparecen después de que se carga una pantalla deben animarse en la pantalla desde la parte superior de un diseño. Si el banner está a la misma elevación que el contenido, empuja el contenido hacia abajo.
+			</p>
+		]]>
+	</string>
+    <string name="banner_image_description_placement">
+		Colocación
+	</string>
+    <string name="banner_image_description_buttons">
+		Botones
+	</string>
+    <string name="banner_image_description_contained">
+		Contenida
+	</string>
+
+    <!--Bottom navigation strings-->
+
+    <string name="bottom_navigation_title">
+		Navegación inferior
+	</string>
+    <string name="bottom_navigation_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Navegación inferior
+				</h1>
+			</p>
+			<p>
+				Las barras de navegación inferiores permiten el movimiento entre destinos principales en una aplicación.
+			</p>
+		]]>
+	</string>
+    <string name="bottom_navigation_span_usage">
+		<![CDATA[
+			<p>
+				<h1>
+					Uso
+				</h1>
+			</p>
+			<p>
+				Las barras de navegación inferiores muestran de tres a cinco destinos en la parte inferior de una pantalla. Cada destino está representado por un icono y una etiqueta de texto opcional. Cuando se toca un ícono de navegación inferior, el usuario es llevado al destino de navegación de nivel superior asociado con ese ícono.
+			</p>
+		]]>
+	</string>
+    <string name="bottom_navigation_span_when_to_use">
+		<![CDATA[
+			<p>
+				<h3>
+					Cuándo usar
+				</h3>
+			</p>
+			<p>
+				La navegación inferior debe usarse para:
+				<ul>
+					<li>
+						Destinos de primer nivel que deben ser accesibles desde cualquier lugar de la aplicación
+					<li>
+						De tres a cinco destinos
+					<li>
+						Solo móvil o tableta
+				</ul>
+				La navegación inferior no debe usarse para:
+				<ul>
+					<li>
+						Tareas individuales, como ver un solo correo electrónico
+					<li>
+					Preferencias o configuraciones del usuario
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="bottom_navigation_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>
+					Comportamiento
+				</h3>
+			</p>
+			<p>
+				La navegación inferior se comporta de manera diferente en Android e iOS. Cuando selecciona un elemento de navegación inferior (uno que no está seleccionado actualmente), cada plataforma muestra resultados diferentes:
+				<ul>
+					<li>
+						En Android: la aplicación navega a la pantalla de nivel superior de un destino. Se restablecen las interacciones anteriores del usuario y los estados temporales de la pantalla, como la posición de desplazamiento, la selección de pestañas y la búsqueda en línea.
+					<li>
+						En iOS: el destino refleja la interacción previa del usuario. Si el usuario visitó previamente esa sección de la aplicación, regresa a la última pantalla vista (con su estado anterior preservado, si es posible). De lo contrario, la aplicación navega a la pantalla de nivel superior.
+				</ul>
+				La navegación de plataforma predeterminada se puede anular cuando sea necesario para mejorar la experiencia del usuario. Por ejemplo, una aplicación de Android que requiere cambios frecuentes entre secciones puede preservar el estado de cada sección. O bien, una aplicación de iOS puede devolver a los usuarios a la pantalla de nivel superior (o restablecer su posición de desplazamiento) si se adapta mejor al caso de uso.
+			</p>
+		]]>
+	</string>
+    <string name="bottom_navigation_span_state">
+		<![CDATA[
+			<p>
+				<h1>
+					Estados
+				</h1>
+			</p>
+			<p>
+				Los destinos de navegación inferiores pueden estar activos, inactivos, enfocados o presionados.
+				La navegación inferior utiliza opacidad y texto para mostrar cuándo un destino está activo. Los estados se usan para mostrar estados presionados, enfocados y no seleccionados.
+				Los estados de destino inactivos se representan con opacidades reducidas; Los estados activos tienen opacidad total.
+				Vista en paralelo de dos ejemplos de navegación inferior, destacando la diferencia entre destinos inactivos y activos.
+			</p>
+		]]>
+	</string>
+    <string name="bottom_navigation_span_page_favorite">
+		Página favorita
+	</string>
+    <string name="bottom_navigation_span_home">
+		Casa
+	</string>
+    <string name="bottom_navigation_span_page_music">
+		Música de la página
+	</string>
+    <string name="bottom_navigation_span_music">
+		Música
+	</string>
+    <string name="bottom_navigation_span_page_places">
+		Lugares de página
+	</string>
+    <string name="bottom_navigation_span_places">
+		Lugares
+	</string>
+    <string name="bottom_navigation_span_page_news">
+		Noticias de la página
+	</string>
+    <string name="bottom_navigation_span_page_home">
+		Página de inicio
+	</string>
+    <string name="bottom_navigation_span_news">
+		Noticias
+	</string>
+    <string name="bottom_navigation_span_picture_places">
+		Lugares de imagen
+	</string>
+    <string name="bottom_navigation_span_picture_news">
+		Noticias de imagen
+	</string>
+    <string name="bottom_navigation_span_picture_guitar">
+		Guitarra de imagen
+	</string>
+
+    <!--Buttons strings-->
+
+    <string name="button_title">
+		Botones
+	</string>
+    <string name="button_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Botones
+				</h1>
+			</p>
+			<p>
+				Los botones permiten a los usuarios realizar acciones y tomar decisiones con un solo toque.
+			</p>
+		]]>
+	</string>
+    <string name="button_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Los botones comunican acciones que los usuarios pueden realizar. Por lo general, se colocan en toda su interfaz de usuario, en lugares como:
+				<ul>
+					<li>
+						Cuadros de diálogo
+					<li>
+						Ventanas modales
+					<li>
+						Formas
+					<li>
+						Tarjetas
+					<li>
+						Barras de herramientas
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="button_span_anatomy">
+		<![CDATA[
+			<p>
+				<h3>
+					Anatomía
+				</h3>
+			</p>
+			<p>
+				Los botones contienen un elemento requerido y cuatro elementos opcionales.
+			</p>
+		]]>
+	</string>
+    <string name="button_span_hierarchy">
+		<![CDATA[
+			<p>
+				<h3>
+					Jerarquía
+				</h3>
+			</p>
+			<p>
+				<h5>
+					Un solo botón destacado
+				</h5>
+			</p>
+			<p>
+				Un diseño debe contener un solo botón destacado que deja en claro que otros botones tienen menos importancia en la jerarquía. Este botón de alto énfasis atrae la mayor atención.
+			</p>
+			<p>
+				<h5>
+					Otros botones
+				</h5>
+			</p>
+			<p>
+				Una aplicación puede mostrar más de un botón en un diseño a la vez, por lo que un botón de alto énfasis puede ir acompañado de botones de énfasis medio y bajo que realizan acciones menos importantes. Cuando use varios botones, asegúrese de que el estado disponible de un botón no se vea como el estado deshabilitado de otro.
+			</p>
+		]]>
+	</string>
+    <string name="button_span_placement">
+		<![CDATA[
+			<p>
+				<h3>
+					Colocación
+				</h3>
+			</p>
+			<p>
+				Se pueden usar varios tipos de botones para expresar diferentes niveles de énfasis.
+			</p>
+		]]>
+	</string>
+    <string name="button_span_text_button_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso del botón de texto
+				</h3>
+			</p>
+			<p>
+				Los botones de texto se usan generalmente para acciones menos pronunciadas, incluidas las ubicadas:
+				<ul>
+					<li>
+						En diálogos
+					<li>
+						En tarjetas
+				</ul>
+				En las tarjetas, los botones de texto ayudan a mantener el énfasis en el contenido de la tarjeta.
+			</p>
+		]]>
+	</string>
+    <string name="button_span_outlined_button_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso del botón contorneado
+				</h3>
+			</p>
+			<p>
+				Los botones contorneados son botones de énfasis medio. Contienen acciones que son importantes, pero no son la acción principal en una aplicación.
+			</p>
+		]]>
+	</string>
+    <string name="button_span_contained_button_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso de botón contenido
+				</h3>
+			</p>
+			<p>
+				Los botones contenidos son de alto énfasis, se distinguen por su uso de elevación y relleno. Contienen acciones que son primarias para su aplicación.
+			</p>
+		]]>
+	</string>
+    <string name="button_span_toggle_button_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso del botón de alternar
+				</h3>
+			</p>
+			<p>
+				Los botones de alternancia se pueden usar para agrupar opciones relacionadas. Para enfatizar grupos de botones de alternancia relacionados, un grupo debe compartir un contenedor común.
+			</p>
+		]]>
+	</string>
+    <string name="button_text_button">
+		Botón de texto
+	</string>
+    <string name="button_outlined_button">
+		Botón contorneado
+	</string>
+    <string name="button_contained_button">
+		Botón contenido
+	</string>
+    <string name="button_toggle_button_usage">
+		Uso del botón de alternar
+	</string>
+    <string name="button_have_press_outlined_button">
+		Presione el botón delineado
+	</string>
+    <string name="button_have_press_text_button">
+		Han presionado el botón de texto
+	</string>
+    <string name="button_have_press_contained_button">
+		Tener presionado el botón contenido
+	</string>
+
+    <!--Cards strings-->
+
+    <string name="card_title">
+		Tarjetas
+	</string>
+    <string name="card_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Tarjetas
+				</h1>
+			</p>
+			<p>
+				Las tarjetas contienen contenido y acciones sobre un solo tema.
+			</p>
+		]]>
+	</string>
+    <string name="card_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Las tarjetas son superficies que muestran contenido y acciones sobre un solo tema.
+				<br>
+				<br>
+				Deben ser fáciles de escanear en busca de información relevante y procesable. Los elementos, como el texto y las imágenes, deben colocarse sobre ellos de una manera que indique claramente la jerarquía.
+			</p>
+		]]>
+	</string>
+    <string name="card_span_gestures">
+		<![CDATA[
+			<p>
+				<h3>
+					Gestos
+				</h3>
+			</p>
+			<p>
+				Los gestos deben implementarse consistentemente dentro de una colección de tarjetas. Los gestos de uso frecuente en las tarjetas incluyen deslizar, levantar y mover, y desplazarse.
+			</p>
+		]]>
+	</string>
+    <string name="card_span_gestures_swipe">
+		<![CDATA[
+			<p>
+				<h4>
+					Golpe fuerte
+				</h4>
+			</p>
+			<p>
+				Se puede realizar un gesto de deslizamiento en una sola tarjeta a la vez, en cualquier lugar de esa tarjeta.
+				<br>
+				<br>
+				Se puede usar para:
+			</p>
+			<ul>
+				<li>
+					Descartar una tarjeta
+				<li>
+					Cambiar el estado de una tarjeta (como marcarla o archivarla)
+			</ul>
+		]]>
+	</string>
+    <string name="card_span_gestures_scrolling">
+		<![CDATA[
+			<p>
+				<h4>
+					Desplazamiento
+				</h4>
+			</p>
+			<p>
+				El contenido de la tarjeta que es más alto que la altura máxima de la tarjeta se trunca y no se desplaza, pero se puede mostrar expandiendo la altura de una tarjeta. Una tarjeta puede expandirse más allá de la altura máxima de la pantalla, en cuyo caso la tarjeta se desplaza dentro de la pantalla.
+			</p>
+		]]>
+	</string>
+    <string name="card_span_sample">
+		<![CDATA[
+			<p>
+				<h3>
+					Título
+				</h3>
+			</p>
+			<br>
+			<p>
+				Texto secundario
+			</p>
+			<br>
+			<p>
+				Grey debería dividir hola fríamente maravillosamente marginalmente lejos al excluir
+			</p>
+		]]>
+	</string>
+    <string name="card_sample_action1">
+		acción 1
+	</string>
+    <string name="card_sample_action2">
+		acción 2
+	</string>
+    <string name="card_sample_image_description">
+		content_description_media
+	</string>
+    <string name="card_sample_clicked_button1">
+		Acción 1 botón hecho clic!
+	</string>
+    <string name="card_sample_clicked_button2">
+		Acción 2 botón hecho clic!
+	</string>
+    <string name="card_image_description">
+		Imagen
+	</string>
+
+    <!--Chips strings-->
+
+    <string name="chip_title">
+		Papas fritas
+	</string>
+    <string name="chip_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Papas fritas
+				</h1>
+			</p>
+			<p>
+				Los chips son elementos compactos que representan una entrada, atributo o acción.
+			</p>
+		]]>
+	</string>
+    <string name="chip_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Los chips permiten a los usuarios ingresar información, hacer selecciones, filtrar contenido o activar acciones. Si bien se espera que los botones aparezcan consistentemente y con llamadas a la acción familiares, el chip debe aparecer dinámicamente como un grupo de múltiples elementos interactivos.
+			</p>
+		]]>
+	</string>
+    <string name="chip_span_types">
+		<![CDATA[
+			<p>
+				<h3>
+					Tipos
+				</h3>
+			</p>
+		]]>
+	</string>
+    <string name="chip_span_types_input">
+		<![CDATA[
+			<p>
+				<h4>
+					Chips de entrada
+				</h4>
+			</p>
+			<p>
+				El chip de entrada representa la información utilizada en los campos, como una entidad o diferentes atributos.
+			</p>
+		]]>
+	</string>
+    <string name="chip_span_types_filter">
+		<![CDATA[
+			<p>
+				<h4>
+					Chips de filtro
+				</h4>
+			</p>
+			<p>
+				El chip de filtro representa los filtros para una colección.
+			</p>
+		]]>
+	</string>
+    <string name="chip_span_types_choice">
+		<![CDATA[
+			<p>
+				<h4>
+					Chips de elección
+				</h4>
+			</p>
+			<p>
+				En conjuntos que contienen al menos dos opciones, el chip de elección representa una única selección.
+			</p>
+		]]>
+	</string>
+    <string name="chip_span_types_action">
+		<![CDATA[
+			<p>
+				<h4>
+					Chips de acción
+				</h4>
+			</p>
+			<p>
+				El chip de acción desencadena acciones relacionadas con el contenido primario.
+			</p>
+		]]>
+	</string>
+
+    <string name="chip_input1_text">
+		Portland
+	</string>
+    <string name="chip_input2_text">
+		Ciclismo
+	</string>
+
+    <string name="chip_input1_toast">
+		Chip de entrada 1 clic!
+	</string>
+    <string name="chip_input2_toast">
+		Chip de entrada 2 hecho clic!
+	</string>
+
+    <string name="chip_filter1_text">
+		Ascensor
+	</string>
+    <string name="chip_filter2_text">
+		Secadora
+	</string>
+    <string name="chip_filter3_text">
+		Perros OK
+	</string>
+
+    <string name="chip_filter1_toast">
+		Chip de filtro 1 clic!
+	</string>
+    <string name="chip_filter2_toast">
+		¡Haga clic en el chip de filtro 2!
+	</string>
+    <string name="chip_filter3_toast">
+		Chip de filtro 3 hizo clic!
+	</string>
+
+    <string name="chip_action1_text">
+		Encender las luces
+	</string>
+    <string name="chip_action2_text">
+		Ajustar alarma
+	</string>
+
+    <string name="chip_action1_toast">
+		Acción chip 1 hizo clic!
+	</string>
+    <string name="chip_action2_toast">
+		Acción chip 2 hizo clic!
+	</string>
+
+    <string name="chip_choice1_text">
+		Medio
+	</string>
+    <string name="chip_choice2_text">
+		Suave
+	</string>
+    <string name="chip_choice3_text">
+		Extra suave
+	</string>
+
+    <string name="chip_choice1_toast">
+		Elección chip 1 clic!
+	</string>
+    <string name="chip_choice2_toast">
+		Elección chip 2 hizo clic!
+	</string>
+    <string name="chip_choice3_toast">
+		Elección chip 3 hizo clic!
+	</string>
+
+    <string name="chip_image_description">
+		Imagen de chip
+	</string>
+
+    <!--Data Table strings-->
+
+    <string name="data_table_title">
+		Tabla de datos
+	</string>
+    <string name="data_table_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Tablas de datos
+				</h1>
+			</p>
+			<p>
+				Las tablas de datos muestran conjuntos de datos en filas y columnas.
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Las tablas de datos muestran información en un formato de cuadrícula de filas y columnas. Organizan la información de una manera fácil de escanear, para que los usuarios puedan buscar patrones e información.
+				<br>
+				<br>
+				Las tablas de datos pueden contener:
+			</p>
+			<ul>
+				<li>
+					Componentes interactivos (como chips, botones o menús)
+				<li>
+					Elementos no interactivos (como insignias)
+				<li>
+					Herramientas para consultar y manipular datos.
+			</ul>
+		]]>
+	</string>
+    <string name="data_table_span_elements">
+		<![CDATA[
+			<p>
+				<h3>
+					Elementos de la tabla de datos
+				</h3>
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_elements_baseline">
+		<![CDATA[
+			<p>
+				<h4>
+					Elementos de referencia
+				</h4>
+			</p>
+			<p>
+				Los nombres de encabezado de columna describen el tipo de contenido que se muestra en cada columna. Cada fila contiene datos relacionados con una sola entidad.
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_elements_interactive">
+		<![CDATA[
+			<p>
+				<h4>
+					Elementos interactivos
+				</h4>
+			</p>
+			<p>
+				Las tablas de datos pueden incluir elementos interactivos, como:
+				<br>
+				<ul>
+					<li>
+						Casillas de verificación
+					<li>
+						Ordenar (en columnas)
+					<li>
+						Íconos que comunican alertas
+				</ul>
+				<br>
+			</p>
+			<p>
+				Los controles que manipulan cómo se muestran los datos de la tabla (como la paginación o los chips de filtro deben colocarse directamente encima o debajo de una tabla).
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_columns">
+		<![CDATA[
+			<p>
+				<h3>
+					Columnas
+				</h3>
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_columns_heightpadding">
+		<![CDATA[
+			<p>
+				<h4>
+					Altura y acolchado
+				</h4>
+			</p>
+			<p>
+				La altura de la fila de referencia es 52dp, y la altura de la fila del encabezado de la columna es 56dp (4dp más alta que las filas normales).
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_columns_padding">
+		<![CDATA[
+			<p>
+				<h4>
+					Relleno
+				</h4>
+			</p>
+			<p>
+				Hay 32dp o más de relleno entre columnas.
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_columns_text">
+		<![CDATA[
+			<p>
+				<h4>
+					Texto
+				</h4>
+			</p>
+			<p>
+				El texto del encabezado de columna utiliza una fuente de peso medio (para diferenciarlo del texto de la fila).
+				<br>
+				<br>
+				El texto que es más largo que el ancho de la columna se trunca con puntos suspensivos. Al pasar el mouse, una información sobre herramientas muestra el nombre completo.
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_sorting">
+		<![CDATA[
+			<p>
+				<h3>
+					Clasificación
+				</h3>
+			</p>
+			<p>
+				Para ayudar a los usuarios a ordenar la información, una columna puede mostrar la clasificación de columnas de forma predeterminada.
+				<br>
+				<br>
+				Para indicar qué columna está ordenada de manera predeterminada, coloque un ícono de flecha hacia abajo o hacia arriba junto al nombre del encabezado de la columna.
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_sorting_reverse">
+		<![CDATA[
+			<p>
+				<h3>
+					Orden de inversión
+				</h3>
+			</p>
+			<p>
+				Para invertir el orden de clasificación de una columna, el usuario toca el nombre del encabezado o el icono de flecha. Al ordenar, el ícono de la flecha gira 180 grados.
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_rowcheck">
+		<![CDATA[
+			<p>
+				<h3>
+					Casilla de verificación de fila
+				</h3>
+			</p>
+			<p>
+				Cuando se selecciona una casilla de verificación de fila, la fila debe mostrar un color de fondo.
+				<br>
+				<br>
+				Para los usuarios que usan la ampliación de pantalla, el relleno de color de fondo proporciona una forma de indicar que se ha seleccionado una fila, ya que la casilla de verificación seleccionada puede aparecer fuera del área ampliada de la pantalla.
+				<br>
+				<br>
+				Para obtener más información sobre los estados de selección, visite Estados.
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_focus">
+		<![CDATA[
+			<p>
+				<h3>
+					Atención
+				</h3>
+			</p>
+			<p>
+				Cuando se usa el foco del teclado, aparece un indicador como pestaña de usuarios a través de elementos interactivos (como casillas de verificación).
+			</p>
+		]]>
+	</string>
+    <string name="data_table_span_menu">
+		<![CDATA[
+			<p>
+				<h3>
+					Menús en línea
+				</h3>
+			</p>
+			<p>
+				Los menús en línea permiten la selección de un conjunto predefinido de elementos de menú. Están incrustados directamente en una celda de tabla.
+			</p>
+		]]>
+	</string>
+
+    <string name="datatable_sample_elements_interactive_description">
+		Muestra de elementos interactivos
+	</string>
+    <string name="datatable_sample_columns_heightpadding_description">
+		Altura y muestra de relleno
+	</string>
+    <string name="datatable_sample_columns_padding_description">
+		Muestra de relleno
+	</string>
+    <string name="datatable_sample_sorting_description">
+		Muestra de clasificación
+	</string>
+    <string name="datatable_sample_rowcheck_description">
+		Muestra de casilla de verificación de fila
+	</string>
+    <string name="datatable_sample_focus_description">
+		Muestra de enfoque
+	</string>
+    <string name="datatable_sample_menu_description">
+		Muestra de menús en línea
+	</string>
+
+    <!--Dialogs strings-->
+
+    <string name="dialog_title">
+		Cuadros de diálogo
+	</string>
+    <string name="dialog_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Cuadros de diálogo
+				</h1>
+			</p>
+			<p>
+				Los cuadros de diálogo informan a los usuarios sobre una tarea y pueden contener información crítica, requerir decisiones o involucrar múltiples tareas.
+			</p>
+		]]>
+	</string>
+    <string name="dialog_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Un diálogo es un tipo de ventana modal que aparece delante del contenido de la aplicación para proporcionar información crítica o solicitar una decisión. Los cuadros de diálogo deshabilitan todas las funciones de la aplicación cuando aparecen y permanecen en la pantalla hasta que se confirme, se descarte o se haya tomado una acción requerida.
+				<br>
+				<br>
+				Los cuadros de diálogo son intencionalmente disruptivos, por lo que deben usarse con moderación.
+			</p>
+		]]>
+	</string>
+    <string name="dialog_span_when_to_use">
+		<![CDATA[
+			<p>
+				<h3>
+					Cuándo usar
+				</h3>
+			</p>
+			<p>
+				Los cuadros de diálogo deben usarse para:
+				<br>
+				<ul>
+				<li>
+					Errores que bloquean el funcionamiento normal de una aplicación
+				<li>
+					Información crítica que requiere una tarea, decisión o reconocimiento específico del usuario
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="dialog_span_types">
+		<![CDATA[
+			<p>
+				<h4>
+					Tipos
+				</h4>
+			</p>
+		]]>
+	</string>
+    <string name="dialog_span_types_alert">
+		<![CDATA[
+			<p>
+				<h3>
+					Diálogo de alerta
+				</h3>
+			</p>
+			<p>
+				Los cuadros de diálogo de alerta interrumpen a los usuarios con información urgente, detalles o acciones.
+				<br>
+			</p>
+		]]>
+	</string>
+    <string name="dialog_span_types_simple">
+		<![CDATA[
+			<p>
+				<h3>
+					Diálogo simple
+				</h3>
+			</p>
+			<p>
+				Los cuadros de diálogo simples pueden mostrar elementos que son inmediatamente accionables cuando se seleccionan. No tienen botones de texto.
+				<br>
+				<br>
+				Como los cuadros de diálogo simples son interrumpidos, deben usarse con moderación. Alternativamente, los menús desplegables proporcionan opciones de una manera no modal y menos disruptiva.
+			</p>
+		]]>
+	</string>
+    <string name="dialog_span_types_confirmation">
+		<![CDATA[
+			<p>
+				<h3>
+					Diálogo de confirmación
+				</h3>
+			</p>
+			<p>
+				Los cuadros de diálogo de confirmación brindan a los usuarios la capacidad de proporcionar una confirmación final de una elección antes de comprometerse con ella, para que tengan la oportunidad de cambiar de opinión si es necesario.
+				<br>
+				<br>
+				Si el usuario confirma una elección, se lleva a cabo. De lo contrario, el usuario puede descartar el diálogo. Por ejemplo, los usuarios pueden escuchar múltiples tonos de llamada, pero solo hacen una selección final al tocar "Aceptar".
+			</p>
+		]]>
+	</string>
+    <string name="dialog_alert_button">
+		Diálogo de alerta
+	</string>
+    <string name="dialog_simple_button">
+		Diálogo simple
+	</string>
+    <string name="dialog_confirmation_button">
+		Diálogo de confirmación
+	</string>
+    <string name="dialog_alert_discard">
+		Descarte
+	</string>
+    <string name="dialog_text_cancel">
+		Cancelar
+	</string>
+    <string name="dialog_alert_draft">
+		¿Descartar borrador?
+	</string>
+    <string name="dialog_simple_option">
+		Ver opciones
+	</string>
+    <string name="dialog_simple_accept">
+		Aceptar
+	</string>
+    <string name="dialog_confirmation_ringtone">
+		Tono de teléfono
+	</string>
+    <string name="dialog_confirmation_ok">
+		Okay
+	</string>
+    <string-array name="dialog_array_simple">
+		<item>
+			Fotos
+		</item>
+        <item>
+			Películas
+		</item>
+        <item>
+			Todas
+		</item>
+    </string-array>
+    <string-array name="dialog_array_confirmation">
+		<item>
+			Ninguna
+		</item>
+        <item>
+			Calisto
+		</item>
+        <item>
+			Ganímedes
+		</item>
+        <item>
+			Luna
+		</item>
+        <item>
+			Oberon
+		</item>
+        <item>
+			Fobos
+		</item>
+    </string-array>
+
+    <!--Divider strings-->
+
+    <string name="divider_title">
+		Divisor
+	</string>
+    <string name="divider_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Divisor
+				</h1>
+			</p>
+			<p>
+				Un divisor es una línea delgada que agrupa el contenido en listas y diseños.
+			</p>
+		]]>
+	</string>
+    <string name="divider_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Los divisores separan el contenido en grupos claros.
+				<br>
+				<ul>
+					<li>
+						Los divisores deben ser notables en un diseño, pero no discordantes.
+					<li>
+						Los divisores solo se deben usar si los elementos no se pueden separar utilizando espacios en blanco.
+					<li>
+						Utilice separadores con moderación para crear agrupaciones en lugar de elementos separados.
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="divider_span_types">
+		<![CDATA[
+			<p>
+				<h3>
+					Tipos
+				</h3>
+			</p>
+		]]>
+	</string>
+    <string name="divider_span_types_fullbleed">
+		<![CDATA[
+			<p>
+				<h4>
+					Divisores de sangrado completo
+				</h4>
+			</p>
+			<p>
+				Los divisores de sangrado completo separan el contenido en secciones y abarcan toda la longitud de un diseño.
+			</p>
+		]]>
+	</string>
+    <string name="divider_span_types_inset">
+		<![CDATA[
+			<p>
+				<h4>
+					Separadores de inserción
+				</h4>
+			</p>
+			<p>
+				Los separadores de inserción separan el contenido relacionado, como los correos electrónicos en un hilo de correo electrónico. Deben usarse con elementos de anclaje como iconos o avatares, y alinearse a la izquierda con el título de la barra de la aplicación.
+			</p>
+		]]>
+	</string>
+    <string name="divider_span_types_middle">
+		<![CDATA[
+			<p>
+				<h4>
+					Divisores medios
+				</h4>
+			</p>
+			<p>
+				Los divisores también se pueden colocar en el medio de un diseño. Son los mejores para separar el contenido relacionado, tales precios en un recibo.
+			</p>
+		]]>
+	</string>
+    <string name="divider_span_types_subheaders">
+		<![CDATA[
+			<p>
+				<h4>
+					Divisores con subtítulos
+				</h4>
+			</p>
+			<p>
+				Los divisores se pueden combinar con subtítulos para identificar contenido agrupado. Coloque los divisores sobre los subtítulos para reforzar la conexión del subencabezado con el contenido.
+			</p>
+		]]>
+	</string>
+
+    <string name="divider_fullbleed_sample_description">
+		Muestra de divisores de sangrado completo
+	</string>
+    <string name="divider_inset_sample_description">
+		Muestra de divisor de inserción
+	</string>
+    <string name="divider_middle_sample_description">
+		Muestra de divisor medio
+	</string>
+    <string name="divider_subheaders_sample_description">
+		Divisores con subtítulos muestra
+	</string>
+
+    <!--Floating Action Button strings-->
+
+    <string name="fab_title">
+		Botón de acción flotante
+	</string>
+    <string name="fab_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Botón de acción flotante
+				</h1>
+			</p>
+			<p>
+				Un botón de acción flotante (FAB) representa la acción principal de una pantalla.
+			</p>
+		]]>
+	</string>
+    <string name="fab_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Un botón de acción flotante (FAB) realiza la acción primaria o más común en una pantalla. Aparece delante de todo el contenido de la pantalla, generalmente como una forma circular con un icono en el centro. Los FAB vienen en tres tipos: regular, mini y extendido.
+			</p>
+		]]>
+	</string>
+    <string name="fab_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>
+					Comportamiento
+				</h3>
+			</p>
+			<p>
+				Un botón de acción flotante (FAB) puede desencadenar una acción en la pantalla actual o puede realizar una acción que cree una nueva pantalla.
+				<br>
+				<br>
+				Un FAB promueve una acción importante y constructiva como:
+				<br>
+				<br>
+				<ul>
+					<li>
+						Crear
+					<li>
+						Favorito
+					<li>
+						Compartir
+					<li>
+						Iniciar un proceso
+				</ul>
+				<br>
+				Evite usar un FAB para acciones menores o destructivas, como:
+				<br>
+				<br>
+				<ul>
+					<li>
+						Archivo o basura
+					<li>
+						Alertas o errores
+					<li>
+						Tareas limitadas como cortar texto
+					<li>
+						Controles más adecuados para una barra de herramientas (como controles para ajustar el volumen o el color de fuente)
+				</ul>
+			</p>
+		]]>
+	</string>
+
+    <string name="fab_text">
+		Crear
+	</string>
+    <string name="fab_description">
+		Descripción ampliada del contenido de FAB
+	</string>
+
+    <!--Image List strings-->
+
+    <string name="image_list_title">
+		Lista de imágenes
+	</string>
+    <string name="image_list_image_description_standard_image_list">
+		Lista de imágenes estándar
+	</string>
+    <string name="image_list_image_description_quilted_image_list">
+		Lista de imágenes acolchadas
+	</string>
+    <string name="image_list_image_description_woven_image_list">
+		Lista de imágenes tejidas
+	</string>
+    <string name="image_list_image_description_masonry_image_list">
+		Lista de imágenes de albañilería
+	</string>
+
+    <string name="image_list_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Listas de imágenes
+				</h1>
+			</p>
+			<p>
+				Las listas de imágenes muestran una colección de imágenes en una cuadrícula organizada.
+			</p>
+		]]>
+	</string>
+    <string name="image_list_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Las listas de imágenes representan una colección de artículos en un patrón repetido. Ayudan a mejorar la comprensión visual del contenido que contienen.
+			</p>
+		]]>
+	</string>
+    <string name="image_list_span_types">
+		<![CDATA[
+			<p>
+				<h3>
+					Tipos
+				</h3>
+			</p>
+		]]>
+	</string>
+    <string name="image_list_span_standard_image_list">
+		<![CDATA[
+			<p>
+				<h3>
+					Lista de imágenes estándar
+				</h3>
+			</p>
+			<p>
+				Las listas de imágenes estándar son mejores para artículos de igual importancia. Tienen un tamaño, proporción y relleno uniformes del contenedor. Las listas de imágenes estándar se pueden mostrar con o sin etiquetas de texto.
+			</p>
+		]]>
+	</string>
+    <string name="image_list_span_quilted_image_list">
+		<![CDATA[
+			<p>
+				<h3>
+					Lista de imágenes acolchadas
+				</h3>
+			</p>
+			<p>
+				Las listas de imágenes acolchadas enfatizan ciertos elementos sobre otros en una colección. Usan tamaños y proporciones de contenedores variados para crear jerarquía en las imágenes.
+			</p>
+		]]>
+	</string>
+    <string name="image_list_span_woven_image_list">
+		<![CDATA[
+			<p>
+				<h3>
+					Lista de imágenes tejidas
+				</h3>
+			</p>
+			<p>
+				Las listas de imágenes tejidas usan relaciones de contenedor alternas para crear un diseño rítmico. Una lista de imágenes tejidas es la mejor para navegar por el contenido de pares.
+			</p>
+		]]>
+	</string>
+    <string name="image_list_span_masonry_image_list">
+		<![CDATA[
+			<p>
+				<h3>
+					Lista de imágenes de albañilería
+				</h3>
+			</p>
+			<p>
+				Las listas de imágenes de mampostería utilizan alturas de contenedor de tamaño dinámico que reflejan la relación de aspecto de cada imagen. Esta lista de imágenes se utiliza mejor para explorar contenido de pares sin recortar.
+			</p>
+		]]>
+	</string>
+
+    <!--Lists strings-->
+
+    <string name="list_title">
+		Liza
+	</string>
+    <string name="list_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Liza
+				</h1>
+			</p>
+			<p>
+				Las listas son índices continuos, verticales de texto o imágenes.
+			</p>
+		]]>
+	</string>
+    <string name="list_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Las listas son un grupo continuo de texto o imágenes. Se componen de elementos que contienen acciones primarias y complementarias, que se representan mediante iconos y texto.
+			</p>
+		]]>
+	</string>
+    <string name="list_span_types">
+		<![CDATA[
+			<p>
+				<h3>
+					Tipos
+				</h3>
+			</p>
+			<p>
+				<ul>
+					<li>
+						Lista de una sola línea
+						<br>
+						Los elementos de la lista de una sola línea contienen un máximo de una línea de texto.
+					<li>
+						Lista de dos líneas
+						<br>
+						Los elementos de la lista de dos líneas contienen un máximo de dos líneas de texto.
+					<li>
+						Lista de tres líneas
+						<br>
+						Los elementos de la lista de tres líneas contienen un máximo de tres líneas de texto.
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="list_span_list_controls">
+		<![CDATA[
+			<p>
+				<h3>
+					Lista de controles
+				</h3>
+			</p>
+			<p>
+				Los controles de lista muestran información y acciones para los elementos de la lista.
+			</p>
+		]]>
+	</string>
+    <string name="list_span_checkbox">
+		<![CDATA[
+			<p>
+				<h3>
+					Caja
+				</h3>
+			</p>
+			<p>
+				Una casilla de verificación puede ser una acción primaria o secundaria.
+			</p>
+		]]>
+	</string>
+    <string name="list_span_expand_and_collapse">
+		<![CDATA[
+			<p>
+				<h3>
+					Expandir y contraer
+				</h3>
+			</p>
+			<p>
+				Muestre y oculte detalles de elementos de lista existentes expandiendo y contrayendo verticalmente el contenido de la lista.
+			</p>
+		]]>
+	</string>
+    <string name="list_image_description_types">
+		Tipos
+	</string>
+    <string name="list_image_description_checkbox">
+		Caja
+	</string>
+    <string name="list_image_description_expand_and_collapse">
+		Expandir y contraer
+	</string>
+
+    <!-- Menu strings-->
+
+    <string name="menu_title">
+		Menú
+	</string>
+    <string name="menu_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Menú
+				</h1>
+			</p>
+			<p>
+				Los menús muestran una lista de opciones en superficies temporales.
+			</p>
+		]]>
+	</string>
+    <string name="menu_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Un menú muestra una lista de opciones en una superficie temporal. Aparecen cuando los usuarios interactúan con un botón, acción u otro control.
+			</p>
+		]]>
+	</string>
+    <string name="menu_span_types">
+		<![CDATA[
+			<p>
+				<h3>
+					Tipos
+				</h3>
+			</p>
+			<p>
+				Los menús permiten a los usuarios realizar una selección entre múltiples opciones. Son menos prominentes y ocupan menos espacio que los controles de selección, como un conjunto de botones de opción.
+				<ul>
+				<li>
+					Los menús desplegables muestran una lista de opciones, activada por un icono, botón o acción. Su ubicación varía según el elemento que los abre.
+				<li>
+					Los menús desplegables expuestos muestran el elemento de menú seleccionado actualmente encima de la lista de opciones. Algunas variaciones pueden aceptar entradas ingresadas por el usuario.
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="menu_span_placement">
+		<![CDATA[
+			<p>
+				<h3>
+					Colocación
+				</h3>
+			</p>
+			<p>
+				Los menús aparecen delante de todos los demás elementos permanentes de la IU.
+			</p>
+		]]>
+	</string>
+    <string name="menu_span_dropdown">
+		<![CDATA[
+			<p>
+				<h3>
+					Menú desplegable
+				</h3>
+			</p>
+			<p>
+				Un menú desplegable es una forma compacta de mostrar múltiples opciones. Aparece al interactuar con un elemento (como un icono o botón) o cuando los usuarios realizan una acción específica.
+			</p>
+		]]>
+	</string>
+    <string name="menu_span_exposed_dropdown">
+		<![CDATA[
+			<p>
+				<h3>
+					Menú desplegable expuesto
+				</h3>
+			</p>
+			<p>
+				Los menús desplegables expuestos muestran el elemento de menú seleccionado actualmente encima del menú. Solo se pueden usar cuando se puede elegir un solo elemento de menú a la vez.
+			</p>
+		]]>
+	</string>
+    <string name="menu_headset">
+		Auriculares
+	</string>
+    <string name="menu_star">
+		Estrella
+	</string>
+    <string name="menu_music_note">
+		Nota musical
+	</string>
+    <string name="menu_info">
+		Informacion
+	</string>
+    <string name="menu_dropdown">
+		Menú desplegable
+	</string>
+
+    <!--Navigation Drawer strings-->
+
+    <string name="navigation_drawer_title">
+		Cajón de navegación
+	</string>
+    <string name="navigation_drawer_navigation_header">
+		Encabezado de navegación
+	</string>
+    <string name="navigation_drawer_drawer_title">
+		Título del cajón de navegación
+	</string>
+    <string name="navigation_drawer_drawer_subtitle">
+		Subtítulo del cajón de navegación
+	</string>
+    <string name="navigation_drawer_option_1">
+		Opción 1
+	</string>
+    <string name="navigation_drawer_option_2">
+		opcion 2
+	</string>
+    <string name="navigation_drawer_option_3">
+		Opción 3
+	</string>
+    <string name="navigation_drawer_standard_drawer">
+		Cajón Estándar
+	</string>
+    <string name="navigation_drawer_bottom_drawer">
+		Cajón inferior
+	</string>
+
+    <string name="navigation_drawer_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Cajón de navegación
+				</h1>
+			</p>
+			<p>
+				Los cajones de navegación proporcionan acceso a los destinos en su aplicación.
+			</p>
+		]]>
+	</string>
+    <string name="navigation_drawer_span_usage">
+		<![CDATA[
+			<p>
+				<h1>
+					Uso
+				</h1>
+			</p>
+			<p>
+			Los cajones de navegación proporcionan acceso a los destinos y la funcionalidad de la aplicación, como cambiar de cuenta. Pueden estar permanentemente en pantalla o controlados por un icono de menú de navegación.
+			<br>
+			Los cajones de navegación se recomiendan para:
+				<ul>
+					<li>
+						Aplicaciones con cinco o más destinos de nivel superior
+					<li>
+						Aplicaciones con dos o más niveles de jerarquía de navegación
+					<li>
+						Navegación rápida entre destinos no relacionados
+				</ul>
+
+			</p>
+		]]>
+	</string>
+    <string name="navigation_drawer_span_standard_drawer">
+		<![CDATA[
+			<p>
+				<h1>
+					Cajón estándar
+				</h1>
+			</p>
+			<p>
+				Los cajones de navegación estándar permiten a los usuarios acceder simultáneamente a los destinos de los cajones y al contenido de la aplicación. A menudo son coplanares con el contenido de la aplicación y afectan la cuadrícula de diseño de la pantalla.
+				<br>
+				Los cajones estándar pueden ser permanentemente visibles o abiertos y cerrados tocando un icono del menú de navegación. Se pueden usar solo en tabletas y computadoras de escritorio. En los dispositivos móviles, se utilizan cajones modales.
+			</p>
+		]]>
+	</string>
+    <string name="navigation_drawer_span_modal_drawer">
+		<![CDATA[
+			<p>
+				<h1>
+					Cajón modal
+				</h1>
+			</p>
+			<p>
+				Los cajones de navegación modal usan una malla para bloquear la interacción con el resto del contenido de una aplicación. Están elevados por encima de la mayoría de los elementos de la aplicación y no afectan la cuadrícula de diseño de la pantalla.
+				<br>
+				Son principalmente para su uso en dispositivos móviles, donde el espacio de la pantalla es limitado. Se pueden reemplazar por cajones estándar en tableta y escritorio.
+				<br>
+				<br>
+				<em>
+					Deslice hacia la derecha para ver una demostración interactiva de este componente
+				<em>
+			</p>
+		]]>
+	</string>
+    <string name="navigation_drawer_span_bottom_drawer">
+		<![CDATA[
+			<p>
+				<h1>
+					Cajón inferior
+				</h1>
+			</p>
+			<p>
+				Los cajones de navegación inferiores son un tipo especializado de cajón modal para usar con una barra de aplicaciones inferior.
+				<br>
+				Para una mayor accesibilidad desde el ícono de menú de la barra de aplicaciones inferior, se abren desde la parte inferior de la pantalla en lugar de desde el lateral.
+			</p>
+		]]>
+	</string>
+
+    <string name="navigation_drawer_navigation_home">
+		Casa
+	</string>
+    <string name="navigation_drawer_navigation_standard_drawer">
+		Cajón Estándar
+	</string>
+    <string name="navigation_drawer_navigation_bottom_drawer">
+		Cajón inferior
+	</string>
+
+    <!--Navigation Rail strings-->
+
+    <string name="navigation_rail_title">
+		Rail de navegación
+	</string>
+    <string name="navigation_rail_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Riel de navegación
+				</h1>
+			</p>
+			<p>
+				Los rieles de navegación proporcionan un movimiento ergonómico entre los destinos principales en las aplicaciones.
+			</p>
+		]]>
+	</string>
+    <string name="navigation_rail_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				El riel es un componente de navegación lateral que muestra de tres a siete destinos de aplicaciones y, opcionalmente, un botón de acción flotante. Cada destino está representado por un icono y una etiqueta de texto.
+				<br>
+				El riel puede funcionar por sí solo en tamaños de pantalla más grandes, como escritorio y tableta. Cuando los usuarios hacen la transición entre tamaños de pantalla y dispositivos, el riel también puede complementar otros componentes de navegación, como la navegación inferior.
+			</p>
+		]]>
+	</string>
+    <string name="navigation_rail_span_when_to_use">
+		<![CDATA[
+			<p>
+				<h3>
+					Cuándo usar
+				</h3>
+			</p>
+			<p>
+				Los rieles de navegación deben usarse para:
+				<ul>
+					<li>
+						Destinos de primer nivel que deben ser accesibles desde cualquier lugar de una aplicación
+					<li>
+						Tres a siete destinos principales en un producto
+					<li>
+						Diseños de tableta o escritorio
+				</ul>
+				Los rieles de navegación no deben usarse para:
+				<ul>
+					<li>
+						Tamaños de pantalla pequeños
+					<li>
+						Tareas individuales, como ver un solo correo electrónico
+					<li>
+						Destinos secundarios de navegación
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="navigation_rail_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>
+					Comportamiento
+				</h3>
+			</p>
+			<p>
+				Desplazamiento
+				<br>
+				Los destinos en el riel de navegación deben permanecer visibles al desplazarse verticalmente.
+				<br>
+				Si un diseño se desplaza horizontalmente, el riel puede desplazarse fuera de la pantalla o permanecer fijo. Para distinguir que el contenido se desplaza debajo del riel, use un divisor o agregue elevación al riel.
+			</p>
+		]]>
+	</string>
+    <string name="navigation_rail_placement">
+		Colocación
+	</string>
+    <string name="navigation_rail_image_description_placement_two">
+		Segunda colocación
+	</string>
+
+    <!--Pickers strings-->
+
+    <string name="picker_title">
+		Recolectores
+	</string>
+    <string name="picker_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Recolectores
+				</h1>
+			</p>
+			<p>
+				Los selectores de fechas permiten a los usuarios seleccionar una fecha o un rango de fechas.
+			</p>
+		]]>
+	</string>
+    <string name="picker_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Los selectores de fechas permiten a los usuarios seleccionar una fecha o rango de fechas. Deben ser adecuados para el contexto en el que aparecen.
+				Los selectores de fecha pueden integrarse en:
+				<ul>
+					<li>
+						Diálogos en el móvil
+					<li>
+						Menú desplegable de campos de texto en el escritorio
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="picker_span_mobile_calendar_pickers">
+		<![CDATA[
+			<p>
+				<h3>
+					Selectores de calendario móvil
+				</h3>
+			</p>
+			<p>
+				Los selectores de calendario móvil se pueden usar para seleccionar fechas en un futuro próximo o pasado, cuando es útil verlos en un formato de mes calendario. Se muestran en un cuadro de diálogo.
+				Los casos de uso comunes incluyen:
+				<ul>
+					<li>
+						Hacer una reserva de restaurante
+					<li>
+						Programar una reunión
+				</ul>
+				No son ideales para seleccionar fechas en el pasado lejano o futuro que requieren más navegación, como ingresar una fecha de nacimiento o una fecha de vencimiento.
+				Los selectores de calendario móvil permiten la selección de una sola fecha y año.
+			</p>
+		]]>
+	</string>
+    <string name="picker_span_mobile_date_range_pickers">
+		<![CDATA[
+			<p>
+				<h3>
+					Selectores de rango de fecha móvil
+				</h3>
+			</p>
+			<p>
+				Los selectores de rango de fechas móviles permiten la selección de un rango de fechas. Cubren toda la pantalla.
+				Los casos de uso comunes incluyen:
+				<ul>
+					<li>
+						Reservar un vuelo
+					<li>
+						Reservar un hotel
+				</ul>
+			</p>
+		]]>
+	</string>
+    <string name="picker_span_mobile_date_input_pickers">
+		<![CDATA[
+			<p>
+				<h3>
+					Selectores de entrada de fecha móvil
+				</h3>
+			</p>
+			<p>
+				Los selectores de entrada de fecha móvil permiten la entrada manual de fechas usando los números en un teclado. Los usuarios pueden ingresar una fecha o un rango de fechas en un diálogo.
+				Se puede acceder al selector de entrada de fecha móvil desde cualquier otro selector de fecha móvil, a través del icono de edición.
+			</p>
+		]]>
+	</string>
+    <string name="picker_button_range_picker">
+		Haga clic para mostrar el selector de rango de fechas
+	</string>
+    <string name="picker_date_range_picker">
+		Selector de rango de fechas
+	</string>
+    <string name="picker_button_calendar_picker">
+		Mostrar el selector de calendario
+	</string>
+    <string name="picker_calendar_picker">
+		Selector de calendario
+	</string>
+    <string name="picker_launch_failure">
+		El lanzamiento del selector seleccionado ha fallado
+	</string>
+
+    <!--Progress Indicator strings-->
+
+    <string name="progress_indicator_title">
+		Indicador de progreso
+	</string>
+    <string name="progress_indicator_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Indicador de progreso
+				</h1>
+			</p>
+			<p>
+			Los indicadores de progreso expresan un tiempo de espera no especificado o muestran la duración de un proceso.
+			</p>
+		]]>
+	</string>
+    <string name="progress_indicator_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+			Los indicadores de progreso informan a los usuarios sobre el estado de los procesos en curso, como cargar una aplicación, enviar un formulario o guardar actualizaciones. Comunican el estado de una aplicación e indican acciones disponibles, como si los usuarios pueden navegar fuera de la pantalla actual.
+			</p>
+		]]>
+	</string>
+    <string name="progress_indicator_span_circular">
+		<![CDATA[
+			<p>
+				<h3>
+					Indicador de progreso circular
+				</h3>
+			</p>
+			<p>
+			Los indicadores de progreso circular muestran el progreso animando un indicador a lo largo de una pista circular invisible en el sentido de las agujas del reloj. Se pueden aplicar directamente a una superficie, como un botón o una tarjeta.
+			</p>
+		]]>
+	</string>
+    <string name="progress_indicator_span_linear">
+		<![CDATA[
+			<p>
+				<h3>
+					Indicador de progreso lineal
+				</h3>
+			</p>
+			<p>
+				Los indicadores de progreso lineal muestran el progreso animando un indicador a lo largo de una pista fija y visible. El comportamiento del indicador depende de si se conoce el progreso de un proceso.
+			</p>
+		]]>
+	</string>
+    <string name="progress_button_submit">
+		Enviar
+	</string>
+
+    <!--Selection Controls strings-->
+
+    <string name="selection_control_title">
+		Control de selección
+	</string>
+    <string name="selection_control_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Control de selección
+				</h1>
+			</p>
+			<p>
+				Los controles de selección permiten al usuario seleccionar opciones.
+			</p>
+		]]>
+	</string>
+    <string name="selection_control_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Los controles de selección permiten a los usuarios completar tareas que implican tomar decisiones como seleccionar opciones o activar o desactivar configuraciones. Los controles de selección se encuentran en pantallas que solicitan a los usuarios que tomen decisiones o declaren preferencias como configuraciones o cuadros de diálogo.
+			</p>
+		]]>
+	</string>
+    <string name="selection_control_span_checkbox">
+		<![CDATA[
+			<p>
+				<h3>
+					Casillas de verificación
+				</h3>
+			</p>
+			<p>
+				Las casillas de verificación permiten al usuario seleccionar uno o más elementos de un conjunto. Las casillas de verificación se pueden usar para activar o desactivar una opción.
+			</p>
+		]]>
+	</string>
+    <string name="selection_control_span_radio_button">
+		<![CDATA[
+			<p>
+				<h3>
+					Botones de radio
+				</h3>
+			</p>
+			<p>
+				Los botones de radio permiten al usuario seleccionar una opción de un conjunto. Use los botones de radio cuando el usuario necesite ver todas las opciones disponibles. Si las opciones disponibles se pueden contraer, considere usar un menú desplegable porque usa menos espacio.
+			</p>
+		]]>
+	</string>
+    <string name="selection_control_span_switch">
+		<![CDATA[
+			<p>
+				<h3>
+					Interruptores
+				</h3>
+			</p>
+			<p>
+				Los interruptores activan o desactivan el estado de un solo elemento. Son la forma preferida de ajustar la configuración en dispositivos móviles.
+			</p>
+		]]>
+	</string>
+    <string name="selection_switch_text">
+		Setting One
+	</string>
+    <string name="selection_checkbox_text_one">
+		Uno
+	</string>
+    <string name="selection_checkbox_text_two">
+		Dos
+	</string>
+    <string name="selection_checkbox_text_three">
+		Tres
+	</string>
+    <string name="selection_radio_button_text_one">
+		Uno
+	</string>
+    <string name="selection_radio_button_text_two">
+		Dos
+	</string>
+    <string name="selection_radio_button_text_three">
+		Tres
+	</string>
+    <string name="selection_radio_button_text_four">
+		Tres
+	</string>
+
+    <!--Sheet: Bottom strings-->
+
+    <string name="sheet_bottom_title">
+		Hojas: inferior
+	</string>
+    <string name="sheet_bottom_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Hojas: inferior
+				</h1>
+			</p>
+			<p>
+			Las hojas inferiores son superficies que contienen contenido complementario que están ancladas a la parte inferior de la pantalla.
+			</p>
+		]]>
+	</string>
+    <string name="sheet_bottom_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+			Las láminas inferiores son superficies suplementarias utilizadas principalmente en dispositivos móviles. Hay tres tipos adecuados para diferentes casos de uso:
+			</p>
+			<p>
+			-Sábanas inferiores estándar;
+			</p>
+			<p>
+			-Hojas de fondo modal;
+			</p>
+			<p>
+			-Expandiendo las hojas inferiores;
+			</p>
+		]]>
+	</string>
+    <string name="sheet_bottom_span_standard">
+		<![CDATA[
+			<p>
+				<h3>
+					Hojas inferiores estándar
+				</h3>
+			</p>
+			<p>
+			Las hojas inferiores estándar coexisten con la región de IU principal de la pantalla y permiten ver e interactuar simultáneamente con ambas regiones. Se usan comúnmente para mantener una función o contenido secundario visible en la pantalla cuando el contenido de la región principal de la IU se desplaza o desplaza con frecuencia.
+			</p>
+		]]>
+	</string>
+    <string name="sheet_bottom_span_modal">
+		<![CDATA[
+			<p>
+				<h3>
+					Hojas inferiores modales
+				</h3>
+			</p>
+			<p>
+				Las hojas inferiores modales presentan un conjunto de opciones al tiempo que bloquean la interacción con el resto de la pantalla. Son una alternativa a los menús en línea y a los diálogos simples en dispositivos móviles, proporcionando espacio adicional para contenido, iconografía y acciones.
+			</p>
+		]]>
+	</string>
+    <string name="sheet_bottom_span_expanding">
+		<![CDATA[
+			<p>
+				<h3>
+					Hojas inferiores desplegables
+				</h3>
+			</p>
+			<p>
+				Una hoja inferior desplegable es una superficie anclada a la parte inferior de la pantalla que los usuarios pueden expandir para acceder a una función o tarea
+			</p>
+		]]>
+	</string>
+    <string name="sheet_bottom_add_to_favourites">
+		Agregar a favoritos
+	</string>
+    <string name="sheet_bottom_upload_to_drive">
+		Subir a Drive
+	</string>
+    <string name="sheet_bottom_save_to_device">
+		Guardar en el dispositivo
+	</string>
+    <string name="sheet_bottom_favourites_description">
+		Añadir a icono de favoritos
+	</string>
+    <string name="sheet_bottom_drive_description">
+		Subir al icono de la unidad
+	</string>
+    <string name="sheet_bottom_save_description">
+		Icono Guardar en dispositivo
+	</string>
+    <string name="sheet_bottom_favourites_toast">
+		Añadir a icono de favoritos
+	</string>
+    <string name="sheet_bottom_drive_toast">
+		Subir al icono de la unidad
+	</string>
+    <string name="sheet_bottom_save_toast">
+		Icono Guardar en dispositivo
+	</string>
+    <string name="sheet_bottom_show_button">
+		Mostrar hoja inferior
+	</string>
+
+    <!--Sheet: Side strings-->
+    <string name="sheet_side_title">
+		Hojas: lado
+	</string>
+    <string name="sheet_side_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Hojas: lado
+				</h1>
+			</p>
+			<p>
+			Las hojas laterales son superficies que contienen contenido complementario que están ancladas al borde izquierdo o derecho de la pantalla.
+			</p>
+		]]>
+	</string>
+    <string name="sheet_side_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+			Las hojas laterales son superficies suplementarias utilizadas principalmente en tabletas y escritorios. Vienen en dos tipos: -Las hojas laterales estándar muestran contenido que complementa el contenido principal de la pantalla. Permanecen visibles mientras los usuarios interactúan con el contenido principal. Las hojas laterales modales se usan en dispositivos móviles en lugar de las hojas laterales estándar, debido al tamaño limitado de la pantalla. Pueden mostrar los mismos tipos de contenido que las hojas laterales estándar, pero deben descartarse para interactuar con el contenido subyacente.
+			</p>
+		]]>
+	</string>
+    <string name="sheet_side_span_standard">
+		<![CDATA[
+			<p>
+				<h3>
+					Hojas laterales estándar
+				</h3>
+			</p>
+			<p>
+			Las hojas laterales estándar coexisten con la región de la interfaz de usuario principal de la pantalla, lo que permite ver e interactuar con ambas superficies. Se usan solo en tabletas y computadoras de escritorio.
+			</p>
+		]]>
+	</string>
+    <string name="sheet_side_span_modal">
+		<![CDATA[
+			<p>
+				<h3>
+					Hojas laterales modales
+				</h3>
+			</p>
+			<p>
+				Las hojas laterales modales presentan contenido mientras bloquean la interacción con el resto de la pantalla. En dispositivos móviles, se usan en lugar de las hojas laterales estándar. En pantallas más grandes, pueden ayudar a centrar la atención del usuario en un flujo clave, como hacer una compra.
+			</p>
+		]]>
+	</string>
+    <string name="sheet_side_standard_image">
+		Hoja lateral estándar
+	</string>
+    <string name="sheet_side_modal_image">
+		Hoja lateral modal
+	</string>
+
+    <!--Slider strings-->
+
+    <string name="slider_title">
+		Control deslizante
+	</string>
+    <string name="slider_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Control deslizante
+				</h1>
+			</p>
+			<p>
+			Los controles deslizantes permiten a los usuarios hacer selecciones de un rango de valores.
+			</p>
+		]]>
+	</string>
+    <string name="slider_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+			Los controles deslizantes reflejan un rango de valores a lo largo de una barra, desde la cual los usuarios pueden seleccionar un solo valor. Son ideales para ajustar configuraciones como el volumen, el brillo o la aplicación de filtros de imagen.
+			</p>
+		]]>
+	</string>
+    <string name="slider_span_anatomy">
+		<![CDATA[
+			<p>
+				<h3>
+					Anatomía
+				</h3>
+			</p>
+			<p>
+			Un control deslizante puede contener los siguientes elementos: Track muestra el rango disponible para la selección del usuario. Para los idiomas de izquierda a derecha (LTR), el valor más pequeño aparece en el extremo izquierdo y el valor más grande en el extremo derecho. Para los idiomas de derecha a izquierda (RTL), esta orientación se invierte, con el valor más pequeño en el extremo derecho y el valor más grande en el extremo izquierdo; El pulgar se desliza a lo largo de la pista, mostrando el valor seleccionado a través de su posición; Etiqueta de valor (opcional ) muestra el valor numérico específico seleccionado actualmente. La marca de verificación (opcional) representa valores predeterminados a los que el usuario puede mover el control deslizante.
+			</p>
+		]]>
+	</string>
+    <string name="slider_span_continuous">
+		<![CDATA[
+			<p>
+				<h3>
+					Control deslizante continuo
+				</h3>
+			</p>
+			<p>
+			El uso de controles deslizantes continuos permite a los usuarios realizar selecciones significativas que no requieren un valor específico.
+			</p>
+		]]>
+	</string>
+    <string name="slider_span_discrete">
+		<![CDATA[
+			<p>
+				<h3>
+					Control deslizante discreto
+				</h3>
+			</p>
+			<p>
+			Los controles deslizantes discretos muestran una etiqueta de valor numérico al presionar el pulgar, lo que permite al usuario ingresar un valor exacto.
+			</p>
+		]]>
+	</string>
+    <string name="slider_continuous_image">
+		Imagen de control deslizante continuo
+	</string>
+    <string name="slider_discrete_image">
+		Imagen discreta del control deslizante
+	</string>
+
+    <!--Snackbars strings-->
+
+    <string name="snackbar_title">
+		Snackbar
+	</string>
+    <string name="snackbar_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Snackbar
+				</h1>
+			</p>
+			<p>
+			Los controles de selección permiten al usuario seleccionar opciones.
+			</p>
+		]]>
+	</string>
+    <string name="snackbar_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Los Snackbars informan a los usuarios de un proceso que una aplicación ha realizado o realizará. Aparecen temporalmente, hacia la parte inferior de la pantalla. No deben interrumpir la experiencia del usuario, y no requieren que la entrada del usuario desaparezca
+			</p>
+		]]>
+	</string>
+    <string name="snackbar_span_anatomy">
+		<![CDATA[
+			<p>
+				<h3>
+					Anatomía
+				</h3>
+			</p>
+			<p>
+			Hay 3 tipos de Snackbars: Etiqueta de texto que se relaciona directamente con el proceso que se realiza. En dispositivos móviles, la etiqueta de texto puede contener hasta dos líneas de texto; Contenedor (rectangular) con fondo gris. Los contenedores deben ser
+			completamente opaco, de modo que las etiquetas de texto permanecen legibles; Acción, Snackbars puede mostrar un solo botón de texto que permite a los usuarios tomar medidas en un proceso realizado por la aplicación. Los bocadillos no deberían ser la única forma
+			</p>
+		]]>
+	</string>
+    <string name="snackbar_span_placement">
+		<![CDATA[
+			<p>
+				<h3>
+					Colocación
+				</h3>
+			</p>
+			<p>
+			Las barras de bocadillos se deben colocar en la parte inferior de una interfaz de usuario, frente al contenido de la aplicación. Evite colocar un snack bar frente a los objetivos táctiles o la navegación que se usan con frecuencia.
+			</p>
+		]]>
+	</string>
+    <string name="snackbar_button">
+		Snackbar
+	</string>
+    <string name="snackbar_button_undo">
+		Snackbar + Acción
+	</string>
+    <string name="snackbar_text_visible">
+		Este es un snack bar
+	</string>
+    <string name="snackbar_undo">
+		Deshacer
+	</string>
+
+    <!--Tab strings-->
+
+    <string name="tab_title">
+		Pestañas
+	</string>
+    <string name="tab_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Pestañas
+				</h1>
+			</p>
+			<p>
+				Las pestañas organizan el contenido en diferentes pantallas, conjuntos de datos y otras interacciones.
+			</p>
+		]]>
+	</string>
+    <string name="tab_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Las pestañas organizan y permiten la navegación entre grupos de contenido relacionados y al mismo nivel de jerarquía.
+			</p>
+		]]>
+	</string>
+    <string name="tab_span_fixed_tabs">
+		<![CDATA[
+			<p>
+				<h3>
+					Pestañas fijas
+				</h3>
+			</p>
+			<p>
+				Las pestañas fijas muestran todas las pestañas en una pantalla, con cada pestaña en un ancho fijo. El ancho de cada pestaña se determina dividiendo el número de pestañas por el ancho de la pantalla. No se desplazan para revelar más pestañas; el conjunto de pestañas visibles representa las únicas pestañas disponibles.
+			</p>
+		]]>
+	</string>
+    <string name="tab_span_scrollable_tabs">
+		<![CDATA[
+			<p>
+				<h3>
+					Pestañas desplazables
+				</h3>
+			</p>
+			<p>
+				Las pestañas desplazables se muestran sin anchos fijos. Son desplazables, de modo que algunas pestañas permanecerán fuera de la pantalla hasta que se desplace.
+			</p>
+		]]>
+	</string>
+    <string name="tab_span_button">
+		Mostrar ejemplo
+	</string>
+
+    <!--Text Fields strings-->
+
+    <string name="text_field_title">
+		Campos de texto
+	</string>
+    <string name="text_field_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Campos de texto
+				</h1>
+			</p>
+			<p>
+				Los campos de texto permiten a los usuarios ingresar y editar texto.
+			</p>
+		]]>
+	</string>
+    <string name="text_field_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Los campos de texto permiten a los usuarios ingresar texto en una IU. Suelen aparecer en formularios y cuadros de diálogo.
+			</p>
+		]]>
+	</string>
+    <string name="text_field_span_types">
+		<![CDATA[
+			<p>
+				<h3>
+					Tipos
+				</h3>
+			</p>
+			<p>
+				Los campos de texto vienen en dos tipos:
+				<ul>
+					<li>
+						Campos de texto rellenos
+					<li>
+						Campos de texto contorneados
+				</ul>
+				Ambos tipos de campos de texto usan un contenedor para proporcionar, haciendo que los campos sean reconocibles en diseños.
+				Ambos tipos de campos de texto proporcionan la misma funcionalidad: un claro margen para la interacción. El tipo de campo de texto que use puede depender únicamente del estilo.
+			</p>
+		]]>
+	</string>
+    <string name="text_field_span_filled">
+		<![CDATA[
+			<p>
+				<h3>
+					Campo de texto lleno
+				</h3>
+			</p>
+			<p>
+				Los campos de texto rellenos tienen más énfasis visual que los campos de texto delineados, lo que los hace destacar cuando están rodeados de otros contenidos y componentes.
+			</p>
+		]]>
+	</string>
+    <string name="text_field_span_outlined">
+		<![CDATA[
+			<p>
+				<h3>
+					Campo de texto contorneado
+				</h3>
+			</p>
+			<p>
+				Los campos de texto contorneados tienen menos énfasis visual que los campos de texto rellenos. Cuando aparecen en lugares como formularios, donde se colocan muchos campos de texto juntos, su énfasis reducido ayuda a simplificar el diseño.
+			</p>
+		]]>
+	</string>
+    <string name="text_field_span_icon">
+		<![CDATA[
+			<p>
+				<h3>
+					Íconos
+				</h3>
+			</p>
+			<p>
+				Los iconos en los campos de texto son opcionales. Los íconos de campo de texto pueden describir métodos de entrada válidos (como un ícono de micrófono), proporcionar posibilidades para acceder a funcionalidades adicionales (como borrar el contenido de un campo) y pueden expresar un error.
+			</p>
+		]]>
+	</string>
+    <string name="text_field_label_filled">
+		Campo de texto lleno
+	</string>
+    <string name="text_field_label_outlined">
+		Campo de texto contorneado
+	</string>
+    <string name="text_field_label_password">
+		Contraseña
+	</string>
+    <string name="text_field_error">
+		La contraseña no puede tener menos de 8 caracteres
+	</string>
+    <string name="text_field_button">
+		Enviar
+	</string>
+    <string name="text_field_toast">
+		Contraseña adecuada
+	</string>
+
+    <!--Tooltips strings-->
+
+    <string name="tooltip_title">
+		Información sobre herramientas
+	</string>
+    <string name="tooltip_span_title">
+		<![CDATA[
+			<p>
+				<h1>
+					Información sobre herramientas
+				</h1>
+			</p>
+			<p>
+				La información sobre herramientas muestra texto informativo cuando los usuarios se desplazan, se centran o tocan un elemento.
+			</p>
+		]]>
+	</string>
+    <string name="tooltip_span_usage">
+		<![CDATA[
+			<p>
+				<h3>
+					Uso
+				</h3>
+			</p>
+			<p>
+				Cuando se activa, la información sobre herramientas muestra una etiqueta de texto que identifica un elemento, como una descripción de su función.
+			</p>
+		]]>
+	</string>
+    <string name="tooltip_span_behavior">
+		<![CDATA[
+			<p>
+				<h3>
+					Comportamiento
+				</h3>
+			</p>
+			<p>
+				Se muestra una información sobre herramientas al tocar y mantener presionado un elemento o componente de la pantalla (en dispositivos móviles) o al pasar el mouse sobre él (escritorio). Muestre continuamente la información sobre herramientas siempre que el usuario mantenga presionado o pase el cursor sobre el elemento.
+			</p>
+		]]>
+	</string>
+    <string name="tooltip_image_description_placement">
+		Colocación
+	</string>
+    <string name="tooltip_image_description_desktop">
+		Escritorio
+	</string>
+
+</resources>

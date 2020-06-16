@@ -71,7 +71,8 @@
                 android:layout_gravity="center"
                 android:src="@drawable/sample_progress_indicator_determinate_and_indeterminate"
                 android:adjustViewBounds="true"
-                android:contentDescription="@string/progress_indicator_image_description_determinate_and_indeterminate" />
+                android:contentDescription="@string/progress_indicator_image_description_determinate_and_indeterminate"
+                android:layout_marginBottom="@dimen/margin_large" />
 
 
         </LinearLayout>

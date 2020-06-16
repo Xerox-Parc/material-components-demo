@@ -3,8 +3,8 @@
 		Material Components Demo
 	</string>
 	<string name="splash_screen_picture">
-        Splash Screen
-    </string>
+		Splash Screen
+	</string>
 	<string name="search_component_hint">
 		Search material component
 	</string>
@@ -2166,66 +2166,73 @@
 
 	<!--Progress Indicator strings-->
 
-    <string name="progress_indicator_title">
-        Progress Indicator
+	<string name="progress_indicator_title">
+		Progress Indicator
 	</string>
-    <string name="progress_indicator_span_title">
+	<string name="progress_indicator_span_title">
 		<![CDATA[
-            <p>
-                 <h1>
+			<p>
+				 <h1>
 					Progress Indicator
 				</h1>
-            </p>
-            <p>
-            Progress indicators express an unspecified wait time or display the length of a process.
-            </p>
-        ]]>
+			</p>
+			<p>
+			Progress indicators express an unspecified wait time or display the length of a process.
+			</p>
+		]]>
 	</string>
-    <string name="progress_indicator_span_usage">
+	<string name="progress_indicator_span_usage">
 		<![CDATA[
-            <p>
-                 <h3>
+			<p>
+				 <h3>
 					Usage
 				</h3>
-            </p>
-            <p>
-            Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
-            </p>
-        ]]>
-    </string>
-    <string name="progress_indicator_span_linear_and_circular">
+			</p>
+			<p>
+			Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
+			</p>
+		]]>
+	</string>
+	<string name="progress_indicator_span_linear_and_circular">
 		<![CDATA[
-            <p>
-                 <h3>
+			<p>
+				 <h3>
 					Linear and circular
 				</h3>
-            </p>
-            <p>
-            Material Design offers two visually distinct types of progress indicators: linear and circular progress indicators. Only one type should represent each kind of activity in an app. For example, if a refresh action displays a circular indicator on one screen, that same action shouldn\’t use a linear indicator elsewhere in the app.
-            </p>
-        ]]>
-    </string>
-    <string name="progress_indicator_span_determinate_and_indeterminate">
+			</p>
+			<p>
+				Material Design offers two visually distinct types of progress indicators: linear and circular progress indicators. Only one type should represent each kind of activity in an app. For example, if a refresh action displays a circular indicator on one screen, that same action shouldn\’t use a linear indicator elsewhere in the app.
+			</p>
+		]]>
+	</string>
+	<string name="progress_indicator_span_determinate_and_indeterminate">
 		<![CDATA[
-            <p>
-                 <h3>
+			<p>
+				 <h3>
 					Determinate and indeterminate
 				</h3>
-            </p>
-            <p>
-             <b>Determinate indicators</b> display how long a process will take. They should be used when the process completion rate can be detected. <br>
-             <b>Indeterminate indicators</b> express an unspecified amount of wait time. They should be used when progress isn’t detectable, or if it’s not necessary to indicate how long an activity will take.
-            </p>
-        ]]>
-    </string>
-    <string name="progress_indicator_image_description_linear_and_circular">
-        Linear and Circular
-    </string>
-    <string name="progress_indicator_image_description_determinate_and_indeterminate">
-        Determinate and Indeterminate
-    </string>
+			</p>
+			<p>
+				<b>
+					Determinate indicators
+				</b>
+				display how long a process will take. They should be used when the process completion rate can be detected.
+				<br>
+				<b>
+					Indeterminate indicators
+				</b>
+				express an unspecified amount of wait time. They should be used when progress isn’t detectable, or if it’s not necessary to indicate how long an activity will take.
+			</p>
+		]]>
+	</string>
+	<string name="progress_indicator_image_description_linear_and_circular">
+		Linear and Circular
+	</string>
+	<string name="progress_indicator_image_description_determinate_and_indeterminate">
+		Determinate and Indeterminate
+	</string>
 
-    <!--Selection Controls strings-->
+	<!--Selection Controls strings-->
 
 	<string name="selection_control_title">
 		Selection Control

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_navigation"
+    app:startDestination="@+id/bottom_navigation_home">
+
+    <fragment
+        android:id="@+id/bottom_navigation_home"
+        android:name="com.xeroxparc.materialcomponentsdemo.ui.component.bottomnavigation.BottomNavigationHomeFragment"
+        android:label="@string/bottom_navigation_page_home"
+        tools:layout="@layout/fragment_bottom_navigation_home" />
+
+    <fragment
+        android:id="@+id/bottom_navigation_music"
+        android:name="com.xeroxparc.materialcomponentsdemo.ui.component.bottomnavigation.BottomNavigationMusicFragment"
+        android:label="@string/bottom_navigation_page_music"
+        tools:layout="@layout/fragment_bottom_navigation_music" />
+
+    <fragment
+        android:id="@+id/bottom_navigation_places"
+        android:name="com.xeroxparc.materialcomponentsdemo.ui.component.bottomnavigation.BottomNavigationPlacesFragment"
+        android:label="@string/bottom_navigation_page_places"
+        tools:layout="@layout/fragment_bottom_navigation_place" />
+
+    <fragment
+        android:id="@+id/bottom_navigation_news"
+        android:name="com.xeroxparc.materialcomponentsdemo.ui.component.bottomnavigation.BottomNavigationNewsFragment"
+        android:label="@string/bottom_navigation_page_news"
+        tools:layout="@layout/fragment_bottom_navigation_news" />
+</navigation>

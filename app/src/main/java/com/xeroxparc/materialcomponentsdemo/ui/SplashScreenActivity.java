@@ -1,4 +1,4 @@
-package com.xeroxparc.materialcomponentsdemo;
+package com.xeroxparc.materialcomponentsdemo.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.ui.search.ComponentSearchActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {

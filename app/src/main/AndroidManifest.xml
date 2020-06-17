@@ -37,7 +37,7 @@
         <activity android:name=".ui.component.tab.TabActivity" />
         <activity android:name=".ui.component.textfield.TextFieldActivity" />
         <activity android:name=".ui.component.tooltip.TooltipActivity" />
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name=".ui.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

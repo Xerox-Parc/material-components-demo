@@ -497,40 +497,40 @@
 			</p>
 		]]>
 	</string>
-    <string name="bottom_navigation_span_page_favorite">
+    <string name="bottom_navigation_page_favorite">
 		Page préférée
 	</string>
-    <string name="bottom_navigation_span_home">
+    <string name="bottom_navigation_home">
 		Accueil
 	</string>
-    <string name="bottom_navigation_span_page_music">
+    <string name="bottom_navigation_page_music">
 		Page musique
 	</string>
-    <string name="bottom_navigation_span_music">
+    <string name="bottom_navigation_music">
 		La musique
 	</string>
-    <string name="bottom_navigation_span_page_places">
+    <string name="bottom_navigation_page_places">
 		Lieux de la page
 	</string>
-    <string name="bottom_navigation_span_places">
+    <string name="bottom_navigation_places">
 		Des endroits
 	</string>
-    <string name="bottom_navigation_span_page_news">
+    <string name="bottom_navigation_page_news">
 		Nouvelles de la page
 	</string>
-    <string name="bottom_navigation_span_page_home">
+    <string name="bottom_navigation_page_home">
 		Page d\'accueil
 	</string>
-    <string name="bottom_navigation_span_news">
+    <string name="bottom_navigation_news">
 		Nouvelles
 	</string>
-    <string name="bottom_navigation_span_picture_places">
+    <string name="bottom_navigation_picture_places">
 		Lieux d\'images
 	</string>
-    <string name="bottom_navigation_span_picture_news">
+    <string name="bottom_navigation_picture_news">
 		Actualités photo
 	</string>
-    <string name="bottom_navigation_span_picture_guitar">
+    <string name="bottom_navigation_picture_guitar">
 		Image guitare
 	</string>
 

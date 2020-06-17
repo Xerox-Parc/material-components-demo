@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ui.component.bottomnavigation.BottomNavigationPlacesFragment">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:title="@string/bottom_navigation_span_picture_places"
+        android:title="@string/bottom_navigation_picture_places"
         app:srcCompat="@drawable/picture_places"
         android:scaleType="centerCrop"
         android:contentDescription="@string/app_bar_bottom_image_description_place" />
 
-</RelativeLayout>
+</FrameLayout>

@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityBannerBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class BannerActivity extends AppCompatActivity {
 
@@ -27,7 +27,7 @@ public class BannerActivity extends AppCompatActivity {
             binding = ActivityBannerBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.banner_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_banner);
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
         }
 
         View getRoot() {

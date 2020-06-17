@@ -16,48 +16,44 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_types"
+            <WebView
+                android:id="@+id/web_view_span_types"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Types"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_types_input"
+                <WebView
+                    android:id="@+id/web_view_span_types_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:text="Types: Input Chips"
-                    tools:ignore="HardcodedText" />
+                    android:scrollbars="none"/>
 
                 <com.google.android.material.chip.ChipGroup
                     android:id="@+id/chip_input_Group"
@@ -67,7 +63,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_input">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_types_input">
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_input1"
@@ -93,15 +89,14 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_types_filter"
+                <WebView
+                    android:id="@+id/web_view_span_types_filter"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:text="Types: Filter Chips"
-                    tools:ignore="HardcodedText" />
+                    android:scrollbars="none"/>
 
                 <com.google.android.material.chip.ChipGroup
                     android:id="@+id/chip_filter_Group"
@@ -111,7 +106,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_filter">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_types_filter">
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_filter1"
@@ -140,15 +135,14 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_types_action"
+                <WebView
+                    android:id="@+id/web_view_span_types_action"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:text="Types: Action Chips"
-                    tools:ignore="HardcodedText" />
+                    android:scrollbars="none"/>
 
                 <com.google.android.material.chip.ChipGroup
                     android:id="@+id/chip_action_Group"
@@ -158,7 +152,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_action">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_types_action">
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_action1"
@@ -184,16 +178,15 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:paddingBottom="@dimen/margin_large">
 
-                <TextView
-                    android:id="@+id/text_view_span_types_choice"
+                <WebView
+                    android:id="@+id/web_view_span_types_choice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:text="Types: Choice Chips"
-                    tools:ignore="HardcodedText" />
+                    android:scrollbars="none"/>
 
                 <com.google.android.material.chip.ChipGroup
                     android:id="@+id/chip_choice_Group"
@@ -202,7 +195,7 @@
                     android:paddingBottom="@dimen/margin_medium"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_choice">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_types_choice">
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_choice1"

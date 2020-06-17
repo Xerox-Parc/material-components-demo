@@ -3,7 +3,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,56 +16,50 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_when_to_use"
+            <WebView
+                android:id="@+id/web_view_span_when_to_use"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="When to use"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/text_view_span_types"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_types"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Types"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_types_alert"
+                <WebView
+                    android:id="@+id/web_view_span_types_alert"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_medium"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:text="Alert Dialog"
-                    tools:ignore="HardcodedText" />
+                    android:scrollbars="none"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/material_button_alert_dialog"
@@ -77,22 +70,21 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_alert" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_types_alert" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_types_simple"
+                <WebView
+                    android:id="@+id/web_view_span_types_simple"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_medium"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:text="Simple Dialog"
-                    tools:ignore="HardcodedText" />
+                    android:scrollbars="none"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/material_button_simple_dialog"
@@ -103,22 +95,21 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_simple" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_types_simple" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_types_confirmation"
+                <WebView
+                    android:id="@+id/web_view_span_types_confirmation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_medium"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:text="Confirmation Dialog"
-                    tools:ignore="HardcodedText" />
+                    android:scrollbars="none"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/material_button_confirmation_dialog"
@@ -130,7 +121,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_types_confirmation" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_types_confirmation" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>

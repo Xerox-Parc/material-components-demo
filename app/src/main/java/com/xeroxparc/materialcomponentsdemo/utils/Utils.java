@@ -1,8 +1,6 @@
 package com.xeroxparc.materialcomponentsdemo.utils;
 
 import android.app.Activity;
-import android.text.Html;
-import android.text.Spanned;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -57,10 +55,9 @@ public class Utils {
         return -1;
     }
 
-    public static void inflateSpanTextViewContent(@NonNull Object binding, @NonNull Activity activity) {
-
+    public static void inflateSpanWebViewContent(@NonNull Object binding, @NonNull Activity activity) {
         String component;
-        Spanned content;
+        String content;
 
         component = activity.getClass().getName();
         component = component.substring(
@@ -76,28 +73,30 @@ public class Utils {
                 try {
                     fieldObject = field.get(binding);
                 } catch (IllegalAccessException e) {
-                    Log.e("Utils inflate HTML TextView", "Can't access to field data");
+                    Log.e("Utils inflate HTML WebView", "Can't access to field data");
                 }
                 Method setFieldText = null;
                 for (Method method : Objects.requireNonNull(fieldObject).getClass().getMethods()) {
-                    if (method.getName().equals("setText") &&
-                            method.getParameterTypes().length == 1 &&
-                            method.getParameterTypes()[0].equals(CharSequence.class)) {
+                    if (method.getName().equals("loadDataWithBaseURL")) {
                         setFieldText = method;
                         break;
                     }
                 }
                 String resourceName = component + "_span_" +
-                        toSnakeCase(field.getName()).substring("text_view_span_".length()
-                        );
-                content = Html.fromHtml(
-                        (String) activity.getText(getResourceId(resourceName, R.string.class)),
-                        Html.FROM_HTML_MODE_COMPACT
-                );
+                        toSnakeCase(field.getName()).substring("web_view_span_".length());
+                content = activity.getString(getResourceId("span_css", R.string.class)) +
+                        activity.getString(getResourceId(resourceName, R.string.class));
                 try {
-                    Objects.requireNonNull(setFieldText).invoke(fieldObject, content);
+                    Objects.requireNonNull(setFieldText).invoke(
+                            fieldObject,
+                            null,
+                            content,
+                            "text/html",
+                            "utf-8",
+                            null
+                    );
                 } catch (IllegalAccessException | InvocationTargetException e) {
-                    Log.e("Utils inflate HTML TextView", "Can't invoke TextView method");
+                    Log.e("Utils inflate HTML WebView", "Can't invoke TextView method");
                 }
             }
         }

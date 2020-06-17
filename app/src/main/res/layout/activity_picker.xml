@@ -16,36 +16,34 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_mobile_calendar_pickers"
+                <WebView
+                    android:id="@+id/web_view_span_mobile_calendar_pickers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Mobile Calendar Pickers"
@@ -60,16 +58,16 @@
                     android:text="@string/picker_button_calendar_picker"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_mobile_calendar_pickers" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_mobile_calendar_pickers" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_mobile_date_range_pickers"
+                <WebView
+                    android:id="@+id/web_view_span_mobile_date_range_pickers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Mobile Date Range Pickers"
@@ -84,12 +82,12 @@
                     android:text="@string/picker_button_range_picker"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_mobile_date_range_pickers" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_mobile_date_range_pickers" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/text_view_span_mobile_date_input_pickers"
+            <WebView
+                android:id="@+id/web_view_span_mobile_date_input_pickers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Mobile Date Input Pickers"

@@ -16,53 +16,48 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_usage"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_anatomy"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_anatomy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Anatomy"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_hierarchy"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_hierarchy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hierarchy"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_placement"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_placement"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Placement"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_text_button_usage"
+                <WebView
+                    android:id="@+id/web_view_span_text_button_usage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Text button usage"
@@ -80,16 +75,16 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_text_button_usage" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_text_button_usage" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_outlined_button_usage"
+                <WebView
+                    android:id="@+id/web_view_span_outlined_button_usage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Outline button usage"
@@ -107,16 +102,16 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_outlined_button_usage" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_outlined_button_usage" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_contained_button_usage"
+                <WebView
+                    android:id="@+id/web_view_span_contained_button_usage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Contained button usage"
@@ -132,17 +127,17 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_contained_button_usage" />
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_contained_button_usage" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/margin_large">
 
-                <TextView
-                    android:id="@+id/text_view_span_toggle_button_usage"
+                <WebView
+                    android:id="@+id/web_view_span_toggle_button_usage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/button_toggle_button_usage"
@@ -157,7 +152,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_toggle_button_usage">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_toggle_button_usage">
 
                     <Button
                         android:id="@+id/button1"

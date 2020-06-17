@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-
     <include
         android:id="@+id/app_bar_container"
         layout="@layout/app_bar_demo" />
@@ -17,14 +16,15 @@
             android:id="@+id/scroll_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_medium"
-            android:layout_marginEnd="@dimen/margin_medium"
             app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-            <FrameLayout
-                android:id="@+id/frame_layout"
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/navigation_host_fragment"
+                android:name="androidx.navigation.fragment.NavHostFragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="wrap_content"
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/bottom_navigation_navigation" />
 
         </androidx.core.widget.NestedScrollView>
 

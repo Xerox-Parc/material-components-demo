@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityButtonBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class ButtonActivity extends AppCompatActivity {
 
@@ -29,7 +29,7 @@ public class ButtonActivity extends AppCompatActivity {
             binding = ActivityButtonBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.button_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_button);
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
             binding.textButton.setOnClickListener(this);
             binding.containedButton.setOnClickListener(this);
             binding.outlinedButton.setOnClickListener(this);

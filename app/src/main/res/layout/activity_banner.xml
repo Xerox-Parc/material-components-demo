@@ -17,35 +17,31 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
-
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_usage"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
-            <TextView
-                android:id="@+id/text_view_span_banner_container"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_banner_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Banner container"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_behavior"
@@ -56,19 +52,17 @@
                 app:srcCompat="@drawable/sample_banner_container"
                 android:contentDescription="@string/banner_image_description_contained"/>
 
-            <TextView
-                android:id="@+id/text_view_span_banner_message"
+            <WebView
+                android:id="@+id/web_view_span_banner_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Banner message"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_banner_buttons"
+            <WebView
+                android:id="@+id/web_view_span_banner_buttons"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Banner bottom"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_anatomy"
@@ -78,12 +72,11 @@
                 app:srcCompat="@drawable/sample_banner_buttons"
                 android:contentDescription="@string/banner_image_description_buttons"/>
 
-            <TextView
-                android:id="@+id/text_view_span_placement"
+            <WebView
+                android:id="@+id/web_view_span_placement"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Placement"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -93,14 +86,13 @@
                 app:srcCompat="@drawable/sample_banner_placement"
                 android:contentDescription="@string/banner_image_description_placement" />
 
-            <TextView
-                android:id="@+id/text_view_span_behavior"
+            <WebView
+                android:id="@+id/web_view_span_behavior"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Behavior"
                 tools:ignore="HardcodedText"
                 android:layout_marginBottom="@dimen/margin_large"/>
-
 
         </LinearLayout>
 

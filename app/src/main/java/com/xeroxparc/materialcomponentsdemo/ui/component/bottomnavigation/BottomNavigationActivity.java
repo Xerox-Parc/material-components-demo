@@ -1,16 +1,15 @@
 package com.xeroxparc.materialcomponentsdemo.ui.component.bottomnavigation;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityBottomNavigationBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import java.util.Objects;
 
 
 public class BottomNavigationActivity extends AppCompatActivity {
@@ -18,39 +17,24 @@ public class BottomNavigationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Holder holder = new Holder(this);
+        Holder holder = new Holder();
         setContentView(holder.getRoot());
     }
 
     class Holder {
         ActivityBottomNavigationBinding binding;
 
-        Holder(Activity activity) {
+        Holder() {
             binding = ActivityBottomNavigationBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.bottom_navigation_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_bottomnavigation);
-            inflateSpanTextViewContent(binding, activity);
-            getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new BottomNavigationHomeFragment()).commit();
-            binding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
-                Fragment selectedFragment = null;
 
-                switch (item.getItemId()) {
-                    case R.id.page_favorite:
-                        selectedFragment = new BottomNavigationHomeFragment();
-                        break;
-                    case R.id.page_music:
-                        selectedFragment = new BottomNavigationMusicFragment();
-                        break;
-                    case R.id.page_places:
-                        selectedFragment = new BottomNavigationPlacesFragment();
-                        break;
-                    case R.id.page_news:
-                        selectedFragment = new BottomNavigationNewsFragment();
-                        break;
-                    default:
-                        throw new IllegalStateException("Unexpected value: " + item.getItemId());
-                }
-                getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, selectedFragment).commit();
+            binding.bottomNavigation.setOnNavigationItemSelectedListener(item -> {
+                ((NavHostFragment) (Objects.requireNonNull(getSupportFragmentManager()
+                        .findFragmentById(binding.navigationHostFragment.getId()))))
+                        .getNavController()
+                        .navigate(item.getItemId());
+                item.setChecked(true);
                 return true;
             });
         }
@@ -59,4 +43,5 @@ public class BottomNavigationActivity extends AppCompatActivity {
             return binding.getRoot();
         }
     }
+
 }

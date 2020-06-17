@@ -9,7 +9,7 @@ import com.xeroxparc.materialcomponentsdemo.databinding.ActivityTextFieldBinding
 
 import java.util.Objects;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 /**
  * Binder class, it synchronize the view model and the view.
@@ -36,7 +36,7 @@ class TextFieldBinder {
         binding.appBarContainer.toolbar.setTitle(R.string.text_field_title);
         binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_textfield);
 
-        inflateSpanTextViewContent(binding, activity);
+        inflateSpanWebViewContent(binding, activity);
 
         this.binding.materialButton.setOnClickListener(l -> {
             if (Objects.requireNonNull(this.binding.textFieldPasswordEditText.getText()).toString().length() < 8) {

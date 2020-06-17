@@ -3,7 +3,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,37 +16,32 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical"
             android:paddingBottom="@dimen/margin_large">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_standard"
+            <WebView
+                android:id="@+id/web_view_span_standard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Anatomy"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_sheet_side_standard"
@@ -59,12 +53,11 @@
                 android:contentDescription="@string/sheet_side_standard_image" />
 
 
-            <TextView
-                android:id="@+id/text_view_span_modal"
+            <WebView
+                android:id="@+id/web_view_span_modal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Discrete"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_sheet_side_modal"
@@ -74,6 +67,7 @@
                 android:adjustViewBounds="true"
                 app:srcCompat="@drawable/sample_sheet_side_modal"
                 android:contentDescription="@string/sheet_side_modal_image"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

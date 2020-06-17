@@ -3,7 +3,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,36 +16,33 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_linear_and_circular"
+            <WebView
+                android:id="@+id/web_view_span_linear_and_circular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Linear and Circular"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_linear_and_circular"
@@ -57,12 +53,11 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/progress_indicator_image_description_linear_and_circular" />
 
-            <TextView
-                android:id="@+id/text_view_span_determinate_and_indeterminate"
+            <WebView
+                android:id="@+id/web_view_span_determinate_and_indeterminate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Determinate and Indeterminate"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_determinate_and_indeterminate"
@@ -73,7 +68,6 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/progress_indicator_image_description_determinate_and_indeterminate"
                 android:layout_marginBottom="@dimen/margin_large" />
-
 
         </LinearLayout>
 

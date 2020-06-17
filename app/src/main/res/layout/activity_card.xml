@@ -3,7 +3,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,29 +16,27 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -60,10 +57,11 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:orientation="vertical">
 
                         <!-- Media -->
+
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/banner_height"
@@ -72,16 +70,17 @@
                             app:srcCompat="@drawable/sample_card" />
 
                         <!-- Title, secondary and supporting text -->
-                        <TextView
-                            android:id="@+id/text_view_span_sample"
+
+                        <WebView
+                            android:id="@+id/web_view_span_sample"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/margin_medium"
                             android:paddingTop="@dimen/margin_medium"
-                            android:text="Card sample title"
-                            tools:ignore="HardcodedText" />
+                            android:scrollbars="none"/>
 
                         <!-- Buttons -->
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -111,27 +110,24 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/text_view_span_gestures"
+            <WebView
+                android:id="@+id/web_view_span_gestures"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Gesture"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_gestures_swipe"
+            <WebView
+                android:id="@+id/web_view_span_gestures_swipe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Gesture Swipe"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_gestures_scrolling"
+            <WebView
+                android:id="@+id/web_view_span_gestures_scrolling"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_large"
-                android:text="Gesture Scrolling"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
         </LinearLayout>
 

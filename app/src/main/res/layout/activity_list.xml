@@ -2,7 +2,6 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,36 +15,32 @@
         android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_medium"
-        android:layout_marginEnd="@dimen/margin_medium"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginTop="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/text_view_span_types"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_types"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Types"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_types"
@@ -56,19 +51,17 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/list_image_description_types" />
 
-            <TextView
-                android:id="@+id/text_view_span_list_controls"
+            <WebView
+                android:id="@+id/web_view_span_list_controls"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="List Controls"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_checkbox"
+            <WebView
+                android:id="@+id/web_view_span_checkbox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Checkbox"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_checkbox"
@@ -79,12 +72,11 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/list_image_description_checkbox" />
 
-            <TextView
-                android:id="@+id/text_view_span_expand_and_collapse"
+            <WebView
+                android:id="@+id/web_view_span_expand_and_collapse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Expand and Collapse"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <ImageView
                 android:id="@+id/image_view_expand_and_collapse"

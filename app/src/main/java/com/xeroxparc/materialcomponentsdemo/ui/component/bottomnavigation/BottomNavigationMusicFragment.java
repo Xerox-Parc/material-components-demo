@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment;
 
 import com.xeroxparc.materialcomponentsdemo.R;
 
-
 public class BottomNavigationMusicFragment extends Fragment {
     @Nullable
     @Override

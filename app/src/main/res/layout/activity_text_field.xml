@@ -20,39 +20,35 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_medium"
             android:layout_marginStart="@dimen/margin_medium"
             android:layout_marginEnd="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/text_view_span_types"
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_types"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Types"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_filled"
+                <WebView
+                    android:id="@+id/web_view_span_filled"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Filled"
@@ -71,7 +67,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_filled">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_filled">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/text_field_filled_edit_text"
@@ -84,10 +80,10 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_outlined"
+                <WebView
+                    android:id="@+id/web_view_span_outlined"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Outlined"
@@ -106,7 +102,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_outlined">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_outlined">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/text_field_outlined_edit_text"
@@ -119,10 +115,10 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_icon"
+                <WebView
+                    android:id="@+id/web_view_span_icon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Icon"
@@ -143,7 +139,7 @@
                     app:errorEnabled="true"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_icon">
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_icon">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/text_field_password_edit_text"

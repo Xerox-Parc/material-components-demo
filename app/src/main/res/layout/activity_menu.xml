@@ -21,46 +21,41 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="@dimen/margin_medium"
             android:layout_marginStart="@dimen/margin_medium"
             android:layout_marginEnd="@dimen/margin_medium"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_view_span_title"
+            <WebView
+                android:id="@+id/web_view_span_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Title"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_usage"
+            <WebView
+                android:id="@+id/web_view_span_usage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Usage"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
+            <WebView
+                android:id="@+id/web_view_span_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"/>
 
-            <TextView
-                android:id="@+id/text_view_span_types"
+            <WebView
+                android:id="@+id/web_view_span_placement"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Types"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/text_view_span_placement"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Placement"
-                tools:ignore="HardcodedText" />
+                android:scrollbars="none"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_dropdown"
+                <WebView
+                    android:id="@+id/web_view_span_dropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_medium"
@@ -80,17 +75,17 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_dropdown"
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_dropdown"
                     tools:ignore="HardcodedText" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/text_view_span_exposed_dropdown"
+                <WebView
+                    android:id="@+id/web_view_span_exposed_dropdown"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_medium"
@@ -110,7 +105,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text_view_span_exposed_dropdown"
+                    app:layout_constraintTop_toBottomOf="@+id/web_view_span_exposed_dropdown"
                     tools:ignore="HardcodedText">
 
                     <AutoCompleteTextView

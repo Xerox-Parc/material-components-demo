@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">
+	<string name="app_name" translatable="false">
 		Material Components Demo
 	</string>
 	<string name="splash_screen_picture">
@@ -14,6 +14,27 @@
 
 	<string name="banner_description">
 		Material Component Banner
+	</string>
+
+	<!-- CSS -->
+
+	<string name="span_css" translatable="false">
+		<![CDATA[
+			<head>
+				<style type=\"text/css\">
+					@font-face {
+						font-family: roboto;
+						src: url(\"file:///android_asset/fonts/roboto.ttf\")
+					}
+					body {
+						font-family: roboto;
+						font-size: 100%;
+						text-align: justify;
+						color: #808080;
+					}
+				</style>
+			</head>
+		]]>
 	</string>
 
 	<!--App bar bottom strings-->
@@ -500,40 +521,40 @@
 			</p>
 		]]>
 	</string>
-	<string name="bottom_navigation_span_page_favorite">
+	<string name="bottom_navigation_page_favorite">
 		Page favorite
 	</string>
-	<string name="bottom_navigation_span_home">
+	<string name="bottom_navigation_home">
 		Home
 	</string>
-	<string name="bottom_navigation_span_page_music">
+	<string name="bottom_navigation_page_music">
 		Page music
 	</string>
-	<string name="bottom_navigation_span_music">
+	<string name="bottom_navigation_music">
 		Music
 	</string>
-	<string name="bottom_navigation_span_page_places">
+	<string name="bottom_navigation_page_places">
 		Page places
 	</string>
-	<string name="bottom_navigation_span_places">
+	<string name="bottom_navigation_places">
 		Places
 	</string>
-	<string name="bottom_navigation_span_page_news">
+	<string name="bottom_navigation_page_news">
 		Page news
 	</string>
-	<string name="bottom_navigation_span_page_home">
+	<string name="bottom_navigation_page_home">
 		Page home
 	</string>
-	<string name="bottom_navigation_span_news">
+	<string name="bottom_navigation_news">
 		News
 	</string>
-	<string name="bottom_navigation_span_picture_places">
+	<string name="bottom_navigation_picture_places">
 		Picture places
 	</string>
-	<string name="bottom_navigation_span_picture_news">
+	<string name="bottom_navigation_picture_news">
 		Picture news
 	</string>
-	<string name="bottom_navigation_span_picture_guitar">
+	<string name="bottom_navigation_picture_guitar">
 		Picture guitar
 	</string>
 

@@ -9,7 +9,7 @@ import android.view.View;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivityNavigationRailBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class NavigationRailActivity extends AppCompatActivity {
 
@@ -28,7 +28,7 @@ public class NavigationRailActivity extends AppCompatActivity {
             binding.appBarContainer.toolbar.setTitle(R.string.navigation_rail_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_navigationrail);
 
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
         }
 
         View getRoot() {

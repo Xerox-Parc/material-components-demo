@@ -1,7 +1,4 @@
 <resources>
-	<string name="app_name">
-		Material Components Demo
-	</string>
 	<string name="splash_screen_picture">
         Splash Screen
     </string>
@@ -500,40 +497,40 @@
 			</p>
 		]]>
 	</string>
-    <string name="bottom_navigation_span_page_favorite">
+    <string name="bottom_navigation_page_favorite">
 		Pagina preferita
 	</string>
-    <string name="bottom_navigation_span_home">
+    <string name="bottom_navigation_home">
 		Casa
 	</string>
-    <string name="bottom_navigation_span_page_music">
+    <string name="bottom_navigation_page_music">
 		Pagina musicale
 	</string>
-    <string name="bottom_navigation_span_music">
+    <string name="bottom_navigation_music">
 		Musica
 	</string>
-    <string name="bottom_navigation_span_page_places">
+    <string name="bottom_navigation_page_places">
 		Luoghi della pagina
 	</string>
-    <string name="bottom_navigation_span_places">
+    <string name="bottom_navigation_places">
 		posti
 	</string>
-    <string name="bottom_navigation_span_page_news">
+    <string name="bottom_navigation_page_news">
 		Notizie sulla pagina
 	</string>
-    <string name="bottom_navigation_span_page_home">
+    <string name="bottom_navigation_page_home">
 		Pagina home
 	</string>
-    <string name="bottom_navigation_span_news">
+    <string name="bottom_navigation_news">
 		notizia
 	</string>
-    <string name="bottom_navigation_span_picture_places">
+    <string name="bottom_navigation_picture_places">
 		Luoghi dell\'immagine
 	</string>
-    <string name="bottom_navigation_span_picture_news">
+    <string name="bottom_navigation_picture_news">
 		Notizie sull\'immagine
 	</string>
-    <string name="bottom_navigation_span_picture_guitar">
+    <string name="bottom_navigation_picture_guitar">
 		Chitarra per foto
 	</string>
 

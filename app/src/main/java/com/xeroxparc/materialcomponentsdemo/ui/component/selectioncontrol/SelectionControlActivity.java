@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.xeroxparc.materialcomponentsdemo.R;
 import com.xeroxparc.materialcomponentsdemo.databinding.ActivitySelectionControlBinding;
 
-import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanTextViewContent;
+import static com.xeroxparc.materialcomponentsdemo.utils.Utils.inflateSpanWebViewContent;
 
 public class SelectionControlActivity extends AppCompatActivity {
 
@@ -31,7 +31,7 @@ public class SelectionControlActivity extends AppCompatActivity {
             binding = ActivitySelectionControlBinding.inflate(getLayoutInflater());
             binding.appBarContainer.toolbar.setTitle(R.string.selection_control_title);
             binding.appBarContainer.imageViewBanner.setImageResource(R.drawable.banner_selectioncontrol);
-            inflateSpanTextViewContent(binding, activity);
+            inflateSpanWebViewContent(binding, activity);
 
             binding.radioOne.setOnClickListener(l -> Toast.makeText(
                     getBaseContext(),
